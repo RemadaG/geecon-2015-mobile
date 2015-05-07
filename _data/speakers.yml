@@ -1,4 +1,14 @@
-- 
+-
+  id: wobu
+  name: "Wojciech"
+  surname: "Burkot"
+  thumbnailUrl: DawidOstrowski.jpg
+-
+  id: jobo
+  name: "Jonas"
+  surname: "Bonér"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/24_speaker.JPG
+-
   id: 3
   name: "Dawid"
   surname: "Ostrowski"

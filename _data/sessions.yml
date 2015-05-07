@@ -1,14 +1,34 @@
 -
-  id: 307
+  id: 901
+  title: "Registration & breakfast"
+  service: true
+-
+  id: 905
   title: "Coffee Break"
-  place: "Hall"
   service: true
   description: "The best time to talk with speakers and attendees"
 -
-  id: 503
+  id: 906
   title: "Lunch Break"
-  place: "Dining room"
   service: true
+-
+  id: 101
+  title: "Opening ceremony"
+  language: 1
+-
+  id: 102
+  title: "Allegro Keynote"
+  language: 1
+  speakers: [wobu]
+-
+  id: 103
+  title: "Life Beyond the Illusion of Present"
+  description: "The idea of the present is an illusion. Everything we see, hear and feel is just an echo from the past. But this illusion has influenced us and the way we view the world in so many ways; from Newton's physics with a linearly progressing timeline accruing absolute knowledge along the way to the von Neumann machine with its total ordering of instructions updating mutable state with full control of the 'present'. But unfortunately this is not how the world works. There is no present, all we have is facts derived from the merging of multiple pasts. The truth is closer to Einstein's physics where everything is relative to one's perspective.
+                <br/>As developers we need to wake up and break free from the perceived reality of living in a single globally consistent present. The advent of multicore and cloud computing architectures meant that most applications today are distributed systems-multiple cores separated by the memory bus or multiple nodes separated by the network-which puts a harsh end to this illusion. Facts travel at the speed of light (at best), which makes the distinction between past and perceived present even more apparent in a distributed system where latency is higher and where facts (messages) can get lost.
+                <br/>The only way to design truly scalable and performant systems that can construct a sufficiently consistent view of history-and thereby our local 'present'-is by treating time as a first class construct in our programming model and to model the present as facts derived from the merging of multiple concurrent pasts.
+                <br/>In this talk we will explore what all this means to the design of our systems, how we need to view and model consistency, consensus, communication, history and behaviour, and look at some practical tools and techniques to bring it all together."
+  language: 1
+  speakers: [jobo]
 -
   id: 001
   title: "Material design: Visual style and imagery"
