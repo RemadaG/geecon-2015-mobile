@@ -28,9 +28,7 @@ layout: compress
     	{% include speakers-modals.html %} 
     {% endif %} 
 
-    {% if page.permalink == '/schedule/' %}
-        {% include sessions-modals.html %} 
-    {% endif %} 
+    {% include sessions-modals.html %}
 
     {% include analytics.html %}
     
@@ -131,7 +129,6 @@ layout: compress
         {% endif %} 
     </script>
     <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
-    {% if page.permalink == '/schedule/' %}
         <script type="text/javascript">
             $(document).ready(function () {
                 var navHeight = $('#top-header').height();
@@ -140,7 +137,6 @@ layout: compress
                 $('.stick-label').stick_in_parent({offset_top: navHeight + headerHeight});
             });
         </script>
-    {% endif %}
 
     {% include schema-event.html %}
 </body>
