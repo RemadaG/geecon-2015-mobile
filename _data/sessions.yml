@@ -21,29 +21,29 @@
   language: 1
   speakers: [wobu]
 -
-  id: 10101
+  id: "10101"
   title: "Case Study: Agile @gov.pl"
-  description: "Agile transformation requires understanding of its rules by management. It is hard to leave status quo and change your way of thinking. It is especially hard when the previous model has been in use for many years. A frequent problem with Scrum / Kanban / Lean transformation is to go hard on deep water. Starting tommorow we're doing Scrum. Lack of understanding, communication chaos and rules distortion "just because daily is not working for us". What if take a different approach: slow and prudent? Let say iteratively. Gradually introduce another steps of chosen framework. However the question persists. How to effectively change our conservative organization into agile and constantly changing in response to business needs company?"
+  description: "Agile transformation requires understanding of its rules by management. It is hard to leave status quo and change your way of thinking. It is especially hard when the previous model has been in use for many years. A frequent problem with Scrum / Kanban / Lean transformation is to go hard on deep water. Starting tommorow we're doing Scrum. Lack of understanding, communication chaos and rules distortion 'just because daily is not working for us'. What if take a different approach: slow and prudent? Let say iteratively. Gradually introduce another steps of chosen framework. However the question persists. How to effectively change our conservative organization into agile and constantly changing in response to business needs company?"
   language: 1
   speakers: [maha]
 -
   id: 10102
   title: "The Performance Model of Streams in Java 8"
   description: "Parallel stream operations are supposed to run faster than sequential operations. Is this expection justified? Or is is naive? In this session we will explore when and under which circumstances parallel execution pays. In order to understand the performance model of streams we will discuss certain internals of streams, for instance iterators vs. spliterators as well as reduction vs. accumulation algorithms. The goal is to enable stream users to come up with an informed guess regarding the performance of parallel vs. sequential stream operations."
-  language: 1
+  language: 5
   speakers: [anla]
 -
   id: 10103
   title: "Cargo Culting and Memes in Java"
   description: "Who never stumbled upon some bad piece of code? Most of the time, it's not bad, it just had different assumptions. The problem is that those assumptions may have been coming from very far. Come challenge your assumptions in this talk, I promise a good laugh (some of it at the speaker's expenses).
-                <br/>Given most of our profession comes from a computer scientist background, it is expected that we use a scientific and verifiable approach in decision taking processes. Unfortunately, nothing could be further from the truth. Our environment is ridden with irrational convictions that come from out of nowhere. Those are of two different kinds: memes are "ideas, behaviors, or styles that spreads from person to person within our culture" while cargo culting is the "ritual inclusion of code or program structures that serve no real purpose". Both are deeply entrenched in our community. This talk will try to challenge some of those common ideas, by highlighting the most pervasive ones."
-  language: 1
+                <br/>Given most of our profession comes from a computer scientist background, it is expected that we use a scientific and verifiable approach in decision taking processes. Unfortunately, nothing could be further from the truth. Our environment is ridden with irrational convictions that come from out of nowhere. Those are of two different kinds: memes are 'ideas, behaviors, or styles that spreads from person to person within our culture' while cargo culting is the 'ritual inclusion of code or program structures that serve no real purpose'. Both are deeply entrenched in our community. This talk will try to challenge some of those common ideas, by highlighting the most pervasive ones."
+  language: 7
   speakers: [nifr]
 -
   id: 10104
   title: "Java EE Game Changers"
   description: "From J2EE to Java EE, much has changed. The addition of annotations to the Java language to eliminate complex deployment descriptors, testability through embeddable plain Java SE containers, shrinking the platform to half its size via the Java EE Web Profile, creation of CDI, and focus on a single strong component model. Java EE is always reinventing itself. Part greatest hits, glimpse into the future, and call to action, this presentation covers select must-know changes the Java EE platform has taken from the J2EE days to Java EE 7, with a strong focus on possible futures for Java EE 8. Topics include embeddable containers, CDI/EJB alignment, JCP openness, further reinvention of JMS and MDBs, widespread use of stereotypes ,and redefining Java EE security."
-  language: 1
+  language: 11
   speakers: [dabl]
 -
   id: 10105
@@ -51,7 +51,7 @@
   description: "Over the past few years, web-applications have started to play an increasingly important role in our lives. We expect them to be always available and the data to be always fresh. This shift into the realm of real-time data processing is now transitioning to physical devices, and Gartner predicts that the Internet of Things will grow to an installed base of 26 billion units by 2020.
                 <br/>As reactive architectures gain in popularity, more and more developers find themselves faced with the challenge of 'thinking reactive'. To leave behind the well-known concepts of mutable, object-oriented, imperative and synchronous programming in favour of immutable, functional, declarative and asynchronous programming requires quite a mind shift and it isn't obvious to take the plunge.
                 <br/>In this talk we will explore three concepts from the world of functional programming that are at the core of building reactive applications: immutability, higher-order functions and manipulating immutable collections. We will first see how the 'traditional' mutable, object-oriented approach of doing things can be problematic when it comes to multi-core programming, and then how to apply them to asynchronous systems."
-  language: 1
+  language: 12
   speakers: [mabe]
 -
   id: abc
