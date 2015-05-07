@@ -21,7 +21,7 @@
   language: 1
   speakers: [wobu]
 -
-  id: "10101"
+  id: 10101
   title: "Case Study: Agile @gov.pl"
   description: "Agile transformation requires understanding of its rules by management. It is hard to leave status quo and change your way of thinking. It is especially hard when the previous model has been in use for many years. A frequent problem with Scrum / Kanban / Lean transformation is to go hard on deep water. Starting tommorow we're doing Scrum. Lack of understanding, communication chaos and rules distortion 'just because daily is not working for us'. What if take a different approach: slow and prudent? Let say iteratively. Gradually introduce another steps of chosen framework. However the question persists. How to effectively change our conservative organization into agile and constantly changing in response to business needs company?"
   language: 1
