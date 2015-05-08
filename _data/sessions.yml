@@ -31,31 +31,31 @@
   speakers: [jobo]
 -
   id: 10101
-  title: "AAAA"
-  description: "BBB"
+  title: "Case Study: Agile @gov.pl"
+  description: "Agile transformation requires understanding of its rules by management. It is hard to leave status quo and change your way of thinking. It is especially hard when the previous model has been in use for many years. A frequent problem with Scrum / Kanban / Lean transformation is to go hard on deep water. Starting tommorow we're doing Scrum. Lack of understanding, communication chaos and rules distortion \"just because daily is not working for us\". What if take a different approach: slow and prudent? Let say iteratively. Gradually introduce another steps of chosen framework. However the question persists. How to effectively change our conservative organization into agile and constantly changing in response to business needs company?"
   language: 1
   speakers: [maha]
 -
   id: 10102
-  title: "AAAA"
-  description: "BBB"
-  language: 1
+  title: "The Performance-Model of Streams in Java 8"
+  description: "Parallel stream operations are supposed to run faster than sequential operations. Is this expection justified? Or\r\nis is naive? In this session we will explore when and under which circumstances parallel execution pays. In\r\norder to understand the performance model of streams we will discuss certain internals of streams, for instance\r\niterators vs. spliterators as well as reduction vs. accumulation algorithms. The goal is to enable stream users to\r\ncome up with an informed guess regarding the performance of parallel vs. sequential stream operations."
+  language: 5
   speakers: [anla]
 -
   id: 10103
-  title: "AAAA"
-  description: "BBB"
-  language: 1
+  title: "Cargo Culting and Memes in Java"
+  description: "Who never stumbled upon some bad piece of code? Most of the time, it's not bad, it just had different assumptions. The problem is that those assumptions may have been coming from very far. Come challenge your assumptions in this talk, I promise a good laugh (some of it at the speaker's expenses).\r\n<br /><br />\r\nGiven most of our profession comes from a computer scientist background, it is expected that we use a scientific and verifiable approach in decision taking processes. Unfortunately, nothing could be further from the truth. Our environment is ridden with irrational convictions that come from out of nowhere. Those are of two different kinds: memes are \"ideas, behaviors, or styles that spreads from person to person within our culture\" while cargo culting is the \"ritual inclusion of code or program structures that serve no real purpose\". Both are deeply entrenched in our community. This talk will try to challenge some of those common ideas, by highlighting the most pervasive ones."
+  language: 7
   speakers: [nifr]
 -
   id: 10104
-  title: "AAAA"
-  description: "BBB"
-  language: 1
+  title: "Java EE Game Changers"
+  description: "From J2EE to Java EE, much has changed. The addition of annotations to the Java language to eliminate complex deployment descriptors, testability through embeddable plain Java SE containers, shrinking the platform to half its size via the Java EE Web Profile, creation of CDI, and focus on a single strong component model. Java EE is always reinventing itself. Part greatest hits, glimpse into the future, and call to action, this presentation covers select must-know changes the Java EE platform has taken from the J2EE days to Java EE 7, with a strong focus on possible futures for Java EE 8. Topics include embeddable containers, CDI/EJB alignment, JCP openness, further reinvention of JMS and MDBs, widespread use of stereotypes ,and redefining Java EE security."
+  language: 11
   speakers: [dabl]
 -
   id: 10105
-  title: "AAAA"
-  description: "BBB"
-  language: 1
+  title: "3 things you must know to think reactive"
+  description: ""
+  language: 12
   speakers: [mabe]
