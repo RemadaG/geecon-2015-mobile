@@ -3,6 +3,12 @@
   title: "Registration & breakfast"
   service: true
 -
+  id: 904
+  title: "Break"
+  service: true
+  description: "The best time to take coffee or juice"
+-
+-
   id: 905
   title: "Coffee Break"
   service: true
@@ -21,22 +27,30 @@
   language: 1
   speakers: [wobu]
 -
+  id: 103
+  title: "Life Beyond the Illusion of Present"
+  description: "The idea of the present is an illusion. Everything we see, hear and feel is just an echo from the past. But this illusion has influenced us and the way we view the world in so many ways; from Newton's physics with a linearly progressing timeline accruing absolute knowledge along the way to the von Neumann machine with its total ordering of instructions updating mutable state with full control of the 'present'. But unfortunately this is not how the world works. There is no present, all we have is facts derived from the merging of multiple pasts. The truth is closer to Einstein's physics where everything is relative to one's perspective.
+                <br/>As developers we need to wake up and break free from the perceived reality of living in a single globally consistent present. The advent of multicore and cloud computing architectures meant that most applications today are distributed systems-multiple cores separated by the memory bus or multiple nodes separated by the network-which puts a harsh end to this illusion. Facts travel at the speed of light (at best), which makes the distinction between past and perceived present even more apparent in a distributed system where latency is higher and where facts (messages) can get lost.
+                <br/>The only way to design truly scalable and performant systems that can construct a sufficiently consistent view of history-and thereby our local 'present'-is by treating time as a first class construct in our programming model and to model the present as facts derived from the merging of multiple concurrent pasts.
+                <br/>In this talk we will explore what all this means to the design of our systems, how we need to view and model consistency, consensus, communication, history and behaviour, and look at some practical tools and techniques to bring it all together."
+  language: 1
+  speakers: [jobo]
+-
   id: 10101
   title: "Case Study: Agile @gov.pl"
-  description: "Agile transformation requires understanding of its rules by management. It is hard to leave status quo and change your way of thinking. It is especially hard when the previous model has been in use for many years. A frequent problem with Scrum / Kanban / Lean transformation is to go hard on deep water. Starting tommorow we're doing Scrum. Lack of understanding, communication chaos and rules distortion 'just because daily is not working for us'. What if take a different approach: slow and prudent? Let say iteratively. Gradually introduce another steps of chosen framework. However the question persists. How to effectively change our conservative organization into agile and constantly changing in response to business needs company?"
+  description: "Agile transformation requires understanding of its rules by management. It is hard to leave status quo and change your way of thinking. It is especially hard when the previous model has been in use for many years. A frequent problem with Scrum / Kanban / Lean transformation is to go hard on deep water. Starting tommorow we're doing Scrum. Lack of understanding, communication chaos and rules distortion \"just because daily is not working for us\". What if take a different approach: slow and prudent? Let say iteratively. Gradually introduce another steps of chosen framework. However the question persists. How to effectively change our conservative organization into agile and constantly changing in response to business needs company?"
   language: 1
   speakers: [maha]
 -
   id: 10102
-  title: "The Performance Model of Streams in Java 8"
-  description: "Parallel stream operations are supposed to run faster than sequential operations. Is this expection justified? Or is is naive? In this session we will explore when and under which circumstances parallel execution pays. In order to understand the performance model of streams we will discuss certain internals of streams, for instance iterators vs. spliterators as well as reduction vs. accumulation algorithms. The goal is to enable stream users to come up with an informed guess regarding the performance of parallel vs. sequential stream operations."
+  title: "The Performance-Model of Streams in Java 8"
+  description: "Parallel stream operations are supposed to run faster than sequential operations. Is this expection justified? Or\r\nis is naive? In this session we will explore when and under which circumstances parallel execution pays. In\r\norder to understand the performance model of streams we will discuss certain internals of streams, for instance\r\niterators vs. spliterators as well as reduction vs. accumulation algorithms. The goal is to enable stream users to\r\ncome up with an informed guess regarding the performance of parallel vs. sequential stream operations."
   language: 5
   speakers: [anla]
 -
   id: 10103
   title: "Cargo Culting and Memes in Java"
-  description: "Who never stumbled upon some bad piece of code? Most of the time, it's not bad, it just had different assumptions. The problem is that those assumptions may have been coming from very far. Come challenge your assumptions in this talk, I promise a good laugh (some of it at the speaker's expenses).
-                <br/>Given most of our profession comes from a computer scientist background, it is expected that we use a scientific and verifiable approach in decision taking processes. Unfortunately, nothing could be further from the truth. Our environment is ridden with irrational convictions that come from out of nowhere. Those are of two different kinds: memes are 'ideas, behaviors, or styles that spreads from person to person within our culture' while cargo culting is the 'ritual inclusion of code or program structures that serve no real purpose'. Both are deeply entrenched in our community. This talk will try to challenge some of those common ideas, by highlighting the most pervasive ones."
+  description: "Who never stumbled upon some bad piece of code? Most of the time, it's not bad, it just had different assumptions. The problem is that those assumptions may have been coming from very far. Come challenge your assumptions in this talk, I promise a good laugh (some of it at the speaker's expenses).\r\n<br /><br />\r\nGiven most of our profession comes from a computer scientist background, it is expected that we use a scientific and verifiable approach in decision taking processes. Unfortunately, nothing could be further from the truth. Our environment is ridden with irrational convictions that come from out of nowhere. Those are of two different kinds: memes are \"ideas, behaviors, or styles that spreads from person to person within our culture\" while cargo culting is the \"ritual inclusion of code or program structures that serve no real purpose\". Both are deeply entrenched in our community. This talk will try to challenge some of those common ideas, by highlighting the most pervasive ones."
   language: 7
   speakers: [nifr]
 -
@@ -48,20 +62,72 @@
 -
   id: 10105
   title: "3 things you must know to think reactive"
-  description: "Over the past few years, web-applications have started to play an increasingly important role in our lives. We expect them to be always available and the data to be always fresh. This shift into the realm of real-time data processing is now transitioning to physical devices, and Gartner predicts that the Internet of Things will grow to an installed base of 26 billion units by 2020.
-                <br/>As reactive architectures gain in popularity, more and more developers find themselves faced with the challenge of 'thinking reactive'. To leave behind the well-known concepts of mutable, object-oriented, imperative and synchronous programming in favour of immutable, functional, declarative and asynchronous programming requires quite a mind shift and it isn't obvious to take the plunge.
-                <br/>In this talk we will explore three concepts from the world of functional programming that are at the core of building reactive applications: immutability, higher-order functions and manipulating immutable collections. We will first see how the 'traditional' mutable, object-oriented approach of doing things can be problematic when it comes to multi-core programming, and then how to apply them to asynchronous systems."
+  description: "Over the past few years, web-applications have started to play an increasingly important role in our lives. We expect them to be always available and the data to be always fresh. This shift into the realm of real-time data processing is now transitioning to physical devices, and Gartner predicts that the Internet of Things will grow to an installed base of 26 billion units by 2020.\r\n\r\nAs reactive architectures gain in popularity, more and more developers find themselves faced with the challenge of \"thinking reactive\". To leave behind the well-known concepts of mutable, object-oriented, imperative and synchronous programming in favour of immutable, functional, declarative and asynchronous programming requires quite a mind shift and it isn't obvious to take the plunge.\r\n\r\nIn this talk we will explore three concepts from the world of functional programming that are at the core of building reactive applications: immutability, higher-order functions and manipulating immutable collections. We will first see how the \"traditional\" mutable, object-oriented approach of doing things can be problematic when it comes to multi-core programming, and then how to apply them to asynchronous systems.\r\n"
   language: 12
   speakers: [mabe]
 -
-  id: abc
-  title: ""
-  description: ""
+  id: 10201
+  title: "The 7 Evil (Er Agile) Skills you need to Succeed."
+  description: "Do you ever wonder why Super Villains are so successful? It's because they are Agile! Join this session to learn about their 7 Skills.\r\n\r\nDuring this session you will learn several new tips and tricks about these 7 Evil Skills and how to implement them in your daily life:\r\n\r\nInvesting\r\nListening\r\n\r\nEmpathy\r\n\r\nAdaptability\r\n\r\nCreativity\r\n\r\nAssertiveness\r\n\r\nCoaching\r\n\r\nYou'll walk away from this session with too many interesting books to read, too many interesting things to do and way too many things to think about."
   language: 1
-  speakers: []
+  speakers: [pevo]
 -
-  id: ddd
-  title: ""
+  id: 10202
+  title: "Speedup your application with hardware counters"
+  description: "Java is a hardware independent language. However, it is hard to make high performance application without hardware knowledge. \r\nJava developers who really cares about performance shouldn't be afraid to dig into HW details.\r\nEach modern CPU has a ability to look under cover and understand what happens from the performance point of view.\r\nIn the session we will understand how Performance Monitoring Unit (PMU) works, what Hardware Counters (HWC) are and how to use HWC for speeding up your Java applications.\r\n"
+  language: 5
+  speakers: [seku]
+-
+  id: 10203
+  title: "JDK 9 Sneak Peek"
+  description: "This talk is about JDK 9 - what's new, what's different, what kind of changes are planned and what's already implemented and available to play with through Early Access builds?\r\nWe'll take a close look at the new features and developments in the OpenJDK JDK 9 Project, and learn how to participate with code, feedback and ideas.\r\n"
+  language: 7
+  speakers: [dato]
+-
+  id: 10204
+  title: "A Survival Guide to Resilient Reactive Application"
   description: ""
+  language: 11
+  speakers: [mini]
+-
+  id: 10205
+  title: "Functional patterns in Scala"
+  description: "Scala, by being both Functional and Object-Oriented is easy to get started with, especially for java developpers. However, to get the most of the language, you have to embrace its functional nature.\r\n\r\nIn this session, I'll show you how to start using scala's functional nature by presenting patterns originated in the functional world:\r\n\r\n - Algebraic Data Types for data modelling \r\n - Typeclasses for extensible abstractions\r\n - Error handling in a composable fashion with Either and Validation\r\n - Segregation between logic and effects for easier testing\r\n - Property based testing\r\n\r\nEvery pattern will be illustrated with code examples and where it ususally comes in handy."
+  language: 12
+  speakers: [clde]
+-
+  id: 10301
+  title: "How to Get More Kids to Code"
+  description: "This talk will highlight some of the great tools that are available to teach children how much fun coding is. Also some of the different formats used for reaching kids. Some of the tools highlighted will be Scratch, Greenfoot, Alice, Sagan, Lego mindstorm, Arduino and RaspberryPI. Different formats will be highlighted as there are great cultural differences between the different countries on how children are thought and how after school activities are organized. One of the formats mentioned will be Devoxx4Kids which we are organising in the Netherlands but also some local Dutch programs will be mentioned."
   language: 1
-  speakers: []
+  speakers: [lipa]
+-
+  id: 10302
+  title: "G1 Garbage Collector: details and tuning"
+  description: "The G1 Garbage Collector is the low-pause replacement for CMS, available since JDK 7u4.\r\nThis session will explore in details how the G1 garbage collector works (from region layout, to remembered sets, to refinement threads, etc.), what are its current weaknesses, what command line options you should enable when you use it, and advanced tuning examples extracted from real world applications."
+  language: 5
+  speakers: [sibo]
+-
+  id: 10303
+  title: "What's Coming in Java EE 8"
+  description: "Java EE 7 was released mid 20123 and from J2EE to Java EE 7, much has changed but we are not done yet. Through the years, Java EE has always reinventing itself. Java EE 8 will be no exception to this rule!\r\n\r\nIn this session, we will look at the Java EE 8 plans. We will review the various new JSRs that will be part of Java EE 8 (e.g. MVC, JSON-B, Management & Security JSR). We will also look how some of the existing technologies will evolve in Java EE 8 (e.g. Servlet 4 wich will add HTTP/2 support, JMS's plan to replace Message Driven Beans, CDI/EJB alignment, JAX-RS's SSE support, etc.).\r\n\r\nWe will conclude by looking at how the you can get involved in those efforts. The time to get involved in shaping the future of Java EE is now!"
+  language: 7
+  speakers: [dade]
+-
+  id: 10304
+  title: "Advanced Queries on the Infinispan Data Grid"
+  description: "Infinispan isn't just a scalable key/value grid platform: it simplifies execution of distributed query tasks in Map/Reduce style, and it integrates a powerful indexing engine to run full-text searches and efficiently extract information from your largest data collections.\r\n\r\nInfinispan's search engine is built around on Apache Lucene and directly exposes the Lucene API to its users to build powerful search applications which run on data sets residing in-memory..\r\n\r\nIn this talk Navin - author of the Infinispan Query module  - will demonstrate how you can leverage the strength of full-text queries to efficiently perform searches on your data.\r\n"
+  language: 11
+  speakers: [nasu]
+-
+  id: 10305
+  title: "Implementing the Reactive Manifesto with Akka"
+  description: "It's certainly fashionable to 'be reactive', but what does it mean? How does reactive look in practice?\r\n\r\nAkka contains a number of more or less experimental modules, with which we can create a [Responsive, Resilient, Elastic, Message driven]-application. We will see how various Akka features help in implementing the above traits.\r\n\r\nThe presentation will contain a short introduction to the reactive ideology, and then we will try to write a reactive application using Akka Cluster, Akka Streams and Akka Persistence."
+  language: 12
+  speakers: [adwa]
+-
+  id: 10306
+  title: "Implementing the Reactive Manifesto with Akka"
+  description: "It's certainly fashionable to 'be reactive', but what does it mean? How does reactive look in practice?\r\n\r\nAkka contains a number of more or less experimental modules, with which we can create a [Responsive, Resilient, Elastic, Message driven]-application. We will see how various Akka features help in implementing the above traits.\r\n\r\nThe presentation will contain a short introduction to the reactive ideology, and then we will try to write a reactive application using Akka Cluster, Akka Streams and Akka Persistence."
+  language: 12
+  speakers: [adwa]
