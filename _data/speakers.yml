@@ -33,3 +33,58 @@
   name: "Manuel"
   surname: "Bernhardt"
   thumbnailUrl: http://speakers2015.s3.amazonaws.com/32_speaker.jpg
+-
+  id: pevo
+  name: "Peter"
+  surname: "Van de Voorde"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/56_speaker.jpg
+-
+  id: seku
+  name: "Sergey"
+  surname: "Kuksenko"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/20_speaker.jpg
+-
+  id: dato
+  name: "Dalibor"
+  surname: "Topic"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/15_speaker.jpg
+-
+  id: mini
+  name: "Michael"
+  surname: "Nitschinger"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/81_speaker.png
+-
+  id: clde
+  name: "Clément"
+  surname: "Delafargue"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/25_speaker.jpg
+-
+  id: lipa
+  name: "Linda"
+  surname: "van der Pal"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/87_speaker.png
+-
+  id: sibo
+  name: "Simone"
+  surname: "Bordet"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/52_speaker.png
+-
+  id: dade
+  name: "David"
+  surname: "Delabassee"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/17_speaker.jpg
+-
+  id: nasu
+  name: "Navin"
+  surname: "Surtani"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/49_speaker.jpg
+-
+  id: adwa
+  name: "Adam"
+  surname: "Warski"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/5_speaker.jpg
+-
+  id: aaa
+  name: ""
+  surname: ""
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/24_speaker.JPG
