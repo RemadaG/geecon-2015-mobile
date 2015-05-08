@@ -8,3 +8,33 @@
   name: "Jonas"
   surname: "Bonér"
   thumbnailUrl: http://speakers2015.s3.amazonaws.com/24_speaker.JPG
+-
+  id: maha
+  name: "Matt"
+  surname: "Harasymczuk"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/80_speaker.jpeg
+-
+  id: anla
+  name: "Angelika"
+  surname: "Langer"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/2_speaker.jpg
+-
+  id: nifr
+  name: "Nicolas"
+  surname: "Fränkel"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/1_speaker.jpg
+-
+  id: dabl
+  name: "David"
+  surname: "Blevins"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/63_speaker.jpg
+-
+  id: mabe
+  name: "Manuel"
+  surname: "Bernhardt"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/32_speaker.jpg
+-
+  id: aaa
+  name: ""
+  surname: ""
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/24_speaker.JPG
