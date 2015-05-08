@@ -97,31 +97,31 @@
   speakers: [clde]
 -
   id: 10301
-  title: ""
-  description: ""
+  title: "How to Get More Kids to Code"
+  description: "This talk will highlight some of the great tools that are available to teach children how much fun coding is. Also some of the different formats used for reaching kids. Some of the tools highlighted will be Scratch, Greenfoot, Alice, Sagan, Lego mindstorm, Arduino and RaspberryPI. Different formats will be highlighted as there are great cultural differences between the different countries on how children are thought and how after school activities are organized. One of the formats mentioned will be Devoxx4Kids which we are organising in the Netherlands but also some local Dutch programs will be mentioned."
   language: 1
   speakers: [lipa]
 -
   id: 10302
-  title: ""
-  description: ""
+  title: "G1 Garbage Collector: details and tuning"
+  description: "The G1 Garbage Collector is the low-pause replacement for CMS, available since JDK 7u4.\r\nThis session will explore in details how the G1 garbage collector works (from region layout, to remembered sets, to refinement threads, etc.), what are its current weaknesses, what command line options you should enable when you use it, and advanced tuning examples extracted from real world applications."
   language: 5
   speakers: [sibo]
 -
   id: 10303
-  title: ""
-  description: ""
+  title: "What's Coming in Java EE 8"
+  description: "Java EE 7 was released mid 20123 and from J2EE to Java EE 7, much has changed but we are not done yet. Through the years, Java EE has always reinventing itself. Java EE 8 will be no exception to this rule!\r\n\r\nIn this session, we will look at the Java EE 8 plans. We will review the various new JSRs that will be part of Java EE 8 (e.g. MVC, JSON-B, Management & Security JSR). We will also look how some of the existing technologies will evolve in Java EE 8 (e.g. Servlet 4 wich will add HTTP/2 support, JMS's plan to replace Message Driven Beans, CDI/EJB alignment, JAX-RS's SSE support, etc.).\r\n\r\nWe will conclude by looking at how the you can get involved in those efforts. The time to get involved in shaping the future of Java EE is now!"
   language: 7
   speakers: [dade]
 -
   id: 10304
-  title: ""
-  description: ""
+  title: "Advanced Queries on the Infinispan Data Grid"
+  description: "Infinispan isn't just a scalable key/value grid platform: it simplifies execution of distributed query tasks in Map/Reduce style, and it integrates a powerful indexing engine to run full-text searches and efficiently extract information from your largest data collections.\r\n\r\nInfinispan's search engine is built around on Apache Lucene and directly exposes the Lucene API to its users to build powerful search applications which run on data sets residing in-memory..\r\n\r\nIn this talk Navin - author of the Infinispan Query module  - will demonstrate how you can leverage the strength of full-text queries to efficiently perform searches on your data.\r\n"
   language: 11
   speakers: [nasu]
 -
   id: 10305
-  title: ""
-  description: ""
+  title: "Implementing the Reactive Manifesto with Akka"
+  description: "It's certainly fashionable to 'be reactive', but what does it mean? How does reactive look in practice?\r\n\r\nAkka contains a number of more or less experimental modules, with which we can create a [Responsive, Resilient, Elastic, Message driven]-application. We will see how various Akka features help in implementing the above traits.\r\n\r\nThe presentation will contain a short introduction to the reactive ideology, and then we will try to write a reactive application using Akka Cluster, Akka Streams and Akka Persistence."
   language: 12
   speakers: [adwa]
