@@ -38,3 +38,23 @@
     	endTime: "12:50",
     	sessionIds: [10101, 10102, 10103, 10104, 10105]
     }
+    - {
+    	startTime: "12:50",
+    	endTime: "13:40",
+    	sessionIds: [906]
+    }
+    - {
+    	startTime: "13:40",
+    	endTime: "14:40",
+    	sessionIds: [10201, 10202, 10203, 10204, 10205]
+    }
+    - {
+    	startTime: "14:40",
+    	endTime: "14:50",
+    	sessionIds: [904]
+    }
+    - {
+    	startTime: "14:50",
+    	endTime: "15:50",
+    	sessionIds: [10301, 10302, 10303, 10304, 10305]
+    }
