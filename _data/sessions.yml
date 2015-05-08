@@ -29,3 +29,33 @@
                 <br/>In this talk we will explore what all this means to the design of our systems, how we need to view and model consistency, consensus, communication, history and behaviour, and look at some practical tools and techniques to bring it all together."
   language: 1
   speakers: [jobo]
+-
+  id: 10101
+  title: "AAAA"
+  description: "BBB"
+  language: 1
+  speakers: [jobo]
+-
+  id: 10102
+  title: "AAAA"
+  description: "BBB"
+  language: 1
+  speakers: [jobo]
+-
+  id: 10103
+  title: "AAAA"
+  description: "BBB"
+  language: 1
+  speakers: [jobo]
+-
+  id: 10104
+  title: "AAAA"
+  description: "BBB"
+  language: 1
+  speakers: [jobo]
+-
+  id: 10105
+  title: "AAAA"
+  description: "BBB"
+  language: 1
+  speakers: [jobo]
