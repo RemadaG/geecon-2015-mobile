@@ -67,32 +67,32 @@
   speakers: [mabe]
 -
   id: 10201
-  title: ""
-  description: ""
+  title: "The 7 Evil (Er Agile) Skills you need to Succeed."
+  description: "Do you ever wonder why Super Villains are so successful? It's because they are Agile! Join this session to learn about their 7 Skills.\r\n\r\nDuring this session you will learn several new tips and tricks about these 7 Evil Skills and how to implement them in your daily life:\r\n\r\nInvesting\r\nListening\r\n\r\nEmpathy\r\n\r\nAdaptability\r\n\r\nCreativity\r\n\r\nAssertiveness\r\n\r\nCoaching\r\n\r\nYou'll walk away from this session with too many interesting books to read, too many interesting things to do and way too many things to think about."
   language: 1
   speakers: [pevo]
 -
   id: 10202
-  title: ""
-  description: ""
+  title: "Speedup your application with hardware counters"
+  description: "Java is a hardware independent language. However, it is hard to make high performance application without hardware knowledge. \r\nJava developers who really cares about performance shouldn't be afraid to dig into HW details.\r\nEach modern CPU has a ability to look under cover and understand what happens from the performance point of view.\r\nIn the session we will understand how Performance Monitoring Unit (PMU) works, what Hardware Counters (HWC) are and how to use HWC for speeding up your Java applications.\r\n"
   language: 5
   speakers: [seku]
 -
   id: 10203
-  title: ""
-  description: ""
+  title: "JDK 9 Sneak Peek"
+  description: "This talk is about JDK 9 - what's new, what's different, what kind of changes are planned and what's already implemented and available to play with through Early Access builds?\r\nWe'll take a close look at the new features and developments in the OpenJDK JDK 9 Project, and learn how to participate with code, feedback and ideas.\r\n"
   language: 7
   speakers: [dato]
 -
   id: 10204
-  title: ""
+  title: "A Survival Guide to Resilient Reactive Application"
   description: ""
   language: 11
   speakers: [mini]
 -
   id: 10205
-  title: ""
-  description: ""
+  title: "Functional patterns in Scala"
+  description: "Scala, by being both Functional and Object-Oriented is easy to get started with, especially for java developpers. However, to get the most of the language, you have to embrace its functional nature.\r\n\r\nIn this session, I'll show you how to start using scala's functional nature by presenting patterns originated in the functional world:\r\n\r\n - Algebraic Data Types for data modelling \r\n - Typeclasses for extensible abstractions\r\n - Error handling in a composable fashion with Either and Validation\r\n - Segregation between logic and effects for easier testing\r\n - Property based testing\r\n\r\nEvery pattern will be illustrated with code examples and where it ususally comes in handy."
   language: 12
   speakers: [clde]
 -
