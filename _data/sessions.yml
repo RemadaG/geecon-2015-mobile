@@ -56,6 +56,6 @@
 -
   id: 10105
   title: "3 things you must know to think reactive"
-  description: ""
+  description: "Over the past few years, web-applications have started to play an increasingly important role in our lives. We expect them to be always available and the data to be always fresh. This shift into the realm of real-time data processing is now transitioning to physical devices, and Gartner predicts that the Internet of Things will grow to an installed base of 26 billion units by 2020.\r\n\r\nAs reactive architectures gain in popularity, more and more developers find themselves faced with the challenge of \"thinking reactive\". To leave behind the well-known concepts of mutable, object-oriented, imperative and synchronous programming in favour of immutable, functional, declarative and asynchronous programming requires quite a mind shift and it isn't obvious to take the plunge.\r\n\r\nIn this talk we will explore three concepts from the world of functional programming that are at the core of building reactive applications: immutability, higher-order functions and manipulating immutable collections. We will first see how the \"traditional\" mutable, object-oriented approach of doing things can be problematic when it comes to multi-core programming, and then how to apply them to asynchronous systems.\r\n"
   language: 12
   speakers: [mabe]
