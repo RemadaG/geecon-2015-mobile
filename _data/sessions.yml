@@ -130,58 +130,58 @@
   title: "Improve your communication skills dramatically without saying a word"
   description: "I believe the next advance in how we build software will come from\r\naddressing how we collaborate during the creative process.\r\n\r\nIn this talk I address the forgotten half of good communication\r\nskills, listening, and specifically techniques taught by Nancy Kline\r\nand Marshall Rosenberg.\r\n\r\nAttendees will learn how to use effective listening techniques to help\r\nindividuals and groups arrive at better ideas and solutions by\r\ncreating optimal environments for thinking. They will also learn\r\ntechniques to improve their empathy skills in order to build trust and\r\nunderstanding.\r\n\r\nIn a field in which all work is team work and all challenges require\r\nunique solutions, creative thinking and effective collaboration are\r\nkey skills.\r\n\r\nFinally, I'll share a brain hack that I've learned that helps me to\r\napply these techniques even in stressful or frightening situations."
   language: 1
-  speakers: [adwa]
+  speakers: [pakl]
 -
   id: 10402
   title: "First steps in GC tuning"
   description: "Correctly configured Garbage Collector is essential for application performance. Unfortunately, there are more than 200 JVM configuration parameters which influence GC in one way or another. Their very obscure names make your command line looks like a magic incantation.\r\n<br />\r\nThe goal of this talk is to demystify Garbage Collector optimisations. I will explain the basics of Garbage Collector tuning, starting from data collection and analysis. I will show how to formulate optimisation hypotheses, choose right parameters for it and verify if they worked. You will not become a GC expert, but you will not be afraid of GC tuning anymore."
   language: 5
-  speakers: [adwa]
+  speakers: [nisa]
 -
   id: 10403
   title: "Happy birthday Java, you're 20! (Panel)"
   description: ""
   language: 7
-  speakers: [adwa]
+  speakers: []
 -
   id: 10404
   title: "Go for the Money (Overview of JSR 354)"
   description: "The live coding session presents JSR 354 (Java Currency and Money), which will probably be finalized beginning of 2015. JSR 354 enhances the capabilities of Java handling monetary data. It models effectively best practices regarding the handling of currencies, monetary amounts, rounding, currency conversion and amount formatting. The session will illustrate the API, which is easy to use, but at the same time powerful enough to cover complex use cases. Similarly at least parts of the SPI is covered as well.\r\nThis session will contain only some introductory slides. Instead we will live code several examples / use cases and give a live demonstration of the capabilities JSR 354 and JavaMoney can provide to you."
   language: 11
-  speakers: [adwa]
+  speakers: [antr]
 -
   id: 10405
   title: "Tackling the modern web with the Phoenix web framework"
   description: ""
   language: 12
-  speakers: [adwa]
+  speakers: [jova]
 -
   id: 10501
   title: "Remote heaven (Panel)"
   description: ""
   language: 1
-  speakers: [adwa]
+  speakers: [scbe, tosz]
 -
   id: 10502
   title: "Java Concurrency Under The Hood"
   description: "In this age when parallelism matters, being able to write proper concurrent code is paramount. While Java hides lots of implementation details by its 'Write Once, Run Anywhere' motto, all abstractions will eventually leak. When they do, you will have to go deeper and see how that thing actually works."
   language: 5
-  speakers: [adwa]
+  speakers: [glsm]
 -
   id: 10503
   title: "HTTP 2.0 & Java: Current Status"
   description: "HTTP 2.0 is supposed to be the next big thing for the web, after the\r\noverwhelming success of HTTP 1.1. In this session we will examine the\r\nHTTP 2.0 protocol, what is the status of its specification, what\r\nfeatures does it offer over HTTP 1.1, and how websites can benefit (in\r\nspeed and money) from it. The session will also explore what does it\r\ntake to write HTTP 2.0 applications in the Java platform, what plans\r\nthere are to support it in JDK 9 and which Servlet Containers are\r\nalready offering HTTP 2.0 support, finishing up with a demo of HTTP\r\n2.0 new features.\r\n"
   language: 7
-  speakers: [adwa]
+  speakers: [sibo]
 -
   id: 10504
   title: "State of the Art JVM Networking with Netty"
   description: "Netty is a popular open source library that greatly simplifies the development of networking applications on top of the JVM. It abstracts the burden to deal with tedious and error-prone low level details and allows you to concentrate on your business logic instead. It is used by high profile companies like Apple, Netflix, Twitter or Facebook and designed from the ground up to handle high throughput at low latency, even with thousands of connections at the same time.\r\n\r\nThe first part of the talk introduces you to networking on the JVM and why a library like Netty is needed in the first place. You'll then learn how to adapt it to your requirements. Finally, you'll see how Netty is used inside the Couchbase Java SDK to help it scale into the hundreds of thousands operations per second.\r\n\r\nIf you have low latency, high throughput requirements or just want to get the last drop of performance out of your networking stack, this talk is for you."
   language: 11
-  speakers: [adwa]
+  speakers: [mini]
 -
   id: 10505
   title: "Reactive Apps with Akka and AngularJS"
   description: "Akka and AngularJS are a great combination for Reactive Apps. Akka takes care of vertical and horizontal scaling as well as resilience and with AngularJS it's easy to implement a rich and highly responsive UI talking to an Akka backend via messages. In this session we will build an exemplary Reactive App step by step: starting from a single node and mocked UI, we will introduce features like Server-Sent Events over Akka HTTP, eventual consistent Data Replication with CRDTs and Cluster Sharding."
   language: 12
-  speakers: [adwa]
+  speakers: [hese]

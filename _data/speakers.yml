@@ -84,7 +84,52 @@
   surname: "Warski"
   thumbnailUrl: http://speakers2015.s3.amazonaws.com/5_speaker.jpg
 -
+  id: pakl
+  name: "Paul"
+  surname: "Klipp"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/8_speaker.png
+-
+  id: nisa
+  name: "Nikita"
+  surname: "Salnikov-Tarnovski"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/19_speaker.jpg
+-
+  id: antr
+  name: "Anatole"
+  surname: "Tresch"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/57_speaker.jpg
+-
+  id: jova
+  name: "José"
+  surname: "Valim"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/77_speaker.jpg
+-
+  id: tosz
+  name: "Tomasz"
+  surname: "Szymanski"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/93_speaker.jpeg
+-
+  id: scbe
+  name: "Scott"
+  surname: "Berkun"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/65_speaker.jpg
+-
+  id: glsm
+  name: "Gleb"
+  surname: "Smirnov"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/42_speaker.jpg
+-
+  id: sibo
+  name: "Simone"
+  surname: "Bordet"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/52_speaker.png
+-
+  id: hese
+  name: "Heiko"
+  surname: "Seeberger"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/76_speaker.png
+-
   id: aaa
   name: ""
   surname: ""
-  thumbnailUrl: http://speakers2015.s3.amazonaws.com/24_speaker.JPG
+  thumbnailUrl: htttttt
