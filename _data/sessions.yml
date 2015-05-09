@@ -3,6 +3,10 @@
   title: "Registration & breakfast"
   service: true
 -
+  id: 902
+  title: "Breakfast"
+  service: true
+-
   id: 904
   title: "Break"
   service: true

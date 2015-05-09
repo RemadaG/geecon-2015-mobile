@@ -78,3 +78,83 @@
     	endTime: "18:00",
     	sessionIds: [10501, 10502, 10503, 10504, 10505]
     }
+-
+  date: "2015-05-14"
+  dateReadable: "14 MAY - CONFERENCE DAY 2"
+  tracks:
+    - {title: "Episode X: The Agile Menace", color: "#fbb531"}
+    - {title: "In her majesty's Microservice", color: "#49abd0"}
+    - {title: "The BigData Lebowski", color: "#fbb531"}
+    - {title: "Till DevOps do us part", color: "#49abd0"}
+    - {title: "Truthy Lies", color: "#fbb531"}
+  timeslots:
+    - {
+    	startTime: "08:30",
+    	endTime: "09:00",
+    	sessionIds: [902]
+    }
+    - {
+        startTime: "9:00",
+        endTime: "10:00",
+        sessionIds: [20101, 20102, 20103, 20104, 20105]
+    }
+    - {
+    	startTime: "10:00",
+    	endTime: "10:20",
+    	sessionIds: [905]
+    }
+    - {
+    	startTime: "10:20",
+    	endTime: "11:20",
+    	sessionIds: [20201, 20202, 20203, 20204, 20205]
+    }
+    - {
+    	startTime: "11:20",
+    	endTime: "11:30",
+    	sessionIds: [904]
+    }
+    - {
+    	startTime: "11:30",
+    	endTime: "12:30",
+    	sessionIds: [20301, 20302, 20303, 20304, 20305]
+    }
+    - {
+    	startTime: "12:30",
+    	endTime: "13:20",
+    	sessionIds: [906]
+    }
+    - {
+    	startTime: "13:20",
+    	endTime: "14:20",
+    	sessionIds: [20401, 20402, 20403, 20404, 20405]
+    }
+    - {
+    	startTime: "14:20",
+    	endTime: "14:30",
+    	sessionIds: [904]
+    }
+    - {
+    	startTime: "14:30",
+    	endTime: "15:30",
+    	sessionIds: [20501, 20502, 20503, 20504, 20505]
+    }
+    - {
+    	startTime: "15:30",
+    	endTime: "15:50",
+    	sessionIds: [905]
+    }
+    - {
+    	startTime: "15:50",
+    	endTime: "16:50",
+    	sessionIds: [20601, 20602, 20603, 20604, 20605]
+    }
+    - {
+    	startTime: "16:50",
+    	endTime: "17:00",
+    	sessionIds: [905]
+    }
+    - {
+    	startTime: "17:00",
+    	endTime: "18:00",
+    	sessionIds: [20701]
+    }
