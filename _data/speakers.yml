@@ -129,6 +129,76 @@
   surname: "Seeberger"
   thumbnailUrl: http://speakers2015.s3.amazonaws.com/76_speaker.png
 -
+  id: mipa
+  name: "Michał"
+  surname: "Parkoła"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/9_speaker.jpg
+-
+  id: magr
+  name: "Marcin"
+  surname: "Grzejszczak"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/18_speaker.jpg
+-
+  id: jaku
+  name: "Jakub"
+  surname: "Kubryński"
+  thumbnailUrl: httttt
+-
+  id: dudo
+  name: "DuyHai"
+  surname: "Doan"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/38_speaker.png
+-
+  id: duta
+  name: "Douglas"
+  surname: "Tait"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/68_speaker.jpg
+-
+  id: anyu
+  name: "Antón"
+  surname: "Yuste"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/70_speaker.jpg
+-
+  id: pawe
+  name: "Patrycja"
+  surname: "Wegrzynowicz"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/21_speaker.jpg
+-
+  id: krda
+  name: "Krzysztof"
+  surname: "Daniel"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/31_speaker.jpg
+-
+  id: koma
+  name: "Konrad"
+  surname: "Malawski"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/78_speaker.png
+-
+  id: tobu
+  name: "Tom"
+  surname: "Bujok"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/10_speaker.png
+-
+  id: bafu
+  name: "Barbara"
+  surname: "Fusinska"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/50_speaker.jpg
+-
+  id: sama
+  name: "Sander"
+  surname: "Mak"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/74_speaker.jpg
+-
+  id: avmo
+  name: "Aviran"
+  surname: "Mordo"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/40_speaker.jpg
+-
+  id: frge
+  name: "Fred"
+  surname: "George"
+  thumbnailUrl: http://speakers2015.s3.amazonaws.com/12_speaker.jpg
+-
   id: aaa
   name: ""
   surname: ""
