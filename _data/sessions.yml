@@ -305,7 +305,7 @@
   speakers: [toko]
 -
   id: 20405
-  title: ""
+  title: "Vote for this talk!"
   description: ""
   language: 12
   speakers: []
@@ -416,7 +416,7 @@
   title: "From spaghetti with no src/test to green CI, good coverage and well-sleeping developers"
   description: "Yes, we did it! Over a year ago we met a monster - a legacy Spring MVC application with 50% code duplication, no tests, manual deployment and mysterious error reporting. Come and see yourself how blood, sweat and tears have then turned into a well-tested REST API, pleasant to use and develop.\r\n\r\nAfter a year we have an interactive API documentation, informative call statuses and error messages. We precisely track every request through its entire lifecycle. Together with version tracking on multiple nodes, this lets us spot any errors really quickly.\r\n\r\nPlus, we reduced the boilerplate needed to achieve all of this to a single annotation for each API call - with the help of AspectJ, MDC, custom filters, converters and more. Obviously, we also introduced src/test/groovy, full of Spock and rest-assured - which made our application 'the most rigid part of the infrastructure', as per our customer.\r\n\r\nCome to hear our story, share yours and let us know if we could do better!"
   language: 5
-  speakers: [jaku, mima]
+  speakers: [jakun, mima]
 -
   id: 30203
   title: "Why postgres SQL deserve noSQL fan respect"
@@ -503,7 +503,7 @@
   speakers: [axfo]
 -
   id: 30502
-  title: ""
+  title: "Vote for this talk!"
   description: ""
   language: 5
   speakers: []

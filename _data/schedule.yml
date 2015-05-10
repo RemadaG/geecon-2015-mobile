@@ -3,9 +3,9 @@
   dateReadable: "13 MAY - CONFERENCE DAY 1"
   tracks: 
     - {title: "Agile Night Fever", color: "#fbb531"}
-    - {title: "Internal Instinct", color: "#49abd0"}
+    - {title: "Internal Instinct", color: "#fbb531"}
     - {title: "Java 20 years later", color: "#fbb531"}
-    - {title: "T for Toolchain", color: "#49abd0"}
+    - {title: "T for Toolchain", color: "#fbb531"}
     - {title: "The Fast and the Functional", color: "#fbb531"}
   timeslots:
     - {
@@ -83,9 +83,9 @@
   dateReadable: "14 MAY - CONFERENCE DAY 2"
   tracks:
     - {title: "Episode X: The Agile Menace", color: "#fbb531"}
-    - {title: "In her majesty's Microservice", color: "#49abd0"}
+    - {title: "In her majesty's Microservice", color: "#fbb531"}
     - {title: "The BigData Lebowski", color: "#fbb531"}
-    - {title: "Till DevOps do us part", color: "#49abd0"}
+    - {title: "Till DevOps do us part", color: "#fbb531"}
     - {title: "Truthy Lies", color: "#fbb531"}
   timeslots:
     - {
@@ -163,9 +163,9 @@
   dateReadable: "15 MAY - CONFERENCE DAY 3"
   tracks:
     - {title: "Dev's Kitchen", color: "#fbb531"}
-    - {title: "Mission Productive", color: "#49abd0"}
+    - {title: "Mission Productive", color: "#fbb531"}
     - {title: "The Big Data Theory", color: "#fbb531"}
-    - {title: "The web!", color: "#49abd0"}
+    - {title: "The web!", color: "#fbb531"}
     - {title: "Tower of Babel", color: "#fbb531"}
   timeslots:
     - {
