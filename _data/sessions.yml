@@ -74,7 +74,7 @@
   title: "The 7 Evil (Er Agile) Skills you need to Succeed."
   description: "Do you ever wonder why Super Villains are so successful? It's because they are Agile! Join this session to learn about their 7 Skills.\r\n\r\nDuring this session you will learn several new tips and tricks about these 7 Evil Skills and how to implement them in your daily life:\r\n\r\nInvesting\r\nListening\r\n\r\nEmpathy\r\n\r\nAdaptability\r\n\r\nCreativity\r\n\r\nAssertiveness\r\n\r\nCoaching\r\n\r\nYou'll walk away from this session with too many interesting books to read, too many interesting things to do and way too many things to think about."
   language: 1
-  speakers: [pevo]
+  speakers: [peva]
 -
   id: 10202
   title: "Speedup your application with hardware counters"
@@ -104,7 +104,7 @@
   title: "How to Get More Kids to Code"
   description: "This talk will highlight some of the great tools that are available to teach children how much fun coding is. Also some of the different formats used for reaching kids. Some of the tools highlighted will be Scratch, Greenfoot, Alice, Sagan, Lego mindstorm, Arduino and RaspberryPI. Different formats will be highlighted as there are great cultural differences between the different countries on how children are thought and how after school activities are organized. One of the formats mentioned will be Devoxx4Kids which we are organising in the Netherlands but also some local Dutch programs will be mentioned."
   language: 1
-  speakers: [lipa]
+  speakers: [liva]
 -
   id: 10302
   title: "G1 Garbage Collector: details and tuning"
