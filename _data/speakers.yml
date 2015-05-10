@@ -209,7 +209,7 @@
   bio: "\u003cp\u003eIván is a Software Engineer and Systems Administrator with 13 years of experience. He discovered Grails 5 years ago and since then he develops almost exclusively using Groovy. He is the creator of Bokzuy.com and some Grails plugins like Postgresql-Extensions and Slug-Generator.\u003c/p\u003e\u003cp\u003e\r\nHe\u0027s also the coordinator of the Madrid Groovy User Group (@madridgug) and the co-organizer of the Greach Conference (http://greach.es).\u003c/p\u003e"
   thumbnailUrl: "http://speakers2015.s3.amazonaws.com/23_speaker.png"
 -
-  id: "jaku"
+  id: "jakun"
   name: "Jacek"
   surname: "Kunicki"
   bio: "Jacek Kunicki is a full stack software engineer and one of the numeorus CEOs at SoftwareMill - a great remote workplace with no bosses. He contributes to some open source projects (Spring Boot, swagger2raml, Codebrag) and, apart from programming, plays a lot with hardware (Arduino and others). Jacek hates boilerplate and loves automation of everything, so that he has less to do.\r\n"
