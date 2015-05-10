@@ -158,3 +158,93 @@
     	endTime: "18:00",
     	sessionIds: [20701]
     }
+-
+  date: "2015-05-15"
+  dateReadable: "15 MAY - CONFERENCE DAY 3"
+  tracks:
+    - {title: "Dev's Kitchen", color: "#fbb531"}
+    - {title: "Mission Productive", color: "#49abd0"}
+    - {title: "The Big Data Theory", color: "#fbb531"}
+    - {title: "The web!", color: "#49abd0"}
+    - {title: "Tower of Babel", color: "#fbb531"}
+  timeslots:
+    - {
+    	startTime: "08:30",
+    	endTime: "09:00",
+    	sessionIds: [902]
+    }
+    - {
+        startTime: "9:00",
+        endTime: "10:00",
+        sessionIds: [30101, 30102, 30103, 30104, 30105]
+    }
+    - {
+    	startTime: "10:00",
+    	endTime: "10:20",
+    	sessionIds: [905]
+    }
+    - {
+    	startTime: "10:20",
+    	endTime: "11:20",
+    	sessionIds: [30201, 30202, 30203, 30204, 30205]
+    }
+    - {
+    	startTime: "11:20",
+    	endTime: "11:30",
+    	sessionIds: [904]
+    }
+    - {
+    	startTime: "11:30",
+    	endTime: "12:30",
+    	sessionIds: [30301, 30302, 30303, 30304, 30305]
+    }
+    - {
+    	startTime: "12:30",
+    	endTime: "13:20",
+    	sessionIds: [906]
+    }
+    - {
+    	startTime: "13:20",
+    	endTime: "14:20",
+    	sessionIds: [30401, 30402, 30403, 30404, 30405]
+    }
+    - {
+    	startTime: "14:20",
+    	endTime: "14:30",
+    	sessionIds: [904]
+    }
+    - {
+    	startTime: "14:30",
+    	endTime: "15:30",
+    	sessionIds: [30501, 30502, 30503, 30504, 30505]
+    }
+    - {
+    	startTime: "15:30",
+    	endTime: "15:50",
+    	sessionIds: [905]
+    }
+    - {
+    	startTime: "15:50",
+    	endTime: "16:10",
+    	sessionIds: [30601, 30602, 30603, 30604, 30605]
+    }
+    - {
+    	startTime: "16:10",
+    	endTime: "16:20",
+    	sessionIds: [904]
+    }
+    - {
+    	startTime: "16:20",
+    	endTime: "16:40",
+    	sessionIds: [30701, 30702, 30703, 30704, 30705]
+    }
+    - {
+    	startTime: "16:40",
+    	endTime: "17:00",
+    	sessionIds: [905]
+    }
+    - {
+    	startTime: "17:00",
+    	endTime: "18:00",
+    	sessionIds: [30801]
+    }
