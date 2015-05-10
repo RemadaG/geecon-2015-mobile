@@ -377,217 +377,217 @@
   speakers: [grin]
 -
   id: 30101
-  title: ""
-  description: ""
+  title: "MirrorLink - Car connected to Android smartphone"
+  description: "<p>With 1.43 million of applications in Google Play is there a way to do \r\nsomething new and stand above the crowd? How about making your app available on a head unit of a car and make the app safe to use while driving? And how would your application change if it could use date provided by a car?\r\n<\/p><p>\r\nDuring my presentation I'll describe MirrorLink [1] - a device \r\ninteroperability standard of connectivity between a smartphone and the car. There are tens of millions of Android phones with MirrorLink protocol on the market (e.g. Samsung, HTC, Sony) and cars with MirrorLink head units preinstalled are shipping in millions now (e.g. Volkswagen, Citroen, Skoda). The presentation will provide basic pieces of information required to develop an Android application that uses MirrorLink:\r\n<li> How MirrorLink protocol works\r\n<\/li><li> What additional API you can use thanks to MirrorLink\r\n<\/li><li> What developer tools are available and where to find them\r\n<\/li><li> Driver distractions guidelines you must take into account\r\n<\/li><li> Application Certification Management System that guards the users from unsafe applications.\r\n<\/li>\r\n<\/p><p>\r\nI'll also briefly compare MirrorLink to competing connected car \r\ntechnologies: Android Auto supported by Google and CarPlay driven by Apple.\r\n<\/p><p>\r\nFirst set of MirrorLink-enabled applications hit the market a half a \r\nyear ago [2] will your app join them?\r\n<\/p><p>\r\n[1] http://www.mirrorlink.com/\r\n[2] http://www.mirrorlink.com/sites/default/files/PR%20CCC%20Paris%20Apps.pdf ).\r\n<\/p><p>"
   language: 1
-  speakers: [adwa]
+  speakers: [pija]
 -
   id: 30102
-  title: ""
-  description: ""
+  title: "About Java EE 7 Architectures"
+  description: "Java EE 7 is dead simple. The more surprising are the many deployed real world applications based on Cargo Cult, Voodoo and Esoterics. In this session I would like to write for you a Java EE 7 application based on common sense and POJOs with the minimal amount of annotations. With or without microservices. Heretical questions are highly appreciated!"
   language: 5
-  speakers: [adwa]
+  speakers: [adbi]
 -
   id: 30103
-  title: ""
-  description: ""
+  title: "How GraphDB Started the Multi-model Revolution"
+  description: ""<p>\r\nGraph Databases are experiencing a huge upward trend?. ???Today's next generation solutions scale horizontally and provide enterprise-grade availability and security whilst simplifying development through multiple APIs. Enrico Risa, discusses? the latest? ??technology ?innovations? and the market's demand for databases like OrientDB that combine more than one NoSQL model (ex. GraphDB, DocumentDB, Key/Value, Objects). \r\n<\/p><p>\r\n\r\nIn this lecture, we will discuss why graph databases are at the heart of the multi-model revolution and why we're approaching the end of NoSQL's fragmented ecosystem where customers are forced to use multiple tools in their architectures. Benefits and compromises of this approach along with real world use cases will also be shared. <\/p>""
   language: 7
-  speakers: [adwa]
+  speakers: [enri]
 -
   id: 30104
-  title: ""
-  description: ""
+  title: "Grails and the real-time world"
+  description: "<p>In a hyper-connected world the concept \"Real Time\" is used more and more every day. With the traditional Grails architecture it's difficult to achieve this, so we need to use a different approach. The answer is to use message driven architectures that will allow us to achieve the goal and also build fast, decoupled and easy to test applications.\r\n<\/p><p>\r\nIn this talk you'll see a different type of architecture that will help you to serve content in real-time to a lot of clients in a fast and easy to scale way. You'll see some examples of how to achieve this using Spring Integration and integrate with external systems like websockets and XMPP in an easy and decoupled way.<\/p>"
   language: 11
-  speakers: [adwa]
+  speakers: [ivlo]
 -
   id: 30105
-  title: ""
-  description: ""
+  title: "Microservices in Scalatra and Spray.cc / Akka HTTP"
+  description: "<p>When creating microservices, we want to deliver software rapidly, and this means our tech and development methodologies have to adapt to this new requirement.\r\nSince working with a microservice-based architecture requires teams to write many small apps, it's a must to be able to develop and deploy them quickly.<\/p><p>\r\nDuring this session we will build microservices using different Scala based frameworks. First we will use Scalatra (which may look familiar to those who have seen the Ruby based Sinatra before), then we'll add some asynchronous processing using Akka, in order to finally move over to Spray - the most idiomatic and flexible http routing framework for Scala.<\/p><p>\r\nWe'll then contrast these solutions and ask the question why, as a Java dev, you should consider moving over to one of these approaches.<\/p><p>\r\nAfter this session you will also be ready to quickly develop your own 1st microservice using either of these technologies, so you can give them a try at home after the conference!<\/p>"
   language: 12
-  speakers: [adwa]
+  speakers: [tole]
 -
   id: 30201
-  title: ""
-  description: ""
+  title: "Real World Use Cases for Stream Processing"
+  description: "Stream Processing is a concept used to create a high-performance system for rapidly building applications that analyze and act on real-time streaming data. \r\n<br /><br />\r\nBig data, cloud, mobile and internet of things are the major drivers for stream processing and streaming analytics. This session discusses the concepts of stream processing, and how it differs from “classical” big data solutions such as Batch Processing and Map Reduce. Open source projects such as Apache Storm or Apache Spark and some proprietary products are also discussed shortly, including its relation to Apache Hadoop. \r\n<br /><br />\r\nAfterwards, the main focus is to discuss several real world use cases suitable for many industries, such as network monitoring, sensor analytics, algorithmic trading, inventory management, cross-selling, route optimization or fraud detection. \r\n<br /><br />\r\nThe presentation also discusses how stream processing fits into a big data architecture as complement to data warehouse analytics and the Hadoop ecosystem."
   language: 1
-  speakers: [adwa]
+  speakers: [kawa]
 -
   id: 30202
-  title: ""
-  description: ""
+  title: "From spaghetti with no src/test to green CI, good coverage and well-sleeping developers"
+  description: "Yes, we did it! Over a year ago we met a monster - a legacy Spring MVC application with 50% code duplication, no tests, manual deployment and mysterious error reporting. Come and see yourself how blood, sweat and tears have then turned into a well-tested REST API, pleasant to use and develop.\r\n\r\nAfter a year we have an interactive API documentation, informative call statuses and error messages. We precisely track every request through its entire lifecycle. Together with version tracking on multiple nodes, this lets us spot any errors really quickly.\r\n\r\nPlus, we reduced the boilerplate needed to achieve all of this to a single annotation for each API call - with the help of AspectJ, MDC, custom filters, converters and more. Obviously, we also introduced src/test/groovy, full of Spock and rest-assured - which made our application “the most rigid part of the infrastructure”, as per our customer.\r\n\r\nCome to hear our story, share yours and let us know if we could do better!"
   language: 5
-  speakers: [adwa]
+  speakers: [jaku, mima]
 -
   id: 30203
-  title: ""
-  description: ""
+  title: "Why postgres SQL deserve noSQL fan respect"
+  description: "Postgres SQL is a plain old SQL DB. Very powerful and very consistent, in some case, project needs an ACID database, but schemaless… With JSON support, postgres is a very interesting tool to provide ACID and some very interesting function (time management, localisation function and data types...) and the schemaless noSQL point of view with json and indexed json. This talk show some great usage and some insigth to build some great application with postgres."
   language: 7
-  speakers: [adwa]
+  speakers: [clde]
 -
   id: 30204
-  title: ""
-  description: ""
+  title: "How NOT to get lost in the current JS landscape."
+  description: "<p>Npm, bower, Angular, jQuery, grunt, gulp, browserify, requirejs, ember, backbone, requirejs, amd .... thousands of micro frameworks, libraries and tools.\r\n<\/p><p>\r\nThe question is how do you avoid getting lost within the jungle of modern JS frameworks, libraries and tools?\r\nHow to be effective and actually deliver while every day there is a new cool framework or tool coming out and one of the developers in your team would love to try it. In production.\r\n<\/p><p>\r\nIn this talk I will explain the right strategy for dealing with the rapid changes in JS landscape and choosing the right set of tools for doing the job.\r\n<\/p><p>\r\nKey takeaways:\r\n<li>Get to know which js tools/libraries works well together.\r\n<\/li><li> Which tools/libraries are not cool anymore and why?\r\n<\/li><li> How to deal with library/tool dependency conflicts?\r\n<\/li><li> How to find good quality tools and frameworks?\r\n<\/li>\r\n<\/p>"
   language: 11
-  speakers: [adwa]
+  speakers: [rasc]
 -
   id: 30205
-  title: ""
-  description: ""
+  title: "Understanding Java byte code"
+  description: "At first glance, Java byte code can appear to be some low level magic that is both hard to understand and effectively irrelevant to application developers. However, neither is true. With only little practice, Java byte code becomes easy to read and can give true insights into the functioning of a Java program. In this talk, we will cast light on compiled Java code and its interplay with the Java virtual machine. In the process, we will look into the evolution of byte code over the recent major releases with features such as dynamic method invocation which is the basis to Java 8 lambda expressions. Finally, we will learn about tools for the run time generation of Java classes and how these tools are used to build modern frameworks and libraries."
   language: 12
-  speakers: [adwa]
+  speakers: [rawi]
 -
   id: 30301
-  title: ""
-  description: ""
+  title: "Painfree Object-Document Mapping for MongoDB"
+  description: "Morphia is MongoDB's JPA-like Object-Document Mapping (ODM). However, there is no object-relational impedence mismatch since documents fit the concept of object-orientation much better — as this talk shows. On a practical level we will take a look at the available annotations and how to map your objects as well as how to easily query data in MongoDB. The talk concludes with patterns on how to solve common requirements, tips, and the lesson we've learned from using Morphia in production for three years."
   language: 1
-  speakers: [adwa]
+  speakers: [phkr]
 -
   id: 30302
-  title: ""
-  description: ""
+  title: "Hystrix – managing failures in distributed systems"
+  description: "We live in a distributed world where integration between components is ubiquitous. Assuming all parts of the system are working at the same time and are not overloaded is too optimistic. Our application must be prepared for failures, must tolerate, handle and test exceptional conditions.\r\n<br /><br />\r\nHystrix is a library that provides complete set of tools for managing failures. It monitors potentially problematic sections of code (like network calls), measures execution time and error rate. It can pro-actively turn off malfunctioning features for a period of time and keep system resources bound. Built-in real-time monitoring is also really useful to quickly troubleshoot anomalies and bottlenecks.\r\n<br /><br />\r\nDuring this session we will focus on live demos and code samples, no slides are planned. Real-life use cases and proven setups will be covered."
   language: 5
-  speakers: [adwa]
+  speakers: [tonu]
 -
   id: 30303
-  title: ""
-  description: ""
+  title: "Real Time Big Data Analytics with Storm & HBase"
+  description: "Relevance and Personalization is crucial to building personalized local commerce experience at Groupon. Talk covers overview of the real time analytics infrastructure that handles over 3 million events/ second and stores and scales to billions of data points. Solution includes leveraging Apache HBase & Redis for storage and Apache Storm for building real time analytics. Talk covers various architecture design choices, technology choices and tradeoffs . We would also cover various aspects of monitoring and alerting real time infrastructure at scale. Attendees can take away learnings from our real-life experience that can help them understand various tuning methods, their tradeoffs and apply them in their solutions. "
   language: 7
-  speakers: [adwa]
+  speakers: [amka]
 -
   id: 30304
-  title: ""
-  description: ""
+  title: "Ratpack 101"
+  description: "<p>Ratpack is a set of libraries for writing fast, efficient, evolvable and well tested HTTP applications written in Java 8 or any alternative JVM language that plays well with Java, such as Groovy.<\/p><p>\r\n\r\nThe session will start with an introduction about Ratpack, and what makes it different from other popular frameworks like Grails or Vert.x, to name a few. Then, it will cover the fundamentals of the async programming model used in Ratpack applications, as well as other core concepts like handlers and the registry. Also, some of of the core modules (\"plug-ins\") will be described. Finally, it will cover how to test Ratpack applications using Groovy and Spock.<\/p>"
   language: 11
-  speakers: [adwa]
+  speakers: [alsa]
 -
   id: 30305
-  title: ""
-  description: ""
+  title: "Lambda Core – HardCore"
+  description: "For about a year now – so called lambda expressions can be used by Java developers. But what does it mean... Lambda? The talk will be about story behind, from a little bit more scientific point of view. Church Lambda calculus, Entscheidungsproblem and incompleteness theorem. However, almost all of that will be presented in Java. There are going to be shown some very crazy code pieces such as infinite lazy lists and perfectly unusable implementation of Boolean (based on Lambda expressions). "
   language: 12
-  speakers: [adwa]
+  speakers: [jara]
 -
   id: 30401
-  title: ""
-  description: ""
+  title: "Wild Flies and a Camel - Java EE Integration "
+  description: "Apache Camel is one of the most complete integration frameworks out there. With more than 150 components and a large community it clearly has it's fans. Deploying the lightweight core is easy. Getting into modules and even more components makes this challenging. There are different approaches to ride that Camel. How to get the most out of it with Java EE and WildFly is exactly the topic of this session. It will introduce you to both Java EE 7 and Apache Camel in a very brief way and follows up with the different integration and deployment scenarios along with introducing the tools which help you the most on the way to your integration solution."
   language: 1
-  speakers: [adwa]
+  speakers: [maei]
 -
   id: 30402
-  title: ""
-  description: ""
+  title: "msnos: a cool and cozy blanket for your microservices"
+  description: "Since two years in Workshare we moved to a microservices based architecture and it's proved to be challenging in several different ways. Traditional configuration based mechanisms failed because of the very dynamic nature of such architecture. At any point in time you should be able to deploy a new microservice, kill one, upgrade one, this while preserving things like load balancing and session affinity, and being sure at the same time that everything is healthy. Workshare built an open source library, msnos, that tries to address the problem on the three main platform used (ruby, java, .net)"
   language: 5
-  speakers: [adwa]
+  speakers: [brbo]
 -
   id: 30403
-  title: ""
-  description: ""
+  title: "Tuning Elasticsearch Indexing Pipeline for Logs"
+  description: "Elasticsearch is often used as a datastore for logs, because it lets you search and analyze gazillion of them in near-realtime. But when you turn the scaling knob up to eleven, there are quite some challenges. How can you squeeze more performance out of your servers? What kind of servers work best? Those with more CPU, more RAM or faster disks? As your data grows, how should you scale your cluster to make sure it doesn’t flip over? Last but not least, how can you buffer and parse your logs as efficiently as possible? We (as in \"my colleague Rafał Kuć and I\") built/scaled/optimized a number of large logging clusters over the years. In this talk we'll pack everything we've learned about how to use Elasticsearch with logs, paired with logging tools such as Logstash and rsyslog."
   language: 7
-  speakers: [adwa]
+  speakers: [raku, ragh]
 -
   id: 30404
-  title: ""
-  description: ""
+  title: "Web development with Lua Programming Language"
+  description: "<p>Lua is a very fast and powerful scripting language that can be easily embeddable. It can be used to develop robust applications and has been shining in industries like game development, for example. Lua is also an excellent tool as a general purpose language. However, it's use in web developments, despite its great potential and incredible benchmarks, needs to be more widespread.<\/p><p>\r\n\r\nHaving had experience as a web programmer, and aiming to learn more about this language, I started a marathon that produced Sailor 0.1, a web MVC framework completely written in Lua after only ten days. Once the quest was completed, the feedback was so interesting that I continued the development. Sailor keeps growing each day, also with the help of contributors.\r\n<\/p><p>\r\nThis talk presents the beginnings of Sailor framework, a comparison with other existing tools in Lua, the current stage of Sailor's development today, the official announcement of version 0.3 (Jupiter). This presentation also intends to start a debate on what we can do to spread the idea of using more Lua in web development.<\/p>"
   language: 11
-  speakers: [adwa]
+  speakers: [etda]
 -
   id: 30405
-  title: ""
-  description: ""
+  title: "From Java to Scala in Two Months"
+  description: "<p>The goal: To build a brand-new platform connecting external\r\n fashion stylists with Zalando’s millions of customers. \r\n<\/p><p>\r\nThe plan: To create\r\n it in Scala and Play Framework with a team of Java engineers who had never before used either. \r\n<\/p><p>\r\nThe maximum project timeline allowed: Two months (!).\r\n<br>Possible? Yes, and in this talk I’ll explain how.\r\n\r\n<\/p><p> First, I’ll give an\r\noverview of how we laid the groundwork for our team to make the Scala switch\r\nwithout difficulty. I’ll spend the bulk of my time discussing how we created\r\na build system to make our front-end engineers--also complete Scala\r\nnewbies--comfortable with using Scala and Play. (This was the most difficult, but perhaps the most important part, of our development process.)\r\n<\/p><p> Finally, I’ll describe how we were able to learn Scala as we went\r\nalong--strong evidence to suggest that maybe Scala isn’t as difficult to\r\npick up as some might suggest.<\/p>"
   language: 12
-  speakers: [adwa]
+  speakers: [dano]
 -
   id: 30501
-  title: ""
-  description: ""
+  title: "Immutable Infrastructure: the new App Deployment"
+  description: "<p>App deployment and server setup are complex, error-prone and time-consuming. They require OS installers, package managers, configuration recipes, install and deployment scripts, server tuning, hardening and more. But... Is this really necessary? Are we trapped in a mindset of doing things this way just because that's how they've always done? \r\n<\/p><p>\r\nWhat if we could start over and radically simplify all this? What if, within seconds, and with a single command, we could wrap our application into the bare minimal machine required to run it? What if this machine could then be transported and run unchanged on our laptop and in the cloud? How do the various platforms and tools like AWS, Docker, Heroku and Boxfuse fit into this picture? What are their strengths and weaknesses? When should you use them?\r\n<\/p><p>\r\nThis talk is for developers and architects wishing to radically improve and simplify how they deploy their applications. It takes Continuous Delivery to a level far beyond what you've seen today. Welcome to Immutable Infrastructure generation. This is the new black.<\/p>"
   language: 1
-  speakers: [adwa]
+  speakers: [axfo]
 -
   id: 30502
   title: ""
   description: ""
   language: 5
-  speakers: [adwa]
+  speakers: []
 -
   id: 30503
-  title: ""
-  description: ""
+  title: "PubSub++ - few tips that make life with kafka easy"
+  description: ""You’ve just set up your Kafka cluster and now you are ready to process tens of thousands events per second. \r\nYou decoupled your architecture and now all the communication goes via pubSub bus and you can focus only on providing business value.\r\nIt would be great if that can be true. In real life you need to do a lot of tweaks to have your backbone ready to handle all the traffic you want.\r\nIn the talk we will focus on the project of redesigning the core event bus of the Allegro auction platform.\r\nWe will talk issues on all the levels from network to data serialization. \r\nAfter the presentation you will have answers to the questions:\r\nHow to assure our clients that not even a single event is lost? \r\nHow to respond in less than 65ms even if Kafka is rebuilding its cluster?\r\n...And many other questions you will face as a backbone provider. ""
   language: 7
-  speakers: [adwa]
+  speakers: [krde]
 -
   id: 30504
-  title: ""
-  description: ""
+  title: "The Emerging Enterprise Mobile Platform"
+  description: "<p>The days of the web development platform may not necessarily be going away tomorrow, but there is no question that the next generation of application development is already upon us, and it’s all about mobile devices. An Enterprise Mobile Platform supports the development of mobile apps that connect to enterprise resources through a common shared scalable infrastructure platform. It hosts a well-defined set of APIs to access those resources, as well as enabling the use of services like push notifications, device management and geo-location that go hand-in-hand with mobile apps. Furthermore, interactions and operations must be secured using enterprise-grade security, employing proven protocols to satisfy even the most paranoid of corporate IT managers. \r\n<\/p><p>\r\nIn this session we will cover some of the basic features and characteristics of an Cloud Enterprise Mobile Platform. We’ll show how mobile app developers, server-side orchestration architects, and system resource administrators all play a role in the enterprise apps of today and look at the challenges of meeting the needs of all three in a mobile-focused cloud age.\r\n<\/p>"
   language: 11
-  speakers: [adwa]
+  speakers: [mike]
 -
   id: 30505
-  title: ""
-  description: ""
+  title: "Go, the one language you have to learn!"
+  description: "You live and breathe http. Most of the things you do with a computer involve it. How many tiny little http-related utils have you already created? Is it time to stop? By no means, we all do it. I'd just like to encourage you to write the next one in Go. It's a fun little language, which feels like a cross-breed between C (pointers!) and ruby (concise, powerful syntax). But how much?<br />\r\nWhy, yet another language, but my perl/python/.. does all the things? Well, it does. But go has a few things that make it super sweet, is web-scale and real fun to use!\r\nOr at least come and listen how did we get rid of 87% of our codebase in a day :-)"
   language: 12
-  speakers: [adwa]
+  speakers: [angr]
 -
   id: 30601
-  title: ""
-  description: ""
+  title: "Forgive me, for I have allocated"
+  description: "You probably know the mantra that allocation is cheap. It usually is true, but devil is in the details. In your use case object allocation may impact processor caches evicting important data; burn CPU on executing constructor code; impact rates of object promotion to old generation and most importantly increase frequency of stop the word young gen pauses.\r\n<br /><br />\r\nThis presentation is for you if you are working on a Java based services that need to handle more and more traffic. As number of transactions per second rises you might hit performance wall that are young generation gc stopping whole application for precious milliseconds.\r\n<br /><br />\r\nThis presentation focuses on optimising object creation rate when dealing with seemingly mundane tasks. I will show few examples of surprising places in JDK and other libraries where garbage is created. We will look into replacements for things such as inefficient and allocating XML, date and number parsers. We will investigate thread locals and object reuse patterns. Finally we will run benchmarks to find out impact of these techniques on performance."
   language: 1
-  speakers: [adwa]
+  speakers: [toko]
 -
   id: 30602
-  title: ""
-  description: ""
+  title: "How (not) to deploy your application to AWS"
+  description: "Presenting the meanders of deploying your applications to Amazon Web Services (AWS).\r\nUsing (hosted) Jenkins for building your artifacts and running them on Amazon is great, but the deployment process is not without hurdles. This talk shows some failed or suboptimal approaches and how to achieve a reliable and repeatable process. Additionally, we take a look at the security aspect while building and deploying, since you are facing different challenges than on your own infrastructure."
   language: 5
-  speakers: [adwa]
+  speakers: [phkr]
 -
   id: 30603
-  title: ""
-  description: ""
+  title: "Oh no yet another boring discussion"
+  description: "How comes that when 10 people gather to discuss a problem usually only 3 or 4 of them really participate? And why the rest looks so bored? Let us discuss how to turn our oh-no-yet-again-a-boring-discussion into something much more exciting, and with better chances of finding good solutions to the problem at hand."
   language: 7
-  speakers: [adwa]
+  speakers: [toka]
 -
   id: 30604
-  title: ""
-  description: ""
+  title: "IT office dojo"
+  description: "Meeting-room, rest-room, project-room - standard office spaces that can take very interesting forms, where the most creative proposals come from Google, Microsoft or Facebook. All hanging around projects, based on the elements of effective self-management or aiming in giving employees a moment to lower the stress level or just relax. And how to create room for team improvements? A place where a group of people form a true team and not just the project team? In which everyone, regardless of the attitude or character, struggle to improve? After various experiences of working with many teams - during projects, workshops and presentations - I think I know ... and I already checked that out. Time to share..."
   language: 11
-  speakers: [adwa]
+  speakers: [ralo]
 -
   id: 30605
-  title: ""
+  title: "You?"
   description: ""
   language: 12
-  speakers: [adwa]
+  speakers: []
 -
   id: 30701
-  title: ""
-  description: ""
+  title: "Working with logs"
+  description: "Most developers in their work have probably dealt with logging frameworks as nowadays almost any non-trivial application makes use of them. Although there exists a large number of logging frameworks that manage to get their job done right, it is still difficult to find a program that would help analyze the log files. Most of the time the developer ends up using popular tools like \"\"grep | less\"\".\r\n<br />\r\nIn this session I will briefly discuss:\r\n<ul>\r\n<li>how to organize logs<\/ li>\r\n<li>what is useful about logs<\/ li>\r\n<li>how to browse logs and what are the available tools<\/ li>\r\n<li>how to cope with legacy code.<\/ li>\r\n<\/ul>"
   language: 1
-  speakers: [adwa]
+  speakers: [krot]
 -
   id: 30702
-  title: ""
-  description: ""
+  title: "Capacity Testing with Docker"
+  description: "We use Docker at eBay. And we love it! With Docker, we have increased the performance of our capacity tests by 5 times! The only issue we had was the plethora of parameters to start each Docker instance. \r\n\r\nWouldn’t it be better to have all your containers defined in one place?\r\nIt turns out, that’s exactly what we can do. With a neat tool called Fig.\r\n\r\nIn this talk, I will explore how we manage our mocks, and how this has helped us to drastically reduce our testing time and setup complexity.  By the end of this talk, you will know how to use Fig, and the Docker API, to manage your images."
   language: 5
-  speakers: [adwa]
+  speakers: [dabr]
 -
   id: 30703
-  title: ""
-  description: ""
+  title: "What Can We Really Learn from Martial Arts?"
+  description: "<p>As software geeks we live in a culture which displays a certain affinity towards terminology of martial arts. Particularly Japanese Martial Arts seem to offer a certain fascination. We execute Katas, attend Dojos, and perform Randoris.\r\nAre these terms even accurate? Can we maybe learn more from the world of martial arts? <\/p><p>\r\nIn this talk I will present the experiences I have made during two decades of learning and teaching different martial arts and explore how they might apply to learning, teaching and the practice of software development.\r\n<\/p>\r\n\r\n"
   language: 7
-  speakers: [adwa]
+  speakers: [fafo]
 -
   id: 30704
-  title: ""
-  description: ""
+  title: "Tips and tricks for clean relational db schemas"
+  description: "<p>It can be usual for software developers to let the ORM take care of the database schema.\r\n<\/p><p>\r\nIn many cases it's a bad idea as it makes the data stored in your database brittle and hard to use confidently.\r\n<\/p><p>\r\n\r\nI'll show a few tricks which will help you cleanly store and query data by using your database engine to its full power.<\/p>"
   language: 11
-  speakers: [adwa]
+  speakers: [clde]
 -
   id: 30705
-  title: ""
+  title: "You?"
   description: ""
   language: 12
-  speakers: [adwa]
+  speakers: []
 -
   id: 30801
-  title: ""
-  description: ""
+  title: "WordPress.com & The Future of Work"
+  description: "What will the ideal workplace of the future be like? Berkun\r\nwent to work at WordPress.com, the 7th-most-trafficked website in the\r\nU.S., to find out. All 300 employees work remotely, launch new code\r\ndaily,\r\nand barely ever use email. He wrote about what he learned in The Year\r\nWithout Pants (An Amazon.com best book of 2013). He share all the\r\ninsights\r\nhe learned about creativity, productivity, and leadership from a kind of\r\nworkplace that might be in everyone's future."
   language: 1
-  speakers: [adwa]
+  speakers: [scbe]

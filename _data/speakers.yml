@@ -167,9 +167,9 @@
   bio: "Etiene is a Brazilian engineering student currently in exchange in France. She is the Lead developer of Sailor, a web MVC framework written in Lua programming language and founder of LuaLadies, an user group of women who program in Lua. She is also a feminist and an open source advocate."
   thumbnailUrl: "http://speakers2015.s3.amazonaws.com/75_speaker.jpg"
 -
-  id: "fa f"
+  id: "fafo"
   name: "Fabian"
-  surname: " Förster"
+  surname: "Förster"
   bio: "I am a Software engineer Deutsche Post E-Post Development who cares about the quality of the products which I help building. My definition of quality spans from writing clean code and meaningful tests to maintainability and how the software behaves in its natural habitat, i.e. not in my IDE but in production. When not building backend components of distributed systems or APIs, I care about my family, martial arts and medieval archery. I am enthusiastic about polyglot programming, DevOps and Science Fiction."
   thumbnailUrl: "http://speakers2015.s3.amazonaws.com/28_speaker.png"
 -
@@ -203,7 +203,7 @@
   bio: "Currently working for eBay as a Software Engineer in Test and Adobe before that. With a strong leaning towards the more technical side of testing, she’s interested in learning all aspects of the craft and is a big fan of challenging assumptions of what a tester is or isn’t “supposed” to do."
   thumbnailUrl: "http://speakers2015.s3.amazonaws.com/36_speaker.png"
 -
-  id: "ivl�"
+  id: "ivlo"
   name: "Iván"
   surname: "López"
   bio: "\u003cp\u003eIván is a Software Engineer and Systems Administrator with 13 years of experience. He discovered Grails 5 years ago and since then he develops almost exclusively using Groovy. He is the creator of Bokzuy.com and some Grails plugins like Postgresql-Extensions and Slug-Generator.\u003c/p\u003e\u003cp\u003e\r\nHe\u0027s also the coordinator of the Madrid Groovy User Group (@madridgug) and the co-organizer of the Greach Conference (http://greach.es).\u003c/p\u003e"
