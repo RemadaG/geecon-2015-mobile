@@ -12,7 +12,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: GeeCON 2015
 email: ""
-description: "Let's move the JAva world!"
+description: "Let's move the Java world!"
 baseurl: "/geecon-2015-mobile"
 url: "http://geecon.org"
 permalink: "/blog/:title"
@@ -29,11 +29,7 @@ organizerLogo: ""
 organizerLink: ""
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
-socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
-socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+metaKeywords: "GeeCON, JVM, Java, Scala"
 
 # Navigation
 navigationLinks:
