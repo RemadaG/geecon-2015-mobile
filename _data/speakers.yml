@@ -23,6 +23,12 @@
   bio: "Developers mentor, maths enthusiast"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/67/Fusinska.jpg"
 -
+  id: "barwit"
+  name: "Bartłomiej"
+  surname: "Witczak"
+  bio: "Eager to learn, JS and JVM passionate"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/122/bartek.jpg"
+-
   id: "chrbat"
   name: "Christopher"
   surname: "Batey"
@@ -117,7 +123,7 @@
   name: "Julian"
   surname: "Warszawski"
   bio: "Fighting dogmas with science for almost 10 years. Architect at Envestnet, coding fintech stuff"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/101/Julian.jpg"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/101/julian.jpg"
 -
   id: "kasmro"
   name: "Kasia"
@@ -149,12 +155,6 @@
   bio: "Compiler engineer @ Guidewire Software"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/85/Luca.jpg"
 -
-  id: "mahtam"
-  name: "Mahomed"
-  surname: "Taman"
-  bio: "Enterprise Architect & Software Development Manager, Java Champions, Author, speaker"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/106/Mahomed.jpg"
--
   id: "manber"
   name: "Manuel"
   surname: "Bernhardt"
@@ -185,6 +185,12 @@
   bio: "Performance gangster at Real Logic"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/56/mt.jpg"
 -
+  id: "matdym"
+  name: "Mateusz"
+  surname: "Dymczyk"
+  bio: "Machine learning without a Ph.D."
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/121/mateusz.jpg"
+-
   id: "matrev"
   name: "Matthew"
   surname: "Revell"
@@ -197,6 +203,12 @@
   bio: "'Both-ends' developer, software wizard in SoftwareMill"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/112/michal.jpg"
 -
+  id: "mohtam"
+  name: "Mohamed"
+  surname: "Taman"
+  bio: "Enterprise Architect & Software Development Manager, Java Champions, Author, speaker"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/106/Mahomed.jpg"
+-
   id: "navsur"
   name: "Navin"
   surname: "Surtani"
@@ -208,6 +220,12 @@
   surname: "Fränkel"
   bio: "Java Geek, through and through"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/63/Nicolas.jpeg"
+-
+  id: "osvgri"
+  name: "Osvaldas"
+  surname: "Grigas"
+  bio: "Polyglot developer, facilitator of Clojure meetups and Coderetreats"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/123/osvaldas.jpg"
 -
   id: "patpap"
   name: "Patroklos"
@@ -287,14 +305,32 @@
   bio: "Kick-Ass Developer Motivator"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/79/svenpeters.jpg"
 -
+  id: "timpet"
+  name: "Tim"
+  surname: "Pettersen"
+  bio: "Senior Java Developer at Atlassian"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/118/tim.jpg"
+-
   id: "tomsta"
   name: "Tomasz"
   surname: "Stachlewski"
   bio: "Solutions Architect at Amazon Web Services"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/108/TStachlewski.jpg"
 -
+  id: "tomduc"
+  name: "Tomasz"
+  surname: "Ducin"
+  bio: "Modern JavaScript addict, architect and software consultant at Cybercom Poland"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/119/tomasz.jpg"
+-
   id: "tomgab"
   name: "Tomer"
   surname: "Gabel"
   bio: "A programming junkie and computer history aficionado"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/95/tomer.jpg"
+-
+  id: "yegbug"
+  name: "Yegor"
+  surname: "Bugayenko"
+  bio: "CTO @ Teamed.io and architect at Takes.org"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/120/yegor.jpg"
