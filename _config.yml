@@ -34,7 +34,6 @@ metaKeywords: "GeeCON, JVM, Java, Scala"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/speakers-list-2", text: "speakers-list-2"}
 
 # Speakers List Block
 showSessions: true
