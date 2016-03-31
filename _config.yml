@@ -10,7 +10,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: GeeCON 2015
+title: GeeCON 2016
 email: ""
 description: "Let's move the Java world!"
 baseurl: "/geecon-2015-mobile"
@@ -34,6 +34,7 @@ metaKeywords: "GeeCON, JVM, Java, Scala"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
+ - {permalink: "/speakers-list-2", text: "speakers-list-2"}
 
 # Speakers List Block
 showSessions: true
