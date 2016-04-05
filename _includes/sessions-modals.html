@@ -3,6 +3,9 @@
 	{% for session in site.data.sessions %}
 		<div class="modal fade text-left people-modal" id="sessionDetail-{{ session.id }}" tabindex="-1" role="dialog" aria-labelledby="sessionDetailLabel-{{ session.id }}" aria-hidden="true">
 			<div class="modal-dialog">
+				<script>
+					console.log('aaa');window.scrollTo(0, 0);console.log('bbb');
+				</script>
 				<div class="modal-content">
 					<div class="modal-body">
 						<div class="close">
@@ -71,7 +74,4 @@
 		</div>
 	{% endfor %}
 </div>
-<script>
-	alert('aaa');window.scrollTo(0, 0);alert('bbb');
-</script>
 <!-- End Speakers Modals -->
