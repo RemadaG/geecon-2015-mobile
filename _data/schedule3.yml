@@ -1,7 +1,7 @@
 - 
   date: "2015-05-13"
-  dateReadable: "13 MAY - CONFERENCE DAY 1"
-  tracks: 
+  dateReadable: "13 MAY - CONFERENCE DAY 3"
+  tracks:
     - {title: "Track 1", color: "#fbb531"}
     - {title: "Track 2", color: "#fbb531"}
     - {title: "Track 3", color: "#fbb531"}
@@ -10,7 +10,7 @@
     - {
     	startTime: "09:00",
     	endTime: "10:00",
-    	sessionIds: [901]
+    	sessionIds: [910, 910, 910, 910]
     }
     - {
         startTime: "10:00",
@@ -20,7 +20,7 @@
     - {
     	startTime: "10:20",
     	endTime: "11:20",
-    	sessionIds: [909]
+    	sessionIds: [910, 910, 910, 910]
     }
     - {
     	startTime: "11:20",
@@ -30,7 +30,7 @@
     - {
     	startTime: "11:40",
     	endTime: "12:40",
-    	sessionIds: [910, 57, 79, 910]
+    	sessionIds: [910, 910, 910, 910]
     }
     - {
     	startTime: "12:40",
@@ -40,7 +40,7 @@
     - {
     	startTime: "13:30",
     	endTime: "14:30",
-    	sessionIds: [63, 910, 99, 92]
+    	sessionIds: [910, 910, 910, 910]
     }
     - {
     	startTime: "14:30",
@@ -49,8 +49,13 @@
     }
     - {
     	startTime: "14:40",
+    	endTime: "15:10",
+    	sessionIds: [910, 910, 910, 910]
+    }
+    - {
+    	startTime: "15:10",
     	endTime: "15:40",
-    	sessionIds: [910, 83, 910, 910]
+    	sessionIds: [910, 910, 910, 100]
     }
     - {
     	startTime: "15:40",
@@ -60,7 +65,7 @@
     - {
     	startTime: "16:00",
     	endTime: "17:00",
-    	sessionIds: [910, 910, 86, 102]
+    	sessionIds: [910, 910, 910, 910]
     }
     - {
     	startTime: "17:00",
@@ -70,5 +75,5 @@
     - {
     	startTime: "17:10",
     	endTime: "18:10",
-    	sessionIds: [910, 910, 910, 910]
+    	sessionIds: [910]
     }
