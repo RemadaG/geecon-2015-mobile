@@ -207,7 +207,7 @@
   title: "Java 9 Modularity in Action"
   description: "With Java 9, modularity comes to your doorstep (whether you ordered it or not). This isn't your average language feature: making the most out of it may involve rewiring your brain. In this session we explore the benefits of a modular codebase using Java 9 modules. Because who doesn’t like more reliable and secure applications, meanwhile killing the dreaded classpath?  After reviewing the basic concepts of modules, we'll explore modularity patterns that enhance your design and development skills. We all have existing software, so migration of codebases to a modular world is an important topic as well. Automatic modules, the 'unnamed' module and other new concepts are added to your toolbox to this end.  Want examples? We've got plenty in this practical and code-driven talk. Even if you intend to use Java 9 without modules, this talk helps you prevent common issues. You'll be ready for Java 9 before you know it."
   language: 123
-  speakers: [paubak]
+  speakers: [paubak, sanmak]
 -
   id: 57
   title: "Get Out of Your Comfort Zone!"
@@ -226,12 +226,6 @@
   description: "Moving to a distributed system will solve all your problems and you will be in developer heaven. Right? Not exactly, having hundreds of services doing different things means it's increasingly difficult knowing where exactly production issues are hiding.   In this talk Sam Elamin will relate his real life experience working on a distributed system dealing with £100,000 worth of transactions every hour. Sam will cover monitoring and how to develop your features based on how your customers use your platform and, most importantly, business metrics.  Sam will cover how to implement metrics in your application and setting up dashboards to gaining visibility into what is happening in your production system right now. We'll also go through some helpful techniques to help you convince your domain experts that gaining this insight is invaluable to keeping your competitive advantage.  As an extra treat come and see how JUSTEAT time travels in production, using open source software that can be set up in a matter of days!"
   language: 123
   speakers: [samela]
--
-  id: 59
-  title: "Java 9 Modularity in Action"
-  description: "With Java 9, modularity comes to your doorstep (whether you ordered it or not). This isn't your average language feature: making the most out of it may involve rewiring your brain. In this session we explore the benefits of a modular codebase using Java 9 modules. Because who doesn’t like more reliable and secure applications, meanwhile killing the dreaded classpath?  After reviewing the basic concepts of modules, we'll explore modularity patterns that enhance your design and development skills. We all have existing software, so migration of codebases to a modular world is an important topic as well. Automatic modules, the 'unnamed' module and other new concepts are added to your toolbox to this end.  Want examples? We've got plenty in this practical and code-driven talk. Even if you intend to use Java 9 without modules, this talk helps you prevent common issues. You'll be ready for Java 9 before you know it."
-  language: 123
-  speakers: [sanmak]
 -
   id: 109
   title: "Code Review - how to do it better?"
