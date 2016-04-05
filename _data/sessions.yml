@@ -17,6 +17,12 @@
   language: 123
   speakers: [barfus]
 -
+  id: 115
+  title: "Flux - new/old approach to building frontend"
+  description: "We all know that in Javascript world everything is changing at the speed of light with bunch of new libraries, frameworks, and build tools coming out almost every day. At first, I imagined React and Flux as another set of JS toys. However, after working quite a bit with React it turned out to be completely different than I initially thought. It is only a VIEW layer. As opposed to frameworks like AngularJS, it does not imply neither structure nor architecture of our code.  Nowadays applications become larger, more complicated and grow faster than ever. As a result, we need nicely decoupled, more maintainable codebase. This is where Flux comes in handy. It encourages one-way data binding, which simplifies reasoning about application flow a lot and removes spaghetti dependencies between components. So is MVC the easy approach and Flux the simple one?  During my talk I will show live-coded examples of React with Flux application. I will also demonstrate how to structure out codebase and connect all elements."
+  language: 123
+  speakers: [barwit]
+-
   id: 100
   title: "Java and Docker, a good idea?"
   description: " Containers are the latest hype. I think it goes without saying that Docker for the development environment is a good thing but what about running our production Java applications inside a container?    The first question is why? It is already common practise to build self contained executable jars that only depend on a JRE being installed, what does a container actually give a pure Java shop? At Sky we've gone down this route for one main reason: Utilisation. We used to run single purpose VMs, which for production still make sense but for our countless test environments it is prohibitively expensive and even with IaaS it is still too slow to provision new environments and bootstrap new applications. This talk will be focussing on the downsides / lessons learned from running JVMs inside containers. We'll cover:   <br>- A brief summary of the benefits of running a Java application inside a container <br>- An in depth view of the downsides and complexities of running a Java application inside a container. <br>- Tuning memory limits, the heap is the easy bit: a limit needs to be made up of Heap, Native memory, Metaspace, Stacks to avoid being OOM killed <br>- Demo of tracking native memory with jcmd <br>- What tools should you include in your container for debugging / analysis e.g the Swiss Java Tools https://github.com/aragozin/jvm-tools <br>- Tuning thread numbers for various frameworks/servers e.g. Jetty, Tomcat, Ratpack, GC <br>- Motivation for moving to non-blocking frameworks like Ratpack to avoid the cost of a thread per request"
@@ -78,8 +84,8 @@
   speakers: [johjan]
 -
   id: 91
-  title: "Patterns for Effective Disaster Delivery"
-  description: "Assemblage of behaviors and phenomena affecting people within software teams, that have negative or even disastrous effect on teams and products. Commonly we refer to those as 'anti-patterns'. It is essential, especially for those without diverse experience to be able to recognize when bad things happen in front of us and to be able to react on them. This presentation is aimed to help software engineers become good citizens of our industry and to help our profession grow up of its state of a teenager. It is about time!"
+  title: "Greenfield effect: Patterns for Effective Disaster Delivery"
+  description: "How does that happen that codebase so lean at start, end up as catastrophe? How is it that team of experienced professionals delivers a shameful ball of mud? What is the genesis of a programming disaster? This presentation is aimed at all project stakeholders to help them understand how does a software product grow, evolve and decay. We will identify behaviors and phenomena affecting people and code, that have negative or even disastrous effects on teams and products. Commonly we refer to those as 'anti-patterns'. It is essential, especially for those without diverse experience to be able to recognize when bad things happen, to be able to name them and act on them. After this talk you will understand how to be a good citizen of our industry and how to help this profession grow up of its state of a teenager. It is about time!"
   language: 123
   speakers: [julwar]
 -
@@ -89,15 +95,15 @@
   language: 123
   speakers: [kasmro]
 -
-  id: 97
-  title: "What we can learn from Smalltalk"
-  description: "Programming languages have always been about offer developers better metaphors to express abstractions. It is without a doubt that Object Orientation has been hugely successful and the language that best supported that metaphor was Smalltalk. Though work started on Smalltalk in 1969, to this day, Smalltalk remains as the model language for supporting OO. In this lighting talk we’ll look at a short history of Smalltalk, it’s influence on Java and what we can still learn from this exceptional body of work."
-  language: 123
-  speakers: [kirpep]
--
   id: 96
   title: "Moving to G1GC"
   description: "One of the quieter changes that will come with Java 9 is that Garbage First (G1GC) will replace the Parallel collector as  the default garbage collector. These two collectors are as different as night in day. In this talk we’ll explore some of these differences and how they will potentially impact the throughput and responsiveness of your application. In addition, we’ll look at some of the current sore points in the G1GC as well as some tuning strategies to help you cope with them."
+  language: 123
+  speakers: [kirpep]
+-
+  id: 97
+  title: "What we can learn from Smalltalk"
+  description: "Programming languages have always been about offer developers better metaphors to express abstractions. It is without a doubt that Object Orientation has been hugely successful and the language that best supported that metaphor was Smalltalk. Though work started on Smalltalk in 1969, to this day, Smalltalk remains as the model language for supporting OO. In this lighting talk we’ll look at a short history of Smalltalk, it’s influence on Java and what we can still learn from this exceptional body of work."
   language: 123
   speakers: [kirpep]
 -
@@ -117,13 +123,7 @@
   title: "Introduction to Gosu - A professional language for the JVM"
   description: "Gosu is a modern, flexible language for the JVM.  It uniquely serves as both a concise scripting language and as a powerful general purpose language used for building large enterprise applications. This presentation provides a quick tour of the basics and then moves on to cover some interesting features and type system highlights.  The talk concludes with information regarding Gosu's open source projects, tooling, and roadmap."
   language: 123
-  speakers: [lucboa]
--
-  id: 95
-  title: "Top 10 Key Performance Techniques 4 Hybrid mobile"
-  description: "It is an easy task to develop, and deploy your hybrid mobile apps to your favorite stores, and get it ready for your client. But what about your application performance, is it fine tweaked for your audience devices. Writing HTML5, CSS3, and JavaScript code is an easy task for web and desktop developers. But very different when we talk about mobile devices.   Is your application consume your customer battery?, is it a data hungry application to consume your customer bandwidth?, Take to much memory? , is it slow or even too slow?, is it , is it …. etc. questions about performance. Okay lets see in this session how to keep in mind a very important top 10 key performance techniques while we architecting and developing our hybrid mobile applications to avoid performance issues, with coding examples.   You’ll learn how to enhance your mobile applications performance, by implementing those top 10 performance concepts. So what are you waiting for, click to enroll."
-  language: 123
-  speakers: [mahtam]
+  speakers: [lucboa, scomck]
 -
   id: 58
   title: "Beyond the hype: a reactive web app in practice"
@@ -155,6 +155,12 @@
   language: 123
   speakers: [martho]
 -
+  id: 114
+  title: "Machine Learning for (JVM) developers"
+  description: "Extracting useful information from all the data that overflows our software systems nowadays is becoming more and more of a challenge. Machine learning is one way to tackle this problem. While you certainly do not need a Ph.D. in it or a degree in mathematics/statistics to start using it in your application with the help of existing frameworks but you do need to understand a plethora of new terms and concepts to get the best of it which might seem daunting.  In this talk/live coding session we will:<br>  - talk about what exactly machine learning is and how can we benefit from it<br> - see what are our options on the JVM<br> - define common terminology and see how can it be implemented on the JVM using Scala, Spark and MLlib<br> - define all the steps needed to create a good machine learning component<br> - implement few basic ML apps<br> - point out the challenges which 'big data' brings  Since it will be a talk for beginners I promise I will keep all the math to the necessary minimum."
+  language: 123
+  speakers: [matdym]
+-
   id: 76
   title: "Full Stack Development with Node.js and NoSQL"
   description: "In this session we'll talk about what is different about this generation of web applications and how a solid development approach must consider the latency, throughput and interactivity demand by users across both mobile devices, web browsers, and IoT.  We will demonstrate how to include Couchbase in such applications to support a flexible data model and easy scalability required for modern development. We will demonstrate how to create a full stack application focusing on the CEAN stack which is composed of Couchbase, Express Framework, AngularJS, and Node.js."
@@ -166,6 +172,12 @@
   description: "These days 'full-stack development' means more than simply coding stuff ranging from pretty UI down to DB access. Sometimes it's required to be able set up set of staging/production boxes, automate deployments and then maintain this infrastructure setup over time. Let me show you Ansible and start setting up your infrastructure like a pro. This talk will be based on my experience from real life project, where we used Ansible to build multi-server cloud infrastructure from scratch and set up deployment for JVM-based app."
   language: 123
   speakers: [micost]
+-
+  id: 95
+  title: "Top 10 Key Performance Techniques 4 Hybrid mobile"
+  description: "It is an easy task to develop, and deploy your hybrid mobile apps to your favorite stores, and get it ready for your client. But what about your application performance, is it fine tweaked for your audience devices. Writing HTML5, CSS3, and JavaScript code is an easy task for web and desktop developers. But very different when we talk about mobile devices.   Is your application consume your customer battery?, is it a data hungry application to consume your customer bandwidth?, Take to much memory? , is it slow or even too slow?, is it , is it …. etc. questions about performance. Okay lets see in this session how to keep in mind a very important top 10 key performance techniques while we architecting and developing our hybrid mobile applications to avoid performance issues, with coding examples.   You’ll learn how to enhance your mobile applications performance, by implementing those top 10 performance concepts. So what are you waiting for, click to enroll."
+  language: 123
+  speakers: [mohtam]
 -
   id: 105
   title: "Automate your legacy deployments"
@@ -179,6 +191,12 @@
   language: 123
   speakers: [nicfrä]
 -
+  id: 116
+  title: "Life without Objects"
+  description: "Clojure is a nice language for illustrating functional design concepts.  Transitioning from OOP to functional style can be quite challenging, not least because OO developers are used to modeling nouns but not verbs. Programming languages like Clojure use functions as primary means of abstraction, so one is forced to try out other approaches to design.  Assuming basic familiarity with the fundamentals of FP like immutability and purity, we will explore new ways of designing things, doing composition and polymorphism. Fear not! What you have learned about good OO design can be applied to FP, in obvious and sometimes weird ways. After all, an object is just a collection of partially applied functions.  Oh, and we won't need monads for any of this."
+  language: 123
+  speakers: [osvgri]
+-
   id: 77
   title: "Technical Debt demystified and simply explained"
   description: "It's time to demystify this little monster hidden in our codebase. In this talk I will explain in simple words - with some cool parallelisms - what is technical debt, who creates it (not you of course) ,and how it affects the long-liveliness, maintainability and stability of a software system. The session structure will go more or less like this  • Introduction to Technical Debt and its flavors • Expressing and computing Technical Debt • Eliminating and Preventing • Eliminating and Preventing"
@@ -189,7 +207,7 @@
   title: "Java 9 Modularity in Action"
   description: "With Java 9, modularity comes to your doorstep (whether you ordered it or not). This isn't your average language feature: making the most out of it may involve rewiring your brain. In this session we explore the benefits of a modular codebase using Java 9 modules. Because who doesn’t like more reliable and secure applications, meanwhile killing the dreaded classpath?  After reviewing the basic concepts of modules, we'll explore modularity patterns that enhance your design and development skills. We all have existing software, so migration of codebases to a modular world is an important topic as well. Automatic modules, the 'unnamed' module and other new concepts are added to your toolbox to this end.  Want examples? We've got plenty in this practical and code-driven talk. Even if you intend to use Java 9 without modules, this talk helps you prevent common issues. You'll be ready for Java 9 before you know it."
   language: 123
-  speakers: [paubak]
+  speakers: [paubak, sanmak]
 -
   id: 57
   title: "Get Out of Your Comfort Zone!"
@@ -208,18 +226,6 @@
   description: "Moving to a distributed system will solve all your problems and you will be in developer heaven. Right? Not exactly, having hundreds of services doing different things means it's increasingly difficult knowing where exactly production issues are hiding.   In this talk Sam Elamin will relate his real life experience working on a distributed system dealing with £100,000 worth of transactions every hour. Sam will cover monitoring and how to develop your features based on how your customers use your platform and, most importantly, business metrics.  Sam will cover how to implement metrics in your application and setting up dashboards to gaining visibility into what is happening in your production system right now. We'll also go through some helpful techniques to help you convince your domain experts that gaining this insight is invaluable to keeping your competitive advantage.  As an extra treat come and see how JUSTEAT time travels in production, using open source software that can be set up in a matter of days!"
   language: 123
   speakers: [samela]
--
-  id: 59
-  title: "Java 9 Modularity in Action"
-  description: "With Java 9, modularity comes to your doorstep (whether you ordered it or not). This isn't your average language feature: making the most out of it may involve rewiring your brain. In this session we explore the benefits of a modular codebase using Java 9 modules. Because who doesn’t like more reliable and secure applications, meanwhile killing the dreaded classpath?  After reviewing the basic concepts of modules, we'll explore modularity patterns that enhance your design and development skills. We all have existing software, so migration of codebases to a modular world is an important topic as well. Automatic modules, the 'unnamed' module and other new concepts are added to your toolbox to this end.  Want examples? We've got plenty in this practical and code-driven talk. Even if you intend to use Java 9 without modules, this talk helps you prevent common issues. You'll be ready for Java 9 before you know it."
-  language: 123
-  speakers: [sanmak]
--
-  id: 102
-  title: "Introduction to Gosu - A professional language for the JVM"
-  description: "Gosu is a modern, flexible language for the JVM.  It uniquely serves as both a concise scripting language and as a powerful general purpose language used for building large enterprise applications. This presentation provides a quick tour of the basics and then moves on to cover some interesting features and type system highlights.  The talk concludes with information regarding Gosu's open source projects, tooling, and roadmap."
-  language: 123
-  speakers: [scomck]
 -
   id: 109
   title: "Code Review - how to do it better?"
@@ -251,38 +257,62 @@
   language: 123
   speakers: [svepet]
 -
+  id: 110
+  title: "Better living through pull requests"
+  description: "Code reviews mean slightly better code at the cost of extra developer time, right? Wrong! Code reviews not only improve your code, they share knowledge, increase team cohesion and improve your company's 'bus factor' by an order of magnitude. In this fast-paced, entertaining talk I'll show participants some of the unexpected and undersung benefits of peer code review. Come along to find out why teams that aren't regularly reviewing code probably shouldn't let their developers attend Geecon!"
+  language: 123
+  speakers: [timpet]
+-
   id: 99
   title: "Serverless Architecture in the Cloud – AWS Lambda"
   description: "The objective of the presentation is to present the concept of servless architecture in the Cloud – in which the user doesn’t need to worry about underlying infrastructure: about scaling, provisioning and managing servers. The presentation shows how using Lambda the user can accomplish those goals. The user can just upload his code (Java, Node.JS, Python) and Lambda takes care of everything required to run and scale code with high availability. The main goal of the presentation is to show how this new approach of building backend applications can significantly accelerate the time needed to build systems, reduce the costs, and simplify the administration and designing of systems."
   language: 123
   speakers: [tomsta]
 -
-  id: 901
-  title: "Registration & breakfast"
-  service: true
--
-  id: 902
-  title: "Breakfast"
-  service: true
--
-  id: 904
-  title: "Break"
-  service: true
-  description: "The best time to take coffee or juice"
--
-  id: 905
-  title: "Coffee Break"
-  service: true
-  description: "The best time to talk with speakers and attendees"
--
-  id: 906
-  title: "Lunch Break"
-  service: true
--
-  id: 909
-  title: "Opening ceremony"
+  id: 111
+  title: "Backend-less Development revisited"
+  description: "'It's obvious that SPA interfaces rely on RESTful APIs'. But does it have to be like this always? Tight-coupling between interfaces and APIs result in great development issues. Backend-less development is an emerging approach of decoupling the two sides, enabling them to be developed independently.   The costs and the benefits of mocking the entire API. The three possible architectural approaches in doing so. Mock engine examples in Angular.js and sinon.js. Simulating business logic in mocks using plain JavaScript and JSONs. Using JSON Schema do generate massive amounts of mock data on the fly. The technical and business aspects of separating frontend and backend - these are the topics I will cover."
   language: 123
+  speakers: [tomduc]
 -
-  id: 910
-  title: "TBD"
+  id: 113
+  title: "How shit works: Storage"
+  description: "The beautiful thing about software engineering is that it gives you the warm and fuzzy illusion of total understanding: I control this machine because I know how it operates. This is the result of layers upon layers of successful abstractions, which hide immense sophistication and complexity. As with any abstraction, though, these sometimes leak, and that's when a good grounding in what's under the hood pays off.  This first in what will hopefully be a series of talks covers the fundamentals of storage, providing an overview of the three storage tiers commonly found on modern platforms (hard drives, RAM and CPU cache). You'll come away knowing a little bit about a lot of different moving parts under the hood; after all, isn't understanding how the machine operates what this is all about?"
   language: 123
+  speakers: [tomgab]
+-
+  id: 112
+  title: "Need Robust Software? Make It Fragile"
+  description: "In any software project, the goal is to create something stable. We don't want it to break in front of a user. We also don't want our website to show an 'internal application error' instead of a web page. We want our software to work, not fail. That's a perfectly valid and logical desire, but in order to achieve that, we have to make our software as fragile as possible. This may sound counter-intuitive, but that's the way it is. The more fragile your app is in development, the more robust it is in production. I will demonstrate, with practical Java examples, what Fail Fast means and how it helps us make software more stable."
+  language: 123
+  speakers: [yegbug]
+-
+ id: 901
+ title: "Registration & breakfast"
+ service: true
+-
+ id: 902
+ title: "Breakfast"
+ service: true
+-
+ id: 904
+ title: "Break"
+ service: true
+ description: "The best time to take coffee or juice"
+-
+ id: 905
+ title: "Coffee Break"
+ service: true
+ description: "The best time to talk with speakers and attendees"
+-
+ id: 906
+ title: "Lunch Break"
+ service: true
+-
+ id: 909
+ title: "Opening ceremony & Keynote"
+ language: 123
+-
+ id: 910
+ title: "TBD"
+ language: 123
