@@ -11,6 +11,12 @@
   bio: "SVP Engineering, Gilt"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/61/Trenaman.jpg"
 -
+  id: "andgrz"
+  name: "Andrzej"
+  surname: "Grzesik"
+  bio: "Programmer, biker and book lover"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/136/ags.jpg"
+-
   id: "anibor"
   name: "Ania"
   surname: "Borowiec"
@@ -34,12 +40,6 @@
   surname: "Batey"
   bio: "Freelance Software Engineer"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/109/christopher.jpg"
--
-  id: "cyrmar"
-  name: "Cyrille"
-  surname: "Martraire"
-  bio: "Domain-Driven Design, patterns, BDD & TDD enthusiast. CTO @Arollafr"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/55/cyrille.jpg"
 -
   id: "dirmah"
   name: "Dirk"
@@ -82,6 +82,12 @@
   surname: "Elias"
   bio: "Java developer, Agile practitioner, and Continuous Delivery enthusiast at IG Index"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/130/ge.jpg"
+-
+  id: "jackun"
+  name: "Jacek"
+  surname: "Kunicki"
+  bio: "Passionate Software Engineer @ SoftwareMill"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/134/jkunicki.jpg"
 -
   id: "jakkub"
   name: "Jakub"
@@ -299,6 +305,12 @@
   bio: "Scala Developer at VirtusLab"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/125/piotr.jpg"
 -
+  id: "pragup"
+  name: "Praveer"
+  surname: "Gupta"
+  bio: "Application Developer at ThoughtWorks"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/135/preverg.jpg"
+-
   id: "rusmeh"
   name: "Rustam"
   surname: "Mehmandarov"
@@ -383,6 +395,12 @@ Speaker"
   surname: "Gabel"
   bio: "A programming junkie and computer history aficionado"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/95/tomer.jpg"
+-
+  id: "vikfar"
+  name: "Viktor"
+  surname: "Farcic"
+  bio: "Senior Consultant at CloudBees"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/137/viktorf.jpg"
 -
   id: "yegbug"
   name: "Yegor"
