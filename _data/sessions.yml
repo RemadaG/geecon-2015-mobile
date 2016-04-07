@@ -59,15 +59,15 @@
   language: 123
   speakers: [dmijem]
 -
-  id: 135
-  title: "Functions & Materialized Views in Cassandra 3.0"
-  description: "Cassandra is evolving at a very fast pace and keeps introducing new features that close the gap with traditional SQL world, but they are always designed with a distributed approach in mind. First we'll throw an eye at the recent user-defined functions and show how they can improve your application performance and enrich your analytics use-cases. Next, a tour on the materialized views, a major improvement that drastically changes the way people model data in Cassandra and makes developers' life easier!"
-  language: 123
-  speakers: [duydoa]
--
   id: 79
   title: "Apache Zeppelin for your Big Data ecosystem"
   description: "If you are interested in Big Data, you surely have heard about Spark, but do you know Apache Zeppelin ? Do you know that it is possible to draw out beautiful graph using an user-friendly interface out of your Spark RDD ? In this session, I will introduce Zeppelin by live coding example and highlight its modular architecture which allows you to plug-in any interpreter for the back-end of your choice."
+  language: 123
+  speakers: [duydoa]
+-
+  id: 135
+  title: "Functions & Materialized Views in Cassandra 3.0"
+  description: "Cassandra is evolving at a very fast pace and keeps introducing new features that close the gap with traditional SQL world, but they are always designed with a distributed approach in mind. First we'll throw an eye at the recent user-defined functions and show how they can improve your application performance and enrich your analytics use-cases. Next, a tour on the materialized views, a major improvement that drastically changes the way people model data in Cassandra and makes developers' life easier!"
   language: 123
   speakers: [duydoa]
 -
@@ -149,15 +149,15 @@
   language: 123
   speakers: [johsma]
 -
-  id: 132
-  title: "Cloud Native Java"
-  description: "“It is not necessary to change. Survival is not mandatory.” -W. Edwards DemingWork takes time to flow through an organization and ultimately be deployed to production where it captures value. It’s critical to reduce time-to-production. Software - for many organizations and industries - is a competitive advantage.Organizations break their larger software ambitions into smaller, independently deployable, feature -centric batches of work - microservices. In order to reduce the round-trip between stations of work, organizations collapse or consolidate as much of them as possible and automate the rest; developers and operations beget “devops,” cloud-based services and platforms (like Cloud Foundry) automate operations work and break down the need for ITIL tickets and change management boards.But velocity, for velocity’s sake, is dangerous. Microservices invite architectural complexity that few are prepared to address. In this talk, we’ll look at how high performance organizations like Ticketmaster, Alibaba, and Netflix make short work of that complexity with Spring Boot and Spring Cloud."
-  language: 123
-  speakers: [joslon]
--
   id: 124
   title: "The Bootiful Application"
   description: "Alright, so maybe 'bootiful' won't ever work, but I tried, and it was worth it too because you're reading this. Spring Boot, the new convention-over-configuration centric framework from the Spring team at Pivotal, marries Spring's flexibility with conventional, common sense defaults to make application development not just fly, but pleasant! Spring Boot aims to make address the common functional and non-functional requirements that gate quickly moving to production.Join Spring developer advocate Josh Long for a look at what Spring Boot is, why it's turning heads, why you should consider it for your next application (REST, micro services, web, batch, big data, integration, whatever!) and how to get started."
+  language: 123
+  speakers: [joslon]
+-
+  id: 132
+  title: "Cloud Native Java"
+  description: "“It is not necessary to change. Survival is not mandatory.” -W. Edwards DemingWork takes time to flow through an organization and ultimately be deployed to production where it captures value. It’s critical to reduce time-to-production. Software - for many organizations and industries - is a competitive advantage.Organizations break their larger software ambitions into smaller, independently deployable, feature -centric batches of work - microservices. In order to reduce the round-trip between stations of work, organizations collapse or consolidate as much of them as possible and automate the rest; developers and operations beget “devops,” cloud-based services and platforms (like Cloud Foundry) automate operations work and break down the need for ITIL tickets and change management boards.But velocity, for velocity’s sake, is dangerous. Microservices invite architectural complexity that few are prepared to address. In this talk, we’ll look at how high performance organizations like Ticketmaster, Alibaba, and Netflix make short work of that complexity with Spring Boot and Spring Cloud."
   language: 123
   speakers: [joslon]
 -
@@ -166,6 +166,12 @@
   description: "How does that happen that codebase so lean at start, end up as catastrophe? How is it that team of experienced professionals delivers a shameful ball of mud? What is the genesis of a programming disaster? This presentation is aimed at all project stakeholders to help them understand how does a software product grow, evolve and decay. We will identify behaviors and phenomena affecting people and code, that have negative or even disastrous effects on teams and products. Commonly we refer to those as 'anti-patterns'. It is essential, especially for those without diverse experience to be able to recognize when bad things happen, to be able to name them and act on them. After this talk you will understand how to be a good citizen of our industry and how to help this profession grow up of its state of a teenager. It is about time!"
   language: 123
   speakers: [julwar]
+-
+  id: 143
+  title: "Creating Jenkins pipelines with groovy-based DSL"
+  description: "It's already 2016, you have automated build for your application, provisioning and creation of new environments, you have suite of automated tests, automated CD pipeline capable of deploying to production, basically you automate all the things, yet you create CI jobs manually. I bet you can automate that as well. In this live coding session I'll show you how to leverage Jenkins job-dsl plugin and its groovy-based DSL to create CI jobs and CD pipelines that you can put under version control and recreate in seconds. Along the way we'll also take a brief look at Jenkins internals and see some groovy goodies."
+  language: 123
+  speakers: [kamszy]
 -
   id: 103
   title: "Make your data beautiful!"
@@ -239,15 +245,15 @@
   language: 123
   speakers: [marhec]
 -
-  id: 87
-  title: "Top 10 Performance Mistakes"
-  description: "Building high-performance systems is tough they say. Today this is especially tough since a lot of the common wisdom for what makes a system high-performance is misleading at best, and often just plain wrong. This talk aims to expose the common mistakes and folklore related to building high-performance systems. Building efficient systems with pretty good performance can be a whole lot easier if you avoid the common mistakes.  Martin will cover his updated Top 10 performance mistakes that even experts building high-performance trading or big data systems often fall prey to. Taking an approach of 'measure everything' has been an enlightening education into what works, and what doesn't, when trying to achieve high-throughput at low-latencies. Topics covered will include Java, concurrency, operating systems, functional programming, and how hardware really works."
-  language: 123
-  speakers: [martho]
--
   id: 128
   title: "A quest for predictable latency with Java concurrency"
   description: "Concurrent programming with locks is hard. Concurrent programming without using locks can be really hard. Concurrent programming with relaxed memory ordering and predictable latency semantics is said to be only for wizards. This talk focuses on a decade long quest to discover algorithms and data structures that provide very high throughput while keeping latency low and predictable. Additionally, data structures need to provide real-time telemetry on how a system is performing via non-blocking operations.We will cover some fundamental theory of concurrency and then compare various approaches to the same problem so that we can measure the impact on latency. We'll also show how some of these algorithm implementations get more interesting given the new features in Java 8.This talk is aimed at programmers interested in advanced concurrency who want to develop algorithms with predictable response times at all levels of throughput which push our modern CPUs to the limit."
+  language: 123
+  speakers: [martho]
+-
+  id: 87
+  title: "Top 10 Performance Mistakes"
+  description: "Building high-performance systems is tough they say. Today this is especially tough since a lot of the common wisdom for what makes a system high-performance is misleading at best, and often just plain wrong. This talk aims to expose the common mistakes and folklore related to building high-performance systems. Building efficient systems with pretty good performance can be a whole lot easier if you avoid the common mistakes.  Martin will cover his updated Top 10 performance mistakes that even experts building high-performance trading or big data systems often fall prey to. Taking an approach of 'measure everything' has been an enlightening education into what works, and what doesn't, when trying to achieve high-throughput at low-latencies. Topics covered will include Java, concurrency, operating systems, functional programming, and how hardware really works."
   language: 123
   speakers: [martho]
 -
@@ -298,6 +304,12 @@
   description: "For some time, I've been teaching myself Android by developing an application. I tried to use the 'right' development stack with libraries such as Dagger 2 and Butterknife. Kotlin is a JMV-based language provided by JetBrains, along with Anko, a library using Kotlin dedicated for Android. At first, I just wanted to play with both, but I quickly became convinced those were right choices. In this talk, I will show what you can achieve with both so you can supercharge your Android-Fu"
   language: 123
   speakers: [nicfrä]
+-
+  id: 142
+  title: "Confidence in the frontend with Elm"
+  description: "During the last few years, more and more logic in web applications has shifted to the frontend. Technologies like AngularJS, React and Redux have made it reasonable to build large apps that run in the users' browsers. However, being a fully dynamic language with no guarantees, JavaScript can easily get unwieldy as the project scope grows. With static typing and an incredibly helpful compiler, Elm can alleviate these problems.Elm is a fun contemporary language designed for building UI applications. It compiles to standard JavaScript. With this talk, you will gain an understanding of developing in Elm feels like in practice. In particular, you will learn why using the language leads to an unprecedented confidence in frontend development.  "
+  language: 123
+  speakers: [osshan]
 -
   id: 116
   title: "Life without Objects"
@@ -424,6 +436,12 @@
   description: "In any software project, the goal is to create something stable. We don't want it to break in front of a user. We also don't want our website to show an 'internal application error' instead of a web page. We want our software to work, not fail. That's a perfectly valid and logical desire, but in order to achieve that, we have to make our software as fragile as possible. This may sound counter-intuitive, but that's the way it is. The more fragile your app is in development, the more robust it is in production. I will demonstrate, with practical Java examples, what Fail Fast means and how it helps us make software more stable."
   language: 123
   speakers: [yegbug]
+-
+  id: 144
+  title: "Lift framework in 45 minutes"
+  description: "In 45 minutes I want to build a full blown web app based on Lift framework to show of its key features"
+  language: 123
+  speakers: [łuklen]
 -
  id: 901
  title: "Registration & breakfast"

@@ -149,6 +149,12 @@
   bio: "Fighting dogmas with science for almost 10 years. Architect at Envestnet, coding fintech stuff"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/101/julian.jpg"
 -
+  id: "kamszy"
+  name: "Kamil"
+  surname: "Szymański"
+  bio: "software developer, JVM & open-source enthusiast"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/139/kamil.jpg"
+-
   id: "kasmro"
   name: "Kasia"
   surname: "Mrowca"
@@ -268,6 +274,12 @@
   surname: "Fränkel"
   bio: "Java Geek, through and through"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/63/Nicolas.jpeg"
+-
+  id: "osshan"
+  name: "Ossi"
+  surname: "Hanhinen"
+  bio: "Web frontend expert at @futurice. The main contributor behind Elm Native UI"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/138/ossih.jpeg"
 -
   id: "osvgri"
   name: "Osvaldas"
@@ -407,3 +419,9 @@ Speaker"
   surname: "Bugayenko"
   bio: "CTO @ Teamed.io and architect at Takes.org"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/120/yegor.jpg"
+-
+  id: "łuklen"
+  name: "Łukasz"
+  surname: "Lenart"
+  bio: "Life hacker with positive attitude but sometimes he's losing his faith in humanity"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/140/ll.jpg"
