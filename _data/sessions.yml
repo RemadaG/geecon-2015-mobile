@@ -29,6 +29,12 @@
   language: 123
   speakers: [chrbat]
 -
+  id: 122
+  title: "jQAssistant - Verfiy Your Design And Architecture"
+  description: "Static code analysis tools provide very fast and valuable feedback on potential bugs or violations of coding guidelines. The latter often include rules on the level of design and architecture but tools often operate on a lower level of abstraction as needed, i.e. language elements like Java packages or classes. Furthermore it is often quite difficult to express individual rules which are only valid for a certain project.  The talk presents the approach behind the open source software analytics tool jQAssistant: It can be plugged into the build process and allows scanning of relevant structural information like Java packages, classes and Maven descriptors into a Neo4j graph database and applying rules to them. These rules are written as developer documentation in Asciidoc containing queries which may enrich the data by common technical or user defined concepts from the design or architecture language of the project, e.g. Entity, Repository, Module, Layer etc. Based on these abstractions constraints can be expressed like 'all JPA entities must be located in packages named model' or 'service layers must only depend on repositories but not on UI controllers'."
+  language: 123
+  speakers: [dirmah]
+-
   id: 106
   title: "Caught in the Act: Kotlin Bytecode Generation and Runtime Performance"
   description: "In this talk, we'll dive into the details of how various language features supported by Kotlin are translated to Java bytecode. We'll use the JMH microbenchmarking tool to study the relative performance of various constructs and to understand how we can ensure top performance of the Kotlin code that we write."
@@ -53,11 +59,29 @@
   language: 123
   speakers: [geewie]
 -
+  id: 133
+  title: "PrivateEye"
+  description: "In this talk we will sleuth into what is privateeye. We will turn our detective skills on how your application actually work and we will do it using nothing but a REPL. You know how to code, let's code through a murder mystery together."
+  language: 123
+  speakers: [greyou]
+-
+  id: 125
+  title: "Agile vs the fear of the white blank page"
+  description: "Imagine this: the biggest bank in Singapore. Huge waterfall system. Extremely vertical structure. Projects that take years to deliver. And you arrive there, with your laptop and a product to integrate with their systems. You mention Agile and Continuous Delivery and managers look at you with skepticism. The rest of the team you have to work with tilt their heads a bit with a question in their eyes: Agile? So you take a deep breath, take out your laptop, your cards, a few sharpies and get ready to start. Let the game begin! The talk starts with the fear of the blank white page. Given a group of people that ranges from “I once read a blog post about Agile” to “Agile what?”, how does one get started? First step: introduce concepts like Continuous Delivery, Pair Programming, iterations, cross-functional team, and so on. Once the team has been briefed on the basics of Agile, it’s time to talk about the tools. Although this decision had been made for us this particular case, there are plenty of tools in the market that can be used, and the challenge is to introduce them to the team, show how useful they can be, and make use of them. After the tools, it’s time for the rituals. Stand up, planning, sprint review and retrospective. Taking the role of Scrum Master during the learning period, drive all of these meetings with the aid of the team. Just one brief example to show the complexity of this step: time-tracking. It is never easy to convert man-days into complexity. Once the machine is running, it’s time to oil the gears. There’s always friction in change, and very few things runs smoothly from the start. But Agile is all about adapting itself to its users needs. And during the oiling, little by little, start giving responsibilities to the team members while slowly removing them from yourself. Start rotating the role of Scrum Master during the stand up; let the team drive the retrospectives and argue about what improvements should be done; let other team members decide on the complexity of the stories, and whether they should be split into smaller tasks. And finally, take a step back and look at the team running on its own without needing your help anymore. That feeling of satisfaction is the reward of a job well done."
+  language: 123
+  speakers: [guseli]
+-
   id: 81
   title: "JVM Internals for developers"
   description: "For developers using Java on a daily basis, JVM is a pretty important component - it runs our software. But it is usually treated like a magic box, which takes code in and produces business features. Have you ever thought about what you are missing with such an approach? During my talk I'll cover some of the JVM internals which should not be avoided even during regular Java development. We'll discuss real differences between primitives and their wrappers, talk about the cost of using lambdas and streams, see what really gets erased in the type erasure process and what we can gain by removing stacktrace from our business exceptions."
   language: 123
   speakers: [jakkub]
+-
+  id: 134
+  title: "Learning modern JavaScript without node.js"
+  description: "People have mixed feelings about JavaScript (me included). On one hand, JavaScript is easy to bash - you know all the PHP joke, ain't you; on the other - whatever can be written in JavaScript, will be written (Atwood Law, 2007). So, no matter what you do know - getting familiar with JavaScript is not a question why but when. And if you haven't tried it yet - this is a session for you. Whenever you try to start - with which ever framework / library - it usually starts with an infamous `npm install {library-to-try}` and quickly new things come into play: gulp, grunt etc. It's like in Java, everything starts with Maven / Gradle dependency. However, when you start fresh - these all just make the learning curve steeper.  In this session I'll make a digestible walk through a set of JavaScript tools, technologies, conventions, which can make it easy for you (a backend engineer) get on the JavaScript bandwagon. Obviously, there will be a flavour of node, npm, build tools in it - but not in the first place. They will come kind of naturally.  "
+  language: 123
+  speakers: [jakmar]
 -
   id: 78
   title: "Composing Music in the Cloud"
@@ -71,6 +95,12 @@
   language: 123
   speakers: [jarpał]
 -
+  id: 126
+  title: "Lisp in the machine"
+  description: "TBD"
+  language: 123
+  speakers: [joenas]
+-
   id: 86
   title: "Hands-on Apache NiFi"
   description: "While Apache NiFi provides out-of-the-box support to build powerful and scalable directed graphs of data routing, transformation, and system mediation logic, some times 'the world is not enough'. Roll up your sleeves and put your hands on the keyboard as this hands-on talk structured as a set of quick tutorials will take you through a journey of developing in NiFi. It will cover extension points such as Processor, ControllerService, ReportingTasks as well as other less known areas of NiFi internals, sharing some tips and tricks along the way."
@@ -82,6 +112,24 @@
   description: " Last year we started a new Internet of Things project: The Internet of (Lego) Trains. In our normal jobs we use languages like Java and Scala to build applications for large organizations running on big servers. We wanted to find out if we could use the same languages and tools on IoT hardware. We also wanted to investigate whether or not (remote) actors could replace REST endpoints in our applications. We used Lego trains and Raspberry Pi’s as a sample project.    The Lego trains are equipped with a Raspberry Pi, camera, wireless dongle, infrared transmitter, speaker, RFID reader and battery pack. Next to that we have automated switch tracks and camera's again with the help of Raspberry Pi's. We also build some lightning effects with LEDs controlled by Particle Photon’s. On top of that we also automated a Lego ferris wheel. To control the trains and other parts we built an remote actor based application with Scala, Akka, Akka HTTP and AngularJS."
   language: 123
   speakers: [johjan]
+-
+  id: 131
+  title: "Twelve BDD Antipatterns - stories from the trenches about how NOT to do BDD"
+  description: "Behaviour Driven Development is a powerful collaboration technique that can empower teams to deliver higher value features to the business faster and more effectively. But although Behaviour Driven Development is based on a number of simple principles, it can go dramatically wrong in a myriad of different ways.In this talk John will discuss twelve BDD anti-patterns that you will frequently encounter in real-world BDD projects; these are anti-patterns that can dramatically reduce the effectiveness of BDD as a practice, and that can even cause BDD adoption to fail entirely!>/p>"
+  language: 123
+  speakers: [johsma]
+-
+  id: 132
+  title: "Cloud Native Java"
+  description: "“It is not necessary to change. Survival is not mandatory.” -W. Edwards DemingWork takes time to flow through an organization and ultimately be deployed to production where it captures value. It’s critical to reduce time-to-production. Software - for many organizations and industries - is a competitive advantage.Organizations break their larger software ambitions into smaller, independently deployable, feature -centric batches of work - microservices. In order to reduce the round-trip between stations of work, organizations collapse or consolidate as much of them as possible and automate the rest; developers and operations beget “devops,” cloud-based services and platforms (like Cloud Foundry) automate operations work and break down the need for ITIL tickets and change management boards.But velocity, for velocity’s sake, is dangerous. Microservices invite architectural complexity that few are prepared to address. In this talk, we’ll look at how high performance organizations like Ticketmaster, Alibaba, and Netflix make short work of that complexity with Spring Boot and Spring Cloud."
+  language: 123
+  speakers: [joslon]
+-
+  id: 124
+  title: "The Bootiful Application"
+  description: "Alright, so maybe 'bootiful' won't ever work, but I tried, and it was worth it too because you're reading this. Spring Boot, the new convention-over-configuration centric framework from the Spring team at Pivotal, marries Spring's flexibility with conventional, common sense defaults to make application development not just fly, but pleasant! Spring Boot aims to make address the common functional and non-functional requirements that gate quickly moving to production.Join Spring developer advocate Josh Long for a look at what Spring Boot is, why it's turning heads, why you should consider it for your next application (REST, micro services, web, batch, big data, integration, whatever!) and how to get started."
+  language: 123
+  speakers: [joslon]
 -
   id: 91
   title: "Greenfield effect: Patterns for Effective Disaster Delivery"
@@ -95,17 +143,23 @@
   language: 123
   speakers: [kasmro]
 -
+  id: 97
+  title: "What we can learn from Smalltalk"
+  description: "Programming languages have always been about offer developers better metaphors to express abstractions. It is without a doubt that Object Orientation has been hugely successful and the language that best supported that metaphor was Smalltalk. Though work started on Smalltalk in 1969, to this day, Smalltalk remains as the model language for supporting OO. In this lighting talk we’ll look at a short history of Smalltalk, it’s influence on Java and what we can still learn from this exceptional body of work."
+  language: 123
+  speakers: [kirpep]
+-
   id: 96
   title: "Moving to G1GC"
   description: "One of the quieter changes that will come with Java 9 is that Garbage First (G1GC) will replace the Parallel collector as  the default garbage collector. These two collectors are as different as night in day. In this talk we’ll explore some of these differences and how they will potentially impact the throughput and responsiveness of your application. In addition, we’ll look at some of the current sore points in the G1GC as well as some tuning strategies to help you cope with them."
   language: 123
   speakers: [kirpep]
 -
-  id: 97
-  title: "What we can learn from Smalltalk"
-  description: "Programming languages have always been about offer developers better metaphors to express abstractions. It is without a doubt that Object Orientation has been hugely successful and the language that best supported that metaphor was Smalltalk. Though work started on Smalltalk in 1969, to this day, Smalltalk remains as the model language for supporting OO. In this lighting talk we’ll look at a short history of Smalltalk, it’s influence on Java and what we can still learn from this exceptional body of work."
+  id: 120
+  title: "Akka Streams made Live (what they're all about)"
+  description: "In this talk we'll have a deeper look into Akka Streams (the implementation) and Reactive Streams (the standard). The term streams has been recently pretty overloaded, so we'll disambiguate what streams are and what they aren't. We'll dive into a number of real life scenarios where applying back-pressure helps to keep your systems fast and healthy at the same time. We'll mostly focus on the Akka Streams implementation, but the general principles apply to any kind of asynchronous programming."
   language: 123
-  speakers: [kirpep]
+  speakers: [konmal]
 -
   id: 93
   title: "Beat Aliens with Akka Cluster"
@@ -118,6 +172,12 @@
   description: "RxJava seems to be this awesome thing that every cool kids start using. But when you read about it, half of the time it's hard to make anything out of it. Sure the isolated examples look nice but it's always hard to put this in perspective with a real app.  In this talk I'll go through an application made to store, index and search files. We'll see the benefit brought by using RxJava and Ratpack. Nothing too complicated or advanced, just something pragmatic."
   language: 123
   speakers: [laudog]
+-
+  id: 117
+  title: "What Does 'Diversity in Tech' Really Mean, Anyway?"
+  description: "In this interactive talk, Zalando Open Source Evangelist Lauri Apple will ask the audience to define what 'diversity in tech' means to them, before sharing her own perspective (based on research, case studies, and some personal observations). She'll then talk about bias, focusing on ways that unconscious biases influence the makeup of our tech teams, the industry, and the way we define 'diversity.' Finally, she'll suggest ways that technologists can use common agile practices to promote diversity in their teams and workplaces--citing some case studies/examples from Zalando's implementation of agile practices."
+  language: 123
+  speakers: [lauapp]
 -
   id: 102
   title: "Introduction to Gosu - A professional language for the JVM"
@@ -149,6 +209,12 @@
   language: 123
   speakers: [marhec]
 -
+  id: 128
+  title: "A quest for predictable latency with Java concurrency"
+  description: "Concurrent programming with locks is hard. Concurrent programming without using locks can be really hard. Concurrent programming with relaxed memory ordering and predictable latency semantics is said to be only for wizards. This talk focuses on a decade long quest to discover algorithms and data structures that provide very high throughput while keeping latency low and predictable. Additionally, data structures need to provide real-time telemetry on how a system is performing via non-blocking operations.We will cover some fundamental theory of concurrency and then compare various approaches to the same problem so that we can measure the impact on latency. We'll also show how some of these algorithm implementations get more interesting given the new features in Java 8.This talk is aimed at programmers interested in advanced concurrency who want to develop algorithms with predictable response times at all levels of throughput which push our modern CPUs to the limit."
+  language: 123
+  speakers: [martho]
+-
   id: 87
   title: "Top 10 Performance Mistakes"
   description: "Building high-performance systems is tough they say. Today this is especially tough since a lot of the common wisdom for what makes a system high-performance is misleading at best, and often just plain wrong. This talk aims to expose the common mistakes and folklore related to building high-performance systems. Building efficient systems with pretty good performance can be a whole lot easier if you avoid the common mistakes.  Martin will cover his updated Top 10 performance mistakes that even experts building high-performance trading or big data systems often fall prey to. Taking an approach of 'measure everything' has been an enlightening education into what works, and what doesn't, when trying to achieve high-throughput at low-latencies. Topics covered will include Java, concurrency, operating systems, functional programming, and how hardware really works."
@@ -167,11 +233,23 @@
   language: 123
   speakers: [matrev]
 -
+  id: 121
+  title: "Testing Patience"
+  description: "Automated testing is widely considered a best practice. After considerable effort, the industry now agrees that unit testing, system testing, usability, and performance testing are essential in most serious development efforts, but we know that they are hard work. In this keynote, Michael Feathers will discuss challenges to the testing orthodoxy presented by micro-services, transient code, and functional programming, and reflect on where we might find ourselves in 10 years."
+  language: 123
+  speakers: [micfea]
+-
   id: 104
   title: "Don't fear the devops. Taming servers infrastructure with Ansible"
   description: "These days 'full-stack development' means more than simply coding stuff ranging from pretty UI down to DB access. Sometimes it's required to be able set up set of staging/production boxes, automate deployments and then maintain this infrastructure setup over time. Let me show you Ansible and start setting up your infrastructure like a pro. This talk will be based on my experience from real life project, where we used Ansible to build multi-server cloud infrastructure from scratch and set up deployment for JVM-based app."
   language: 123
   speakers: [micost]
+-
+  id: 129
+  title: "Building multiplayer game using Reactive Streams"
+  description: "This talk introduces streams and reactive streams. You will learn how stream-based programming can be used to implement web frontend and multiplayer backend of the classic game: Snake. Creating dynamic applications using imperative approach tends to create lots of unmaintainable code. Stream-based programming tries to solve this problem by introducing fully declarative way of defining application logic. While using streams, you will focus on what needs to be done, not how and when. The talk is divided into 3 parts. In the first part you will learn how to create a frontend of the Snake web game using streams as building blocks. Then, we will move to the server side and use Scala and Akka Stream library to create backend service that will allow the game to be played by multiple players. In the third part, we will discuss reactive streams and how they make asynchronous communication safe."
+  language: 123
+  speakers: [micpła]
 -
   id: 95
   title: "Top 10 Key Performance Techniques 4 Hybrid mobile"
@@ -215,11 +293,17 @@
   language: 123
   speakers: [petvan]
 -
-  id: 85
-  title: "100% Remote and Distributed - Living the dream"
-  description: " We often talk about remote work being the future of most office jobs (development included) - and an increasing number of companies have started to offer remote positions as part of the spec. With this we have also seen a number of complaints that this just doesn't work and even see companies ceasing the practise altogether.    I have been fortunate enough to be working in a company for two years that doesn't even have an office to be 'on-site' in. The directors, developers and salesmen all work at home or wherever they may be in the world. I myself have just kept on travelling and getting work done whenever it feels convenient to do so.     I feel I have learned a lot of valuable lessons as part of this as contrast to nearly a decade of enterprise and start-up experience - how does this actually work? What happens when you're 14 hours around the world from each other? How do you know if you're working enough if you're not working 9-5 or how do you avoid working too much? How do you know what to work on? How do you stay up to date with each other? Is it even for everyone? Some of these answers from the company I work for will surprise even other remote workers."
+  id: 118
+  title: "Augmented Reality in Scala.js"
+  description: "During the talk I would like to present Scala.js capabilities and show how to use it together with other existing solutions to build something working and usable quickly.  Key theme of the talk will be augmented reality application, which I will incrementally build during the course of the presentation. I will use camera connected to the laptop to present all the changes, so attendants will be able to monitor progress in the real-time. I will start with simple features like point-tracking, to quickly build something much more impressive.  Some code will be written in Scala during the presentation, but I will also use several existing javascript libraries to speed up the progress. Among others I plan to use WebRTC for camera support and Three.js to handle graphics. The main emphasis of the presentation will be on how to wire all parts together to take advantage of various ecosystems. I do not plan to go very deep into image analysis algorithms or Scala.js internals. I want to make this presentation interesting even to people who had no prior experience with Scala."
   language: 123
-  speakers: [robash]
+  speakers: [piokuk]
+-
+  id: 119
+  title: "Field Notes of a Command Line Ninja"
+  description: "Have you ever witnessed someone write fancy commands and perform magic from the console. Have you ever wished you could learn, or brush up on, those skills too? Maybe you want to be more effective at your everyday tasks, or need a new topic for the next family dinner? Join us and learn some awesome command line ninja skills. You will be able to find something new no matter your level of experience.   The audience will get a chance to show off their skills as well, and there will be small prizes to contributors. The black belt and a little surprise await you at the end of this talk.  You can bring your PC with you and hack-along! All you need is a PC or a Mac running OS of your choice - Windows, Linux, or Mac OS. Windows users are advised to have their cmd.exe ready, and to install Cygwin."
+  language: 123
+  speakers: [rusmeh]
 -
   id: 63
   title: "MDD: Metrics Driven Development"

@@ -41,6 +41,12 @@
   bio: "Domain-Driven Design, patterns, BDD & TDD enthusiast. CTO @Arollafr"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/55/cyrille.jpg"
 -
+  id: "dirmah"
+  name: "Dirk"
+  surname: "Mahler"
+  bio: "Senior consultant in the area of Java EE technologies"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/129/dirk.jpg"
+-
   id: "dmijem"
   name: "Dmitry"
   surname: "Jemerov"
@@ -71,11 +77,23 @@
   bio: "Independent consultant and entrepreneur"
   thumbnailUrl: "https://gcp-15.s3.amazonaws.com/speakers/54/greg.jpg"
 -
+  id: "guseli"
+  name: "Gustavo"
+  surname: "Elias"
+  bio: "Java developer, Agile practitioner, and Continuous Delivery enthusiast at IG Index"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/130/ge.jpg"
+-
   id: "jakkub"
   name: "Jakub"
   surname: "Kubryński"
   bio: "Co-Founder of DevSKiller and Codearte"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/89/jakub.jpg"
+-
+  id: "jakmar"
+  name: "Jakub"
+  surname: "Marchwicki"
+  bio: "Just everyday normal guy"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/132/marchewa.jpg"
 -
   id: "jamwea"
   name: "James"
@@ -137,6 +155,12 @@
   bio: "Independent consultant offering Java performance-training and consulting services"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/99/KirkPepperdine.jpg"
 -
+  id: "konmal"
+  name: "Konrad"
+  surname: "Malawski"
+  bio: "Akka hakker @ Lightbend Reactive Streams TCK author, JavaOne SF Program Committee member and more!"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/127/konrad.jpg"
+-
   id: "krzotr"
   name: "Krzysztof"
   surname: "Otrębski"
@@ -148,6 +172,12 @@
   surname: "Doguin"
   bio: "Couchbase Developer Advocate for Java developers and the French community, Devoxx Champion"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/105/Laurent.jpg"
+-
+  id: "lauapp"
+  name: "Lauri"
+  surname: "Apple"
+  bio: "Open Source Evangelist at Zalando"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/124/lauri.jpg"
 -
   id: "lucboa"
   name: "Luca"
@@ -197,11 +227,23 @@
   bio: "NoSQL lover, JavaScript accepter, Developer Advocate at Couchbase"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/80/matthewrevell.jpg"
 -
+  id: "micfea"
+  name: "Michael"
+  surname: "Feathers"
+  bio: "Independent software consultant, author of Working Effectively with Legacy Code"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/128/michael.jpg"
+-
   id: "micost"
   name: "Michał"
   surname: "Ostruszka"
   bio: "'Both-ends' developer, software wizard in SoftwareMill"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/112/michal.jpg"
+-
+  id: "micpła"
+  name: "Michał"
+  surname: "Płachta"
+  bio: "Makes things alive using computers. For fun and for living"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/131/michalp.jpg"
 -
   id: "mohtam"
   name: "Mohamed"
@@ -245,11 +287,24 @@
   bio: "Community Developer @ Atlassian"
   thumbnailUrl: "https://gcp-15.s3.amazonaws.com/speakers/58/peterv.jpg"
 -
-  id: "robash"
-  name: "Rob"
-  surname: "Ashton"
-  bio: "Coffee Fuelled Erlang Developer"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/93/rob.jpg"
+  id: "petkof"
+  name: "Peter"
+  surname: "Kofler"
+  bio: "Code Cop"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/133/peterc.jpg"
+-
+  id: "piokuk"
+  name: "Piotr"
+  surname: "Kukiełka"
+  bio: "Scala Developer at VirtusLab"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/125/piotr.jpg"
+-
+  id: "rusmeh"
+  name: "Rustam"
+  surname: "Mehmandarov"
+  bio: "Passionate computer scientist. Norwegian JUG (javaBin) leader.
+Speaker"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/126/rustam.jpg"
 -
   id: "samela"
   name: "Sam"
