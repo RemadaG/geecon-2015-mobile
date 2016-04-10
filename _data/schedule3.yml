@@ -9,71 +9,76 @@
   timeslots:
     - {
     	startTime: "09:00",
-    	endTime: "10:00",
+    	endTime: "9:50",
     	sessionIds: [81, 116, 138, 129]
     }
     - {
-        startTime: "10:00",
-        endTime: "10:20",
+        startTime: "9:50",
+        endTime: "10:10",
         sessionIds: [904]
     }
     - {
-    	startTime: "10:20",
-    	endTime: "11:20",
+    	startTime: "10:10",
+    	endTime: "11:00",
     	sessionIds: [140, 112, 139, 118]
     }
     - {
-    	startTime: "11:20",
-    	endTime: "11:40",
+    	startTime: "11:00",
+    	endTime: "11:10",
     	sessionIds: [904]
     }
     - {
-    	startTime: "11:40",
-    	endTime: "12:40",
+    	startTime: "11:10",
+    	endTime: "12:00",
     	sessionIds: [59, 121, 94, 107]
     }
     - {
-    	startTime: "12:40",
-    	endTime: "13:30",
+    	startTime: "12:00",
+    	endTime: "12:50",
     	sessionIds: [906]
     }
     - {
-    	startTime: "13:30",
-    	endTime: "14:30",
+    	startTime: "12:50",
+    	endTime: "13:40",
     	sessionIds: [96, 131, 120, 78]
     }
     - {
-    	startTime: "14:30",
-    	endTime: "14:40",
+    	startTime: "13:40",
+    	endTime: "14:00",
     	sessionIds: [904]
     }
     - {
-    	startTime: "14:40",
-    	endTime: "15:10",
+    	startTime: "14:00",
+    	endTime: "14:50",
     	sessionIds: [128, 101, 58, 103]
     }
     - {
-    	startTime: "15:10",
-    	endTime: "15:40",
+    	startTime: "14:50",
+    	endTime: "15:00",
+    	sessionIds: [904]
+    }
+    - {
+    	startTime: "15:00",
+    	endTime: "15:20",
     	sessionIds: [88, 109, 111, 97]
     }
     - {
-    	startTime: "15:40",
-    	endTime: "16:00",
+    	startTime: "15:20",
+    	endTime: "15:30",
     	sessionIds: [904]
     }
+
     - {
-    	startTime: "16:00",
-    	endTime: "17:00",
+    	startTime: "15:30",
+    	endTime: "15:50",
     	sessionIds: [137, 90, 147, 110]
     }
     - {
-    	startTime: "17:00",
-    	endTime: "17:10",
+    	startTime: "15:50",
+    	endTime: "16:10",
     	sessionIds: [904]
-    }
     - {
-    	startTime: "17:10",
-    	endTime: "18:10",
-    	sessionIds: [910]
+    	startTime: "16:10",
+    	endTime: "17:00",
+    	sessionIds: [913]
     }
