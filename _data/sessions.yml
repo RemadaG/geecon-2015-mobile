@@ -484,10 +484,14 @@
  service: true
 -
  id: 909
- title: "Opening ceremony & Keynote"
+ title: "Opening ceremony"
  language: 123
 -
  id: 910
  title: "TBA"
  description: "To Be Announced"
+ language: 123
+-
+ id: 911
+ title: "Keynote"
  language: 123
