@@ -41,6 +41,18 @@
   bio: "Freelance Software Engineer"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/109/christopher.jpg"
 -
+  id: "dansaw"
+  name: "Daniel"
+  surname: "Sawano"
+  bio: "Developer, architect, public speaker, and agile dude"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/144/daniels.jpg"
+-
+  id: "dandeo"
+  name: "Daniel"
+  surname: "Deogun"
+  bio: "Coder and Quality defender"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/145/danield.jpg"
+-
   id: "dirmah"
   name: "Dirk"
   surname: "Mahler"
@@ -58,6 +70,12 @@
   surname: "Doan"
   bio: "Apache Cassandra Evangelist at Datastax"
   thumbnailUrl: "https://gcp-15.s3.amazonaws.com/speakers/84/doan.jpg"
+-
+  id: "eugpar"
+  name: "Eugen"
+  surname: "Paraschiv"
+  bio: "Spring enthusiast and consultant at Baeldung"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/143/Eugen.jpg"
 -
   id: "galzam"
   name: "Galder"
@@ -179,6 +197,12 @@
   bio: "Engineer, like to break things"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/104/Krzysiek.jpg"
 -
+  id: "largeo"
+  name: "Lars"
+  surname: "George"
+  bio: "Computer nerd, still scaling up. Co-Founder and Partner at OpenCore"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/142/Lars.jpg"
+-
   id: "laudog"
   name: "Laurent"
   surname: "Doguin"
@@ -196,6 +220,12 @@
   surname: "Boasso"
   bio: "Compiler engineer @ Guidewire Software"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/85/Luca.jpg"
+-
+  id: "luklen"
+  name: "Lukasz"
+  surname: "Lenart"
+  bio: "Life hacker with positive attitude but sometimes he's losing his faith in humanity"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/140/ll.jpg"
 -
   id: "manber"
   name: "Manuel"
@@ -278,7 +308,7 @@
   id: "osshan"
   name: "Ossi"
   surname: "Hanhinen"
-  bio: "Web frontend expert at @futurice. The main contributor behind Elm Native UI"
+  bio: "Frontend expert at Futurice"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/138/ossih.jpeg"
 -
   id: "osvgri"
@@ -316,6 +346,12 @@
   surname: "Kukiełka"
   bio: "Scala Developer at VirtusLab"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/125/piotr.jpg"
+-
+  id: "pioguz"
+  name: "Piotr"
+  surname: "Guzik"
+  bio: "Former Java developer and now Big Data engineer building data ingestion platform @Allegro"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/146/pguzik.jpg"
 -
   id: "pragup"
   name: "Praveer"
@@ -419,9 +455,3 @@ Speaker"
   surname: "Bugayenko"
   bio: "CTO @ Teamed.io and architect at Takes.org"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/120/yegor.jpg"
--
-  id: "łuklen"
-  name: "Łukasz"
-  surname: "Lenart"
-  bio: "Life hacker with positive attitude but sometimes he's losing his faith in humanity"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/140/ll.jpg"

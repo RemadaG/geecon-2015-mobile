@@ -47,6 +47,12 @@
   language: 123
   speakers: [chrbat]
 -
+  id: 146
+  title: "Beyond lambdas - the aftermath"
+  description: "As Java developers we are used to having rich ecosystems of libraries and tools that make our lives easier. As of the release of Java 8, we finally got our hands on building blocks like lambdas, optionals, and streams. All sorts of tools that help us write more concise code. But now, when the honeymoon is over, are there any downsides to Java 8 or is it a silver bullet? Are there any new anti-patterns emerging? Or subtle bugs caused by the new style of programming? Have there been any lessons learned? Are there any best practices? If you are interested in learning about the challenges encountered when moving over to a functional style of Java programming, what code constructs to avoid, and best practices to use, well then this session is for you."
+  language: 123
+  speakers: [dansaw, dandeo]
+-
   id: 122
   title: "jQAssistant - Verfiy Your Design And Architecture"
   description: "Static code analysis tools provide very fast and valuable feedback on potential bugs or violations of coding guidelines. The latter often include rules on the level of design and architecture but tools often operate on a lower level of abstraction as needed, i.e. language elements like Java packages or classes. Furthermore it is often quite difficult to express individual rules which are only valid for a certain project.  The talk presents the approach behind the open source software analytics tool jQAssistant: It can be plugged into the build process and allows scanning of relevant structural information like Java packages, classes and Maven descriptors into a Neo4j graph database and applying rules to them. These rules are written as developer documentation in Asciidoc containing queries which may enrich the data by common technical or user defined concepts from the design or architecture language of the project, e.g. Entity, Repository, Module, Layer etc. Based on these abstractions constraints can be expressed like 'all JPA entities must be located in packages named model' or 'service layers must only depend on repositories but not on UI controllers'."
@@ -59,17 +65,23 @@
   language: 123
   speakers: [dmijem]
 -
+  id: 135
+  title: "Functions & Materialized Views in Cassandra 3.0"
+  description: "Cassandra is evolving at a very fast pace and keeps introducing new features that close the gap with traditional SQL world, but they are always designed with a distributed approach in mind. First we'll throw an eye at the recent user-defined functions and show how they can improve your application performance and enrich your analytics use-cases. Next, a tour on the materialized views, a major improvement that drastically changes the way people model data in Cassandra and makes developers' life easier!"
+  language: 123
+  speakers: [duydoa]
+-
   id: 79
   title: "Apache Zeppelin for your Big Data ecosystem"
   description: "If you are interested in Big Data, you surely have heard about Spark, but do you know Apache Zeppelin ? Do you know that it is possible to draw out beautiful graph using an user-friendly interface out of your Spark RDD ? In this session, I will introduce Zeppelin by live coding example and highlight its modular architecture which allows you to plug-in any interpreter for the back-end of your choice."
   language: 123
   speakers: [duydoa]
 -
-  id: 135
-  title: "Functions & Materialized Views in Cassandra 3.0"
-  description: "Cassandra is evolving at a very fast pace and keeps introducing new features that close the gap with traditional SQL world, but they are always designed with a distributed approach in mind. First we'll throw an eye at the recent user-defined functions and show how they can improve your application performance and enrich your analytics use-cases. Next, a tour on the materialized views, a major improvement that drastically changes the way people model data in Cassandra and makes developers' life easier!"
+  id: 145
+  title: "Building HATEOAS into your API"
+  description: "This talk focuses on implementing HATEOAS into a Spring (and Spring Boot) REST API.  The first part of the presentation introduces the HATEOAS constraint, the WHY and goes over practical examples of how a Hypermedia driven API is useful from the point of view of a Client of the API.  The second part is focused on an actual implementation with Spring Hateoas and Spring Data REST."
   language: 123
-  speakers: [duydoa]
+  speakers: [eugpar]
 -
   id: 84
   title: "Distributed Java Streams with Infinispan"
@@ -221,6 +233,12 @@
   language: 123
   speakers: [lucboa, scomck]
 -
+  id: 144
+  title: "Lift framework in 45 minutes"
+  description: "In 45 minutes I want to build a full blown web app based on Lift framework to show of its key features"
+  language: 123
+  speakers: [luklen]
+-
   id: 58
   title: "Beyond the hype: a reactive web app in practice"
   description: "In this talk & live-coding session we will have a practical look at why we would want to have and what makes out how a reactive web application and how resilience, elasticity and responsiveness translate into code. We will start by having a quick theoretical introduction to asynchronous computation and then build, run and deploy a small reactive web application built with Scala, the Play Framework and Akka, exploring a few key concepts such as Futures, Actors and Circuit Breakers along the way."
@@ -245,15 +263,15 @@
   language: 123
   speakers: [marhec]
 -
-  id: 128
-  title: "A quest for predictable latency with Java concurrency"
-  description: "Concurrent programming with locks is hard. Concurrent programming without using locks can be really hard. Concurrent programming with relaxed memory ordering and predictable latency semantics is said to be only for wizards. This talk focuses on a decade long quest to discover algorithms and data structures that provide very high throughput while keeping latency low and predictable. Additionally, data structures need to provide real-time telemetry on how a system is performing via non-blocking operations.We will cover some fundamental theory of concurrency and then compare various approaches to the same problem so that we can measure the impact on latency. We'll also show how some of these algorithm implementations get more interesting given the new features in Java 8.This talk is aimed at programmers interested in advanced concurrency who want to develop algorithms with predictable response times at all levels of throughput which push our modern CPUs to the limit."
-  language: 123
-  speakers: [martho]
--
   id: 87
   title: "Top 10 Performance Mistakes"
   description: "Building high-performance systems is tough they say. Today this is especially tough since a lot of the common wisdom for what makes a system high-performance is misleading at best, and often just plain wrong. This talk aims to expose the common mistakes and folklore related to building high-performance systems. Building efficient systems with pretty good performance can be a whole lot easier if you avoid the common mistakes.  Martin will cover his updated Top 10 performance mistakes that even experts building high-performance trading or big data systems often fall prey to. Taking an approach of 'measure everything' has been an enlightening education into what works, and what doesn't, when trying to achieve high-throughput at low-latencies. Topics covered will include Java, concurrency, operating systems, functional programming, and how hardware really works."
+  language: 123
+  speakers: [martho]
+-
+  id: 128
+  title: "A quest for predictable latency with Java concurrency"
+  description: "Concurrent programming with locks is hard. Concurrent programming without using locks can be really hard. Concurrent programming with relaxed memory ordering and predictable latency semantics is said to be only for wizards. This talk focuses on a decade long quest to discover algorithms and data structures that provide very high throughput while keeping latency low and predictable. Additionally, data structures need to provide real-time telemetry on how a system is performing via non-blocking operations.We will cover some fundamental theory of concurrency and then compare various approaches to the same problem so that we can measure the impact on latency. We'll also show how some of these algorithm implementations get more interesting given the new features in Java 8.This talk is aimed at programmers interested in advanced concurrency who want to develop algorithms with predictable response times at all levels of throughput which push our modern CPUs to the limit."
   language: 123
   speakers: [martho]
 -
@@ -347,6 +365,12 @@
   language: 123
   speakers: [piokuk]
 -
+  id: 147
+  title: "From Java to Big Data - how to start?"
+  description: "During my presentation I will try to explain how to become Big Data engineer. I will show how to switch over from Java development to building Big Data systems. We will discuss the nature of batch and streaming processing of huge data. I will talk about skills that are crucial for the success. We will discuss if it becoming a DevOps is necessary to work with Big Data. I will show you the architecture of working system and explain why we have made such decisions. To get familiar with the event sourcing nature of click-stream I will talk about recalculation and enrichment of historical data. Short presentation guideline: 1) Big Data – why bother? 2) Skills that you need to become Big Data Engineer (good programming and a devops skills) 3) Typical migration path – from Java to Big Data 4) Example technology stack (Kafka, Spark, Scala, Ansible) 5) Batch processing vs Stream processing 6) Why do you have to automate deployment and become a DevOps? 7) Practical example of the architecture of Big Data system – recalculation of historical data 8) Beauty of the event source systems like click stream and it’s impact on reality"
+  language: 123
+  speakers: [pioguz]
+-
   id: 139
   title: "How to Think, in RxJava, Before Reacting"
   description: "RxJava is a library that helps in writing code using reactive paradigm. When writing programs using RxJava, the hardest part is thinking in Reactive, which requires one to let go of old imperative and stateful habits of programming, and start thinking in a different paradigm. At my work in ThoughtWorks I have been using RxJava for more that six months in production applications. My talk will be based on the knowledge that I gained and lessons that I learnt from my practical experience of RxJava. My goals from this talk are: (1) To demystify the reactive paradigms concepts for the attendees and (2) Provide enough information about the mechanics of RxJava so that attendees can straight away start experimenting with the library The topics that I will be talking about are: (1) Introduction to Reactive Programming, (2) Creating Observable (the source), (3) Creating Observer (the consumer), (4) Subscribing (connecting consumer to source), (5) Operators (for Transforming, Filtering and Combining), (6) Building Resilience (Error handling), (7) Using Concurrency (Schedulers), (8) Unit Testing Utilities"
@@ -436,12 +460,6 @@
   description: "In any software project, the goal is to create something stable. We don't want it to break in front of a user. We also don't want our website to show an 'internal application error' instead of a web page. We want our software to work, not fail. That's a perfectly valid and logical desire, but in order to achieve that, we have to make our software as fragile as possible. This may sound counter-intuitive, but that's the way it is. The more fragile your app is in development, the more robust it is in production. I will demonstrate, with practical Java examples, what Fail Fast means and how it helps us make software more stable."
   language: 123
   speakers: [yegbug]
--
-  id: 144
-  title: "Lift framework in 45 minutes"
-  description: "In 45 minutes I want to build a full blown web app based on Lift framework to show of its key features"
-  language: 123
-  speakers: [łuklen]
 -
  id: 901
  title: "Registration & breakfast"
