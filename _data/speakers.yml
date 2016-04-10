@@ -450,6 +450,12 @@ Speaker"
   bio: "Senior Consultant at CloudBees"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/137/viktorf.jpg"
 -
+  id: "wikżoł"
+  name: "Wiktor"
+  surname: "Żołnowski"
+  bio: "Agile Evangelist, agile coach, trainer, practitioner, QA, programmer, sailor"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/147/wiktor.jpg"
+-
   id: "yegbug"
   name: "Yegor"
   surname: "Bugayenko"
