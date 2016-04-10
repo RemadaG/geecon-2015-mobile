@@ -8,7 +8,12 @@
     - {title: "Track 4", color: "#fbb531"}
   timeslots:
     - {
-    	startTime: "09:00",
+      	startTime: "8:30",
+      	endTime: "9:00",
+      	sessionIds: [902]
+    }
+    - {
+    	startTime: "9:00",
     	endTime: "9:50",
     	sessionIds: [81, 116, 138, 129]
     }
