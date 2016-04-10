@@ -67,7 +67,6 @@
     	endTime: "15:30",
     	sessionIds: [904]
     }
-
     - {
     	startTime: "15:30",
     	endTime: "15:50",
@@ -77,6 +76,7 @@
     	startTime: "15:50",
     	endTime: "16:10",
     	sessionIds: [904]
+    }
     - {
     	startTime: "16:10",
     	endTime: "17:00",
