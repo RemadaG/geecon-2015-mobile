@@ -55,7 +55,7 @@
     - {
     	startTime: "14:00",
     	endTime: "14:50",
-    	sessionIds: [113, 84, 910, 143]
+    	sessionIds: [113, 84, 152, 143]
     }
     - {
     	startTime: "14:50",
@@ -85,5 +85,5 @@
     - {
     	startTime: "17:10",
     	endTime: "18:00",
-    	sessionIds: [912]
+    	sessionIds: [149]
     }

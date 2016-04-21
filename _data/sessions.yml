@@ -6,8 +6,8 @@
   speakers: [adadub]
 -
   id: 137
-  title: "Company culture"
-  description: "TBD"
+  title: "Pro-tips for Building a Great Tech Culture"
+  description: "In the last eight years, the leaders at Gilt Tech have sought to decentralise decision making, empower teams, create the conditions for innovation, get things done, and, always, keep it fun. That all sounds great, but really, is that something you can replicate in your organisation? If so, how? In this talk, I’m going to talk about some of the concrete things we do that you might adopt to help grow your own culture. And, I’m gonna share where I’ve landed some of the magic variables: team size, department size, and other golden ratios."
   language: 123
   speakers: [adrtre]
 -
@@ -54,7 +54,7 @@
   speakers: [dansaw, dandeo]
 -
   id: 122
-  title: "jQAssistant - Verfiy Your Design And Architecture"
+  title: "jQAssistant - Verify Your Design And Architecture"
   description: "Static code analysis tools provide very fast and valuable feedback on potential bugs or violations of coding guidelines. The latter often include rules on the level of design and architecture but tools often operate on a lower level of abstraction as needed, i.e. language elements like Java packages or classes. Furthermore it is often quite difficult to express individual rules which are only valid for a certain project.  The talk presents the approach behind the open source software analytics tool jQAssistant: It can be plugged into the build process and allows scanning of relevant structural information like Java packages, classes and Maven descriptors into a Neo4j graph database and applying rules to them. These rules are written as developer documentation in Asciidoc containing queries which may enrich the data by common technical or user defined concepts from the design or architecture language of the project, e.g. Entity, Repository, Module, Layer etc. Based on these abstractions constraints can be expressed like 'all JPA entities must be located in packages named model' or 'service layers must only depend on repositories but not on UI controllers'."
   language: 123
   speakers: [dirmah]
@@ -65,15 +65,15 @@
   language: 123
   speakers: [dmijem]
 -
-  id: 135
-  title: "Functions & Materialized Views in Cassandra 3.0"
-  description: "Cassandra is evolving at a very fast pace and keeps introducing new features that close the gap with traditional SQL world, but they are always designed with a distributed approach in mind. First we'll throw an eye at the recent user-defined functions and show how they can improve your application performance and enrich your analytics use-cases. Next, a tour on the materialized views, a major improvement that drastically changes the way people model data in Cassandra and makes developers' life easier!"
-  language: 123
-  speakers: [duydoa]
--
   id: 79
   title: "Apache Zeppelin for your Big Data ecosystem"
   description: "If you are interested in Big Data, you surely have heard about Spark, but do you know Apache Zeppelin ? Do you know that it is possible to draw out beautiful graph using an user-friendly interface out of your Spark RDD ? In this session, I will introduce Zeppelin by live coding example and highlight its modular architecture which allows you to plug-in any interpreter for the back-end of your choice."
+  language: 123
+  speakers: [duydoa]
+-
+  id: 135
+  title: "Functions & Materialized Views in Cassandra 3.0"
+  description: "Cassandra is evolving at a very fast pace and keeps introducing new features that close the gap with traditional SQL world, but they are always designed with a distributed approach in mind. First we'll throw an eye at the recent user-defined functions and show how they can improve your application performance and enrich your analytics use-cases. Next, a tour on the materialized views, a major improvement that drastically changes the way people model data in Cassandra and makes developers' life easier!"
   language: 123
   speakers: [duydoa]
 -
@@ -137,6 +137,12 @@
   language: 123
   speakers: [jarpał]
 -
+  id: 152
+  title: "Beyond NoSQL – Go Events / DROP DATABASE"
+  description: "Are You satisfied with JPA and Hibernate? Do You think there is nothing better than classic three tier architecture where all data is processed in so called database? Or maybe... it is just a waste of time and money and You just do not know the alternatives...    This is not going to be about NoSQL...  This is about making one step more – No DB. There will be event sourcing presented and Prevayler as persistence framework. There will be shown how to utilize all the power of the JVM and how fun programming of business applications can can be (again – hurray!). Finally, there will be discussed problems, limitations and possible further alternatives in NoDB area. "
+  language: 123
+  speakers: [jarrat]
+-
   id: 126
   title: "Lisp in the machine"
   description: "TBD"
@@ -155,15 +161,15 @@
   language: 123
   speakers: [johjan]
 -
-  id: 131
-  title: "Twelve BDD Antipatterns - stories from the trenches about how NOT to do BDD"
-  description: "Behaviour Driven Development is a powerful collaboration technique that can empower teams to deliver higher value features to the business faster and more effectively. But although Behaviour Driven Development is based on a number of simple principles, it can go dramatically wrong in a myriad of different ways.In this talk John will discuss twelve BDD anti-patterns that you will frequently encounter in real-world BDD projects; these are anti-patterns that can dramatically reduce the effectiveness of BDD as a practice, and that can even cause BDD adoption to fail entirely!>/p>"
-  language: 123
-  speakers: [johsma]
--
   id: 148
   title: "Take me on a journey - the next step in automated testing practices"
   description: "Every test tells a story, but some tell a better story than others. Every test illustrates a specific path through the system to achieve a specific goal, but some paths are clearer than others. Valuable tests are the ones that both tell a compelling story, and can stand the test of time, providing value not only as acceptance tests but also as living documentation and easily maintainable regression tests.Come on a journey of discovery to learn how to write clean, clear and maintainable tests using the Journey Pattern, an innovative new approach to writing automated acceptance tests that are easier to understand, easier to extend and easier to maintain. You will also witness a demonstration of these principles in action, with live coding of Serenity BDD automated tests."
+  language: 123
+  speakers: [johsma]
+-
+  id: 131
+  title: "Twelve BDD Antipatterns - stories from the trenches about how NOT to do BDD"
+  description: "Behaviour Driven Development is a powerful collaboration technique that can empower teams to deliver higher value features to the business faster and more effectively. But although Behaviour Driven Development is based on a number of simple principles, it can go dramatically wrong in a myriad of different ways.In this talk John will discuss twelve BDD anti-patterns that you will frequently encounter in real-world BDD projects; these are anti-patterns that can dramatically reduce the effectiveness of BDD as a practice, and that can even cause BDD adoption to fail entirely!>/p>"
   language: 123
   speakers: [johsma]
 -
@@ -197,15 +203,15 @@
   language: 123
   speakers: [kasmro]
 -
-  id: 96
-  title: "Moving to G1GC"
-  description: "One of the quieter changes that will come with Java 9 is that Garbage First (G1GC) will replace the Parallel collector as  the default garbage collector. These two collectors are as different as night in day. In this talk we’ll explore some of these differences and how they will potentially impact the throughput and responsiveness of your application. In addition, we’ll look at some of the current sore points in the G1GC as well as some tuning strategies to help you cope with them."
-  language: 123
-  speakers: [kirpep]
--
   id: 97
   title: "What we can learn from Smalltalk"
   description: "Programming languages have always been about offer developers better metaphors to express abstractions. It is without a doubt that Object Orientation has been hugely successful and the language that best supported that metaphor was Smalltalk. Though work started on Smalltalk in 1969, to this day, Smalltalk remains as the model language for supporting OO. In this lighting talk we’ll look at a short history of Smalltalk, it’s influence on Java and what we can still learn from this exceptional body of work."
+  language: 123
+  speakers: [kirpep]
+-
+  id: 96
+  title: "Moving to G1GC"
+  description: "One of the quieter changes that will come with Java 9 is that Garbage First (G1GC) will replace the Parallel collector as  the default garbage collector. These two collectors are as different as night in day. In this talk we’ll explore some of these differences and how they will potentially impact the throughput and responsiveness of your application. In addition, we’ll look at some of the current sore points in the G1GC as well as some tuning strategies to help you cope with them."
   language: 123
   speakers: [kirpep]
 -
@@ -419,6 +425,12 @@
   language: 123
   speakers: [stapaś]
 -
+  id: 151
+  title: "Julia: fast, productive, composable & generic programming"
+  description: "Consider the following properties of a programming language:<br>  1. High performance<br> 2. Simple programming model<br> 3. Composable, reusable, generic code<br>  It’s hard to get two, let alone three, of these in a single programming environment. Julia provides all three. Write straightforward code like you would in Python or Ruby; it’ll run at the speed of C – and execute the same native machine code. Unlike C, however, where each function only works for a single concrete set of types, Julia code is highly generic: the same code works for an unlimited set of types. Moreover, it’s straightforward and common to combine functionality defined in one library with types defined in others in entirely unanticipated ways – and it just works.  The secret to Julia’s composability is multiple dispatch, a programming paradigm, which is simple yet surprisingly powerful: instead of dispatching functions on just one argument – the “object” in “object-oriented” – Julia dispatches functions based on all of their arguments. How can such a simple change matter so much? In a nutshell, it lets Julia solve “the expression problem”: in object-oriented languages, extending existing operations to new types is easy, while in functional languages, adding new operations to existing types is easy – but each paradigm struggles in the other direction. Multiple dispatch allows both extensions in an intuitive, elegant manner, which turns out to have surprisingly broad benefits for writing composable and reusable libraries.  This talk will be full of live coding and examples, with all of the excitement and suspense entailed."
+  language: 123
+  speakers: [stekar]
+-
   id: 61
   title: "Defending against the dark arts of CyberCriminals"
   description: "In the emerging world of DevOps and the Cloud most developers have to learn new technologies and methodologies. The focus tends to be on adding capabilities such as resiliency and scaling to an application. One critical item consistently overlooked is security. In this talk learn about a few of the simple actions you can take (and some behaviours you must change) in creating a more secure application in the Cloud. The world of the Cyber Criminal is closer than you realise. In this talk see practical examples of how you can inadvertantly leave the doors open and what you can do to keep your system more secure."
@@ -512,10 +524,6 @@
 -
  id: 911
  title: "Keynote day 1"
- language: 123
--
- id: 912
- title: "Keynote day 2"
  language: 123
 -
  id: 913

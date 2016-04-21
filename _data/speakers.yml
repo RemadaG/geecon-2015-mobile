@@ -131,6 +131,12 @@
   bio: "Coder, architect, system thinker 'wannabe', open source contributor, still enjoying the ride"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/98/Jarek.jpg"
 -
+  id: "jarrat"
+  name: "Jarosław"
+  surname: "Ratajski"
+  bio: "Jarek Ratajski JVM Developer"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/149/jarek.jpg"
+-
   id: "joenas"
   name: "Joe"
   surname: "Nash"
@@ -401,6 +407,12 @@ Speaker"
   surname: "Paśko"
   bio: "Principal Software Development Engineer in Gdańsk Amazon Development Center"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/107/StaszekP.jpg"
+-
+  id: "stekar"
+  name: "Stefan"
+  surname: "Karpinski"
+  bio: "Co-creator of the Julia programming language and a co-founder of Julia Computing, Inc"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/148/stefan_square.jpg"
 -
   id: "stepoo"
   name: "Steve"
