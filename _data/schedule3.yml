@@ -2,10 +2,10 @@
   date: "2015-05-13"
   dateReadable: "13 MAY - CONFERENCE DAY 3"
   tracks:
-    - {title: "Track 1", color: "#fbb531"}
-    - {title: "Track 2", color: "#fbb531"}
-    - {title: "Track 3", color: "#fbb531"}
-    - {title: "Track 4", color: "#fbb531"}
+    - {title: "Room 1", color: "#fbb531"}
+    - {title: "Room 12", color: "#49abd0"}
+    - {title: "Room 11", color: "#fbb531"}
+    - {title: "Room 10", color: "#49abd0"}
   timeslots:
     - {
       	startTime: "8:30",
@@ -85,5 +85,5 @@
     - {
     	startTime: "16:10",
     	endTime: "17:00",
-    	sessionIds: [913]
+    	sessionIds: [153]
     }

@@ -2,10 +2,10 @@
   date: "2015-05-11"
   dateReadable: "11 MAY - CONFERENCE DAY 1"
   tracks: 
-    - {title: "Track 1", color: "#fbb531"}
-    - {title: "Track 2", color: "#fbb531"}
-    - {title: "Track 3", color: "#fbb531"}
-    - {title: "Track 4", color: "#fbb531"}
+    - {title: "Room 1", color: "#fbb531"}
+    - {title: "Room 12", color: "#49abd0"}
+    - {title: "Room 11", color: "#fbb531"}
+    - {title: "Room 10", color: "#49abd0"}
   timeslots:
     - {
     	startTime: "09:00",
@@ -20,7 +20,7 @@
     - {
     	startTime: "10:00",
     	endTime: "11:00",
-    	sessionIds: [911]
+    	sessionIds: [87]
     }
     - {
     	startTime: "11:00",
@@ -80,5 +80,5 @@
     - {
     	startTime: "17:10",
     	endTime: "18:00",
-    	sessionIds: [145, 75, 910, 102]
+    	sessionIds: [145, 75, 154, 102]
     }
