@@ -11,6 +11,12 @@
   bio: "SVP Engineering, Gilt"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/61/Trenaman.jpg"
 -
+  id: "amilak"
+  name: "Amira"
+  surname: "Lakhal"
+  bio: "Agile Java Scala developer at Valtech France"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/151/amira_400x400.jpeg"
+-
   id: "andgrz"
   name: "Andrzej"
   surname: "Grzesik"
@@ -22,12 +28,6 @@
   surname: "Borowiec"
   bio: "Software Engineer at Google"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/100/Ania.jpg"
--
-  id: "barfus"
-  name: "Barbara"
-  surname: "Fusińska"
-  bio: "Developers mentor, maths enthusiast"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/67/Fusinska.jpg"
 -
   id: "barwit"
   name: "Bartłomiej"
@@ -98,7 +98,7 @@
   id: "guseli"
   name: "Gustavo"
   surname: "Elias"
-  bio: "Java developer, Agile practitioner, and Continuous Delivery enthusiast at IG Index"
+  bio: "Java developer, Agile practitioner, and Continuous Delivery enthusiast at IG Group"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/130/ge.jpg"
 -
   id: "jackun"
@@ -269,6 +269,12 @@
   bio: "Machine learning without a Ph.D."
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/121/mateusz.jpg"
 -
+  id: "matfar"
+  name: "Matt"
+  surname: "Farrar"
+  bio: "Strategic thinker, visionary and inspirer"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/150/Matt_Farrar.jpg"
+-
   id: "matrev"
   name: "Matthew"
   surname: "Revell"
@@ -322,12 +328,6 @@
   surname: "Grigas"
   bio: "Polyglot developer, facilitator of Clojure meetups and Coderetreats"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/123/osvaldas.jpg"
--
-  id: "patpap"
-  name: "Patroklos"
-  surname: "Papapetrou"
-  bio: "Software Gardener, Clean Code evangelist, Agile leader"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/82/patroklos.jpg"
 -
   id: "paubak"
   name: "Paul"
@@ -384,12 +384,6 @@ Speaker"
   bio: "Sander crafts scalable software at Luminis Technologies"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/66/sanderma_jpg_120_180_400x400.jpg"
 -
-  id: "sanhoo"
-  name: "Sander"
-  surname: "Hoogendoorn"
-  bio: "Independent dad, mentor, trainer, software architect, programmer, speaker, and writer"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/81/sander.jpg"
--
   id: "scomck"
   name: "Scott"
   surname: "McKinney"
@@ -413,12 +407,6 @@ Speaker"
   surname: "Karpinski"
   bio: "Co-creator of the Julia programming language and a co-founder of Julia Computing, Inc"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/148/stefan_square.jpg"
--
-  id: "stepoo"
-  name: "Steve"
-  surname: "Poole"
-  bio: "DevOps practitioner and a long time IBM Java developer, leader and evangelist"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/65/stevep.jpg"
 -
   id: "sverup"
   name: "Sven"
