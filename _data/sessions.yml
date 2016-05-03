@@ -454,12 +454,6 @@ be used but is not, and why the lack of marketing is causing hurt."
   language: 123
   speakers: [samela]
 -
-  id: 102
-  title: "The Evolution of the Gosu Programming Language"
-  description: "Gosu is a modern, flexible language for the JVM.  It uniquely serves as both a concise scripting language and as a powerful general purpose language used for building large enterprise applications. This presentation provides a quick tour of the basics and then moves on to cover some interesting features and type system highlights.  The talk concludes with information regarding Gosu's open source projects, tooling, and roadmap."
-  language: 123
-  speakers: [scomck]
--
   id: 109
   title: "Code Review - how to do it better?"
   description: "The more complex application is the more people are working on it. The more code they're are creating, the more important is to take care of quality of this code. And Code Review is a great practice to doing it.  Yet, it happens really often that after a while, when your eagerness decreases and the amount of reviews grow, many people starts to complain.  They're looking for excuses to not have a time for the reviews. For doing it carelessly. Is it a problem? Only if you won't react. Because there's a room for improvements in here!"
