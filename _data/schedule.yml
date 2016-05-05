@@ -18,67 +18,72 @@
         sessionIds: [909]
     }
     - {
-    	startTime: "10:00",
-    	endTime: "11:00",
+        startTime: "10:00",
+        endTime: "10:30",
+        sessionIds: [155]
+    }
+    - {
+    	startTime: "10:30",
+    	endTime: "11:20",
     	sessionIds: [153]
     }
     - {
-    	startTime: "11:00",
-    	endTime: "11:20",
+    	startTime: "11:20",
+    	endTime: "11:40",
     	sessionIds: [904]
     }
     - {
-    	startTime: "11:20",
-    	endTime: "12:10",
+    	startTime: "11:40",
+    	endTime: "12:30",
     	sessionIds: [910, 57, 910, 106]
     }
     - {
-    	startTime: "12:10",
-    	endTime: "13:00",
+    	startTime: "12:30",
+    	endTime: "13:20",
     	sessionIds: [906]
     }
     - {
-    	startTime: "13:00",
-    	endTime: "13:50",
+    	startTime: "13:20",
+    	endTime: "14:10",
     	sessionIds: [132, 150, 126, 134]
     }
     - {
-    	startTime: "13:50",
-    	endTime: "14:00",
+    	startTime: "14:10",
+    	endTime: "14:20",
     	sessionIds: [904]
     }
     - {
-        startTime: "14:00",
-        endTime: "14:50",
+        startTime: "14:20",
+        endTime: "15:10",
         sessionIds: [63, 75, 99, 92]
     }
     - {
-        startTime: "14:50",
-        endTime: "15:10",
+        startTime: "15:10",
+        endTime: "15:30",
         sessionIds: [904]
     }
     - {
-        startTime: "15:10",
-        endTime: "16:00",
+        startTime: "15:30",
+        endTime: "16:20",
         sessionIds: [80, 83, 114, 133]
     }
     - {
-    	startTime: "16:00",
-    	endTime: "16:10",
+    	startTime: "16:20",
+    	endTime: "16:30",
     	sessionIds: [904]
     }
     - {
-    	startTime: "16:10",
-    	endTime: "17:00",
+    	startTime: "16:30",
+    	endTime: "17:20",
     	sessionIds: [124, 125, 86, 151]
     }
     - {
-    	startTime: "17:00",
-    	endTime: "17:10",
+    	startTime: "17:20",
+    	endTime: "17:30",
     	sessionIds: [904]
     }
     - {
-    	startTime: "17:10",
-    	endTime: "18:00",
+    	startTime: "17:30",
+    	endTime: "18:20",
     	sessionIds: [145, 118, 154, 102]
     }

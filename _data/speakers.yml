@@ -275,12 +275,6 @@
   bio: "Strategic thinker, visionary and inspirer"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/150/Matt_Farrar.jpg"
 -
-  id: "matrev"
-  name: "Matthew"
-  surname: "Revell"
-  bio: "NoSQL lover, JavaScript accepter, Developer Advocate at Couchbase"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/80/matthewrevell.jpg"
--
   id: "micfea"
   name: "Michael"
   surname: "Feathers"
