@@ -65,15 +65,15 @@
   language: ""
   speakers: [dmijem]
 -
-  id: 135
-  title: "Functions & Materialized Views in Cassandra 3.0"
-  description: "Cassandra is evolving at a very fast pace and keeps introducing new features that close the gap with traditional SQL world, but they are always designed with a distributed approach in mind. First we'll throw an eye at the recent user-defined functions and show how they can improve your application performance and enrich your analytics use-cases. Next, a tour on the materialized views, a major improvement that drastically changes the way people model data in Cassandra and makes developers' life easier!"
-  language: ""
-  speakers: [duydoa]
--
   id: 79
   title: "Apache Zeppelin for your Big Data ecosystem"
   description: "If you are interested in Big Data, you surely have heard about Spark, but do you know Apache Zeppelin ? Do you know that it is possible to draw out beautiful graph using an user-friendly interface out of your Spark RDD ? In this session, I will introduce Zeppelin by live coding example and highlight its modular architecture which allows you to plug-in any interpreter for the back-end of your choice."
+  language: ""
+  speakers: [duydoa]
+-
+  id: 135
+  title: "Functions & Materialized Views in Cassandra 3.0"
+  description: "Cassandra is evolving at a very fast pace and keeps introducing new features that close the gap with traditional SQL world, but they are always designed with a distributed approach in mind. First we'll throw an eye at the recent user-defined functions and show how they can improve your application performance and enrich your analytics use-cases. Next, a tour on the materialized views, a major improvement that drastically changes the way people model data in Cassandra and makes developers' life easier!"
   language: ""
   speakers: [duydoa]
 -
@@ -131,15 +131,15 @@
   language: ""
   speakers: [jakmar]
 -
-  id: 157
-  title: "Navigating ALL the Knowledge"
-  description: "This session demonstrates how all of the world’s knowledge may be semantically navigated by a web application that utilizes the facilities of Wikimedia.org projects (e.g. Wikipedia and Wikidata).  The web application was created specifically for this session, and demonstrates technologies that include Java, HTML5, Spring Data, Neo4j, Spring Boot, Spring Cloud, and Cloud Foundry.  The application runs in the cloud and contains/leverages several microservices.  We'll walk through lots of code during this session."
-  language: ""
-  speakers: [jamwea]
--
   id: 78
   title: "Composing Music in the Cloud"
   description: "Leveraging the power of the cloud and microservices, this session demonstrates how music can be analyzed and composed in real-time to augment musical performance with a futuristic instrument. This session contains an introduction to relevant cloud technologies, and an introduction to music theory and composition. This session also has musical demonstrations and code snippets scattered throughout.  Enabling technologies demonstrated in this session include Spring Boot and Cloud Foundry."
+  language: ""
+  speakers: [jamwea]
+-
+  id: 157
+  title: "Navigating ALL the Knowledge"
+  description: "This session demonstrates how all of the world’s knowledge may be semantically navigated by a web application that utilizes the facilities of Wikimedia.org projects (e.g. Wikipedia and Wikidata).  The web application was created specifically for this session, and demonstrates technologies that include Java, HTML5, Spring Data, Neo4j, Spring Boot, Spring Cloud, and Cloud Foundry.  The application runs in the cloud and contains/leverages several microservices.  We'll walk through lots of code during this session."
   language: ""
   speakers: [jamwea]
 -
@@ -185,15 +185,15 @@
   language: ""
   speakers: [johsma]
 -
-  id: 132
-  title: "Cloud Native Java"
-  description: "“It is not necessary to change. Survival is not mandatory.” -W. Edwards DemingWork takes time to flow through an organization and ultimately be deployed to production where it captures value. It’s critical to reduce time-to-production. Software - for many organizations and industries - is a competitive advantage.Organizations break their larger software ambitions into smaller, independently deployable, feature -centric batches of work - microservices. In order to reduce the round-trip between stations of work, organizations collapse or consolidate as much of them as possible and automate the rest; developers and operations beget “devops,” cloud-based services and platforms (like Cloud Foundry) automate operations work and break down the need for ITIL tickets and change management boards.But velocity, for velocity’s sake, is dangerous. Microservices invite architectural complexity that few are prepared to address. In this talk, we’ll look at how high performance organizations like Ticketmaster, Alibaba, and Netflix make short work of that complexity with Spring Boot and Spring Cloud."
-  language: ""
-  speakers: [joslon]
--
   id: 124
   title: "The Bootiful Application"
   description: "Alright, so maybe 'bootiful' won't ever work, but I tried, and it was worth it too because you're reading this. Spring Boot, the new convention-over-configuration centric framework from the Spring team at Pivotal, marries Spring's flexibility with conventional, common sense defaults to make application development not just fly, but pleasant! Spring Boot aims to make address the common functional and non-functional requirements that gate quickly moving to production.Join Spring developer advocate Josh Long for a look at what Spring Boot is, why it's turning heads, why you should consider it for your next application (REST, micro services, web, batch, big data, integration, whatever!) and how to get started."
+  language: ""
+  speakers: [joslon]
+-
+  id: 132
+  title: "Cloud Native Java"
+  description: "“It is not necessary to change. Survival is not mandatory.” -W. Edwards DemingWork takes time to flow through an organization and ultimately be deployed to production where it captures value. It’s critical to reduce time-to-production. Software - for many organizations and industries - is a competitive advantage.Organizations break their larger software ambitions into smaller, independently deployable, feature -centric batches of work - microservices. In order to reduce the round-trip between stations of work, organizations collapse or consolidate as much of them as possible and automate the rest; developers and operations beget “devops,” cloud-based services and platforms (like Cloud Foundry) automate operations work and break down the need for ITIL tickets and change management boards.But velocity, for velocity’s sake, is dangerous. Microservices invite architectural complexity that few are prepared to address. In this talk, we’ll look at how high performance organizations like Ticketmaster, Alibaba, and Netflix make short work of that complexity with Spring Boot and Spring Cloud."
   language: ""
   speakers: [joslon]
 -
@@ -239,6 +239,12 @@
   language: ""
   speakers: [krzotr]
 -
+  id: 149
+  title: "Big Data means Big Change"
+  description: "Introducing the new methodology of Big Data causes stress within enterprises due to its impact on existing infrastructures and processes. While an Enterprise Data Hub can be gradually introduced into IT, the impact on data pipelines is fundamental: the entire isolated, silo’ed architecture of the existing EDW is merged into a single, always available system, that requires new ways of handling every stage of the pipeline. From ingest to staging and discovery, all the way to processing and delivery, there is no need to move data, but only regulate access to it. In this talk I discuss the impact on the physical architecture, as well as organisational roles. Where in the past we have seen 6–12 months development cycles for data products, we now see continuous deployment. Where we have seen management planning long term, we now see short refresh cycles. A corporate wide data strategy is replacing departmental information segregation, and with it new opportunities arise, which requires careful change management on every organisational level. We will be looking into roles such as management, IT staff, developers, and end users, addressing concerns during the migration process from EDW to EDH."
+  language: ""
+  speakers: [largeo]
+-
   id: 154
   title: "Is HBase still a thing?"
   description: "With the advent of many open-source storage solutions, focussing
@@ -261,12 +267,6 @@ many great applications. This talk is a summary to show the current
 landscape and reason about where HBase fits naturally, where it
 could
 be used but is not, and why the lack of marketing is causing hurt."
-  language: ""
-  speakers: [largeo]
--
-  id: 149
-  title: "Big Data means Big Change"
-  description: "Introducing the new methodology of Big Data causes stress within enterprises due to its impact on existing infrastructures and processes. While an Enterprise Data Hub can be gradually introduced into IT, the impact on data pipelines is fundamental: the entire isolated, silo’ed architecture of the existing EDW is merged into a single, always available system, that requires new ways of handling every stage of the pipeline. From ingest to staging and discovery, all the way to processing and delivery, there is no need to move data, but only regulate access to it. In this talk I discuss the impact on the physical architecture, as well as organisational roles. Where in the past we have seen 6–12 months development cycles for data products, we now see continuous deployment. Where we have seen management planning long term, we now see short refresh cycles. A corporate wide data strategy is replacing departmental information segregation, and with it new opportunities arise, which requires careful change management on every organisational level. We will be looking into roles such as management, IT staff, developers, and end users, addressing concerns during the migration process from EDW to EDH."
   language: ""
   speakers: [largeo]
 -
@@ -478,6 +478,12 @@ be used but is not, and why the lack of marketing is causing hurt."
   language: ""
   speakers: [svepet]
 -
+  id: 159
+  title: "Tracking huge files with Git LFS"
+  description: "Developers love Git for its raw speed, powerful history traversal, distributed nature, and the fact that it was built by super-developer Linus Torvalds. What we don't love is the fact that, out of the box, Git has terrible support for tracking large binary files! Fortunately, developers from Atlassian, GitHub, and Visual Studio Online have teamed up to work on an open source project to solve this problem: Git LFS (Large File Support). This means researchers, web designers, game developers, multimedia producers and all other developers who need to work with large data and rich media can move off legacy centralized systems and start using modern version control. In this session I'll cover the computer science behind Git LFS' internals & architecture, CLI usage and how to build an effective Git LFS workflow for a development team. Attendees will take away an understanding of how Git LFS works under the hood, and some practical advice on using Git LFS with their software projects and teams."
+  language: ""
+  speakers: [timpet]
+-
   id: 110
   title: "Better living through pull requests"
   description: "Code reviews mean slightly better code at the cost of extra developer time, right? Wrong! Code reviews not only improve your code, they share knowledge, increase team cohesion and improve your company's 'bus factor' by an order of magnitude. In this fast-paced, entertaining talk I'll show participants some of the unexpected and undersung benefits of peer code review. Come along to find out why teams that aren't regularly reviewing code probably shouldn't let their developers attend Geecon!"
@@ -496,16 +502,16 @@ be used but is not, and why the lack of marketing is causing hurt."
   language: ""
   speakers: [tomduc]
 -
+  id: 113
+  title: "How shit works: Storage"
+  description: "The beautiful thing about software engineering is that it gives you the warm and fuzzy illusion of total understanding: I control this machine because I know how it operates. This is the result of layers upon layers of successful abstractions, which hide immense sophistication and complexity. As with any abstraction, though, these sometimes leak, and that's when a good grounding in what's under the hood pays off.  This first in what will hopefully be a series of talks covers the fundamentals of storage, providing an overview of the three storage tiers commonly found on modern platforms (hard drives, RAM and CPU cache). You'll come away knowing a little bit about a lot of different moving parts under the hood; after all, isn't understanding how the machine operates what this is all about?"
+  language: ""
+  speakers: [tomgab]
+-
   id: 158
   title: "The Wix Microservice Stack"
   description: "While microservices are conceptually simple, it's a deep rabbit hole to go down. Deceptively simple questions can have far-reaching implications: Which communication protocol should I choose? Is event-driven the way to go? What monitoring tools should I put in place?
 In this talk we'll cover some of the fundamental questions, outline the solutions adopted or developed by Wix, and share our hindsight on what worked well for us, what didn't and thoughts on future directions for our stack."
-  language: ""
-  speakers: [tomgab]
--
-  id: 113
-  title: "How shit works: Storage"
-  description: "The beautiful thing about software engineering is that it gives you the warm and fuzzy illusion of total understanding: I control this machine because I know how it operates. This is the result of layers upon layers of successful abstractions, which hide immense sophistication and complexity. As with any abstraction, though, these sometimes leak, and that's when a good grounding in what's under the hood pays off.  This first in what will hopefully be a series of talks covers the fundamentals of storage, providing an overview of the three storage tiers commonly found on modern platforms (hard drives, RAM and CPU cache). You'll come away knowing a little bit about a lot of different moving parts under the hood; after all, isn't understanding how the machine operates what this is all about?"
   language: ""
   speakers: [tomgab]
 -
@@ -551,9 +557,9 @@ In this talk we'll cover some of the fundamental questions, outline the solution
 -
  id: 909
  title: "Opening ceremony"
- language: 123
+ language: ""
 -
  id: 910
  title: "TBA"
  description: "To Be Announced"
- language: 123
+ language: ""
