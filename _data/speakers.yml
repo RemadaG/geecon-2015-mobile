@@ -11,17 +11,23 @@
   bio: "SVP Engineering, Gilt"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/61/Trenaman.jpg"
 -
+  id: "amilak"
+  name: "Amira"
+  surname: "Lakhal"
+  bio: "Agile Java Scala developer at Valtech France"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/151/amira_400x400.jpeg"
+-
+  id: "andgrz"
+  name: "Andrzej"
+  surname: "Grzesik"
+  bio: "Programmer, biker and book lover"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/136/ags.jpg"
+-
   id: "anibor"
   name: "Ania"
   surname: "Borowiec"
   bio: "Software Engineer at Google"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/100/Ania.jpg"
--
-  id: "barfus"
-  name: "Barbara"
-  surname: "Fusińska"
-  bio: "Developers mentor, maths enthusiast"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/67/Fusinska.jpg"
 -
   id: "barwit"
   name: "Bartłomiej"
@@ -35,11 +41,23 @@
   bio: "Freelance Software Engineer"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/109/christopher.jpg"
 -
-  id: "cyrmar"
-  name: "Cyrille"
-  surname: "Martraire"
-  bio: "Domain-Driven Design, patterns, BDD & TDD enthusiast. CTO @Arollafr"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/55/cyrille.jpg"
+  id: "dansaw"
+  name: "Daniel"
+  surname: "Sawano"
+  bio: "Developer, architect, public speaker, and agile dude"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/144/daniels.jpg"
+-
+  id: "dandeo"
+  name: "Daniel"
+  surname: "Deogun"
+  bio: "Coder and Quality defender"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/145/danield.jpg"
+-
+  id: "dirmah"
+  name: "Dirk"
+  surname: "Mahler"
+  bio: "Senior consultant in the area of Java EE technologies"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/129/dirk.jpg"
 -
   id: "dmijem"
   name: "Dmitry"
@@ -52,6 +70,12 @@
   surname: "Doan"
   bio: "Apache Cassandra Evangelist at Datastax"
   thumbnailUrl: "https://gcp-15.s3.amazonaws.com/speakers/84/doan.jpg"
+-
+  id: "eugpar"
+  name: "Eugen"
+  surname: "Paraschiv"
+  bio: "Spring enthusiast and consultant at Baeldung"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/143/Eugen.jpg"
 -
   id: "galzam"
   name: "Galder"
@@ -71,11 +95,29 @@
   bio: "Independent consultant and entrepreneur"
   thumbnailUrl: "https://gcp-15.s3.amazonaws.com/speakers/54/greg.jpg"
 -
+  id: "guseli"
+  name: "Gustavo"
+  surname: "Elias"
+  bio: "Java developer, Agile practitioner, and Continuous Delivery enthusiast at IG Group"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/130/ge.jpg"
+-
+  id: "jackun"
+  name: "Jacek"
+  surname: "Kunicki"
+  bio: "Passionate Software Engineer @ SoftwareMill"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/134/jkunicki.jpg"
+-
   id: "jakkub"
   name: "Jakub"
   surname: "Kubryński"
   bio: "Co-Founder of DevSKiller and Codearte"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/89/jakub.jpg"
+-
+  id: "jakmar"
+  name: "Jakub"
+  surname: "Marchwicki"
+  bio: "Just everyday normal guy"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/132/marchewa.jpg"
 -
   id: "jamwea"
   name: "James"
@@ -88,6 +130,12 @@
   surname: "Pałka"
   bio: "Coder, architect, system thinker 'wannabe', open source contributor, still enjoying the ride"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/98/Jarek.jpg"
+-
+  id: "jarrat"
+  name: "Jarosław"
+  surname: "Ratajski"
+  bio: "Jarek Ratajski JVM Developer"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/149/jarek.jpg"
 -
   id: "joenas"
   name: "Joe"
@@ -125,6 +173,12 @@
   bio: "Fighting dogmas with science for almost 10 years. Architect at Envestnet, coding fintech stuff"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/101/julian.jpg"
 -
+  id: "kamszy"
+  name: "Kamil"
+  surname: "Szymański"
+  bio: "software developer, JVM & open-source enthusiast"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/139/kamil.jpg"
+-
   id: "kasmro"
   name: "Kasia"
   surname: "Mrowca"
@@ -137,11 +191,23 @@
   bio: "Independent consultant offering Java performance-training and consulting services"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/99/KirkPepperdine.jpg"
 -
+  id: "konmal"
+  name: "Konrad"
+  surname: "Malawski"
+  bio: "Akka hakker @ Lightbend Reactive Streams TCK author, JavaOne SF Program Committee member and more!"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/127/konrad.jpg"
+-
   id: "krzotr"
   name: "Krzysztof"
   surname: "Otrębski"
   bio: "Engineer, like to break things"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/104/Krzysiek.jpg"
+-
+  id: "largeo"
+  name: "Lars"
+  surname: "George"
+  bio: "Computer nerd, still scaling up. Co-Founder and Partner at OpenCore"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/142/Lars.jpg"
 -
   id: "laudog"
   name: "Laurent"
@@ -149,11 +215,23 @@
   bio: "Couchbase Developer Advocate for Java developers and the French community, Devoxx Champion"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/105/Laurent.jpg"
 -
+  id: "lauapp"
+  name: "Lauri"
+  surname: "Apple"
+  bio: "Open Source Evangelist at Zalando"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/124/lauri.jpg"
+-
   id: "lucboa"
   name: "Luca"
   surname: "Boasso"
   bio: "Compiler engineer @ Guidewire Software"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/85/Luca.jpg"
+-
+  id: "luklen"
+  name: "Lukasz"
+  surname: "Lenart"
+  bio: "Life hacker with positive attitude but sometimes he's losing his faith in humanity"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/140/ll.jpg"
 -
   id: "manber"
   name: "Manuel"
@@ -191,17 +269,29 @@
   bio: "Machine learning without a Ph.D."
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/121/mateusz.jpg"
 -
-  id: "matrev"
-  name: "Matthew"
-  surname: "Revell"
-  bio: "NoSQL lover, JavaScript accepter, Developer Advocate at Couchbase"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/80/matthewrevell.jpg"
+  id: "matfar"
+  name: "Matt"
+  surname: "Farrar"
+  bio: "Strategic thinker, visionary and inspirer"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/150/Matt_Farrar.jpg"
+-
+  id: "micfea"
+  name: "Michael"
+  surname: "Feathers"
+  bio: "Independent software consultant, author of Working Effectively with Legacy Code"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/128/michael.jpg"
 -
   id: "micost"
   name: "Michał"
   surname: "Ostruszka"
   bio: "'Both-ends' developer, software wizard in SoftwareMill"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/112/michal.jpg"
+-
+  id: "micpła"
+  name: "Michał"
+  surname: "Płachta"
+  bio: "Makes things alive using computers. For fun and for living"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/131/michalp.jpg"
 -
   id: "mohtam"
   name: "Mohamed"
@@ -221,17 +311,17 @@
   bio: "Java Geek, through and through"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/63/Nicolas.jpeg"
 -
+  id: "osshan"
+  name: "Ossi"
+  surname: "Hanhinen"
+  bio: "Frontend expert at Futurice"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/138/ossih.jpeg"
+-
   id: "osvgri"
   name: "Osvaldas"
   surname: "Grigas"
   bio: "Polyglot developer, facilitator of Clojure meetups and Coderetreats"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/123/osvaldas.jpg"
--
-  id: "patpap"
-  name: "Patroklos"
-  surname: "Papapetrou"
-  bio: "Software Gardener, Clean Code evangelist, Agile leader"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/82/patroklos.jpg"
 -
   id: "paubak"
   name: "Paul"
@@ -245,11 +335,36 @@
   bio: "Community Developer @ Atlassian"
   thumbnailUrl: "https://gcp-15.s3.amazonaws.com/speakers/58/peterv.jpg"
 -
-  id: "robash"
-  name: "Rob"
-  surname: "Ashton"
-  bio: "Coffee Fuelled Erlang Developer"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/93/rob.jpg"
+  id: "petkof"
+  name: "Peter"
+  surname: "Kofler"
+  bio: "Code Cop"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/133/peterc.jpg"
+-
+  id: "piokuk"
+  name: "Piotr"
+  surname: "Kukiełka"
+  bio: "Scala Developer at VirtusLab"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/125/piotr.jpg"
+-
+  id: "pioguz"
+  name: "Piotr"
+  surname: "Guzik"
+  bio: "Former Java developer and now Big Data engineer building data ingestion platform @Allegro"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/146/pguzik.jpg"
+-
+  id: "pragup"
+  name: "Praveer"
+  surname: "Gupta"
+  bio: "Application Developer at ThoughtWorks"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/135/preverg.jpg"
+-
+  id: "rusmeh"
+  name: "Rustam"
+  surname: "Mehmandarov"
+  bio: "Passionate computer scientist. Norwegian JUG (javaBin) leader.
+Speaker"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/126/rustam.jpg"
 -
   id: "samela"
   name: "Sam"
@@ -262,12 +377,6 @@
   surname: "Mak"
   bio: "Sander crafts scalable software at Luminis Technologies"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/66/sanderma_jpg_120_180_400x400.jpg"
--
-  id: "sanhoo"
-  name: "Sander"
-  surname: "Hoogendoorn"
-  bio: "Independent dad, mentor, trainer, software architect, programmer, speaker, and writer"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/81/sander.jpg"
 -
   id: "scomck"
   name: "Scott"
@@ -287,11 +396,11 @@
   bio: "Principal Software Development Engineer in Gdańsk Amazon Development Center"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/107/StaszekP.jpg"
 -
-  id: "stepoo"
-  name: "Steve"
-  surname: "Poole"
-  bio: "DevOps practitioner and a long time IBM Java developer, leader and evangelist"
-  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/65/stevep.jpg"
+  id: "stekar"
+  name: "Stefan"
+  surname: "Karpinski"
+  bio: "Co-creator of the Julia programming language and a co-founder of Julia Computing, Inc"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/148/stefan_square.jpg"
 -
   id: "sverup"
   name: "Sven"
@@ -328,6 +437,18 @@
   surname: "Gabel"
   bio: "A programming junkie and computer history aficionado"
   thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/95/tomer.jpg"
+-
+  id: "vikfar"
+  name: "Viktor"
+  surname: "Farcic"
+  bio: "Senior Consultant at CloudBees"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/137/viktorf.jpg"
+-
+  id: "wikżoł"
+  name: "Wiktor"
+  surname: "Żołnowski"
+  bio: "Agile Evangelist, agile coach, trainer, practitioner, QA, programmer, sailor"
+  thumbnailUrl: "https://gc-16.s3.amazonaws.com/speakers/147/wiktor.jpg"
 -
   id: "yegbug"
   name: "Yegor"
