@@ -51,18 +51,6 @@ You will witness that Java EE is a modern and evolving framework and you’ll le
   language: ""
   speakers: [jarrat]
 -
-  id: 178
-  title: "6 tips for you JavaEE project be less depresing"
-  description: "People are stuck to JavaEE not because they love it, but because it was in their work place, it is still there and will be there long after they leave. While many engineers think about going reactive, functional (or any other fashionable buzzword), some are still struggling how to migrate weblogic9 to weblogic12 and move from Java not supported for past 8 years (like Java 1.4) to the one not supported only just for a year (Java7).
-
-While their live can be miserable - there are means for them to win JavaEE back, have fun again. It still won't be a super duper modern framework, it won't have all the latest pre-summer goodies, won't be a sweet language (full of syntactic sugar candies), but a solid set of tools that can make development pleasure again (kind of).
-
-In the modern JavaEE you are no logger limited to the 'standard' but you can take advantage of limitless set tools and libraries. For some people it will still be the bad and ugly JavaEE, 'feels like Spring but n-years ago', 'Spring wannabe in the poor's man land' - that's true. But if you can't win Them (and let's be honest - in most enterprise'ish environments you can't win Them), join them! And have you JavaEE the way You like it.
-
-This presentation will walk through multiple libraries that can help you change your project from 'This is The Standard Even If It Doesn't Fit' way to a something far more approachable, where your tools doesn't feel like the Maslow's Hammer. I'll be sharing some experience from multiple trainings, projects and refactorings of old-but-still-in-production JavaEE applications and tools we used to get away The Standard."
-  language: ""
-  speakers: [jakmar]
--
   id: 175
   title: "Java, JCP, Adopt-a-JSR & You - A Winning Combination"
   description: "Learn how to take part in Java technology evolution through the Java Community Process (JCP) program. You can participate as an individual, corporation, or nonprofit such as a Java user group (JUG). This session outlines why and how to participate in the JCP Program. You will also learn about the global Adoption programs and how you can participate in the programs. We will discuss details such as how to run hack days, collaborate with other JUG leads on Adopt-a-JSR activities, and review use cases from other JUGs around the world contributing to the Java EE 7 and Java SE 8 JSRs. Currently there are new JSRs being submitted and developed for the Java EE 8 and Java SE 9 platforms. Find out how you have contribute to the future editions of the Java Standard and Java Enterprise Editions."
@@ -83,6 +71,17 @@ My goal is that you’ll leave this session inspired, enriched and motivated to 
   language: ""
   speakers: [vacpec]
 -
+  id: 178
+  title: "6 tips for you JavaEE project be less depresing"
+  description: "People are stuck to JavaEE not because they love it, but because it was in their work place, it is still there and will be there long after they leave. While many engineers think about going reactive, functional (or any other fashionable buzzword), some are still struggling how to migrate weblogic9 to weblogic12 and move from Java not supported for past 8 years (like Java 1.4) to the one not supported only just for a year (Java7).
+
+While their live can be miserable - there are means for them to win JavaEE back, have fun again. It still won't be a super duper modern framework, it won't have all the latest pre-summer goodies, won't be a sweet language (full of syntactic sugar candies), but a solid set of tools that can make development pleasure again (kind of).
+
+In the modern JavaEE you are no logger limited to the 'standard' but you can take advantage of limitless set tools and libraries. For some people it will still be the bad and ugly JavaEE, 'feels like Spring but n-years ago', 'Spring wannabe in the poor's man land' - that's true. But if you can't win Them (and let's be honest - in most enterprise'ish environments you can't win Them), join them! And have you JavaEE the way You like it.
+
+This presentation will walk through multiple libraries that can help you change your project from 'This is The Standard Even If It Doesn't Fit' way to a something far more approachable, where your tools doesn't feel like the Maslow's Hammer. I'll be sharing some experience from multiple trainings, projects and refactorings of old-but-still-in-production JavaEE applications and tools we used to get away The Standard."
+  language: ""
+  speakers: [jakmar]
   id: 179
   title: "Beyond lambdas - the aftermath"
   description: "As Java developers we are used to having rich ecosystems of libraries and tools that make our lives easier. As of the release of Java 8, we finally got our hands on building blocks like lambdas, optionals, and streams. All sorts of tools that help us write more concise code. But now, when the honeymoon is over, are there any downsides to Java 8 or is it a silver bullet? Are there any new anti-patterns emerging? Or subtle bugs caused by the new style of programming? Have there been any lessons learned? Are there any best practices?
