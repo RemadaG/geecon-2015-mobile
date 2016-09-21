@@ -81,7 +81,7 @@ This presentation will walk through multiple libraries that can help you change 
 You’ll see that projectional editing gives you incredible freedom in how you express your thoughts. It allows you to choose notations that best fit the task at hand. Your code can be edited as text, tables, diagrams, a form, or a combination of those. This is especially useful for Domain-specific languages and we’ll see real-life examples from domains such as the insurance industry, embedded software development, bioinformatics, enterprise systems and legislation. We’ll also discuss the downsides and integration challenges that projectional editors face.
 My goal is that you’ll leave this session inspired, enriched and motivated to try something new."
   language: ""
-  speakers: [vácpec]
+  speakers: [vacpec]
 -
   id: 179
   title: "Beyond lambdas - the aftermath"
@@ -118,7 +118,7 @@ The presentation will include a live demo of Hot Restart Store with a visualizat
   title: "New Java literals for the Brave and True"
   description: "Do you think you know your Java inside out? You know nothing, Jon Snow. I will show you that since Java 8 it's already possible to have nice and readable 'literals' not only for map or JSON but even HTML. You are just not brave enough to use them and maybe that's a good thing."
   language: ""
-  speakers: [lukkře]
+  speakers: [lukkre]
 -
   id: 184
   title: "Java Annotations Are a Big Mistake"
@@ -175,8 +175,8 @@ This presentation is a meditation on how I approach data problems with Clojure, 
 -
  id: 907
  title: "Keynote"
-  description: "Keynote"
-  language: ""
+ description: "Keynote"
+ language: ""
 -
  id: 909
  title: "Opening ceremony"

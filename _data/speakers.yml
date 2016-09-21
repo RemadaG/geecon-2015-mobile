@@ -77,7 +77,7 @@
   bio: "Co-Founder of DevSKiller and Codearte"
   thumbnailUrl: "/speakers/jakub.jpg"
 -
-  id: "vácpec"
+  id: "vacpec"
   name: "Václav"
   surname: "Pech"
   bio: "Passionate about programming in all its forms and flavours"
@@ -125,7 +125,7 @@
   bio: "Java professional since 2001, member of the Hazelcast Core team. Dedicated contributor on Stack Overflow"
   thumbnailUrl: "/speakers/Marko.jpg"
 -
-  id: "lukkře"
+  id: "lukkre"
   name: "Lukáš"
   surname: "Křečan"
   bio: "Software developer, architect and blogger"
