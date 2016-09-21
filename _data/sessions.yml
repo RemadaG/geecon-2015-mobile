@@ -82,6 +82,7 @@ In the modern JavaEE you are no logger limited to the 'standard' but you can tak
 This presentation will walk through multiple libraries that can help you change your project from 'This is The Standard Even If It Doesn't Fit' way to a something far more approachable, where your tools doesn't feel like the Maslow's Hammer. I'll be sharing some experience from multiple trainings, projects and refactorings of old-but-still-in-production JavaEE applications and tools we used to get away The Standard."
   language: ""
   speakers: [jakmar]
+-
   id: 179
   title: "Beyond lambdas - the aftermath"
   description: "As Java developers we are used to having rich ecosystems of libraries and tools that make our lives easier. As of the release of Java 8, we finally got our hands on building blocks like lambdas, optionals, and streams. All sorts of tools that help us write more concise code. But now, when the honeymoon is over, are there any downsides to Java 8 or is it a silver bullet? Are there any new anti-patterns emerging? Or subtle bugs caused by the new style of programming? Have there been any lessons learned? Are there any best practices?
