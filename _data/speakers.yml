@@ -160,3 +160,21 @@
   surname: "Dell'Aquila"
   bio: "Father and husband, software developer and consultant, international speaker. Core Developer and Director of Consulting at OrientDB"
   thumbnailUrl: "http://2016.geecon.cz/speakers/luigi.jpg"
+-
+  id: "adadub"
+  name: "Adam"
+  surname: "Dubiel"
+  bio: "Tech leader at allegro.pl, tech owner of hermes.allegro.tech"
+  thumbnailUrl: "http://2016.geecon.cz/speakers/adamdubiel.jpg"
+-
+  id: "jarbac"
+  name: "Jaroslav"
+  surname: "Bachorik"
+  bio: "Strong believer in software engineering. The BTrace guy"
+  thumbnailUrl: "http://2016.geecon.cz/speakers/Jaroslav.jpg"
+-
+  id: "oliloc"
+  name: "Oliver"
+  surname: "Lockwood"
+  bio: "Principal Software Engineer at Sky, working on Sky's OTT video platform & leading the Java community"
+  thumbnailUrl: "http://2016.geecon.cz/speakers/Oliver.jpg"

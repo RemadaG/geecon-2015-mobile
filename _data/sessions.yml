@@ -1,4 +1,40 @@
 -
+ id: 901
+ title: "Registration & breakfast"
+ service: true
+-
+ id: 902
+ title: "Breakfast"
+ service: true
+-
+ id: 904
+ title: "Break"
+ service: true
+ description: "The best time to take coffee or juice"
+-
+ id: 905
+ title: "Coffee Break"
+ service: true
+ description: "The best time to talk with speakers and attendees"
+-
+ id: 906
+ title: "Lunch Break"
+ service: true
+-
+ id: 907
+ title: "Keynote"
+ description: "Keynote"
+ language: ""
+-
+ id: 909
+ title: "Opening ceremony"
+ language: ""
+-
+ id: 910
+ title: "TBA"
+ description: "To Be Announced"
+ language: ""
+-
   id: 165
   title: "Definition of done: Working software in production"
   description: "There is no business value with an unused product. Up until the point
@@ -151,38 +187,33 @@ This presentation is a meditation on how I approach data problems with Clojure, 
   language: ""
   speakers: [luidel]
 -
- id: 901
- title: "Registration & breakfast"
- service: true
+  id: 190
+  title: "What is your application doing when you are not around?"
+  description: "What is the 99th percentile of your app response time? How much time it takes to save data in the database? How not to get caught off-guard by service failure?
+
+The answers are simple as long as you have the metrics. Metrics are the best source of information about your application inner workings, updated near real-time. Knowing what to measure and how to present the metrics gives you the reassuring 'my app is fine' feeling in times of peace and enables you to quickly identify the problem when things go south.
+
+What should you measure, which tools to use and what are the caveats? How to store and display metrics? I will present the answers during my talk. Just a bit of theory and a lot of working code and examples, so you will know what your application is up to at any point of day or night."
+  language: ""
+  speakers: [adadub]
 -
- id: 902
- title: "Breakfast"
- service: true
+  id: 191
+  title: "High performance instrumentation"
+  description: "In this talk the lessons learned when crafting high performance instrumentation for extracting detailed data from the big data processing systems (Hadoop, Hive, Spark) will be presented.
+
+We will focus on the best practices for using BTrace as well as less known, but powerful, features allowing to dramatically decrease the instrumentation overhead. Although BTrace will be used as the delivery vehicle for the instrumentation the same principles can be used for any other bytecode injecting technique or tool."
+  language: ""
+  speakers: [jarbac]
 -
- id: 904
- title: "Break"
- service: true
- description: "The best time to take coffee or juice"
--
- id: 905
- title: "Coffee Break"
- service: true
- description: "The best time to talk with speakers and attendees"
--
- id: 906
- title: "Lunch Break"
- service: true
--
- id: 907
- title: "Keynote"
- description: "Keynote"
- language: ""
--
- id: 909
- title: "Opening ceremony"
- language: ""
--
- id: 910
- title: "TBA"
- description: "To Be Announced"
- language: ""
+  id: 192
+  title: "Apache Cassandra: building a production app on an eventually-consistent DB"
+  description: "At Sky, we use Cassandra for database persistence in our Online Video Platform - the system which delivers all OTT video content to both Sky and NOW TV customers - and yes, that includes handling huge spikes in traffic both when there's a big Premier League football match and when a new Game of Thrones season comes online!
+
+This talk aims to cover the following topics.
+-  A brief introduction to Cassandra, including what it’s good for, what it’s not good for, and why.  We'll dig into how storage, reads, writes and conflict resolution work.
+-  Gotchas in an eventually-consistent DB - some interesting problems we encountered and the lessons we learned the hard way.
+-  Performing database schema and data evolution in Cassandra for a production app - why this is important, and what we did at Sky to ensure consistency of our database schema.
+
+There will be two live demonstrations during the talk, using a 4-node Cassandra cluster in AWS."
+  language: ""
+  speakers: [oliloc]
