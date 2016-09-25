@@ -1,4 +1,40 @@
 -
+ id: 901
+ title: "Registration & breakfast"
+ service: true
+-
+ id: 902
+ title: "Breakfast"
+ service: true
+-
+ id: 904
+ title: "Break"
+ service: true
+ description: "The best time to take coffee or juice"
+-
+ id: 905
+ title: "Coffee Break"
+ service: true
+ description: "The best time to talk with speakers and attendees"
+-
+ id: 906
+ title: "Lunch Break"
+ service: true
+-
+ id: 907
+ title: "Keynote"
+ description: "Keynote"
+ language: ""
+-
+ id: 909
+ title: "Opening ceremony"
+ language: ""
+-
+ id: 910
+ title: "TBA"
+ description: "To Be Announced"
+ language: ""
+-
   id: 165
   title: "Definition of done: Working software in production"
   description: "There is no business value with an unused product. Up until the point
@@ -51,18 +87,6 @@ You will witness that Java EE is a modern and evolving framework and you’ll le
   language: ""
   speakers: [jarrat]
 -
-  id: 178
-  title: "6 tips for you JavaEE project be less depresing"
-  description: "People are stuck to JavaEE not because they love it, but because it was in their work place, it is still there and will be there long after they leave. While many engineers think about going reactive, functional (or any other fashionable buzzword), some are still struggling how to migrate weblogic9 to weblogic12 and move from Java not supported for past 8 years (like Java 1.4) to the one not supported only just for a year (Java7).
-
-While their live can be miserable - there are means for them to win JavaEE back, have fun again. It still won't be a super duper modern framework, it won't have all the latest pre-summer goodies, won't be a sweet language (full of syntactic sugar candies), but a solid set of tools that can make development pleasure again (kind of).
-
-In the modern JavaEE you are no logger limited to the 'standard' but you can take advantage of limitless set tools and libraries. For some people it will still be the bad and ugly JavaEE, 'feels like Spring but n-years ago', 'Spring wannabe in the poor's man land' - that's true. But if you can't win Them (and let's be honest - in most enterprise'ish environments you can't win Them), join them! And have you JavaEE the way You like it.
-
-This presentation will walk through multiple libraries that can help you change your project from 'This is The Standard Even If It Doesn't Fit' way to a something far more approachable, where your tools doesn't feel like the Maslow's Hammer. I'll be sharing some experience from multiple trainings, projects and refactorings of old-but-still-in-production JavaEE applications and tools we used to get away The Standard."
-  language: ""
-  speakers: [jakmar]
--
   id: 175
   title: "Java, JCP, Adopt-a-JSR & You - A Winning Combination"
   description: "Learn how to take part in Java technology evolution through the Java Community Process (JCP) program. You can participate as an individual, corporation, or nonprofit such as a Java user group (JUG). This session outlines why and how to participate in the JCP Program. You will also learn about the global Adoption programs and how you can participate in the programs. We will discuss details such as how to run hack days, collaborate with other JUG leads on Adopt-a-JSR activities, and review use cases from other JUGs around the world contributing to the Java EE 7 and Java SE 8 JSRs. Currently there are new JSRs being submitted and developed for the Java EE 8 and Java SE 9 platforms. Find out how you have contribute to the future editions of the Java Standard and Java Enterprise Editions."
@@ -82,6 +106,18 @@ You’ll see that projectional editing gives you incredible freedom in how you e
 My goal is that you’ll leave this session inspired, enriched and motivated to try something new."
   language: ""
   speakers: [vacpec]
+-
+  id: 178
+  title: "6 tips for you JavaEE project be less depresing"
+  description: "People are stuck to JavaEE not because they love it, but because it was in their work place, it is still there and will be there long after they leave. While many engineers think about going reactive, functional (or any other fashionable buzzword), some are still struggling how to migrate weblogic9 to weblogic12 and move from Java not supported for past 8 years (like Java 1.4) to the one not supported only just for a year (Java7).
+
+While their live can be miserable - there are means for them to win JavaEE back, have fun again. It still won't be a super duper modern framework, it won't have all the latest pre-summer goodies, won't be a sweet language (full of syntactic sugar candies), but a solid set of tools that can make development pleasure again (kind of).
+
+In the modern JavaEE you are no logger limited to the 'standard' but you can take advantage of limitless set tools and libraries. For some people it will still be the bad and ugly JavaEE, 'feels like Spring but n-years ago', 'Spring wannabe in the poor's man land' - that's true. But if you can't win Them (and let's be honest - in most enterprise'ish environments you can't win Them), join them! And have you JavaEE the way You like it.
+
+This presentation will walk through multiple libraries that can help you change your project from 'This is The Standard Even If It Doesn't Fit' way to a something far more approachable, where your tools doesn't feel like the Maslow's Hammer. I'll be sharing some experience from multiple trainings, projects and refactorings of old-but-still-in-production JavaEE applications and tools we used to get away The Standard."
+  language: ""
+  speakers: [jakmar]
 -
   id: 179
   title: "Beyond lambdas - the aftermath"
@@ -151,38 +187,33 @@ This presentation is a meditation on how I approach data problems with Clojure, 
   language: ""
   speakers: [luidel]
 -
- id: 901
- title: "Registration & breakfast"
- service: true
+  id: 190
+  title: "What is your application doing when you are not around?"
+  description: "What is the 99th percentile of your app response time? How much time it takes to save data in the database? How not to get caught off-guard by service failure?
+
+The answers are simple as long as you have the metrics. Metrics are the best source of information about your application inner workings, updated near real-time. Knowing what to measure and how to present the metrics gives you the reassuring 'my app is fine' feeling in times of peace and enables you to quickly identify the problem when things go south.
+
+What should you measure, which tools to use and what are the caveats? How to store and display metrics? I will present the answers during my talk. Just a bit of theory and a lot of working code and examples, so you will know what your application is up to at any point of day or night."
+  language: ""
+  speakers: [adadub]
 -
- id: 902
- title: "Breakfast"
- service: true
+  id: 191
+  title: "High performance instrumentation"
+  description: "In this talk the lessons learned when crafting high performance instrumentation for extracting detailed data from the big data processing systems (Hadoop, Hive, Spark) will be presented.
+
+We will focus on the best practices for using BTrace as well as less known, but powerful, features allowing to dramatically decrease the instrumentation overhead. Although BTrace will be used as the delivery vehicle for the instrumentation the same principles can be used for any other bytecode injecting technique or tool."
+  language: ""
+  speakers: [jarbac]
 -
- id: 904
- title: "Break"
- service: true
- description: "The best time to take coffee or juice"
--
- id: 905
- title: "Coffee Break"
- service: true
- description: "The best time to talk with speakers and attendees"
--
- id: 906
- title: "Lunch Break"
- service: true
--
- id: 907
- title: "Keynote"
- description: "Keynote"
- language: ""
--
- id: 909
- title: "Opening ceremony"
- language: ""
--
- id: 910
- title: "TBA"
- description: "To Be Announced"
- language: ""
+  id: 192
+  title: "Apache Cassandra: building a production app on an eventually-consistent DB"
+  description: "At Sky, we use Cassandra for database persistence in our Online Video Platform - the system which delivers all OTT video content to both Sky and NOW TV customers - and yes, that includes handling huge spikes in traffic both when there's a big Premier League football match and when a new Game of Thrones season comes online!
+
+This talk aims to cover the following topics.
+-  A brief introduction to Cassandra, including what it’s good for, what it’s not good for, and why.  We'll dig into how storage, reads, writes and conflict resolution work.
+-  Gotchas in an eventually-consistent DB - some interesting problems we encountered and the lessons we learned the hard way.
+-  Performing database schema and data evolution in Cassandra for a production app - why this is important, and what we did at Sky to ensure consistency of our database schema.
+
+There will be two live demonstrations during the talk, using a 4-node Cassandra cluster in AWS."
+  language: ""
+  speakers: [oliloc]
