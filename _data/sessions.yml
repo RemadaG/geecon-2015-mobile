@@ -181,6 +181,12 @@ This presentation is a meditation on how I approach data problems with Clojure, 
   language: ""
   speakers: [duydoa]
 -
+  id: 188
+  title: "One VM to Rule Them All"
+  description: "Graal is a dynamic meta-circular research compiler for Java that is designed for extensibility and modularity. One of its main distinguishing elements is the handling of optimistic assumptions obtained via profiling feedback and the representation of deoptimization guards in the compiled code. Truffle is a self-optimizing runtime system on top of Graal that uses partial evaluation to derive compiled code from interpreters. Truffle is suitable for creating high-performance implementations for dynamic languages with only moderate effort. The presentation includes a description of the Truffle multi-language API and performance comparisons within the industry of current prototype Truffle language implementations (JavaScript, Ruby, and R). Both Graal and Truffle are open source and form themselves research platforms in the area of virtual machine and programming language implementation (<a href='http://openjdk.java.net/projects/graal/'>http://openjdk.java.net/projects/graal/</a>)"
+  language: ""
+  speakers: [jakpod, jansto]
+-
   id: 189
   title: "Geospatial Graphs made easy with OrientDB"
   description: "Modeling and querying persistent data structures can be tricky when they involve semi-structured data, complex relationships (with deep traversal) and physical information like geographical positions, areas, shapes and so on. Bad news is that almost all your applications will have to manage such kind of data. In this presentation you will see how to use OrientDB v2.2 Document-Graph engine and its new Geospatial Indexes to efficiently manage and query connected, spatial information. Very few slides, a lot of live coding, I promise!"
@@ -217,3 +223,39 @@ This talk aims to cover the following topics.
 There will be two live demonstrations during the talk, using a 4-node Cassandra cluster in AWS."
   language: ""
   speakers: [oliloc]
+-
+  id: 193
+  title: "Travel guide to continuous delivery"
+  description: "With agile principles and practices reaching maturity, in many organizations the focus for the coming years will be on the next steps. Beyond agile. In fast pace organizations are adopting agile, DevOps, continuous delivery and new architectures such as microservices. Often all at once. Although from a perspective of similarities between these paradigms this makes sense, this also requires for increased collaboration between business, development and operations. During this session, Kim van Wilgen, head of IT at the Dutch insurance company Klaverblad, will give practical insights on their journey to continuous delivery with real-life pictures and stories. She'll be your guide through the journey to continuous delivery and tell you about the things to do or to avoid. How can organizations deal with the complexity of simultaneously changing architectures, ways of working, technology, and foremost culture? How do we make this journey comfortable and safe? How can we make the business case for continuous delivery? How can we deliver continuous delivery?"
+  language: ""
+  speakers: [kimvan]
+-
+  id: 194
+  title: "Finding a needle in a haystack - JVM logging guide"
+  description: "Despite the recent (over)flow of log processing tools logs are still highly problematic - they can clog your servers and bring your production down, they are hard to read and parse, and oh too often they miss out the key data you need but contain 3 billion lines of B.S. While log pipelines can help to some extent their value is limited when the source of data is low quality - and this talk is all about improving the quality of your logs. This talk will show various features of Log4j 1/2 and Logback, show various tricks to get the information you want (and only the information you want) and explain how to do this in way that is truly 'production grade'."
+  language: ""
+  speakers: [aviish]
+-
+  id: 196
+  title: "Ten Productivity Tips for Java EE and Spring Developers"
+  description: "In this live coding session, we'll build a Java EE application using JBoss Forge, deploy it onto Wildfly and test it using Arquillian. All of this is possible while barely writing a line of code! We'll also create a microservice using JBoss Swarm. If you're more into Spring we'll also show you how to create a Spring application from scratch, use Spring Boot and how you can rapidly develop you applications using JRebel. There will be a bunch of other tools and tips in this session, so if you want to write code like a pro, this is the session for you!"
+  language: ""
+  speakers: [simmap]
+-
+  id: 198
+  title: "Scala versus Kotlin versus Java8"
+  description: "Foces on difference between those three programming languages in practical daily coding. What is missing in Scala compared to Java8. When are you missing if you stick with Java8. Jan has 7 years experience with Scala and followed Kotlin from very first day."
+  language: ""
+  speakers: [jankot]
+-
+  id: 199
+  title: "Next Gen R&D: craft vs. chop-shop"
+  description: "Build the ivory tower, show them all in, lock the doors, drill the pizza box hole and throw away the key. This is how many companies build R&D departments. Or, be agile, hire a product owner and let them do the talking so that the team is not distracted from the customers. Or, you can frighten everybody to death and let R&D do the talking. But what if they say something they should not? Or, will they? This is the story of making mistakes and how we unknowingly and then knowingly harnessed the power of transparency to win customers. Interested?"
+  language: ""
+  speakers: [ondkra]
+-
+  id: 200
+  title: "Behavior Driven Development meets Karel Čapek"
+  description: "Continuous integration, continuous delivery, automated testing, unit testing, system testing. We	 have been successful as an industry with shortening the feedback loop and developers are getting the test results on their freshly committed code instantaneously. However, are those tests really valid? Are they really as close to the real world as they should be? How do you cross the boundary between verification and validation? Jakub is going to share the bad and the ugly, and most importantly the good that we learned about testing. It’s not about testing, it’s about the results and how we are moving from software verification to product validation. And, how is it related to Karel Čapek? See for yourself!"
+  language: ""
+  speakers: [jakpav]
