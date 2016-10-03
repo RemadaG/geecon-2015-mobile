@@ -273,20 +273,28 @@ There will be two live demonstrations during the talk, using a 4-node Cassandra 
   speakers: [jakpav]
 -
   id: 201
-  title: "TBD"
-  description: "TBD"
+  title: "Microservices Evolution: How to break your monolithic database"
+  description: "Microservices are the current 'big thing' and most of the current technologies seems to be a fit for greenfield projects. Unfortunately the great majority of developers can't build something from scratch and have a big legacy database with multiple relationships. The code usually is the easy part. The question that every enterprise developer asks is: what about my database?
+
+
+Come to this session to learn the required database refactorings, architecture and deployment strategies that will enable you to split your big monolithic database into Microservices. And downtime is not an option! We'll show how we need to encompass code, architecture, DevOps and infrastructure altogether to accomplish this awesome evolution of your application with your database.
+"
   language: ""
   speakers: [edsyan]
 -
   id: 202
-  title: "TBD"
-  description: "TBD"
+  title: "Reactive Microservices with Vert.x"
+  description: "Everybody is talking about microservices and reactive programming these days. And there’s a reason for that: the high-demand and high-scale distributed world that we have today, reacting to events in an asynchronous and non-blocking fashion seems the right approach to deal with scalability. And to achieve microservices you need a lightweight, fast, modular, high-performance and un-opinionated environment. Meet Vert.x: a toolkit for building reactive applications on the JVM.
+Come to this session to see how you can use Vert.x to create reactive code using Java, Groovy, JavaScript or other JVM languages. We’ll demonstrate how to build Vert.x-based systems leveraging the unique Vert.x event bus for creating apps with real-time communications from the modern web browser to the cloud and back again. Have fun with a large number of live demonstrations that will cause you to reconsider your reliance on monolithics and consider leaving tradition behind for an event-driven, reactive, microservice-focused architecture."
   language: ""
   speakers: [bursut]
 -
   id: 203
   title: "The Sweet Spot"
-  description: "TBD"
+  description: "Software developers keep looking to CQRS as an architecture to boost performance. But the more I work with companies the more I discover there's a sweet spot where Theory of Constraints, Kanban, CQRS, Domain-Driven Design, EventStorming and UX blend together to solve 'the really real problems'.
+
+Once you're there, a land of opportunities ready to be caught sits in front of you. Why waiting?
+"
   language: ""
   speakers: [albbra]
 -
