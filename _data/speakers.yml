@@ -203,11 +203,23 @@
   bio: "Head of IT, Klaverblad Verzekeringen"
   thumbnailUrl: "http://2016.geecon.cz/speakers/kim.JPG"
 -
+  id: "heikab"
+  name: "Heinz"
+  surname: "Kabutz"
+  bio: "Autor of 'The Java Specialists' Newsletter'"
+  thumbnailUrl: "http://2016.geecon.cz/speakers/heinz_kabutz.jpg"
+-
   id: "simmap"
   name: "Simon"
   surname: "Maple"
   bio: "Developer Advocate at ZeroTurnaround"
   thumbnailUrl: "http://2016.geecon.cz/speakers/simon.jpg"
+-
+  id: "micmat"
+  name: "Michał"
+  surname: "Matłoka"
+  bio: "Software Wizard @ SoftwareMill"
+  thumbnailUrl: "http://2016.geecon.cz/speakers/mmatloka.jpg"
 -
   id: "jankot"
   name: "Jan"

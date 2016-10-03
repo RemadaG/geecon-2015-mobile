@@ -236,11 +236,23 @@ There will be two live demonstrations during the talk, using a 4-node Cassandra 
   language: ""
   speakers: [aviish]
 -
+  id: 195
+  title: "Dirty Hacks With Java Reflection (includes one or two useful hints)"
+  description: "Java allows us to bypass language security and peek directly into the contents of objects, calling methods and even constructing them.  Usually this is fraught with danger.  It binds you to a particular Java version, blocking your upgrade path.  Dangerous.  That said, I use reflection a lot as a tool to quickly and accurately discover things about objects that would be difficult to determine any other way.  And then I throw the code away.  Knowing how reflection works can save you a lot of time when you need to confirm performance issues.  Whilst seldom a permanent solution, it can be a temporary hack until the architecture can be changed."
+  language: ""
+  speakers: [heikab]
+-
   id: 196
   title: "Ten Productivity Tips for Java EE and Spring Developers"
   description: "In this live coding session, we'll build a Java EE application using JBoss Forge, deploy it onto Wildfly and test it using Arquillian. All of this is possible while barely writing a line of code! We'll also create a microservice using JBoss Swarm. If you're more into Spring we'll also show you how to create a Spring application from scratch, use Spring Boot and how you can rapidly develop you applications using JRebel. There will be a bunch of other tools and tips in this session, so if you want to write code like a pro, this is the session for you!"
   language: ""
   speakers: [simmap]
+-
+  id: 197
+  title: "Machine learning by example"
+  description: "Are the machines learning on their own? Wait, is Skynet already here? During this session we will tackle an easy Machine Learning problem, show how can it be processed on Spark including data cleaning, normalization and a learning process. Live coding session, but only if the machines don’t rise against us."
+  language: ""
+  speakers: [micmat]
 -
   id: 198
   title: "Scala versus Kotlin versus Java8"
@@ -259,3 +271,39 @@ There will be two live demonstrations during the talk, using a 4-node Cassandra 
   description: "Continuous integration, continuous delivery, automated testing, unit testing, system testing. We	 have been successful as an industry with shortening the feedback loop and developers are getting the test results on their freshly committed code instantaneously. However, are those tests really valid? Are they really as close to the real world as they should be? How do you cross the boundary between verification and validation? Jakub is going to share the bad and the ugly, and most importantly the good that we learned about testing. It’s not about testing, it’s about the results and how we are moving from software verification to product validation. And, how is it related to Karel Čapek? See for yourself!"
   language: ""
   speakers: [jakpav]
+-
+  id: 201
+  title: "TBD"
+  description: "TBD"
+  language: ""
+  speakers: [edsyan]
+-
+  id: 202
+  title: "TBD"
+  description: "TBD"
+  language: ""
+  speakers: [bursut]
+-
+  id: 203
+  title: "TBD"
+  description: "TBD"
+  language: ""
+  speakers: [albbra]
+-
+  id: 204
+  title: "TBD"
+  description: "TBD"
+  language: ""
+  speakers: [fregeo]
+-
+  id: 205
+  title: "TBD"
+  description: "TBD"
+  language: ""
+  speakers: [stefre]
+-
+  id: 206
+  title: "TBD"
+  description: "TBD"
+  language: ""
+  speakers: [sanhoo]
