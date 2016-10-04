@@ -237,7 +237,7 @@ There will be two live demonstrations during the talk, using a 4-node Cassandra 
   speakers: [aviish]
 -
   id: 195
-  title: "Dirty Hacks With Java Reflection (includes one or two useful hints)"
+  title: "Dirty Hacks With Java Reflection"
   description: "Java allows us to bypass language security and peek directly into the contents of objects, calling methods and even constructing them.  Usually this is fraught with danger.  It binds you to a particular Java version, blocking your upgrade path.  Dangerous.  That said, I use reflection a lot as a tool to quickly and accurately discover things about objects that would be difficult to determine any other way.  And then I throw the code away.  Knowing how reflection works can save you a lot of time when you need to confirm performance issues.  Whilst seldom a permanent solution, it can be a temporary hack until the architecture can be changed."
   language: ""
   speakers: [heikab]
@@ -339,7 +339,7 @@ an implementation in a large, traditional business."
   speakers: [stefre]
 -
   id: 206
-  title: "TBD"
+  title: "Thirty months of Microservices. Stairway to heaven or highway to hell?"
   description: "TBD"
   language: ""
   speakers: [sanhoo]
