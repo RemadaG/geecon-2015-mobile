@@ -299,13 +299,41 @@ Once you're there, a land of opportunities ready to be caught sits in front of y
   speakers: [albbra]
 -
   id: 204
-  title: "TBD"
-  description: "TBD"
+  title: "Go Faster"
+  description: "The industry is replete with fresh topics: DevOps, Cloud Computing, MicroServices, Lean
+Startup, Fullstack
+Developers, Agile Variations, and the like. Having seen all these at
+conferences, there is an emerging theme around all these topics: Go Faster.
+Going faster is an old theme; I have heard it for over four decades. But the business incentives
+for it are more powerful than ever because competitors have become unfettered from traditional
+barriers:
+<li>Massive, free application frameworks replace expensive vendor packages
+</li><li>Ondemand
+computing replaces expensive, preplanned
+machine installations
+</li><li> Worldwide
+access to customers through social networks replaces dedicated sales
+teams</li>
+
+So either you go faster, or a competitor will emerge who is faster.
+In this presentation, I identify three categories of inhibitors, and suggest mitigation strategies I
+have employed for each one:
+<li>Technology inhibitors, whether dealing with legacy languages, tools, or architectures,
+</li><li>Process inhibitors, particularly daunting as shifts to faster processes run counter to the
+“tried and true” processes inherent in the organization, and
+</li><li> Organization inhibitors as we shake off the timeconsuming
+waterfall structures.</li>
+
+
+Embracing the technology change is not sufficient. Going faster can be crippled if supporting IT
+processes are not implemented. We wrap up by addressing the impact to roles and
+responsibilities, a challenging and key aspect of going faster . We will delve into some detail on
+an implementation in a large, traditional business."
   language: ""
   speakers: [fregeo]
 -
   id: 205
-  title: "TBD"
+  title: "TDD: That's not what we meant"
   description: "TBD"
   language: ""
   speakers: [stefre]
@@ -315,3 +343,9 @@ Once you're there, a land of opportunities ready to be caught sits in front of y
   description: "TBD"
   language: ""
   speakers: [sanhoo]
+-
+  id: 207
+  title: "Caught in the Act: Kotlin Bytecode Generation and Runtime Performance"
+  description: "In this talk, we'll dive into the details of how various language features supported by Kotlin are translated to Java bytecode. We'll use the JMH microbenchmarking tool to study the relative performance of various constructs and to understand how we can ensure top performance of the Kotlin code that we write."
+  language: ""
+  speakers: [dmijem]

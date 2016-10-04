@@ -238,3 +238,9 @@
   surname: "Pavlák"
   bio: "Testing and Quality Assurance aficionado at Y Soft"
   thumbnailUrl: "http://2016.geecon.cz/speakers/Jakub_Pavlak.jpg"
+-
+  id: "dmijem"
+  name: "Dmitry"
+  surname: "Jemerov"
+  bio: "Developer at JetBrains since 2003"
+  thumbnailUrl: "http://2016.geecon.cz/speakers/dmitryj.jpg"
