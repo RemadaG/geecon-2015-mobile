@@ -273,12 +273,8 @@ There will be two live demonstrations during the talk, using a 4-node Cassandra 
   speakers: [jakpav]
 -
   id: 201
-  title: "Microservices Evolution: How to break your monolithic database"
-  description: "Microservices are the current 'big thing' and most of the current technologies seems to be a fit for greenfield projects. Unfortunately the great majority of developers can't build something from scratch and have a big legacy database with multiple relationships. The code usually is the easy part. The question that every enterprise developer asks is: what about my database?
-
-
-Come to this session to learn the required database refactorings, architecture and deployment strategies that will enable you to split your big monolithic database into Microservices. And downtime is not an option! We'll show how we need to encompass code, architecture, DevOps and infrastructure altogether to accomplish this awesome evolution of your application with your database.
-"
+  title: "Effective and Clean Java Code? Tips and Tricks from the Real World"
+  description: "Java has turned 20, but we still haven’t figured out how to create great Java code. Of course, we have examples of great developers and great code, but shouldn’t it be something common rather than unusual? We’ve seen Domain-Driven Design, Effective Java, Clean Code, Refactoring, Design Patterns.... But sometimes it’s still hard to apply all these great concepts in our projects. And we want to make proper use of encapsulation, immutability, the Law of Demeter, and lambdas. What we need is a proven set of tools, tips, and tricks gathered from successful real-world projects. We want to know how we can stop using basic types such as String, BigDecimal, List, and Map and how we can encapsulate information to craft great code. Attend this session to see code directly from the trenches."
   language: ""
   speakers: [edsyan]
 -
