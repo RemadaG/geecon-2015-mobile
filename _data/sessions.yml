@@ -35,6 +35,11 @@
  description: "To Be Announced"
  language: ""
 -
+ id: 990
+ title: "Party and speakers dinner on a boat"
+ service: true
+ description: ""
+-
   id: 165
   title: "Definition of done: Working software in production"
   description: "There is no business value with an unused product. Up until the point
