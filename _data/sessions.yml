@@ -113,14 +113,8 @@ My goal is that you’ll leave this session inspired, enriched and motivated to 
   speakers: [vacpec]
 -
   id: 178
-  title: "6 tips for you JavaEE project be less depresing"
-  description: "People are stuck to JavaEE not because they love it, but because it was in their work place, it is still there and will be there long after they leave. While many engineers think about going reactive, functional (or any other fashionable buzzword), some are still struggling how to migrate weblogic9 to weblogic12 and move from Java not supported for past 8 years (like Java 1.4) to the one not supported only just for a year (Java7).
-
-While their live can be miserable - there are means for them to win JavaEE back, have fun again. It still won't be a super duper modern framework, it won't have all the latest pre-summer goodies, won't be a sweet language (full of syntactic sugar candies), but a solid set of tools that can make development pleasure again (kind of).
-
-In the modern JavaEE you are no logger limited to the 'standard' but you can take advantage of limitless set tools and libraries. For some people it will still be the bad and ugly JavaEE, 'feels like Spring but n-years ago', 'Spring wannabe in the poor's man land' - that's true. But if you can't win Them (and let's be honest - in most enterprise'ish environments you can't win Them), join them! And have you JavaEE the way You like it.
-
-This presentation will walk through multiple libraries that can help you change your project from 'This is The Standard Even If It Doesn't Fit' way to a something far more approachable, where your tools doesn't feel like the Maslow's Hammer. I'll be sharing some experience from multiple trainings, projects and refactorings of old-but-still-in-production JavaEE applications and tools we used to get away The Standard."
+  title: "Reverse engineering clean code"
+  description: "This might be the psychology basic for developers... starting with the design 101; take some design principles and show how they are reflected in code. This talk takes one of design principles (from UX world - Norman's design of everyday things, memory model, psychology of short term memory - etc) and extrapolate it onto programming world, trying to distill some patterns and antipatterns in developers' approach to code."
   language: ""
   speakers: [jakmar]
 -
@@ -350,3 +344,9 @@ an implementation in a large, traditional business."
   description: "In this talk, we'll dive into the details of how various language features supported by Kotlin are translated to Java bytecode. We'll use the JMH microbenchmarking tool to study the relative performance of various constructs and to understand how we can ensure top performance of the Kotlin code that we write."
   language: ""
   speakers: [dmijem]
+-
+  id: 208
+  title: "Need for speed: tools for JVM tuning"
+  description: "Monitoring your production JVMs is extremely important. Though, not always you have a luxury of having direct access to production servers, which suffer from performance peaks, memory leaks or concurrency issues. Not always you are able to catch JVM issues without an ability to debug the code in-place. There are quite many tools that can help analyzing performance issues of your JVMs based on real-time monitoring data as well as on logs available only post-mortem. This presentation will give an overview of these tools."
+  language: ""
+  speakers: [andada]

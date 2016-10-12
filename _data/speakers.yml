@@ -244,3 +244,9 @@
   surname: "Jemerov"
   bio: "Developer at JetBrains since 2003"
   thumbnailUrl: "http://2016.geecon.cz/speakers/dmitryj.jpg"
+-
+  id: "andada"
+  name: "Andrey"
+  surname: "Adamovich"
+  bio: "Software craftsman"
+  thumbnailUrl: "http://2016.geecon.cz/speakers/andreya.jpg"
