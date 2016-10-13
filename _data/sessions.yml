@@ -27,7 +27,7 @@
  language: ""
 -
  id: 909
- title: "Opening ceremony"
+ title: "Opening ceremony (Room 9)"
  language: ""
 -
  id: 910
@@ -162,7 +162,7 @@ The presentation will include a live demo of Hot Restart Store with a visualizat
   speakers: [yegbug]
 -
   id: 185
-  title: "Become a Polyglot by learning Java!"
+  title: "Become a Polyglot by learning Java! (Room 9)"
   description: "In a world running at breakneck speed to embrace JavaScript, it is refreshing to see a project that embraces Java to provides solution that deal with the new world and even improve it. I describe Truffle, a project that aim to build multi-language, multi-tenant, multi-threaded, multi-node, multi-tooling and multi-system environment on top of Java virtual machine with the goal to form the fastest and most flexible execution environment on the planet! Learn about Truffle and its Java API to become real polyglot, use the best language for a task and never ask again: Do I really have to use that crummy language? Jaroslav Tulach is the founder and initial architect of NetBeans, which is not just a well known IDE, but also the first modular desktop application framework written in Java. I have seen, made and helped to recover from many API design mistakes. Such experiences forced me to write a book titled “Practical API Design”. These days I am helping OracleLabs to design the API of Truffle which is the fastest virtual machine on the planet."
   language: ""
   speakers: [jartul]
@@ -236,7 +236,7 @@ There will be two live demonstrations during the talk, using a 4-node Cassandra 
   speakers: [aviish]
 -
   id: 195
-  title: "Dirty Hacks With Java Reflection"
+  title: "Dirty Hacks With Java Reflection (Room 9)"
   description: "Java allows us to bypass language security and peek directly into the contents of objects, calling methods and even constructing them.  Usually this is fraught with danger.  It binds you to a particular Java version, blocking your upgrade path.  Dangerous.  That said, I use reflection a lot as a tool to quickly and accurately discover things about objects that would be difficult to determine any other way.  And then I throw the code away.  Knowing how reflection works can save you a lot of time when you need to confirm performance issues.  Whilst seldom a permanent solution, it can be a temporary hack until the architecture can be changed."
   language: ""
   speakers: [heikab]
@@ -260,7 +260,7 @@ There will be two live demonstrations during the talk, using a 4-node Cassandra 
   speakers: [jankot]
 -
   id: 199
-  title: "Next Gen R&D: craft vs. chop-shop"
+  title: "Next Gen R&D: craft vs. chop-shop (Room 9)"
   description: "Build the ivory tower, show them all in, lock the doors, drill the pizza box hole and throw away the key. This is how many companies build R&D departments. Or, be agile, hire a product owner and let them do the talking so that the team is not distracted from the customers. Or, you can frighten everybody to death and let R&D do the talking. But what if they say something they should not? Or, will they? This is the story of making mistakes and how we unknowingly and then knowingly harnessed the power of transparency to win customers. Interested?"
   language: ""
   speakers: [ondkra]
