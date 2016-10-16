@@ -36,9 +36,9 @@
  language: ""
 -
  id: 990
- title: "Party and speakers dinner on a boat"
+ title: "Party and speakers dinner on a boat! Sponsored by Y Soft and EmbedIT"
  service: true
- description: ""
+ description: "at the harbour ''Na Františku'' The boat will leave the harbour at 20:30!"
 -
   id: 165
   title: "Definition of done: Working software in production"
@@ -294,7 +294,7 @@ Once you're there, a land of opportunities ready to be caught sits in front of y
   speakers: [albbra]
 -
   id: 204
-  title: "Go Faster"
+  title: "Go Faster (Room 9)"
   description: "The industry is replete with fresh topics: DevOps, Cloud Computing, MicroServices, Lean
 Startup, Fullstack
 Developers, Agile Variations, and the like. Having seen all these at
@@ -352,7 +352,7 @@ an implementation in a large, traditional business."
   speakers: [andada]
 -
   id: 209
-  title: "Kotlin coroutines"
+  title: "Kotlin coroutines explained"
   description: "TBD"
   language: ""
   speakers: [dmijem]
