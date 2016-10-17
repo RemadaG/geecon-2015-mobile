@@ -38,7 +38,7 @@
  id: 990
  title: "Party and speakers dinner on a boat! Sponsored by Y Soft and EmbedIT"
  service: true
- description: "at the harbour ''Na Františku'' The boat will leave the harbour at 20:30!"
+ description: "The boat will leave 'Na Františku' harbour at 20:30!"
 -
   id: 165
   title: "Definition of done: Working software in production"
@@ -212,14 +212,11 @@ We will focus on the best practices for using BTrace as well as less known, but 
 -
   id: 192
   title: "Apache Cassandra: building a production app on an eventually-consistent DB"
-  description: "At Sky, we use Cassandra for database persistence in our Online Video Platform - the system which delivers all OTT video content to both Sky and NOW TV customers - and yes, that includes handling huge spikes in traffic both when there's a big Premier League football match and when a new Game of Thrones season comes online!
-
-This talk aims to cover the following topics.
--  A brief introduction to Cassandra, including what it’s good for, what it’s not good for, and why.  We'll dig into how storage, reads, writes and conflict resolution work.
--  Gotchas in an eventually-consistent DB - some interesting problems we encountered and the lessons we learned the hard way.
--  Performing database schema and data evolution in Cassandra for a production app - why this is important, and what we did at Sky to ensure consistency of our database schema.
-
-There will be two live demonstrations during the talk, using a 4-node Cassandra cluster in AWS."
+  description: "This talk aims to cover the following topics.
+<li> A brief introduction to Cassandra, including what it’s good for, what it’s not good for, and why. We'll dig into how storage, reads, writes and conflict resolution work.
+<li> Gotchas in an eventually-consistent DB - some interesting problems we encountered and the lessons we learned the hard way.
+<li> Performing database schema and data evolution in Cassandra for a production app.
+<li> Why this is important, and what we did at Sky to ensure consistency of our database schema."
   language: ""
   speakers: [oliloc]
 -
@@ -255,7 +252,8 @@ There will be two live demonstrations during the talk, using a 4-node Cassandra 
 -
   id: 198
   title: "Scala versus Kotlin versus Java8"
-  description: "Foces on difference between those three programming languages in practical daily coding. What is missing in Scala compared to Java8. When are you missing if you stick with Java8. Jan has 7 years experience with Scala and followed Kotlin from very first day."
+  description: "This talk is focusing on practical differences between three programming languages. It talks about practical daily programming, with bit of lambdas and collections. What is missing in Scala compared to
+Java8? When are you missing out if you decide for Java8? Is Kotlin better than Scala? Jan has 7 years experience with Scala and followed Kotlin from its very first day."
   language: ""
   speakers: [jankot]
 -
@@ -352,7 +350,7 @@ an implementation in a large, traditional business."
   speakers: [andada]
 -
   id: 209
-  title: "Kotlin coroutines explained"
-  description: "TBD"
+  title: "Kotlin Coroutines: async/await on the JVM"
+  description: "Kotlin 1.1 introduces coroutines - a compiler feature that lets you transform a method into a form that can be suspended and resumed later. This feature allows to support many different programming patterns, including async/await and Python style generators. Unlike implementations in other languages, Kotlin leaves the specific execution logic under the control of libraries, ensuring that the support can be used both for existing and future concurrent programming abstractions. The lightning talk will give a quick overview of the feature."
   language: ""
   speakers: [dmijem]
