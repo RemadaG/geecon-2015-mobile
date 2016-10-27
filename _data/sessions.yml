@@ -27,13 +27,18 @@
  language: ""
 -
  id: 909
- title: "Opening ceremony"
+ title: "Opening ceremony (Room 9)"
  language: ""
 -
  id: 910
  title: "TBA"
  description: "To Be Announced"
  language: ""
+-
+ id: 990
+ title: "Party and speakers dinner on a boat! Sponsored by Y Soft and EmbedIT"
+ service: true
+ description: "The boat will leave 'Na Františku' harbour at 20:30!"
 -
   id: 165
   title: "Definition of done: Working software in production"
@@ -108,14 +113,8 @@ My goal is that you’ll leave this session inspired, enriched and motivated to 
   speakers: [vacpec]
 -
   id: 178
-  title: "6 tips for you JavaEE project be less depresing"
-  description: "People are stuck to JavaEE not because they love it, but because it was in their work place, it is still there and will be there long after they leave. While many engineers think about going reactive, functional (or any other fashionable buzzword), some are still struggling how to migrate weblogic9 to weblogic12 and move from Java not supported for past 8 years (like Java 1.4) to the one not supported only just for a year (Java7).
-
-While their live can be miserable - there are means for them to win JavaEE back, have fun again. It still won't be a super duper modern framework, it won't have all the latest pre-summer goodies, won't be a sweet language (full of syntactic sugar candies), but a solid set of tools that can make development pleasure again (kind of).
-
-In the modern JavaEE you are no logger limited to the 'standard' but you can take advantage of limitless set tools and libraries. For some people it will still be the bad and ugly JavaEE, 'feels like Spring but n-years ago', 'Spring wannabe in the poor's man land' - that's true. But if you can't win Them (and let's be honest - in most enterprise'ish environments you can't win Them), join them! And have you JavaEE the way You like it.
-
-This presentation will walk through multiple libraries that can help you change your project from 'This is The Standard Even If It Doesn't Fit' way to a something far more approachable, where your tools doesn't feel like the Maslow's Hammer. I'll be sharing some experience from multiple trainings, projects and refactorings of old-but-still-in-production JavaEE applications and tools we used to get away The Standard."
+  title: "Reverse engineering clean code"
+  description: "This might be the psychology basic for developers... starting with the design 101; take some design principles and show how they are reflected in code. This talk takes one of design principles (from UX world - Norman's design of everyday things, memory model, psychology of short term memory - etc) and extrapolate it onto programming world, trying to distill some patterns and antipatterns in developers' approach to code."
   language: ""
   speakers: [jakmar]
 -
@@ -163,7 +162,7 @@ The presentation will include a live demo of Hot Restart Store with a visualizat
   speakers: [yegbug]
 -
   id: 185
-  title: "Become a Polyglot by learning Java!"
+  title: "Become a Polyglot by learning Java! (Room 9)"
   description: "In a world running at breakneck speed to embrace JavaScript, it is refreshing to see a project that embraces Java to provides solution that deal with the new world and even improve it. I describe Truffle, a project that aim to build multi-language, multi-tenant, multi-threaded, multi-node, multi-tooling and multi-system environment on top of Java virtual machine with the goal to form the fastest and most flexible execution environment on the planet! Learn about Truffle and its Java API to become real polyglot, use the best language for a task and never ask again: Do I really have to use that crummy language? Jaroslav Tulach is the founder and initial architect of NetBeans, which is not just a well known IDE, but also the first modular desktop application framework written in Java. I have seen, made and helped to recover from many API design mistakes. Such experiences forced me to write a book titled “Practical API Design”. These days I am helping OracleLabs to design the API of Truffle which is the fastest virtual machine on the planet."
   language: ""
   speakers: [jartul]
@@ -180,6 +179,12 @@ This presentation is a meditation on how I approach data problems with Clojure, 
   description: "BigData is quite trendy and now you're in a new project with Spark/Cassandra/Hadoop/<whatever_bleeding_edge_technology> to build the DataLake/<yet_another_wannabee_keyword> of the 21st century. To have a good start with the new world and all its concepts you'll need some foundational knowledge: - the CAP theorem, or 'pick 2 out of 3, no free lunch' - master/slave, multi-master and masterless architecture, advantages and drawbacks - can I distribute my computation ? Or how 'not to be confused by marketing bullshit around big data'"
   language: ""
   speakers: [duydoa]
+-
+  id: 188
+  title: "One VM to Rule Them All"
+  description: "Graal is a dynamic meta-circular research compiler for Java that is designed for extensibility and modularity. One of its main distinguishing elements is the handling of optimistic assumptions obtained via profiling feedback and the representation of deoptimization guards in the compiled code. Truffle is a self-optimizing runtime system on top of Graal that uses partial evaluation to derive compiled code from interpreters. Truffle is suitable for creating high-performance implementations for dynamic languages with only moderate effort. The presentation includes a description of the Truffle multi-language API and performance comparisons within the industry of current prototype Truffle language implementations (JavaScript, Ruby, and R). Both Graal and Truffle are open source and form themselves research platforms in the area of virtual machine and programming language implementation (<a href='http://openjdk.java.net/projects/graal/'>http://openjdk.java.net/projects/graal/</a>)"
+  language: ""
+  speakers: [jakpod, jansto]
 -
   id: 189
   title: "Geospatial Graphs made easy with OrientDB"
@@ -207,13 +212,145 @@ We will focus on the best practices for using BTrace as well as less known, but 
 -
   id: 192
   title: "Apache Cassandra: building a production app on an eventually-consistent DB"
-  description: "At Sky, we use Cassandra for database persistence in our Online Video Platform - the system which delivers all OTT video content to both Sky and NOW TV customers - and yes, that includes handling huge spikes in traffic both when there's a big Premier League football match and when a new Game of Thrones season comes online!
-
-This talk aims to cover the following topics.
--  A brief introduction to Cassandra, including what it’s good for, what it’s not good for, and why.  We'll dig into how storage, reads, writes and conflict resolution work.
--  Gotchas in an eventually-consistent DB - some interesting problems we encountered and the lessons we learned the hard way.
--  Performing database schema and data evolution in Cassandra for a production app - why this is important, and what we did at Sky to ensure consistency of our database schema.
-
-There will be two live demonstrations during the talk, using a 4-node Cassandra cluster in AWS."
+  description: "This talk aims to cover the following topics.
+<li> A brief introduction to Cassandra, including what it’s good for, what it’s not good for, and why. We'll dig into how storage, reads, writes and conflict resolution work.
+<li> Gotchas in an eventually-consistent DB - some interesting problems we encountered and the lessons we learned the hard way.
+<li> Performing database schema and data evolution in Cassandra for a production app.
+<li> Why this is important, and what we did at Sky to ensure consistency of our database schema."
   language: ""
   speakers: [oliloc]
+-
+  id: 193
+  title: "Travel guide to continuous delivery"
+  description: "With agile principles and practices reaching maturity, in many organizations the focus for the coming years will be on the next steps. Beyond agile. In fast pace organizations are adopting agile, DevOps, continuous delivery and new architectures such as microservices. Often all at once. Although from a perspective of similarities between these paradigms this makes sense, this also requires for increased collaboration between business, development and operations. During this session, Kim van Wilgen, head of IT at the Dutch insurance company Klaverblad, will give practical insights on their journey to continuous delivery with real-life pictures and stories. She'll be your guide through the journey to continuous delivery and tell you about the things to do or to avoid. How can organizations deal with the complexity of simultaneously changing architectures, ways of working, technology, and foremost culture? How do we make this journey comfortable and safe? How can we make the business case for continuous delivery? How can we deliver continuous delivery?"
+  language: ""
+  speakers: [kimvan]
+-
+  id: 194
+  title: "Finding a needle in a haystack - JVM logging guide"
+  description: "Despite the recent (over)flow of log processing tools logs are still highly problematic - they can clog your servers and bring your production down, they are hard to read and parse, and oh too often they miss out the key data you need but contain 3 billion lines of B.S. While log pipelines can help to some extent their value is limited when the source of data is low quality - and this talk is all about improving the quality of your logs. This talk will show various features of Log4j 1/2 and Logback, show various tricks to get the information you want (and only the information you want) and explain how to do this in way that is truly 'production grade'."
+  language: ""
+  speakers: [aviish]
+-
+  id: 195
+  title: "Dirty Hacks With Java Reflection (Room 9)"
+  description: "Java allows us to bypass language security and peek directly into the contents of objects, calling methods and even constructing them.  Usually this is fraught with danger.  It binds you to a particular Java version, blocking your upgrade path.  Dangerous.  That said, I use reflection a lot as a tool to quickly and accurately discover things about objects that would be difficult to determine any other way.  And then I throw the code away.  Knowing how reflection works can save you a lot of time when you need to confirm performance issues.  Whilst seldom a permanent solution, it can be a temporary hack until the architecture can be changed."
+  language: ""
+  speakers: [heikab]
+-
+  id: 196
+  title: "Ten Productivity Tips for Java EE and Spring Developers"
+  description: "In this live coding session, we'll build a Java EE application using JBoss Forge, deploy it onto Wildfly and test it using Arquillian. All of this is possible while barely writing a line of code! We'll also create a microservice using JBoss Swarm. If you're more into Spring we'll also show you how to create a Spring application from scratch, use Spring Boot and how you can rapidly develop you applications using JRebel. There will be a bunch of other tools and tips in this session, so if you want to write code like a pro, this is the session for you!"
+  language: ""
+  speakers: [simmap]
+-
+  id: 197
+  title: "Machine learning by example"
+  description: "Are the machines learning on their own? Wait, is Skynet already here? During this session we will tackle an easy Machine Learning problem, show how can it be processed on Spark including data cleaning, normalization and a learning process. Live coding session, but only if the machines don’t rise against us."
+  language: ""
+  speakers: [micmat]
+-
+  id: 198
+  title: "Scala versus Kotlin versus Java8"
+  description: "This talk is focusing on practical differences between three programming languages. It talks about practical daily programming, with bit of lambdas and collections. What is missing in Scala compared to
+Java8? When are you missing out if you decide for Java8? Is Kotlin better than Scala? Jan has 7 years experience with Scala and followed Kotlin from its very first day."
+  language: ""
+  speakers: [jankot]
+-
+  id: 199
+  title: "Next Gen R&D: craft vs. chop-shop (Room 9)"
+  description: "Build the ivory tower, show them all in, lock the doors, drill the pizza box hole and throw away the key. This is how many companies build R&D departments. Or, be agile, hire a product owner and let them do the talking so that the team is not distracted from the customers. Or, you can frighten everybody to death and let R&D do the talking. But what if they say something they should not? Or, will they? This is the story of making mistakes and how we unknowingly and then knowingly harnessed the power of transparency to win customers. Interested?"
+  language: ""
+  speakers: [ondkra]
+-
+  id: 200
+  title: "Behavior Driven Development meets Karel Čapek"
+  description: "Continuous integration, continuous delivery, automated testing, unit testing, system testing. We	 have been successful as an industry with shortening the feedback loop and developers are getting the test results on their freshly committed code instantaneously. However, are those tests really valid? Are they really as close to the real world as they should be? How do you cross the boundary between verification and validation? Jakub is going to share the bad and the ugly, and most importantly the good that we learned about testing. It’s not about testing, it’s about the results and how we are moving from software verification to product validation. And, how is it related to Karel Čapek? See for yourself!"
+  language: ""
+  speakers: [jakpav]
+-
+  id: 201
+  title: "Effective and Clean Java Code? Tips and Tricks from the Real World"
+  description: "Java has turned 20, but we still haven’t figured out how to create great Java code. Of course, we have examples of great developers and great code, but shouldn’t it be something common rather than unusual? We’ve seen Domain-Driven Design, Effective Java, Clean Code, Refactoring, Design Patterns.... But sometimes it’s still hard to apply all these great concepts in our projects. And we want to make proper use of encapsulation, immutability, the Law of Demeter, and lambdas. What we need is a proven set of tools, tips, and tricks gathered from successful real-world projects. We want to know how we can stop using basic types such as String, BigDecimal, List, and Map and how we can encapsulate information to craft great code. Attend this session to see code directly from the trenches."
+  language: ""
+  speakers: [edsyan]
+-
+  id: 202
+  title: "Reactive Microservices with Vert.x"
+  description: "Everybody is talking about microservices and reactive programming these days. And there’s a reason for that: the high-demand and high-scale distributed world that we have today, reacting to events in an asynchronous and non-blocking fashion seems the right approach to deal with scalability. And to achieve microservices you need a lightweight, fast, modular, high-performance and un-opinionated environment. Meet Vert.x: a toolkit for building reactive applications on the JVM.
+Come to this session to see how you can use Vert.x to create reactive code using Java, Groovy, JavaScript or other JVM languages. We’ll demonstrate how to build Vert.x-based systems leveraging the unique Vert.x event bus for creating apps with real-time communications from the modern web browser to the cloud and back again. Have fun with a large number of live demonstrations that will cause you to reconsider your reliance on monolithics and consider leaving tradition behind for an event-driven, reactive, microservice-focused architecture."
+  language: ""
+  speakers: [bursut]
+-
+  id: 203
+  title: "The Sweet Spot"
+  description: "Software developers keep looking to CQRS as an architecture to boost performance. But the more I work with companies the more I discover there's a sweet spot where Theory of Constraints, Kanban, CQRS, Domain-Driven Design, EventStorming and UX blend together to solve 'the really real problems'.
+
+Once you're there, a land of opportunities ready to be caught sits in front of you. Why waiting?
+"
+  language: ""
+  speakers: [albbra]
+-
+  id: 204
+  title: "Go Faster (Room 9)"
+  description: "The industry is replete with fresh topics: DevOps, Cloud Computing, MicroServices, Lean
+Startup, Fullstack
+Developers, Agile Variations, and the like. Having seen all these at
+conferences, there is an emerging theme around all these topics: Go Faster.
+Going faster is an old theme; I have heard it for over four decades. But the business incentives
+for it are more powerful than ever because competitors have become unfettered from traditional
+barriers:
+<li>Massive, free application frameworks replace expensive vendor packages
+</li><li>Ondemand
+computing replaces expensive, preplanned
+machine installations
+</li><li> Worldwide
+access to customers through social networks replaces dedicated sales
+teams</li>
+
+So either you go faster, or a competitor will emerge who is faster.
+In this presentation, I identify three categories of inhibitors, and suggest mitigation strategies I
+have employed for each one:
+<li>Technology inhibitors, whether dealing with legacy languages, tools, or architectures,
+</li><li>Process inhibitors, particularly daunting as shifts to faster processes run counter to the
+“tried and true” processes inherent in the organization, and
+</li><li> Organization inhibitors as we shake off the timeconsuming
+waterfall structures.</li>
+
+
+Embracing the technology change is not sufficient. Going faster can be crippled if supporting IT
+processes are not implemented. We wrap up by addressing the impact to roles and
+responsibilities, a challenging and key aspect of going faster . We will delve into some detail on
+an implementation in a large, traditional business."
+  language: ""
+  speakers: [fregeo]
+-
+  id: 205
+  title: "TDD: That's not what we meant"
+  description: "TBD"
+  language: ""
+  speakers: [stefre]
+-
+  id: 206
+  title: "Thirty months of Microservices. Stairway to heaven or highway to hell?"
+  description: "TBD"
+  language: ""
+  speakers: [sanhoo]
+-
+  id: 207
+  title: "Caught in the Act: Kotlin Bytecode Generation and Runtime Performance"
+  description: "In this talk, we'll dive into the details of how various language features supported by Kotlin are translated to Java bytecode. We'll use the JMH microbenchmarking tool to study the relative performance of various constructs and to understand how we can ensure top performance of the Kotlin code that we write."
+  language: ""
+  speakers: [dmijem]
+-
+  id: 208
+  title: "Need for speed: tools for JVM tuning"
+  description: "Monitoring your production JVMs is extremely important. Though, not always you have a luxury of having direct access to production servers, which suffer from performance peaks, memory leaks or concurrency issues. Not always you are able to catch JVM issues without an ability to debug the code in-place. There are quite many tools that can help analyzing performance issues of your JVMs based on real-time monitoring data as well as on logs available only post-mortem. This presentation will give an overview of these tools."
+  language: ""
+  speakers: [andada]
+-
+  id: 209
+  title: "Kotlin Coroutines: async/await on the JVM"
+  description: "Kotlin 1.1 introduces coroutines - a compiler feature that lets you transform a method into a form that can be suspended and resumed later. This feature allows to support many different programming patterns, including async/await and Python style generators. Unlike implementations in other languages, Kotlin leaves the specific execution logic under the control of libraries, ensuring that the support can be used both for existing and future concurrent programming abstractions. The lightning talk will give a quick overview of the feature."
+  language: ""
+  speakers: [dmijem]
