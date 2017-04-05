@@ -23,12 +23,6 @@
   bio: "NetBeans Founder and architect. Writer of Practical API Design and 20 API Paradoxes books. Maintaining Truffle API for OracleLabs Graal project"
   thumbnailUrl: "http://2017.geecon.org/speakers/jaroslavt.jpg"
 -
-  id: "gergru"
-  name: "Gerrit"
-  surname: "Grunwald"
-  bio: "A guy who loves coding Java(FX), UI and IoT"
-  thumbnailUrl: "http://2017.geecon.org/speakers/gerritg.png"
--
   id: "mildya"
   name: "Milen"
   surname: "Dyankov"
@@ -243,7 +237,7 @@
   name: "Michał"
   surname: "Matłoka"
   bio: "Software Wizard @ SoftwareMill"
-  thumbnailUrl: "http://2017.geecon.org/speakers/micha%C5%82m.jpg"
+  thumbnailUrl: "http://2017.geecon.org/speakers/michalm.jpg"
 -
   id: "robfir"
   name: "Robert"
@@ -297,7 +291,7 @@
   name: "Michał"
   surname: "Płachta"
   bio: "Makes things alive using computers. For fun and for living"
-  thumbnailUrl: "http://2017.geecon.org/speakers/micha%C5%82p.jpg"
+  thumbnailUrl: "http://2017.geecon.org/speakers/michalp.jpg"
 -
   id: "sebmal"
   name: "Sebastian"
@@ -308,5 +302,11 @@
   id: "alegal"
   name: "Alexander"
   surname: "Gallego"
-  bio: "Alex Gallego is a principal engineer at Akamai. Previously, he was the CTO of Concord.io"
+  bio: "Principal engineer at Akamai. Previously CTO of Concord.io"
   thumbnailUrl: "http://2017.geecon.org/speakers/alexanderg.jpg"
+-
+  id: "lukbyc"
+  name: "Lukasz"
+  surname: "Byczyński"
+  bio: "Software Developer during day, hAkker at night"
+  thumbnailUrl: "http://2017.geecon.org/speakers/lukaszb.jpg"

@@ -19,12 +19,6 @@ Yep, I am not a big believer of diagrams... show me code!"
   language: ""
   speakers: [matrai]
 -
-  id: 214
-  title: "The dark and light side of JavaFX"
-  description: "More and more companies and individuals are using JavaFX. But where light is is also shadow and with all the great things JavaFX has to offer there are also a few things that you should be aware of. The session will cover things like Scene Graph, CSS, TableView, Support of mobile and embedded, Canvas, Properties, Custom Controls and more. This session will try to help developers making the right decisions when working with JavaFX."
-  language: ""
-  speakers: [gergru]
--
   id: 215
   title: "What's NOT new in modular Java?"
   description: "With Java 9 and Jigsaw project around the corner (this time apparently for real), we finally need to stop pretending we can simply ignore the concept of modularity in Java! The thing is - modularity is NOT just some new framework! Neither it is a simple set of APIs! It's a complex concept that has been around for almost as long as the industry itself. So in this talk I'd like to take a step back and reason about the fundamental idea of modularity in Java by comparing the concepts of Jigsaw with other Java modularity approaches and implementations that have been around for quite some time."
@@ -302,6 +296,12 @@ to wait almost 2 years since Mockito 1.10.19."
   description: "In this talk, we’ll look at what it takes to create a WAN-first distributed stream processing engine for IoT. Assume that you want to battle the traffic of the Mirai botnet of 623Gbps and do real-time analytics of traffic to inform upstream servers of route changes, etc. In this talk, I’ll share the changes and additions made to concord (concord.io) a C++ streaming engine running on top of Apache Mesos to support a multi-tenant workload. We’ll cover the security, debugging, fleet management of tens of thousands of servers while keeping the Akamai platform isolated from accidental or malicious attacks at millisecond latencies."
   language: ""
   speakers: [alegal]
+-
+  id: 265
+  title: "Build backend UI like a rockstar with Vaadin 8"
+  description: "UI - backend developer's nightmare, but nowadays backened developers means fullstack devloper. In this presentation I would like to show how easy is build full working UI with Vaadin 8. Grids, lazy loading, push, complex forms, etc it's all at your fingertips. Only requirement is to be open minded and have will to use right tool for the job."
+  language: ""
+  speakers: [lukbyc]
 -
   id: 901
   title: "Registration & breakfast"
