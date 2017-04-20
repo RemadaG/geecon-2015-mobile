@@ -273,6 +273,19 @@ to wait almost 2 years since Mockito 1.10.19."
   language: ""
   speakers: [jakmar]
 -
+  id: 259
+  title: "JIT me baby one more time"
+  description: "JIT, 'just in time', 'hot spot', mysterious, quiet hero of JVM. Proof that every sophisticated technology has a magical element in it.
+
+If you think this presentation will be filled with practical knowledge, or will help you to understand how JIT works. You're wrong. It will be a festival of useless and superfluous knowledge, which is totally useless in our daily work.
+The purpose of this presentation is a moment of reverie and delight over the beauty of technology. A moment of reflection on how little we know and how much is hidden under the next layers of abstraction, libraries and frameworks.
+The presentation will be based on some simple examples in Java and JIT behavior analysis. For rapid attainment of common state of consciousness, examples will be preceded by a quick introduction to the bytecode interpreter, C1 and C2 compilers, inline and escape analisys, de-optimization and tools for inspecting the behavior of the above mechanisms.
+During the presentation, we will meet such techniques as JIT, class hierarchy analisys, constant propagation, loop unrolling and intrinsics.
+
+This presentation is sponsored by -XX: + PrintCompliation, -XX: + PrintInlining, -XX: + PrintInterpreter, and hsdis."
+  language: ""
+  speakers: [jarpal]
+-
   id: 260
   title: "Akka Typed: A fresh look at the Actor model"
   description: "For years there have been voices calling out Akka - the most popular implementation of te Actor Model in the JVM world, for having its interctions loosely typed. This has now changed with the final introduction of the new akka-typed module and with typed persistence module, currently under construction. Akka Typed also comes with a new, behavior-driven philosophy that requires developers and architects to re-think their ideas about actors. How to design & implements actors with that new mindset? How to model & type actor interactions? Answers to this & more in this humble presentation. The talk will take around 60 minutes and is aimed at an advanced audience. Solid understanding of Scala and Akka is required to fully understand it. It will include code samples illustating the Akka Typed API as well as the behavior-driven actor design."
@@ -283,7 +296,7 @@ to wait almost 2 years since Mockito 1.10.19."
   title: "A Pragmatist’s Guide to Functional Geekery"
   description: "Basic functional concepts like immutable data, second-order functions, lambdas and function composition can already be found in the modern programmer’s toolkit. During this talk you will learn about more advanced functional concepts and how they can solve real problems. I will talk about pattern matching, algebraic data types, type classes, functional abstractions, folding and type-level programming. I will show you a practical example written using today’s Java functional constructs and build up from there. I will use only JVM-based languages to show you how they can improve the code, make it more maintainable and safe."
   language: ""
-  speakers: [micpła]
+  speakers: [micpla]
 -
   id: 262
   title: "Do you really know how to create your objects?"
@@ -297,11 +310,35 @@ to wait almost 2 years since Mockito 1.10.19."
   language: ""
   speakers: [alegal]
 -
+  id: 264
+  title: "Event Sourcing and CQRS with Spring Stream"
+  description: "Event sourced domain naturally leads to messaging infrastructure and CQRS based services. See how we can benefit from getting rid of typical relational database model replaced by events. See how events come along with projections and different read model. In this talk we are going to explore all of this backed by a real Spring Cloud Stream applications. Don't ever lose information in your ORM-based system again. Leverage eventual consistency and event-driven architecture with the usage of pure Spring tools. Let's look into internals of databases and see that ideas like ES and CQRS are not new ones. For the fans of Functional Programming, see how you can model your domain with just functions, pattern matching, left fold and immutability. I would like to focus on several aspects: 1. Where to apply Event Sourcing - which is often wrongly recognized as architectural pattern 2. How Event Sourcing is different than ORM-based system with dirty checking. 3. How to apply Event Sourcing with just relational database and spring tools, which can be a good fit for a majority of projects 4. How we can deal with eventual consistency, blue/green deployments, replication, functional decomposition and scaling when using ES/CQRS"
+  language: ""
+  speakers: [jakpil]
+-
   id: 265
   title: "Build backend UI like a rockstar with Vaadin 8"
   description: "UI - backend developer's nightmare, but nowadays backened developers means fullstack devloper. In this presentation I would like to show how easy is build full working UI with Vaadin 8. Grids, lazy loading, push, complex forms, etc it's all at your fingertips. Only requirement is to be open minded and have will to use right tool for the job."
   language: ""
   speakers: [lukbyc]
+-
+  id: 266
+  title: "OpenJ9: Under the hood of the next open source JVM"
+  description: "Come explore how a production JVM takes your application class files, the compiled Java code you’ve written, and loads them into the managed runtime in a form that can be executed. This session provides anyone interested in hacking on a production managed runtime with the background necessary to understand the design of OpenJ9, the upcoming open source project based on IBM’s production JVM and the Eclipse OMR project. It focuses on the key data structures used in the core JVM because understanding these data structures enables anyone to hack on the JVM and to take better advantage of the JVM features in their applications. Learn how the J9 Java VM operates, why there’s a ROM/RAM class division and the state changes that the data can under go from interpreted to jitted execution."
+  language: ""
+  speakers: [danhei]
+-
+  id: 267
+  title: "Value types - The Next Big Thing for Java"
+  description: "Oracle has announced: after lambdas in Java 8 and modules in Java 9, the next big thing for Java will be the support for value types directly in the programming language. With this Java is getting a feature that other languages have already had for some time. In this talk we will look at: <li> what's behind the motto ''Codes like a class - works like an int'' </li> <li>why value types make your code at the same time better readable and more efficient </li> <li> the difference between refence and value types </li> <li>  the new syntax to support value types in Java </li> <li> how value types are implemented in other languages </li> <li>  what inheritance means for value types </li> <li> the advantages of storing data on the stack versus storing data on the heap </li>"
+  language: ""
+  speakers: [hensch]
+-
+  id: 268
+  title: "What this InterruptedException is about?"
+  description: "InterruptedException is what most of us catch, but few of us really understand what it's coming from. I will try to explain what's going on under the hood and why it's so important to restore interrupted status in the thread. We will discuss the very idea of interrupted concurrency in Java and how we must use it effectively, on the level of user code. I wrote an article about a few months ago, but at the presentation we will try to go a bit deeper into details and discuss different use cases: <a href= 'http://www.yegor256.com/2015/10/20/interrupted-exception.html' style='color:LightGray'>www.yegor256.com/2015/10/20/interrupted-exception.html </a>"
+  language: ""
+  speakers: [yegbug]
 -
   id: 901
   title: "Registration & breakfast"

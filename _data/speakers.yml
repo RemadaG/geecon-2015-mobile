@@ -185,6 +185,12 @@
   bio: "Passionate developer and technical team leader"
   thumbnailUrl: "https://2017.geecon.org/speakers/adamd.jpg"
 -
+  id: "jarpal"
+  name: "Jarosław"
+  surname: "Pałka"
+  bio: "Coder, architect, system thinker 'wannabe', open source contributor, still enjoying the ride"
+  thumbnailUrl: "https://2017.geecon.org/speakers/jarekp.jpg"
+-
   id: "stepoo"
   name: "Steve"
   surname: "Poole"
@@ -287,7 +293,7 @@
   bio: "Scala / Big Data Developer. 'Data is always more valuable that you recognize it to be'"
   thumbnailUrl: "https://2017.geecon.org/speakers/kamilo.jpg"
 -
-  id: "micpła"
+  id: "micpla"
   name: "Michał"
   surname: "Płachta"
   bio: "Makes things alive using computers. For fun and for living"
@@ -305,8 +311,32 @@
   bio: "Principal engineer at Akamai. Previously CTO of Concord.io"
   thumbnailUrl: "https://2017.geecon.org/speakers/alexanderg.jpg"
 -
+  id: "jakpil"
+  name: "Jakub"
+  surname: "Pilimon"
+  bio: "Passionate about DDD, CQRS, Clean code and Event Sourcing"
+  thumbnailUrl: "https://2017.geecon.org/speakers/jakubp.jpg"
+-
   id: "lukbyc"
   name: "Lukasz"
   surname: "Byczyński"
   bio: "Software Developer during day, hAkker at night"
   thumbnailUrl: "https://2017.geecon.org/speakers/lukaszb.jpg"
+-
+  id: "danhei"
+  name: "Dan"
+  surname: "Heidinga"
+  bio: "J9 VM Lead, JSR 292 / 335 EG member, Eclipse OMR contributor"
+  thumbnailUrl: "https://2017.geecon.org/speakers/danh.jpg"
+-
+  id: "hensch"
+  name: "Henning"
+  surname: "Schwentner"
+  bio: "Coder, agilist, domain-driven designer, project carer, listener, speaker, trainer, one of @wps_de"
+  thumbnailUrl: "https://2017.geecon.org/speakers/hennings.jpg"
+-
+  id: "yegbug"
+  name: "Yegor"
+  surname: "Bugayenko"
+  bio: "Author of 'Elegant Objects'"
+  thumbnailUrl: "https://2017.geecon.org/speakers/yegorb.jpg"
