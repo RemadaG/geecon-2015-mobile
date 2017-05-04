@@ -14,7 +14,7 @@
   id: "matrai"
   name: "Matt"
   surname: "Raible"
-  bio: "Developer Evangelist at Stormpath with a passion for skiing, mountain biking, VWs and good beer"
+  bio: "Web developer and Java Champion with a passion for skiing, mountain biking, VWs and good beer"
   thumbnailUrl: "https://2017.geecon.org/speakers/mattr.jpg"
 -
   id: "jartul"
@@ -179,6 +179,12 @@
   bio: "Develooper"
   thumbnailUrl: "https://2017.geecon.org/speakers/Pavell.jpg"
 -
+  id: "tomgab"
+  name: "Tomer"
+  surname: "Gabel"
+  bio: "Oddball extraordinaire"
+  thumbnailUrl: "https://2017.geecon.org/speakers/tomerg.jpg"
+-
   id: "adadub"
   name: "Adam"
   surname: "Dubiel"
@@ -340,3 +346,51 @@
   surname: "Bugayenko"
   bio: "Author of 'Elegant Objects'"
   thumbnailUrl: "https://2017.geecon.org/speakers/yegorb.jpg"
+-
+  id: "pioprz"
+  name: "Piotr"
+  surname: "Przybył"
+  bio: "Remote Freelance Software Gardener"
+  thumbnailUrl: "https://2017.geecon.org/speakers/piotrp.jpg"
+-
+  id: "grzgub"
+  name: "Grzegorz"
+  surname: "Gubiński"
+  bio: "Agile & Lean trainer, coach and consultant"
+  thumbnailUrl: "https://2017.geecon.org/speakers/grzegorzg.jpg"
+-
+  id: "konmal"
+  name: "Konrad"
+  surname: "Malawski"
+  bio: "Akka hakker @ Lightbend, Reactive Streams TCK author, founder of multiple communities"
+  thumbnailUrl: "https://2017.geecon.org/speakers/konradm.jpg"
+-
+  id: "tombor"
+  name: "Tomasz"
+  surname: "Borek"
+  bio: "Coder from Poland, thankful to anyone who teaches me while I hop along"
+  thumbnailUrl: "https://2017.geecon.org/speakers/tomaszb.jpg"
+-
+  id: "ondmih"
+  name: "Ondrej"
+  surname: "Mihályi"
+  bio: "Developer, lecturer and consultant, exploring new approaches with already proven Java tooling"
+  thumbnailUrl: "https://2017.geecon.org/speakers/ondrejm.jpg"
+-
+  id: "jerres"
+  name: "Jeroen"
+  surname: "Resoort"
+  bio: "Java Consultant @ JDriven"
+  thumbnailUrl: "https://2017.geecon.org/speakers/jeroenr.jpg"
+-
+  id: "joslon"
+  name: "Josh"
+  surname: "Long"
+  bio: "Spring Developer Advocate at Pivotal"
+  thumbnailUrl: "https://2017.geecon.org/speakers/joshl.jpg"
+-
+  id: "norwoj"
+  name: "Norbert"
+  surname: "Wójtowicz"
+  bio: "Recovering empty-stack developer"
+  thumbnailUrl: "https://2017.geecon.org/speakers/robertw.jpg"

@@ -14,8 +14,8 @@ Yep, I am not a big believer of diagrams... show me code!"
   speakers: [antarh]
 -
   id: 213
-  title: "Building Cloud Native Progressive Web Apps"
-  description: "In this session, you’ll learn how to build microservices with Spring, deploy them to the cloud and expose their functionality with an progressive web application that can run offline. You’ll learn how to “build to fail” and create a quality, resilient application. Live coding will show how to use: Spring Boot, Spring Cloud, Spring Security, Cloud Foundry, IntelliJ IDEA, Angular, JWT, Stormpath, and Progressive Web Apps."
+  title: "Building a PWA with Ionic, Angular and Spring Boot"
+  description: "In this session, you'll learn how to build a Progressive Web App (PWA) using Ionic, Angular and Spring Boot. PWAs are being hyped as the next big thing in mobile development. This talk will cut through the hype and get down to the nitty-gritty. Are they really better than native applications? Can you develop PWAs and easily target mobile and desktop with the same application?"
   language: ""
   speakers: [matrai]
 -
@@ -155,6 +155,12 @@ In this session we will be exploring the JVM and Java applications using this ne
   language: ""
   speakers: [pavlah]
 -
+  id: 237
+  title: "How shit works: the CPU"
+  description: "The beautiful thing about software engineering is that it gives you the warm and fuzzy illusion of total understanding: I control this machine because I know how it operates. This is the result of layers upon layers of successful abstractions, which hide immense sophistication and complexity. As with any abstraction, though, these sometimes leak, and that's when a good grounding in what's under the hood pays off. The second talk in this series peels a few layers of abstraction and takes a look under the hood of our 'car engine', the CPU. While hardly anyone codes in assembly language anymore, your C# or JavaScript (or Scala or...) application still ends up executing machine code instructions on a processor; that is why Java has a memory model, why memory layout still matters at scale, and why you're usually free to ignore these considerations and go about your merry way. You'll come away knowing a little bit about a lot of different moving parts under the hood; after all, isn't understanding how the machine operates what this is all about?"
+  language: ""
+  speakers: [tomgab]
+-
   id: 238
   title: "HTTP clients: silent heroes of distributed systems"
   description: "Communication is the cornerstone of distributed systems. Our services often communicate using HTTP protocol and it is difficult to imagine a modern project without a HTTP client. However we often forget how important role they play. Have you ever wondered what hides behind different clients APIs? How does the magic work? What properties and options should be set in HTTP client and why do they matter? During this talk i will show what happens behind the scenes when using popular high-level HTTP APIs: RestTemplate, Jersey and Retrofit. What settings are crucial to make the most out of them, how to detect failures quickly, what are the bottlenecks and how to monitor them. I will also talk about lower level clients hiding behind those APIs: Apache Client and OkHttp. Come and listen if you want to be a conscious user of these fundamental tools. Level: beginner and everyday user"
@@ -178,6 +184,12 @@ In this session we will be exploring the JVM and Java applications using this ne
   description: "HTML5 has clearly won the race for the most successful UI technology. But no Java developer in their right mind wants to write a serious application in JavaScript. Wouldn't it be great if you could write your business and view logic in Java, and use HTML, CSS and JavaScript only for rendering the view? With NetBeans Java/HTML APIs you can do this. As a result you'll have the best of both worlds and create reliable and maintainable applications with the latest and greatest HTML5 features. And did I mention, that your application will run on desktop, iOS, Android, and even in Browsers without a Java Plugin?"
   language: ""
   speakers: [antepp]
+-
+  id: 244
+  title: "How Docker and microservices are helping us protect users against malware"
+  description: "The rising demands on malware protection systems - ever-changing environment, the need to make good decisions fast and learn quickly from data - all pose significant challenges. Performing rich real-time analysis of large number of samples pouring in from over 400 million users, we'll show how an event-driven microservices architecture is a great fit for our systems. We'll discuss our first-hand experience adopting microservices and container orchestration. We'll cover technical aspects such as communication between services or their monitoring, but also how we benefit from our internal Docker cloud, based on proven open-source technologies, to deploy, manage and scale our services. Most importantly, nothing is all roses, which is why we'll share some of the missteps and difficult trade-offs we had to make during our transition. While having services written in multiple technology stacks enable other teams in our company to participate easily, what are the costs? How do we handle shared libraries and data? Also, what exactly makes a microservice a good citizen in the system? Is running an internal cloud yourself worth the effort? We'll touch on all these tough questions, too."
+  language: ""
+  speakers: [petkre, alevar]
 -
   id: 244
   title: "How Docker and microservices are helping us protect users against malware"
@@ -273,19 +285,6 @@ to wait almost 2 years since Mockito 1.10.19."
   language: ""
   speakers: [jakmar]
 -
-  id: 259
-  title: "JIT me baby one more time"
-  description: "JIT, 'just in time', 'hot spot', mysterious, quiet hero of JVM. Proof that every sophisticated technology has a magical element in it.
-
-If you think this presentation will be filled with practical knowledge, or will help you to understand how JIT works. You're wrong. It will be a festival of useless and superfluous knowledge, which is totally useless in our daily work.
-The purpose of this presentation is a moment of reverie and delight over the beauty of technology. A moment of reflection on how little we know and how much is hidden under the next layers of abstraction, libraries and frameworks.
-The presentation will be based on some simple examples in Java and JIT behavior analysis. For rapid attainment of common state of consciousness, examples will be preceded by a quick introduction to the bytecode interpreter, C1 and C2 compilers, inline and escape analisys, de-optimization and tools for inspecting the behavior of the above mechanisms.
-During the presentation, we will meet such techniques as JIT, class hierarchy analisys, constant propagation, loop unrolling and intrinsics.
-
-This presentation is sponsored by -XX: + PrintCompliation, -XX: + PrintInlining, -XX: + PrintInterpreter, and hsdis."
-  language: ""
-  speakers: [jarpal]
--
   id: 260
   title: "Akka Typed: A fresh look at the Actor model"
   description: "For years there have been voices calling out Akka - the most popular implementation of te Actor Model in the JVM world, for having its interctions loosely typed. This has now changed with the final introduction of the new akka-typed module and with typed persistence module, currently under construction. Akka Typed also comes with a new, behavior-driven philosophy that requires developers and architects to re-think their ideas about actors. How to design & implements actors with that new mindset? How to model & type actor interactions? Answers to this & more in this humble presentation. The talk will take around 60 minutes and is aimed at an advanced audience. Solid understanding of Scala and Akka is required to fully understand it. It will include code samples illustating the Akka Typed API as well as the behavior-driven actor design."
@@ -339,6 +338,82 @@ This presentation is sponsored by -XX: + PrintCompliation, -XX: + PrintInlining,
   description: "InterruptedException is what most of us catch, but few of us really understand what it's coming from. I will try to explain what's going on under the hood and why it's so important to restore interrupted status in the thread. We will discuss the very idea of interrupted concurrency in Java and how we must use it effectively, on the level of user code. I wrote an article about a few months ago, but at the presentation we will try to go a bit deeper into details and discuss different use cases: <a href= 'http://www.yegor256.com/2015/10/20/interrupted-exception.html' style='color:LightGray'>www.yegor256.com/2015/10/20/interrupted-exception.html </a>"
   language: ""
   speakers: [yegbug]
+-
+  id: 269
+  title: "Developing right team’s habits"
+  description: "Hard time to stick with decisions made on Retrospective? Not sure if your dedication to team’s working agreements is bringing fruits you expected? Suspect that your team is barking up the wrong tree? A life of an agile software development team in not easy. Regardless of method of choice a team needs to fulfill many often contradicting needs still retaining place for self-improvement. The Talk describes an experiment of combining elements of Evidence Based Management with Four Disciplines of Execution as a way for a development team to track and improve their own habits. It’s meant to address two common issues that hinder team’s self-improvement: lack of consistency and inability to see long term payoffs of current actions."
+  language: ""
+  speakers: [grzgub]
+-
+  id: 270
+  title: "Betting on performance: a note on hypothesis-driven performance testing"
+  description: "We often think of performance testing as one of those things we just have to do at the end of a project, often using heavyweight tool sets in dedicated environments. In this talk, James offers an alternative. 
+
+What decisions would we make differently if we had the ability to rapidly perform experiments using lightweight performance testing as our lens?
+
+In this talk james will cover the pre-requisites to allow us to make small bets on performance and explore the strange world of evolutionary design that this technique makes possible."
+  language: ""
+  speakers: [jamlew]
+-
+  id: 271
+  title: "7 simple steps to boost your team work"
+  description: "I want to share my insights on how we created an effective agile team for a new project. We managed to maintain a very vibrant team spirit in addition to following well-known agile methods. Most of the techniques we used have equally proven valuable in my other teams within a corporate environment. To increase the team velocity and make it more than the sum of its parts, it takes more than to motivate people with salaries and bonuses. This is hard to explain to managers, but a vibrant, dynamic and effective team has to be built differently. It can be achieved only when information is effectively shared, barriers are being removed and team members are kept happy and excited!"
+  language: ""
+  speakers: [ondmih]
+-
+  id: 272
+  title: "Having fun with Alexa"
+  description: "Home automation has been around for a while, but in the last few years intelligent voice controlled devices have made their appearance on the marketplace. A popular one is Amazon Alexa. Common uses for your assistent at home are controlling lights and music, but let’s start thinking outside the box! In this talk we will explore fun and unusual voice controlled applications for in your home. We will look at how the Alexa Skills kit works and how we can create our own Alexa applications."
+  language: ""
+  speakers: [jerres]
+-
+  id: 273
+  title: "Graylog: one tool to log 'em all"
+  description: "There are 10 kinds of people: the ones who already log stuff and the ones who will. ;-) But what can be fascinating about logging? It's just adding some statements of given level to a file in /var/log, so what's this presentation for in the fist place? Well, ordinary adding lines to /var/log and tracing them with tail -f or searching with grep is so... 1980 and inefficient. Meet Graylog: a centralised and distributed log management system. A tool, which will let you gather, process, analyse logs from many sources: syslog, your application, Apache/ngix, database, firewall, etc. It can alert, search all ways throug, analyse the logs no matter what language/technology sent them. And it makes that good. And is Open Source. This presentation is about some gotchas based on real-life experience, quick Graylog setup, wiring your apps/systems/servers, analysing logs after. Even if the machine which sent them is already gone."
+  language: ""
+  speakers: [pioprz]
+-
+  id: 274
+  title: "Teaching Java to newcomers - what works, what doesn't, how to make your newcomers better"
+  description: "There's a shortage of people that you can hire. There are problems to find promising, good or even proper candidates when you want to recruit. You are getting more and more certain, that education in the universities are not enough. Or perhaps you would even phrase it harsher. You're not the only one, I talked with boys and girls thinking whether after lycée or tech-school they should go straight to work, 'for studies are useless'. And because you (or your team, or your boss, or your company) have problems with letting people go, you're afraid of saying 'YES' to the candidate, unless you're really convinced (as you should!). Solution: hire and teach them yourself. Last year I prepared and led a Java Academy program. I was hired just to do it. Rules were simple: interview, choose most promising ones, teach them for 3 months interspersed with mock interviews to gauge progress. Program was repeated. Afterwards, I used variation of it to introduce manual testers to Java. During this presentation, you will learn: - what I did, - what worked, - what failed to work, despite seemingly having no reasons to, - what you need to do to have such a program (and why), - how taxing that is. And I'm hoping for a good QnA session!"
+  language: ""
+  speakers: [tombor]
+-
+  id: 275
+  title: "Perfecting Mistakes"
+  description: "You’re going to mess up. Probably really terribly. The site’s going to crash. Or get hacked. Or you’re going to accidentally drop the database. Or enable email delivery on staging servers. Something bad is going to happen, eventually, whether you messed up or not.  This talk is a talk about mistakes made by companies like GitHub, GitLab, and others, and how you and your team can address them when they pop up. "
+  language: ""
+  speakers: [zachol]
+-
+  id: 276
+  title: "The Babel Fish is Data: A Whirlwind Tour."
+  description: "The cure for scurvy is not lemons or limes; it's vitamin C. The cure for your system blues is not functional or object-oriented programming; it's data. We will explore how data helps in modeling your business logic, enforcing contracts, building UIs, testing your systems, and documenting your assumptions. Or, you can just let your teeth fall out."
+  language: ""
+  speakers: [norwoj]
+-
+  id: 278
+  title: "Mutants, Xenomorphs and Bytecode"
+  description: "<li>0: getstatic  #2  </li>
+<li>3: ldc  #3  </li>
+<li>5: invokevirtual #4  </li>
+<li>8: return </li>
+
+If these things don't mean anything to you, but at the same time you have this strange feeling deep inside you, that you should know it by heart, come to this talk. Do you want to understand how component scan works in Spring? What nasty things does Hibernate do to your lovely entity classes? And how does AspectJ work underneath? If the answer to any of the above questions is 'yes', you should feel welcome to the journey through bytecode, stacks, local variable tables and class file format. I am going to unveil some of the JVM bytecode fundamentals, explain how everything works and why some things seem weird as well as to present a few tools that allow you to play with bytecode in a warmth of your desk. I promise not to hurt any animal during my presentation, except ASM, ByteBuddy and Byteman. And yes, I did it a few times in production, for better good of humanity."
+  language: ""
+  speakers: [jarpal]
+-
+  id: 279
+  title: "Reactive Spring"
+  description: "Spring 5 is almost here! One of the most exciting introductions in this release is support for reactive programming, building on the Pivotal Reactor project to support message-driven, elastic, resilient and responsive services. Spring 5 integrates an MVC-like component model adapted to support reactive processing and a new type of web endpoint, functional reactive endpoints. In this talk, we'll look at the net-new Netty-based web runtime, how existing Servlet code can run on the new world, and how to integrate it with existing Spring-stack technologies."
+  language: ""
+  speakers: [joslon]
+-
+  id: 280
+  title: "The best is yet to come - State of Akka in 2017"
+  description: "The last years have brought Akka the largest changes since the initial 2.x rewrite yet it remained fully compatible across the last years. With the new exciting modules like Akka Streams, Akka HTTP (including the most recent HTTP/2 work) and the new remoting reimplementation codenamed Artery, we've stepped into the era of Akka 2.5 already. Which again, remains backwards compatible as previous releases. What's in there, and what's next for Akka in general?
+In this talk we'll take a brief look back at the newest stable modules of Akka itself, as well as new projects such as Alpakka. Next, we'll continue with the (then present) 2.5 version and the stable Persistence Query, high-availability CRDT support in Distributed Data and continued work on the Artery remoting. Finally we'll have a sneak peek at what's coming in the next releases, which among other things include Akka Typed and more!"
+  language: ""
+  speakers: [konmal]
 -
   id: 901
   title: "Registration & breakfast"
