@@ -340,6 +340,186 @@ This presentation is sponsored by -XX: + PrintCompliation, -XX: + PrintInlining,
   language: ""
   speakers: [yegbug]
 -
+  id: 269
+  title: "Developing right team’s habits"
+  description: "Hard time to stick with decisions made on Retrospective? Not sure if your dedication to team’s working agreements is bringing fruits you expected? Suspect that your team is barking up the wrong tree? A life of an agile software development team in not easy. Regardless of method of choice a team needs to fulfill many often contradicting needs still retaining place for self-improvement. The Talk describes an experiment of combining elements of Evidence Based Management with Four Disciplines of Execution as a way for a development team to track and improve their own habits. It’s meant to address two common issues that hinder team’s self-improvement: lack of consistency and inability to see long term payoffs of current actions."
+  language: ""
+  speakers: [grzgub]
+-
+  id: 270
+  title: "Betting on performance: a note on hypothesis-driven performance testing"
+  description: "We often think of performance testing as one of those things we just have to do at the end of a project, often using heavyweight tool sets in dedicated environments. In this talk, James offers an alternative. 
+
+What decisions would we make differently if we had the ability to rapidly perform experiments using lightweight performance testing as our lens?
+
+In this talk james will cover the pre-requisites to allow us to make small bets on performance and explore the strange world of evolutionary design that this technique makes possible."
+  language: ""
+  speakers: [jamlew]
+-
+  id: 271
+  title: "5 ways to improve your Java EE applications in reactive way"
+  description: "Have you wondered how you can improve the performance of your applications under high load? You probably heard that reactive design can help meet better response time and make your applications more flexible. I will show you that you don’t need to rewrite your Java EE applications from scratch to achieve that. We’ll go through 5 ways how to reuse the knowledge of Java EE and Java 8 to improve your existing applications with a reactive design. We’ll apply them to a big production-like application step by step, walking through the code and demonstrating live. In the end, we’ll compare how much the performance and user experience can be improved. All that without learning a new framework or library, and limiting the amount of changes in the application source code to a bare minimum."
+  language: ""
+  speakers: [ondmih]
+-
+  id: 272
+  title: "Having fun with Alexa"
+  description: "Home automation has been around for a while, but in the last few years intelligent voice controlled devices have made their appearance on the marketplace. A popular one is Amazon Alexa. Common uses for your assistent at home are controlling lights and music, but let’s start thinking outside the box! In this talk we will explore fun and unusual voice controlled applications for in your home. We will look at how the Alexa Skills kit works and how we can create our own Alexa applications."
+  language: ""
+  speakers: [jerres]
+-
+  id: 273
+  title: "Graylog: one tool to log 'em all"
+  description: "There are 10 kinds of people: the ones who already log stuff and the ones who will. ;-) But what can be fascinating about logging? It's just adding some statements of given level to a file in /var/log, so what's this presentation for in the fist place? Well, ordinary adding lines to /var/log and tracing them with tail -f or searching with grep is so... 1980 and inefficient. Meet Graylog: a centralised and distributed log management system. A tool, which will let you gather, process, analyse logs from many sources: syslog, your application, Apache/ngix, database, firewall, etc. It can alert, search all ways throug, analyse the logs no matter what language/technology sent them. And it makes that good. And is Open Source. This presentation is about some gotchas based on real-life experience, quick Graylog setup, wiring your apps/systems/servers, analysing logs after. Even if the machine which sent them is already gone."
+  language: ""
+  speakers: [pioprz]
+-
+  id: 274
+  title: "Teaching Java to newcomers - what works, what doesn't, how to make your newcomers better"
+  description: "There's a shortage of people that you can hire. There are problems to find promising, good or even proper candidates when you want to recruit. You are getting more and more certain, that education in the universities are not enough. Or perhaps you would even phrase it harsher. You're not the only one, I talked with boys and girls thinking whether after lycée or tech-school they should go straight to work, 'for studies are useless'. And because you (or your team, or your boss, or your company) have problems with letting people go, you're afraid of saying 'YES' to the candidate, unless you're really convinced (as you should!). Solution: hire and teach them yourself. Last year I prepared and led a Java Academy program. I was hired just to do it. Rules were simple: interview, choose most promising ones, teach them for 3 months interspersed with mock interviews to gauge progress. Program was repeated. Afterwards, I used variation of it to introduce manual testers to Java. During this presentation, you will learn: - what I did, - what worked, - what failed to work, despite seemingly having no reasons to, - what you need to do to have such a program (and why), - how taxing that is. And I'm hoping for a good QnA session!"
+  language: ""
+  speakers: [tombor]
+-
+  id: 275
+  title: "Perfecting Mistakes"
+  description: "You’re going to mess up. Probably really terribly. The site’s going to crash. Or get hacked. Or you’re going to accidentally drop the database. Or enable email delivery on staging servers. Something bad is going to happen, eventually, whether you messed up or not.  This talk is a talk about mistakes made by companies like GitHub, GitLab, and others, and how you and your team can address them when they pop up. "
+  language: ""
+  speakers: [zachol]
+-
+  id: 276
+  title: "The Babel Fish is Data: A Whirlwind Tour."
+  description: "The cure for scurvy is not lemons or limes; it's vitamin C. The cure for your system blues is not functional or object-oriented programming; it's data. We will explore how data helps in modeling your business logic, enforcing contracts, building UIs, testing your systems, and documenting your assumptions. Or, you can just let your teeth fall out."
+  language: ""
+  speakers: [norwoj]
+-
+  id: 278
+  title: "Mutants, Xenomorphs and Bytecode"
+  description: "<li>0: getstatic  #2  </li>
+<li>3: ldc  #3  </li>
+<li>5: invokevirtual #4  </li>
+<li>8: return </li>
+
+If these things don't mean anything to you, but at the same time you have this strange feeling deep inside you, that you should know it by heart, come to this talk. Do you want to understand how component scan works in Spring? What nasty things does Hibernate do to your lovely entity classes? And how does AspectJ work underneath? If the answer to any of the above questions is 'yes', you should feel welcome to the journey through bytecode, stacks, local variable tables and class file format. I am going to unveil some of the JVM bytecode fundamentals, explain how everything works and why some things seem weird as well as to present a few tools that allow you to play with bytecode in a warmth of your desk. I promise not to hurt any animal during my presentation, except ASM, ByteBuddy and Byteman. And yes, I did it a few times in production, for better good of humanity."
+  language: ""
+  speakers: [jarpal]
+-
+  id: 279
+  title: "Reactive Spring"
+  description: "Spring 5 is almost here! One of the most exciting introductions in this release is support for reactive programming, building on the Pivotal Reactor project to support message-driven, elastic, resilient and responsive services. Spring 5 integrates an MVC-like component model adapted to support reactive processing and a new type of web endpoint, functional reactive endpoints. In this talk, we'll look at the net-new Netty-based web runtime, how existing Servlet code can run on the new world, and how to integrate it with existing Spring-stack technologies."
+  language: ""
+  speakers: [joslon]
+-
+  id: 280
+  title: "The best is yet to come - State of Akka in 2017"
+  description: "The last years have brought Akka the largest changes since the initial 2.x rewrite yet it remained fully compatible across the last years. With the new exciting modules like Akka Streams, Akka HTTP (including the most recent HTTP/2 work) and the new remoting reimplementation codenamed Artery, we've stepped into the era of Akka 2.5 already. Which again, remains backwards compatible as previous releases. What's in there, and what's next for Akka in general?
+In this talk we'll take a brief look back at the newest stable modules of Akka itself, as well as new projects such as Alpakka. Next, we'll continue with the (then present) 2.5 version and the stable Persistence Query, high-availability CRDT support in Distributed Data and continued work on the Artery remoting. Finally we'll have a sneak peek at what's coming in the next releases, which among other things include Akka Typed and more!"
+  language: ""
+  speakers: [konmal]
+-
+  id: 281
+  title: "Sound Synthesis in the Computational Crucible"
+  description: "A crucible allows base metals to be mixed together at high
+temperatures to form alloys. Medieval alchemists used crucibles to mix
+an astonishing variety of substances together in the search for new
+materials. While Alchemy is often derided for its informal approach,
+early Alchemists paved the wave for modern chemistry, and included
+Newton and Boyle among their number.
+ 
+Just as the crucible encouraged an experiential and experimental
+approach to understanding the world, so too the computer can provide a
+computational crucible. Code can be mixed and brought to great
+temperature in the search for greater understanding and new discovery.
+ 
+Using his own Extempore programming language Andrew will provide a
+``live'' introduction to sound synthesis, building up the core
+components of a real-time digital synthesizer on-the-fly ``in the
+computational crucible''."
+  language: ""
+  speakers: [andsor]
+-
+  id: 282
+  title: "12 ways Software Engineers to make client presentations a disaster"
+  description: "One of the hardest challenges for Software Engineer is presenting work. I’ve seen people who did amazing work get up in front of a client and lay eggs. I’ve also seen people do alright work and wind clients around their little finger. Optimally, you want to do good work and present it well. It’s much better to be a good developer who can present well than a amazing developer who can’t. In this session we’ll cover the most common mistakes software engineers make when presenting their work, and how to avoid them."
+  language: ""
+  speakers: [krzkac]
+-
+  id: 283
+  title: "How SCRUM moved away from developers"
+  description: "Scrum framework has evolved in last 20 <a href='http://www.years.it' style='color:LightGray'> years.it </a> was one of the favourite tool embraced by developers in all industries. What went wrong? Is SCRUM still agile? What is an agile framework? During this presentation, we will uncover why developers stopped using SCRUM framework. It will be a good moment to talk bit more about principles and how we can deliver software without frameworks and why should we care about it."
+  language: ""
+  speakers: [matbry]
+-
+  id: 284
+  title: "When Vert.x & RxJava meet - Knot.x: highly-efficient and scalable integration platform for modern websites"
+  description: "Let's imagine an online banking website containing different features like a chat box, exchange rates, stock data and user profile information. The site has a high performance characteristic, despite of its complexity and target publishing channels. All those features come from different providers/vendors having their own teams working in various modes, technologies and release cycles. Knot.x connects all of them in a controlled and isolated way, preventing any undesired interferences. It combines asynchronous programming principles and message-driven architecture providing a scalable platform for modern sites. If you want to see Vert.x, RxJava in action you can not miss this talk. During the talk we will explain the idea behind Knot.x and show how Knot.x impacts systems architectures."
+  language: ""
+  speakers: [maclas, tommic]
+-
+  id: 285
+  title: "55 New Features in JDK 9"
+  description: "Following on from the popular “55 New Features in Java SE 8” we bring you the eagerly-awaited sequel, “55 New Features in JDK 9”.
+
+Obviously, the big new feature in JDK 9 is modularity and project Jigsaw, but there’s lots more to tempt developers. We’ll divide things into five categories:
+
+<li>Features</li>
+<li>Standards</li>
+<li>Inside the JVM</li>
+<li>Specialised</li>
+<li>Housekeeping</li>
+Join us on a whirlwind tour of what’s in (and what’s out) in JDK 9 so you’re ready to get started with the latest version of the most popular programming platform on the planet."
+  language: ""
+  speakers: [simrit]
+-
+  id: 286
+  title: "Java Performance Engineers' Survival guide"
+  description: "Managed runtime performance expert, Monica Beckwith will divulge her survival guide which is essential for any application performance engineer to get to the bottom of a performance issue. The presentation will provide a step-by-step approach to finding the root cause of any performance problem. Monica will walk the attendees through an example that will showcase a few performance tools and the performance process. Following the simple rules highlighted in the presentation and applying performance engineering patterns will make you and your stakeholders happy."
+  language: ""
+  speakers: [monbec]
+-
+  id: 287
+  title: "GARBAGE FIRST GARBAGE COLLECTOR: WHERE THE RUBBER MEETS THE ROAD!"
+  description: "Garbage First (G1) Garbage Collector (GC) is going to be the default in Java 9. G1 GC has incremental compaction and your friendly-neighborhood stop-the-world collections. G1 also has a concurrent marking phase. After having worked with it for many years, Monica will share her performance work in helping customers achieve their SLAs with G1 GC. So you don't want to miss it!"
+  language: ""
+  speakers: [monbec]
+-
+  id: 288
+  title: "Inside JVM JIT"
+  description: "Inside the JVM JIT: Monitoring OpenJDK JITs and learning what they're doing, tweaking how they run. Oldish talk but I keep it up to date."
+  language: ""
+  speakers: [chanut]
+-
+  id: 289
+  title: "Java Native Runtime"
+  description: "Java Native Runtime: a walkthrough and short tutorial on using the Java Native Runtime libraries to call C libraries from Java without writing C code."
+  language: ""
+  speakers: [chanut]
+-
+  id: 290
+  title: "Learning to Fly"
+  description: "Flying is exciting and useful, but it is also quite complicated. Especially for the machine which does not have years of experience in understaning what it sees, like we humans do. On the other hand, machines can be more focused on the task. When they sense something through their equipment, they can react much faster than we humans do.
+
+In our project we try to make the machine understand its environment as it flies, and use that understanding to fly on its own, smoothly and safely in unfriendly environments. During this talk you will participate in all the stages of this exciting adventure from the first lines of code, through algorithmic struggles up to complete system ready to explore the world."
+  language: ""
+  speakers: [krzkud, blakub]
+-
+  id: 291
+  title: "Quantum Computing"
+  description: "Wojtek will talk about essential concepts related to Quantum Computing."
+  language: ""
+  speakers: [wojbur]
+-
+  id: 292
+  title: "Platform and Product Evolution at Sabre"
+  description: "Most software product organization eventually wrestle with the challenge of refactoring and evolving the architecture, design and code of their products and platforms.  Over time code size and complexity increase as successive layers of code, features, integrations, are introduced. Systems become more and more brittle and susceptible to failure, product life cycles grow longer as more safety checks are added in an effort to prevent breakages, and the organization becomes increasingly cautious and uncertain when making changes – further slowing and constraining time to market, and ultimately creating an unvirtuous cycle.  One of the biggest challenges in large systems is knowing where to start and how to proceed.  This talk will describe proven technical and organizational approaches to modernizing extant systems architectures and code."
+  language: ""
+  speakers: [davmoo]
+-
+  id: 293
+  title: "Keynote"
+  description: "TBD"
+  language: ""
+  speakers: [rodjoh]
+-
   id: 901
   title: "Registration & breakfast"
   description: ""
@@ -398,7 +578,7 @@ This presentation is sponsored by -XX: + PrintCompliation, -XX: + PrintInlining,
 -
   id: 990
   title: "Party"
-  description: "Party time!"
+  description: "Party time at Forty Kleparz (Kamienna 2 Street, http://www.fortykleparz.pl)"
   presentation: ""
   service: "true"
   language: ""
