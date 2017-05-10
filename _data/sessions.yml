@@ -335,7 +335,7 @@ to wait almost 2 years since Mockito 1.10.19."
 -
   id: 270
   title: "Betting on performance: a note on hypothesis-driven performance testing"
-  description: "We often think of performance testing as one of those things we just have to do at the end of a project, often using heavyweight tool sets in dedicated environments. In this talk, James offers an alternative.
+  description: "We often think of performance testing as one of those things we just have to do at the end of a project, often using heavyweight tool sets in dedicated environments. In this talk, James offers an alternative. 
 
 What decisions would we make differently if we had the ability to rapidly perform experiments using lightweight performance testing as our lens?
 
@@ -411,12 +411,12 @@ an astonishing variety of substances together in the search for new
 materials. While Alchemy is often derided for its informal approach,
 early Alchemists paved the wave for modern chemistry, and included
 Newton and Boyle among their number.
-
+ 
 Just as the crucible encouraged an experiential and experimental
 approach to understanding the world, so too the computer can provide a
 computational crucible. Code can be mixed and brought to great
 temperature in the search for greater understanding and new discovery.
-
+ 
 Using his own Extempore programming language Andrew will provide a
 ``live'' introduction to sound synthesis, building up the core
 components of a real-time digital synthesizer on-the-fly ``in the
@@ -494,6 +494,18 @@ In our project we try to make the machine understand its environment as it flies
   description: "Wojtek will talk about essential concepts related to Quantum Computing."
   language: ""
   speakers: [wojbur]
+-
+  id: 292
+  title: "Platform and Product Evolution at Sabre"
+  description: "Most software product organization eventually wrestle with the challenge of refactoring and evolving the architecture, design and code of their products and platforms.  Over time code size and complexity increase as successive layers of code, features, integrations, are introduced. Systems become more and more brittle and susceptible to failure, product life cycles grow longer as more safety checks are added in an effort to prevent breakages, and the organization becomes increasingly cautious and uncertain when making changes – further slowing and constraining time to market, and ultimately creating an unvirtuous cycle.  One of the biggest challenges in large systems is knowing where to start and how to proceed.  This talk will describe proven technical and organizational approaches to modernizing extant systems architectures and code."
+  language: ""
+  speakers: [davmoo]
+-
+  id: 293
+  title: "Keynote"
+  description: "TBD"
+  language: ""
+  speakers: [rodjoh]
 -
   id: 901
   title: "Registration & breakfast"

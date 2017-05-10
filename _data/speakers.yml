@@ -424,3 +424,9 @@
   surname: "Kubiak"
   bio: "Enthusiast of all aspects of big data processing and all technologies"
   thumbnailUrl: "https://2017.geecon.org/speakers/blazejk.jpg"
+-
+  id: "davmoo"
+  name: "David"
+  surname: "Moore"
+  bio: "Senior Technology and ECommerce Executive. VP at Sabre Corporation"
+  thumbnailUrl: "https://2017.geecon.org/speakers/davidm.jpg"
