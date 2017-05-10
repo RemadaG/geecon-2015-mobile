@@ -9,13 +9,13 @@ Yep, I am not a big believer of diagrams... show me code!"
 -
   id: 212
   title: "TestContainers – integration testing without the hassle"
-  description: "Unit testing is nice, but without a proper integration testing you might not know how your application will behave once it's deployed to the real environment. Before the Docker, configuring the environment for integration testing was painful – people were using fake database implementations, mocking servers, usually it wasn't cross-platform as well. But now, we can easily prepare the environment with Docker for our tests. In this talk I would like to spread the word about TestContainers ( <a href='https://github.com/testcontainers/testcontainers-java'>https://github.com/testcontainers/testcontainers-java</a> ) – a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. A year ago we (ZeroTurnaround) decided to join our Docker-based test engine and TestContainers, and now it's open-sourced, available to everyone, so you can test your apps like we do :)"
+  description: "Unit testing is nice, but without a proper integration testing you might not know how your application will behave once it's deployed to the real environment. Before the Docker, configuring the environment for integration testing was painful – people were using fake database implementations, mocking servers, usually it wasn't cross-platform as well. But now, we can easily prepare the environment with Docker for our tests. In this talk I would like to spread the word about TestContainers ( <a href='https://github.com/testcontainers/testcontainers-java' style='color:LightGrey'>https://github.com/testcontainers/testcontainers-java</a> ) – a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. A year ago we (ZeroTurnaround) decided to join our Docker-based test engine and TestContainers, and now it's open-sourced, available to everyone, so you can test your apps like we do :)"
   language: ""
   speakers: [antarh]
 -
   id: 213
-  title: "Building Cloud Native Progressive Web Apps"
-  description: "In this session, you’ll learn how to build microservices with Spring, deploy them to the cloud and expose their functionality with an progressive web application that can run offline. You’ll learn how to “build to fail” and create a quality, resilient application. Live coding will show how to use: Spring Boot, Spring Cloud, Spring Security, Cloud Foundry, IntelliJ IDEA, Angular, JWT, Stormpath, and Progressive Web Apps."
+  title: "Building a PWA with Ionic, Angular and Spring Boot"
+  description: "In this session, you'll learn how to build a Progressive Web App (PWA) using Ionic, Angular and Spring Boot. PWAs are being hyped as the next big thing in mobile development. This talk will cut through the hype and get down to the nitty-gritty. Are they really better than native applications? Can you develop PWAs and easily target mobile and desktop with the same application?"
   language: ""
   speakers: [matrai]
 -
@@ -125,12 +125,6 @@ In this session we will be exploring the JVM and Java applications using this ne
   language: ""
   speakers: [niklip]
 -
-  id: 230
-  title: "From rest to lambda architecture and beyond!"
-  description: "Have you ever hit a wall with REST? Does modeling your domain problem feel like fitting a square peg into a round hole? Have you ever tried implementing a PATCH request (without going crazy)? Maybe you were trying to split your domain into microservices and suddenly your modularity leaked somewhere on http layer? You will learn what mesh and your business domain have in common and what kind of buzz will people talk about next year. This talk is about another (very old) idea, which is not 'silver bullet' but will be helpful killing some werewolfs."
-  language: ""
-  speakers: [krzkac]
--
   id: 232
   title: "Ratpack  - Future < Server.HTTP < Java > >"
   description: "Have you ever heard of non blocking web servers? Have you tried it in Java? Curious? Let me show you how to write simple HTTP Rest Server using Ratpack library. Yes library - because it is not another vast framework. Just a small tool for big things! I will show how non blocking architecture works - and yes one thread can handle thousands of simultaneous HTTP connections in Java. We will see why using more threads on server is not the best option every time - and we will try to find the sweet spot for performance. We will deal with topics such as: REST, WebSockets, persistence (with and without SQL databases), asynchronous IO, blocking IO, RxJava 2.0, JavaSlang, immutability and more. And yes - there will be mondas, a lot of them, you are going to love them. They are terrific. All that on a working example of a simple web based multiplayer game."
@@ -155,6 +149,12 @@ In this session we will be exploring the JVM and Java applications using this ne
   language: ""
   speakers: [pavlah]
 -
+  id: 237
+  title: "How shit works: the CPU"
+  description: "The beautiful thing about software engineering is that it gives you the warm and fuzzy illusion of total understanding: I control this machine because I know how it operates. This is the result of layers upon layers of successful abstractions, which hide immense sophistication and complexity. As with any abstraction, though, these sometimes leak, and that's when a good grounding in what's under the hood pays off. The second talk in this series peels a few layers of abstraction and takes a look under the hood of our 'car engine', the CPU. While hardly anyone codes in assembly language anymore, your C# or JavaScript (or Scala or...) application still ends up executing machine code instructions on a processor; that is why Java has a memory model, why memory layout still matters at scale, and why you're usually free to ignore these considerations and go about your merry way. You'll come away knowing a little bit about a lot of different moving parts under the hood; after all, isn't understanding how the machine operates what this is all about?"
+  language: ""
+  speakers: [tomgab]
+-
   id: 238
   title: "HTTP clients: silent heroes of distributed systems"
   description: "Communication is the cornerstone of distributed systems. Our services often communicate using HTTP protocol and it is difficult to imagine a modern project without a HTTP client. However we often forget how important role they play. Have you ever wondered what hides behind different clients APIs? How does the magic work? What properties and options should be set in HTTP client and why do they matter? During this talk i will show what happens behind the scenes when using popular high-level HTTP APIs: RestTemplate, Jersey and Retrofit. What settings are crucial to make the most out of them, how to detect failures quickly, what are the bottlenecks and how to monitor them. I will also talk about lower level clients hiding behind those APIs: Apache Client and OkHttp. Come and listen if you want to be a conscious user of these fundamental tools. Level: beginner and everyday user"
@@ -173,17 +173,17 @@ In this session we will be exploring the JVM and Java applications using this ne
   language: ""
   speakers: [adarob]
 -
-  id: 243
-  title: "HTML5 UIs in Java Clients"
-  description: "HTML5 has clearly won the race for the most successful UI technology. But no Java developer in their right mind wants to write a serious application in JavaScript. Wouldn't it be great if you could write your business and view logic in Java, and use HTML, CSS and JavaScript only for rendering the view? With NetBeans Java/HTML APIs you can do this. As a result you'll have the best of both worlds and create reliable and maintainable applications with the latest and greatest HTML5 features. And did I mention, that your application will run on desktop, iOS, Android, and even in Browsers without a Java Plugin?"
-  language: ""
-  speakers: [antepp]
--
   id: 244
   title: "How Docker and microservices are helping us protect users against malware"
   description: "The rising demands on malware protection systems - ever-changing environment, the need to make good decisions fast and learn quickly from data - all pose significant challenges. Performing rich real-time analysis of large number of samples pouring in from over 400 million users, we'll show how an event-driven microservices architecture is a great fit for our systems. We'll discuss our first-hand experience adopting microservices and container orchestration. We'll cover technical aspects such as communication between services or their monitoring, but also how we benefit from our internal Docker cloud, based on proven open-source technologies, to deploy, manage and scale our services. Most importantly, nothing is all roses, which is why we'll share some of the missteps and difficult trade-offs we had to make during our transition. While having services written in multiple technology stacks enable other teams in our company to participate easily, what are the costs? How do we handle shared libraries and data? Also, what exactly makes a microservice a good citizen in the system? Is running an internal cloud yourself worth the effort? We'll touch on all these tough questions, too."
   language: ""
   speakers: [petkre, alevar]
+-
+  id: 245
+  title: "Eclipse OMR your (J)VM toolkit"
+  description: "JVM technologies such as garbage collection and just in time compilation, have been improved for decades and provide industry tested reliability and performance to the Java ecosystem. Recently, a lot of new languages have been written in Java to leverage this investment in JVMs. We believe it is possible for other languages to leverage the huge investment in JVM technology without necessarily becoming tied to the Java Language or the JVM itself. In March 2016, the Eclipse OMR (https://github.com/eclipse/omr) open source project was created. The Eclipse OMR project consists of a highly integrated set of open source C and C++ components that can be used to build robust language runtimes that will support many different hardware and operating system platforms. The components in Eclipse OMR were donated from the IBM J9 Java VM. I will discuss the different technologies available in OMR and their capabilities. The technologies include garbage collection, compiler (JIT), RAS and diagnostic tools. During this talk I will also discuss the languages consuming OMR and other runtime proof of concepts we have been working on to demonstrate the benefits of shared runtime technologies. The proof points include IBM J9 Java VM (soon to be open sourced as Open J9), Ruby MRI, SOM++, Lua Vermelha, CPython and Rosie Pattern language."
+  language: ""
+  speakers: [chagra]
 -
   id: 246
   title: "Caching for Business Applications: Best Practices and Gotchas"
@@ -268,23 +268,10 @@ to wait almost 2 years since Mockito 1.10.19."
   speakers: [marzaj]
 -
   id: 258
-  title: "Stages of maturity on the way to microservices"
-  description: "Microservies. Everybody is talking about microservices. Everybody says they do microservces (or at least they plan to) . The definition of microservice architecture is quite broad and vague: functional decoupling into discrete services. Therefore a number of approaches, with different flavors and implementations is so great - everybody can do microservices differently. In this talk we aim to categorize and make some things clear. Based on experience from multiple companies, projects and f*ck ups, we would like to propose certain maturity criteria which organizations must embrace to start with microservices approach. Without these, things might work but times might become even harder. We will walk through multiple practices essential for successful microservices rollout, validate them and justify. This won’t be a purely technical talk - no successful change in the organisation happened on purely technical bases. We will correlate the maturity criteria with some business drivers, which help team-up business and technical guys on the same side. If your organisation considers microservices, or you - as an engineer - need some argument to better justify the technical choices, this talk might be for you."
+  title: "Java9 and REPL. Forget debugging, welcome joy and productivity."
+  description: "Oh Java, my old, lousy and boilerpalted friend. For ages, trying anything new (which luckily wasn't that frequent afterall) required starting a new project, followed by a `Sandbox` class and a `public static void main` method. Alternatively, a simple JUnit test was a nice entrypoint as well - if we were lucky enough to have some dependency management sorted out.Thankfully, things have changed. With the Java9 a REPL has been introduced, everybody can just run an up-to-date Java shell and try out new sytaxt, new APIs, new libraries. Now we can feel like Scala, CLojure, Ruby, JavaScript, PHP, call whatever language developers - finally there.In this talk I'll walk through essential REPL examples, see how we can use JShell to try out new language features (like Java9 Streams enhancements), but foremost, we will use it to build a real-life web application. Expect meat-only talk without theory, diagrams, useless 'javax.swing.*' application examples."
   language: ""
   speakers: [jakmar]
--
-  id: 259
-  title: "JIT me baby one more time"
-  description: "JIT, 'just in time', 'hot spot', mysterious, quiet hero of JVM. Proof that every sophisticated technology has a magical element in it.
-
-If you think this presentation will be filled with practical knowledge, or will help you to understand how JIT works. You're wrong. It will be a festival of useless and superfluous knowledge, which is totally useless in our daily work.
-The purpose of this presentation is a moment of reverie and delight over the beauty of technology. A moment of reflection on how little we know and how much is hidden under the next layers of abstraction, libraries and frameworks.
-The presentation will be based on some simple examples in Java and JIT behavior analysis. For rapid attainment of common state of consciousness, examples will be preceded by a quick introduction to the bytecode interpreter, C1 and C2 compilers, inline and escape analisys, de-optimization and tools for inspecting the behavior of the above mechanisms.
-During the presentation, we will meet such techniques as JIT, class hierarchy analisys, constant propagation, loop unrolling and intrinsics.
-
-This presentation is sponsored by -XX: + PrintCompliation, -XX: + PrintInlining, -XX: + PrintInterpreter, and hsdis."
-  language: ""
-  speakers: [jarpal]
 -
   id: 260
   title: "Akka Typed: A fresh look at the Actor model"
@@ -348,7 +335,7 @@ This presentation is sponsored by -XX: + PrintCompliation, -XX: + PrintInlining,
 -
   id: 270
   title: "Betting on performance: a note on hypothesis-driven performance testing"
-  description: "We often think of performance testing as one of those things we just have to do at the end of a project, often using heavyweight tool sets in dedicated environments. In this talk, James offers an alternative. 
+  description: "We often think of performance testing as one of those things we just have to do at the end of a project, often using heavyweight tool sets in dedicated environments. In this talk, James offers an alternative.
 
 What decisions would we make differently if we had the ability to rapidly perform experiments using lightweight performance testing as our lens?
 
@@ -424,12 +411,12 @@ an astonishing variety of substances together in the search for new
 materials. While Alchemy is often derided for its informal approach,
 early Alchemists paved the wave for modern chemistry, and included
 Newton and Boyle among their number.
- 
+
 Just as the crucible encouraged an experiential and experimental
 approach to understanding the world, so too the computer can provide a
 computational crucible. Code can be mixed and brought to great
 temperature in the search for greater understanding and new discovery.
- 
+
 Using his own Extempore programming language Andrew will provide a
 ``live'' introduction to sound synthesis, building up the core
 components of a real-time digital synthesizer on-the-fly ``in the
@@ -507,18 +494,6 @@ In our project we try to make the machine understand its environment as it flies
   description: "Wojtek will talk about essential concepts related to Quantum Computing."
   language: ""
   speakers: [wojbur]
--
-  id: 292
-  title: "Platform and Product Evolution at Sabre"
-  description: "Most software product organization eventually wrestle with the challenge of refactoring and evolving the architecture, design and code of their products and platforms.  Over time code size and complexity increase as successive layers of code, features, integrations, are introduced. Systems become more and more brittle and susceptible to failure, product life cycles grow longer as more safety checks are added in an effort to prevent breakages, and the organization becomes increasingly cautious and uncertain when making changes – further slowing and constraining time to market, and ultimately creating an unvirtuous cycle.  One of the biggest challenges in large systems is knowing where to start and how to proceed.  This talk will describe proven technical and organizational approaches to modernizing extant systems architectures and code."
-  language: ""
-  speakers: [davmoo]
--
-  id: 293
-  title: "Keynote"
-  description: "TBD"
-  language: ""
-  speakers: [rodjoh]
 -
   id: 901
   title: "Registration & breakfast"

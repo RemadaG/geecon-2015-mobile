@@ -14,14 +14,8 @@
   id: "matrai"
   name: "Matt"
   surname: "Raible"
-  bio: "Developer Evangelist at Stormpath with a passion for skiing, mountain biking, VWs and good beer"
+  bio: "Web developer and Java Champion with a passion for skiing, mountain biking, VWs and good beer"
   thumbnailUrl: "https://2017.geecon.org/speakers/mattr.jpg"
--
-  id: "jartul"
-  name: "Jaroslav"
-  surname: "Tulach"
-  bio: "NetBeans Founder and architect. Writer of Practical API Design and 20 API Paradoxes books. Maintaining Truffle API for OracleLabs Graal project"
-  thumbnailUrl: "https://2017.geecon.org/speakers/jaroslavt.jpg"
 -
   id: "mildya"
   name: "Milen"
@@ -179,6 +173,12 @@
   bio: "Develooper"
   thumbnailUrl: "https://2017.geecon.org/speakers/Pavell.jpg"
 -
+  id: "tomgab"
+  name: "Tomer"
+  surname: "Gabel"
+  bio: "Oddball extraordinaire"
+  thumbnailUrl: "https://2017.geecon.org/speakers/tomerg.jpg"
+-
   id: "adadub"
   name: "Adam"
   surname: "Dubiel"
@@ -203,12 +203,6 @@
   bio: "Team lead for Apache Spark runtime at IBM"
   thumbnailUrl: "https://2017.geecon.org/speakers/Adamr.jpg"
 -
-  id: "antepp"
-  name: "Anton"
-  surname: "Epple"
-  bio: "Toni is a specialist for Java UI technologies"
-  thumbnailUrl: "https://2017.geecon.org/speakers/antone.jpg"
--
   id: "petkre"
   name: "Petr"
   surname: "Krebs"
@@ -220,6 +214,12 @@
   surname: "Varkockova"
   bio: "Backend developer @ Avast"
   thumbnailUrl: "https://2017.geecon.org/speakers/alenav.jpg"
+-
+  id: "chagra"
+  name: "Charlie"
+  surname: "Gracie"
+  bio: "Senior Software Developer and Co-Project Lead on Eclipse OMR working on Virtual Machine Technology"
+  thumbnailUrl: "https://2017.geecon.org/speakers/charlieg.jpg"
 -
   id: "micplo"
   name: "Michael"
@@ -424,9 +424,3 @@
   surname: "Kubiak"
   bio: "Enthusiast of all aspects of big data processing and all technologies"
   thumbnailUrl: "https://2017.geecon.org/speakers/blazejk.jpg"
--
-  id: "davmoo"
-  name: "David"
-  surname: "Moore"
-  bio: "Senior Technology and ECommerce Executive. VP at Sabre Corporation"
-  thumbnailUrl: "https://2017.geecon.org/speakers/davidm.jpg"
