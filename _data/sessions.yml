@@ -565,7 +565,7 @@ In our project we try to make the machine understand its environment as it flies
 -
   id: 990
   title: "Party"
-  description: "Party time at Forty Kleparz (Kamienna 2 Street http://www.fortykleparz.pl)"
+  description: "at Forty Kleparz (Kamienna 2 Street <a href='http://www.fortykleparz.pl'>http://www.fortykleparz.pl</a>)"
   presentation: ""
   service: "true"
   language: ""
