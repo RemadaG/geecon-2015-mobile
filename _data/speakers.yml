@@ -430,3 +430,9 @@
   surname: "Moore"
   bio: "Senior Technology and ECommerce Executive. VP at Sabre Corporation"
   thumbnailUrl: "https://2017.geecon.org/speakers/davidm.jpg"
+-
+  id: "wojsel"
+  name: "Wojciech"
+  surname: "Seliga"
+  bio: "Entrepreneur, leader, software developer, devoted agilist, Atlassian advocate, speaker, Spartez co-founder & CEO"
+  thumbnailUrl: "https://2017.geecon.org/speakers/wojciechs.jpg"

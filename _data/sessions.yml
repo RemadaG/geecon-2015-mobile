@@ -507,6 +507,35 @@ In our project we try to make the machine understand its environment as it flies
   language: ""
   speakers: [rodjoh]
 -
+  id: 294
+  title: "Truffle: your favorite language on JVM without compromises"
+  description: "Graal/Truffle is a project that aims to build multi-language, multi-tenant, multi-threaded, multi-node, multi-tooling and multi-system environment on top of JVM. Imagine that in order to develop a (dynamic) language implementation all you need is to write its interpreter in Java and immediately you get amazing peek performance, choice of several carefully tuned garbage collectors, tooling support, high speed interoperability with other languages and more. In this talk we'll take a look at how Truffle and Graal can achieve this and demonstrate the results on Ruby, JavaScript and R. Particular attention will be given to FastR the Truffle based R language implementation, its performance compared to GNU R and its support for Java interoperability including graphics."
+  language: ""
+  speakers: [stesin]
+-
+  id: 295
+  title: "7 simple steps to boost your team work"
+  description: "I want to share my insights on how we created an effective agile team for a new project. We managed to maintain a very vibrant team spirit in addition to following well-known agile methods. Most of the techniques we used have equally proven valuable in my other teams within a corporate environment. To increase the team velocity and make it more than the sum of its parts, it takes more than to motivate people with salaries and bonuses. This is hard to explain to managers, but a vibrant, dynamic and effective team has to be built differently. It can be achieved only when information is effectively shared, barriers are being removed and team members are kept happy and excited!"
+  language: ""
+  speakers: [ondmih]
+-
+  id: 296
+  title: "Stages of maturity on the way to microservices"
+  description: "Microservies. Everybody is talking about microservices. Everybody says they do microservces (or at least they plan to) . The definition of microservice architecture is quite broad and vague: functional decoupling into discrete services. Therefore a number of approaches, with different flavors and implementations is so great - everybody can do microservices differently. In this talk we aim to categorize and make some things clear. Based on experience from multiple companies, projects and f*ck ups, we would like to propose certain maturity criteria which organizations must embrace to start with microservices approach. Without these, things might work but times might become even harder. We will walk through multiple practices essential for successful microservices rollout, validate them and justify. This won’t be a purely technical talk - no successful change in the organisation happened on purely technical bases. We will correlate the maturity criteria with some business drivers, which help team-up business and technical guys on the same side. If your organisation considers microservices, or you - as an engineer - need some argument to better justify the technical choices, this talk might be for you."
+  language: ""
+  speakers: [jakmar, jarpal]
+-
+  id: 297
+  title: "Developer plantations - colonialism of XXI century"
+  description: "Have you ever wondered why great multi-billion dollar software products changing our lives are built in the US, Western Europe or Australia and not in Poland, Ukraine or Bulgaria? Uber, Facebook, Spotify, Tesla (sic!), JIRA - all of them built by software geeks.
+
+Are Polish (or other CEE) IT specialists less intelligent or worse than their colleagues from the West? Or maybe it’s about the huge capital those countries have and we don’t. Or maybe the problem is in our approach to IT and our mindset?
+Regardless of the true reasons, as the effect, tens and hundreds of thousands of relatively low-cost and controllable people in Poland and other CEE countries work on conserving and maintaining software systems envisioned and usually designed elsewhere. Together with other emerging countries, we have become a development plantation for the most modern countries.
+
+I’d like to analyse some reasons of this situation and present what mindset change must happen so that Poland and other CEE countries are not anymore colonies providing human resources, but instead have a creational impact on the advancement of the civilisation and modern economy."
+  language: ""
+  speakers: [wojsel]
+-
   id: 901
   title: "Registration & breakfast"
   description: ""
