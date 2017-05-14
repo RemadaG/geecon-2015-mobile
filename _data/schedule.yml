@@ -83,3 +83,8 @@
         endTime: "18:10",
         sessionIds: [221,263,286,262]
     }
+    - {
+        startTime: "20:30",
+        endTime: "",
+        sessionIds: [991]
+    }

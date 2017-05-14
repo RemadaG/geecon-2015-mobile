@@ -594,7 +594,26 @@ I’d like to analyse some reasons of this situation and present what mindset ch
 -
   id: 990
   title: "Party"
-  description: "at Forty Kleparz (Kamienna 2 Street <a href='http://www.fortykleparz.pl'>http://www.fortykleparz.pl</a>)"
+  description: "at Forty Kleparz (Kamienna 2 <a href='http://www.fortykleparz.pl'>http://www.fortykleparz.pl</a>)"
   presentation: ""
   service: "true"
   language: ""
+-
+  id: 991
+  title: "Party"
+  description: "We recommend Dolnych Mlynow 10, a recently reclaimed area with a number of pubs."
+  presentation: ""
+  service: "true"
+  language: ""
+-
+  id: 401
+  title: "Flying services with a drone"
+  description: "TBD"
+  language: ""
+  speakers: [krzkud, blakub]
+-
+  id: 402
+  title: "Microservices - the naked truth of the maintainability"
+  description: "It's easy to do a proof-of-concept but hard to make something 'production-ready'. Maintainability is complex in distributed systems, and become extremely complicated in the microservices. In this talk, we'll take a look at the common traps producing a gap between 'should work' and 'works.' We'll also talk about costs which come with the most famous (at least at the conferences) architecture."
+  language: ""
+  speakers: [jakkub]
