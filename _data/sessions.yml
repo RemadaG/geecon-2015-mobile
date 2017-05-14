@@ -464,7 +464,7 @@ Join us on a whirlwind tour of what’s in (and what’s out) in JDK 9 so you’
   speakers: [monbec]
 -
   id: 287
-  title: "GARBAGE FIRST GARBAGE COLLECTOR: WHERE THE RUBBER MEETS THE ROAD!"
+  title: "Garbage First Garbage Collector: Where the rubber meets the road!"
   description: "Garbage First (G1) Garbage Collector (GC) is going to be the default in Java 9. G1 GC has incremental compaction and your friendly-neighborhood stop-the-world collections. G1 also has a concurrent marking phase. After having worked with it for many years, Monica will share her performance work in helping customers achieve their SLAs with G1 GC. So you don't want to miss it!"
   language: ""
   speakers: [monbec]
