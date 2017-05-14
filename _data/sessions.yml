@@ -585,6 +585,14 @@ I’d like to analyse some reasons of this situation and present what mindset ch
   service: "true"
   language: ""
 -
+  id: 908
+  title: "Closing ceremony (in Room 1 + transmitted to Room 12)"
+  description: ""
+  presentation: ""
+  service: "true"
+  language: ""
+
+-
   id: 910
   title: "TBA"
   description: "To Be Announced"
