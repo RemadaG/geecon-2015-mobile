@@ -404,7 +404,7 @@ In this talk we'll take a brief look back at the newest stable modules of Akka i
   speakers: [konmal]
 -
   id: 281
-  title: "Sound Synthesis in the Computational Crucible"
+  title: "Sound Synthesis in the Computational Crucible (in Room 1 + transmitted to Room 12)"
   description: "A crucible allows base metals to be mixed together at high
 temperatures to form alloys. Medieval alchemists used crucibles to mix
 an astonishing variety of substances together in the search for new
@@ -496,13 +496,13 @@ In our project we try to make the machine understand its environment as it flies
   speakers: [wojbur]
 -
   id: 292
-  title: "Platform and Product Evolution at Sabre"
+  title: "Platform and Product Evolution at Sabre (in Room 1 + transmitted to Room 12)"
   description: "Most software product organization eventually wrestle with the challenge of refactoring and evolving the architecture, design and code of their products and platforms.  Over time code size and complexity increase as successive layers of code, features, integrations, are introduced. Systems become more and more brittle and susceptible to failure, product life cycles grow longer as more safety checks are added in an effort to prevent breakages, and the organization becomes increasingly cautious and uncertain when making changes – further slowing and constraining time to market, and ultimately creating an unvirtuous cycle.  One of the biggest challenges in large systems is knowing where to start and how to proceed.  This talk will describe proven technical and organizational approaches to modernizing extant systems architectures and code."
   language: ""
   speakers: [davmoo]
 -
   id: 293
-  title: "Simplification and Automation in Java: Yesterday, Today and Tomorrow"
+  title: "Simplification and Automation in Java: Yesterday, Today and Tomorrow (in Room 1 + transmitted to Room 12)"
   description: "TBD"
   language: ""
   speakers: [rodjoh]
@@ -579,7 +579,7 @@ I’d like to analyse some reasons of this situation and present what mindset ch
   language: ""
 -
   id: 909
-  title: "Opening ceremony"
+  title: "Opening ceremony (in Room 1 + transmitted to Room 12)"
   description: ""
   presentation: ""
   service: "true"
