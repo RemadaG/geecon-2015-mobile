@@ -2,10 +2,10 @@
   date: "2017-05-18"
   dateReadable: "18 MAY - CONFERENCE DAY 2"
   tracks: 
-    - {title: "Track 1", color: "#fbb531"}
-    - {title: "Track 2", color: "#49abd0"}
-    - {title: "Track 3", color: "#fbb531"}
-    - {title: "Track 4", color: "#49abd0"}
+    - {title: "Room 1", color: "#fbb531"}
+    - {title: "Room 12", color: "#49abd0"}
+    - {title: "Room 11", color: "#fbb531"}
+    - {title: "Room 10", color: "#49abd0"}
   timeslots:
     - {
     	startTime: "08:30",
