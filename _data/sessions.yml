@@ -628,7 +628,7 @@ I’d like to analyse some reasons of this situation and present what mindset ch
 
 -
   id: 403
-  title: "Build backend UI like a rockstar with Vaadin 8<br/>7 simple steps to boost your team work"
+  title: "Build backend UI like a rockstar with Vaadin 8.<br/><br/>7 simple steps to boost your team work."
   description: "<b>Build backend UI like a rockstar with Vaadin 8</b><br/>UI - backend developer's nightmare, but nowadays backened developers means fullstack devloper. In this presentation I would like to show how easy is build full working UI with Vaadin 8. Grids, lazy loading, push, complex forms, etc it's all at your fingertips. Only requirement is to be open minded and have will to use right tool for the job.<br/><br/><b>7 simple steps to boost your team work</b><br/>I want to share my insights on how we created an effective agile team for a new project. We managed to maintain a very vibrant team spirit in addition to following well-known agile methods. Most of the techniques we used have equally proven valuable in my other teams within a corporate environment. To increase the team velocity and make it more than the sum of its parts, it takes more than to motivate people with salaries and bonuses. This is hard to explain to managers, but a vibrant, dynamic and effective team has to be built differently. It can be achieved only when information is effectively shared, barriers are being removed and team members are kept happy and excited!"
   language: ""
   speakers: [lukbyc, ondmih]
