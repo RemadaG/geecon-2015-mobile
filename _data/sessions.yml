@@ -503,7 +503,7 @@ In our project we try to make the machine understand its environment as it flies
 -
   id: 293
   title: "Simplification and Automation in Java: Yesterday, Today and Tomorrow (in Room 1 + transmitted to Room 12)"
-  description: "TBD"
+  description: "Rod will discuss how developing Java applications has changed and simplified over the past 15 years, and what may come next around automation and collaboration. What comes after convention over configuration?"
   language: ""
   speakers: [rodjoh]
 -
@@ -535,6 +535,12 @@ Regardless of the true reasons, as the effect, tens and hundreds of thousands of
 I’d like to analyse some reasons of this situation and present what mindset change must happen so that Poland and other CEE countries are not anymore colonies providing human resources, but instead have a creational impact on the advancement of the civilisation and modern economy."
   language: ""
   speakers: [wojsel]
+-
+  id: 298
+  title: "Java & the GPU - all you need to know"
+  description: "Graphic processing units (GPUs) are not just for playing games. They play a huge role in accelerating applications that have a large number of parallelizable tasks such as machine learning, data analysis or similar. Learn how Java can exploit the power of GPUs to optimize high-performance computing applications, through both explicit GPU programming and letting the Java JIT compiler transparently off-load work to the GPU. This presentation covers the principles and considerations for GPU programming from Java and looks at the software stack and developer tools available. From laptops to the cloud GPUs are turning up everywhere. After this talk you will be ready to extract the full power of these GPUs from your own application."
+  language: ""
+  speakers: [stepoo, adarob]
 -
   id: 901
   title: "Registration & breakfast"
