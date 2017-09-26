@@ -1,10 +1,10 @@
 - 
-  date: "2016-09-21"
-  dateReadable: "21 OCTOBER - CONFERENCE DAY 2"
+  date: "2016-10-20"
+  dateReadable: "20 OCTOBER - CONFERENCE DAY 2"
   tracks: 
-    - {title: "Room 4", color: "#fbb531"}
-    - {title: "Room 6", color: "#49abd0"}
-    - {title: "Room 9", color: "#fbb531"}
+    - {title: "Track 1", color: "#fbb531"}
+    - {title: "Track 2", color: "#49abd0"}
+    - {title: "Track 3", color: "#fbb531"}
   timeslots:
     - {
     	startTime: "8:30",
@@ -14,7 +14,7 @@
     - {
     	startTime: "9:00",
     	endTime: "9:50",
-    	sessionIds: [169, 207, 182]
+    	sessionIds: [910, 302, 312]
     }
     - {
         startTime: "9:50",
@@ -22,67 +22,67 @@
         sessionIds: [904]
     }
     - {
-    	startTime: "10:10",
-    	endTime: "11:00",
-    	sessionIds: [188, 200, 194]
+        startTime: "10:10",
+        endTime: "11:00",
+    	sessionIds: [910, 320, 910]
     }
     - {
-    	startTime: "11:00",
+        startTime: "11:00",
     	endTime: "11:10",
     	sessionIds: [904]
     }
     - {
     	startTime: "11:10",
     	endTime: "12:00",
-    	sessionIds: [206, 172, 190]
+    	sessionIds: [311, 300, 301]
     }
     - {
     	startTime: "12:00",
     	endTime: "12:50",
-    	sessionIds: [906]
+        sessionIds: [906]
     }
     - {
     	startTime: "12:50",
     	endTime: "13:40",
-    	sessionIds: [205, 198, 174]
+    	sessionIds: [309, 910, 306]
     }
     - {
     	startTime: "13:40",
-    	endTime: "13:50",
+        endTime: "13:50",
     	sessionIds: [904]
     }
     - {
-    	startTime: "13:50",
+        startTime: "13:50",
     	endTime: "14:40",
-    	sessionIds: [187, 186, 176]
+    	sessionIds: [303, 910, 910]
     }
     - {
     	startTime: "14:40",
-    	endTime: "15:00",
+        endTime: "15:00",
     	sessionIds: [904]
     }
     - {
-    	startTime: "15:00",
+        startTime: "15:00",
     	endTime: "15:50",
-    	sessionIds: [177, 173, 175]
+    	sessionIds: [317, 310, 910]
     }
     - {
     	startTime: "15:50",
     	endTime: "16:00",
-    	sessionIds: [904]
+        sessionIds: [904]
     }
     - {
     	startTime: "16:00",
     	endTime: "16:20",
-    	sessionIds: [183, 178, 209]
+    	sessionIds: [910, 319, 910]
     }
     - {
-        startTime: "16:20",
+    	startTime: "16:20",
         endTime: "16:40",
         sessionIds: [904]
     }
     - {
           startTime: "16:40",
           endTime: "17:30",
-          sessionIds: [195]
+          sessionIds: [907]
     }
