@@ -6,8 +6,17 @@
   speakers: [andpro]
 -
   id: 299
-  title: "Springing into Kotlin: How to Make the Magic even more Magical"
-  description: "Developing applications with Spring Boot is already a pretty magical experience, but could it be better? Can the magic get any more powerful than it already is? In this talk, we'll look at how Kotlin can be used to reduce boilerplate, increase code quality, and elevate your wizardry. The presenter will demonstrate how to begin incorporating Kotlin into your existing Spring applications and, once you start your journey, where it can lead. Come to this session to level up on Spring+Kotlin! (Robes optional)"
+  title: "Full-stack Reactive Java with Project Reactor & Spring Boot 2"
+  description: "Reactive programming offers Java developers a way to build message-driven, elastic, resilient, and responsive services...yet many Java developers don't know where to begin. The Reactive Streams initiative provides a baseline and Project Reactor provides a great way to become immediately productive, leveraging reactive capabilities from end to end. Whether you're coming from a Spring MVC environment or a functional perspective, Reactor empowers you to spin up fully reactive Spring Boot 2 applications quickly and efficiently.
+
+In this talk, the presenter dives into the net-new Netty-based web runtime and shows you how to:
+
+<li> integrate easily with existing Spring-stack technologies
+</li><li> easily transition from blocking to reactive applications & systems
+</li><li> define your API in an imperative style *and* functionally, reaping all benefits both ways
+</li><li> leverage powerful new testing mechanisms to make code better and life easier</li>
+
+_The presenter will code all examples live and in real time_. This is not an abstract discussion, come to gain real, practical knowledge!"
   language: ""
   speakers: [marhec]
 -
@@ -61,7 +70,7 @@ Finally we’ll compare Node.js and Java versions of this solution and compare t
   title: "Cracking the code to secure software"
   description: "What is it that makes writing secure software so difficult? Why do we keep making the same mistakes over and over again? One challenge is that developers are busy delivering features and meeting deadlines – giving security requirements less priority. In this talk you’ll learn to use principles and mindsets from Domain Driven Design combined with a pinch of security awareness, to create secure code – while still focusing on your business features. You’ll learn the basic principles of Secure by Design and how to use concepts such as Domain Primitives and Entity Snapshots to harden your code. What a Domain DoS attack is, and how to incorporate security testing in your delivery pipeline. The ideas and tools presented are directly applicable in your daily work."
   language: ""
-  speakers: [dansaw]
+  speakers: [dansaw, dandeo]
 -
   id: 308
   title: "JetBrains MPS - why modern language workbenches matter"
@@ -106,7 +115,7 @@ Finally we’ll compare Node.js and Java versions of this solution and compare t
   speakers: [jezhal]
 -
   id: 315
-  title: "Containers, VMs, Processes… Isolation, performances, I/O… How all of these technologies work and compare to each other? Deep dive and learn about your Operating System"
+  title: "Deep dive and learn about your Operating System"
   description: "Everybody is now using virtualization, containers are all the rage today, and microkernels start to gain traction… But how is all this working? How did these solutions come to be? What are the differences between containers and virtual machines? Where and why should you use docker, runc, rocket, kvm, xen, virtualbox, includeOS, rancherOS? This talk is a full session providing understanding on how these technologies work, how they compare to each other, and lot’s of demo to understand differences and fundamental concept on isolation. So, let’s look under the hood, and understand how your system works (hint: it’s not magic). And yes, it will be understandable even if you are not an OPS or an expert. That’s precisely the point. Takeway is a short track around linux low level. Understanding WHAT is really a container behind the mist of dark magic docker/container marketing. Be able to ask yourself good questions about performances. From java expert to docker guru? Ok, let understand the last 10 years of linux kernel release notes you haven’t read."
   language: ""
   speakers: [queada]
@@ -170,12 +179,6 @@ this talk we will explore how our managed runtimes can equal, and even
 better in some cases, the performance of native languages.</l>"
   language: ""
   speakers: [todmon]
--
-  id: 322
-  title: "Cracking the code to secure software"
-  description: "What is it that makes writing secure software so difficult? Why do we keep making the same mistakes over and over again? One challenge is that developers are busy delivering features and meeting deadlines – giving security requirements less priority. In this talk you’ll learn to use principles and mindsets from Domain Driven Design combined with a pinch of security awareness, to create secure code – while still focusing on your business features. You’ll learn the basic principles of Secure by Design and how to use concepts such as Domain Primitives and Entity Snapshots to harden your code. What a Domain DoS attack is, and how to incorporate security testing in your delivery pipeline. The ideas and tools presented are directly applicable in your daily work."
-  language: ""
-  speakers: [dandeo]
 -
   id: 323
   title: "Live Coding: CQRS + Event Sources system"
