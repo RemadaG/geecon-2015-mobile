@@ -166,3 +166,27 @@
   surname: "Palm"
   bio: "Docker Java Cloud Nerd Microservices Terraform CD"
   thumbnailUrl: "https://2017.geecon.cz/speakers/niekp.jpg"
+-
+  id: "pethil"
+  name: "Peter"
+  surname: "Hilton"
+  bio: "Developer, writer, speaker, trainer and musician"
+  thumbnailUrl: "https://2017.geecon.cz/speakers/peterh.jpg"
+-
+  id: "rusmeh"
+  name: "Rustam"
+  surname: "Mehmandarov"
+  bio: "Passionate computer scientist. Leader of the JavaZone; Norwegian JUG - javaBin. Speaker"
+  thumbnailUrl: "https://2017.geecon.cz/speakers/rustamm.jpg"
+-
+  id: "ionbal"
+  name: "Ionut"
+  surname: "Balosin"
+  bio: "Java Software Architect @ Luxoft"
+  thumbnailUrl: "https://2017.geecon.cz/speakers/ionutb.jpg"
+-
+  id: "jackun"
+  name: "Jacek"
+  surname: "Kunicki"
+  bio: "Passionate software engineer"
+  thumbnailUrl: "https://2017.geecon.cz/speakers/jacekk.jpg"
