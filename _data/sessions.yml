@@ -192,6 +192,36 @@ better in some cases, the performance of native languages.</l>"
   language: ""
   speakers: [niepal]
 -
+  id: 325
+  title: "High Performance Managed Languages"
+  description: "TBD"
+  language: ""
+  speakers: [martho]
+-
+  id: 326
+  title: "How to write maintainable code"
+  description: "The problem that new technology doesn’t fix is unmaintainable code. The core of maintainable code is clean code with good tests, but that by itself isn’t enough. This talk introduces techniques for optimising code for maintainability, including getting better at naming, explaining code with tests, which code comments you actually need, README-driven development and Minimum Viable Documentation. Traditional, software maintenance involves too much documentation and comments that no-one writes. Meanwhile, naming and abstraction are too hard to always get right, so you need small doses of comments and documentation. More importantly, you need to avoid wasting time on bad comments and documentation without giving up on them entirely. After the excitement of adopting new technology and software craftsmanship comes the horror of your next maintenance project. As Jean-Paul Sartre said*, ‘Hell is other people’s code’. As a lead developer, your future happiness depends on maintainable code."
+  language: ""
+  speakers: [pethil]
+-
+  id: 327
+  title: "Wifi Security, or Lack Thereof"
+  description: "Your phone is snitching on you. And so does your laptop, tablet and any other WiFi enabled device you own. Without even touching your device, I can tell you where have you been. I don't even need any fancy and expensive hardware to do that. Magic? No. Scary? Yes! Well, at least it can easily be used to track you. And this is just the beginning. We will look into why this is possible, and into other ways of stealing your private information. Many of these tricks can also be used to secure and pen test your applications. Join me to hear a story on what I learned playing around wireless packages, on a hobby basis. In this talk we will have a look at the theory behind this, how and why this works, and, of course, a live demos!"
+  language: ""
+  speakers: [rusmeh]
+-
+  id: 328
+  title: "Architecting for performance. A top-down approach"
+  description: "The talk reveals a performance architectural approach from a high level of abstraction down to the hardware. Focused on a top-down approach, it covers the main layers where a software architect or performance engineer must be involved by revealing performance design principles, tactics, patterns, algorithms, strategies, operating system and hardware level optimizations. Description Each of these layers are detailed by offering suggestions and examples (including some performance tests) for the audience regarding what it really matters and what should be avoided when designing for performance. Main topics: - design principles (e.g. cohesion, single responsibility principle, polymorphism / abstractizations, cyclomatic complexity, algorithms complexity, etc) - tactics, patterns, algorithms, strategies (e.g. coarse-grain APIs, batching, lazy loading, asynchronous, non-blocking, stateless, throttling, resource polling, memory access patterns, cache oblivious algorithms, lock free algorithms, data structures, etc) - operating system (e.g. hugepages, NUMA, thread affinity, RamFS, cgroups, IO Scheduler, etc) - hardware (e.g. mechanical sympathy, false sharing, C-states, P-States, Zero bit recording, Raid Levels, CPU stalls, Cache misses, etc)"
+  language: ""
+  speakers: [ionbal]
+-
+  id: 329
+  title: "Tame Your Data with Akka Streams and Java 8"
+  description: "Stream processing is a hot topic today and it’s easy to get lost among all the possibilities. In this live coding session we will explore the Reactive Streams approach used by the Akka Streams project. On an almost real-life example we’re going to walk through both the basics and some more advanced usages of the library. And if you thought Akka Streams was a Scala library, come to learn the nice Java API and see how wrong you were."
+  language: ""
+  speakers: [jackun]
+-
   id: 901
   title: "Registration & breakfast"
   description: ""
