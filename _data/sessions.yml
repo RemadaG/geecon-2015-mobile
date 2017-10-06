@@ -72,12 +72,6 @@ Finally we’ll compare Node.js and Java versions of this solution and compare t
   language: ""
   speakers: [dansaw, dandeo]
 -
-  id: 307
-  title: "Cracking the code to secure software"
-  description: "What is it that makes writing secure software so difficult? Why do we keep making the same mistakes over and over again? One challenge is that developers are busy delivering features and meeting deadlines – giving security requirements less priority. In this talk you’ll learn to use principles and mindsets from Domain Driven Design combined with a pinch of security awareness, to create secure code – while still focusing on your business features. You’ll learn the basic principles of Secure by Design and how to use concepts such as Domain Primitives and Entity Snapshots to harden your code. What a Domain DoS attack is, and how to incorporate security testing in your delivery pipeline. The ideas and tools presented are directly applicable in your daily work."
-  language: ""
-  speakers: [dansaw, dandeo]
--
   id: 308
   title: "JetBrains MPS - why modern language workbenches matter"
   description: "People often develop dialects and domain-specific lingo that let them describe things accurately and communicate effectively. Language workbenches bring the same flexibility into the world of programming languages. The need for high-level computer domain-specific languages is universal and can be identified both in academia and in industry. JetBrains MPS is an open-source language workbench that clients from many industries have chosen to implement their DSLs. We’ll see real-life examples from domains such as medicine, insurance, embedded software development, bioinformatics, enterprise systems and legislation. Why do companies invest in DSLs? What are the key benefits for them? How do the typical DSLs look like and how they are implemented? I want to answer these fundamental question during this practical session."
