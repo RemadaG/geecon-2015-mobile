@@ -72,6 +72,12 @@ Finally we’ll compare Node.js and Java versions of this solution and compare t
   language: ""
   speakers: [dansaw, dandeo]
 -
+  id: 307
+  title: "Cracking the code to secure software"
+  description: "What is it that makes writing secure software so difficult? Why do we keep making the same mistakes over and over again? One challenge is that developers are busy delivering features and meeting deadlines – giving security requirements less priority. In this talk you’ll learn to use principles and mindsets from Domain Driven Design combined with a pinch of security awareness, to create secure code – while still focusing on your business features. You’ll learn the basic principles of Secure by Design and how to use concepts such as Domain Primitives and Entity Snapshots to harden your code. What a Domain DoS attack is, and how to incorporate security testing in your delivery pipeline. The ideas and tools presented are directly applicable in your daily work."
+  language: ""
+  speakers: [dansaw, dandeo]
+-
   id: 308
   title: "JetBrains MPS - why modern language workbenches matter"
   description: "People often develop dialects and domain-specific lingo that let them describe things accurately and communicate effectively. Language workbenches bring the same flexibility into the world of programming languages. The need for high-level computer domain-specific languages is universal and can be identified both in academia and in industry. JetBrains MPS is an open-source language workbench that clients from many industries have chosen to implement their DSLs. We’ll see real-life examples from domains such as medicine, insurance, embedded software development, bioinformatics, enterprise systems and legislation. Why do companies invest in DSLs? What are the key benefits for them? How do the typical DSLs look like and how they are implemented? I want to answer these fundamental question during this practical session."
@@ -122,7 +128,7 @@ Finally we’ll compare Node.js and Java versions of this solution and compare t
 -
   id: 316
   title: "What was the design process behind the fastest Messaging System?"
-  description: "Have you ever wondered what is the design process when someone designs a new software system that is faster than anything that has gone before? In this talk we will explore some of the key design decisions which lead to Aeron having the best throughput and latency in the messaging space. Sometimes this is going against common wisdom like having to choose between throughput or latency. Sometimes the focus on a new feature can open opportunities not previously considered.
+  description: "Have you ever wondered what is the design process when someone designs a new software system that is faster than anything that has gone before? In this talk we will explore some of the key design decisions which lead to Aeron having the best throughput and latency in the messaging space. Sometimes this is going against common wisdom like having to choose between throughput or latency. Sometimes the focus on a new feature can open opportunities not previously considered. 
 
 You may also think that since you don't work in high frequency trading that you don't need high-performance messaging. We'll wrap up with some examples outside of finance that have benefited from high-performance messaging with surprising results."
   language: ""
@@ -204,15 +210,14 @@ better in some cases, the performance of native languages.</l>"
   language: ""
   speakers: [pethil]
 -
-  id: 327
-  title: "Wifi Security, or Lack Thereof"
-  description: "Your phone is snitching on you. And so does your laptop, tablet and any other WiFi enabled device you own. Without even touching your device, I can tell you where have you been. I don't even need any fancy and expensive hardware to do that. Magic? No. Scary? Yes! Well, at least it can easily be used to track you. And this is just the beginning. We will look into why this is possible, and into other ways of stealing your private information. Many of these tricks can also be used to secure and pen test your applications. Join me to hear a story on what I learned playing around wireless packages, on a hobby basis. In this talk we will have a look at the theory behind this, how and why this works, and, of course, a live demos!"
-  language: ""
-  speakers: [rusmeh]
--
   id: 328
   title: "Architecting for performance. A top-down approach"
-  description: "The talk reveals a performance architectural approach from a high level of abstraction down to the hardware. Focused on a top-down approach, it covers the main layers where a software architect or performance engineer must be involved by revealing performance design principles, tactics, patterns, algorithms, strategies, operating system and hardware level optimizations. Description Each of these layers are detailed by offering suggestions and examples (including some performance tests) for the audience regarding what it really matters and what should be avoided when designing for performance. Main topics: - design principles (e.g. cohesion, single responsibility principle, polymorphism / abstractizations, cyclomatic complexity, algorithms complexity, etc) - tactics, patterns, algorithms, strategies (e.g. coarse-grain APIs, batching, lazy loading, asynchronous, non-blocking, stateless, throttling, resource polling, memory access patterns, cache oblivious algorithms, lock free algorithms, data structures, etc) - operating system (e.g. hugepages, NUMA, thread affinity, RamFS, cgroups, IO Scheduler, etc) - hardware (e.g. mechanical sympathy, false sharing, C-states, P-States, Zero bit recording, Raid Levels, CPU stalls, Cache misses, etc)"
+  description: "The talk reveals a performance architectural approach from a high level of abstraction down to the hardware. Focused on a top-down approach, it covers the main layers where a software architect or performance engineer must be involved by revealing performance design principles, tactics, patterns, algorithms, strategies, operating system and hardware level optimizations. Description Each of these layers are detailed by offering suggestions and examples (including some performance tests) for the audience regarding what it really matters and what should be avoided when designing for performance. 
+Main topics: 
+- design principles (e.g. cohesion, polymorphism / abstractizations, cyclomatic complexity, algorithms complexity, etc) 
+- tactics, patterns, algorithms, strategies (e.g. caching, batching, design asynchronous, non-blocking, memory access patterns, lock free algorithms, data structures, etc) 
+- operating system (e.g. large pages, NUMA, thread affinity, RamFS/TmpFS, IO Scheduler, etc) 
+- hardware (e.g. false sharing, C-states, Zero Bit Recording, Solid State Drive, CPU stalls, Cache misses, etc)"
   language: ""
   speakers: [ionbal]
 -
@@ -221,6 +226,35 @@ better in some cases, the performance of native languages.</l>"
   description: "Stream processing is a hot topic today and it’s easy to get lost among all the possibilities. In this live coding session we will explore the Reactive Streams approach used by the Akka Streams project. On an almost real-life example we’re going to walk through both the basics and some more advanced usages of the library. And if you thought Akka Streams was a Scala library, come to learn the nice Java API and see how wrong you were."
   language: ""
   speakers: [jackun]
+-
+  id: 330
+  title: "High request rate system architecture - an Ad Tech case study"
+  description: "Ad Technology companies employ highly sophisticated software to
+process and respond to hundreds of thousands of requests per second to
+display on-line ads that will build the brand awareness, encourage you
+to visit promoted pages or buy advertised merchandise. Processing
+stream of requests that has fluctuating volume throughout a day calls
+for proper architectural solutions that will guarantee undisturbed
+operations. Let’s study the case of Codewise’s Ad Tech Platform - it’s
+purpose, architecture, architectural alternatives and evolution."
+  language: ""
+  speakers: [jakdzo]
+-
+  id: 331
+  title: "Infinispan in the world dominated by raft"
+  description: "Today’s world of distributed databases is dominated by raft or paxos based databases. The reason is simple - it offers similar properties as relational databases - such as ACID transactions, however, with huge operational overhead. But there is another computation model, which might be more suitable for distributed scenarios - especially, when you need to scale huge number of write operations. The world of consistent hashing functions and infinispan is an awesome example of that. I will share a story about how we achieve high availability in situations where the infrastructure is out of your control."
+  language: ""
+  speakers: [jakfoj]
+-
+  id: 332
+  title: "Validation is more important than design"
+  description: "<l>In the world of new design concepts, where software development is extremely fast, we build, we test, we release and we try to validate that our customers are satisfied with what we delivered. </l>
+<l>How do we know that we are targeting the right values? What is the proper value of our product? Is it the full set of functionalities we provide to our customers, or is it how they are performing that really matters?
+We want to demonstrate that a qualitative approach is what really matters. How can we be proactive and create a product with healthy foundations, where behaviors are consistent across all functionalities we provide? 
+What are the selling points of our product, and how can we validate that we are going in the right direction when improving it on an iterative basis? We would like to highlight our experience including all the trials and errors that it took us from the first idea about validation to where we are now.</l>
+<l>Also we will discuss what we consider the most typical obstacles to be aware of when working with developers, business people and customers.</l>"
+  language: ""
+  speakers: [maroso, zuzzat]
 -
   id: 901
   title: "Registration & breakfast"

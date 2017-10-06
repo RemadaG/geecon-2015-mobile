@@ -173,12 +173,6 @@
   bio: "Developer, writer, speaker, trainer and musician"
   thumbnailUrl: "https://2017.geecon.cz/speakers/peterh.jpg"
 -
-  id: "rusmeh"
-  name: "Rustam"
-  surname: "Mehmandarov"
-  bio: "Passionate computer scientist. Leader of the JavaZone; Norwegian JUG - javaBin. Speaker"
-  thumbnailUrl: "https://2017.geecon.cz/speakers/rustamm.jpg"
--
   id: "ionbal"
   name: "Ionut"
   surname: "Balosin"
@@ -190,3 +184,27 @@
   surname: "Kunicki"
   bio: "Passionate software engineer"
   thumbnailUrl: "https://2017.geecon.cz/speakers/jacekk.jpg"
+-
+  id: "jakdżo"
+  name: "Jakub"
+  surname: "Dżon"
+  bio: "A developer with 10 years of experience coding on the JVM platform"
+  thumbnailUrl: "https://2017.geecon.cz/speakers/kubad.jpg"
+-
+  id: "jakfoj"
+  name: "Jakub"
+  surname: "Fojtl"
+  bio: "Product Architect at Y Soft"
+  thumbnailUrl: "https://2017.geecon.cz/speakers/jakubf.jpg"
+-
+  id: "maroso"
+  name: "Martin"
+  surname: "Osovský"
+  bio: "Chief Architect at Y Soft"
+  thumbnailUrl: "https://2017.geecon.cz/speakers/martino.jpg"
+-
+  id: "zuzzat"
+  name: "Zuzana"
+  surname: "Zatrochová"
+  bio: "Technical Product Manager at Y Soft"
+  thumbnailUrl: "https://2017.geecon.cz/speakers/zuzannaz.jpg"
