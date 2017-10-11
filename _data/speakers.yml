@@ -185,7 +185,7 @@
   bio: "Passionate software engineer"
   thumbnailUrl: "https://2017.geecon.cz/speakers/jacekk.jpg"
 -
-  id: "jakdzo"
+  id: "jakdżo"
   name: "Jakub"
   surname: "Dżon"
   bio: "A developer with 10 years of experience coding on the JVM platform"
@@ -208,3 +208,33 @@
   surname: "Zatrochová"
   bio: "Technical Product Manager at Y Soft"
   thumbnailUrl: "https://2017.geecon.cz/speakers/zuzannaz.jpg"
+-
+  id: "vlaora"
+  name: "Vladimír"
+  surname: "Oraný"
+  bio: "Test Facilitator at agorapulse"
+  thumbnailUrl: "https://2017.geecon.cz/speakers/vladimiro.jpg"
+-
+  id: "jarrat"
+  name: "Jarek"
+  surname: "Ratajski"
+  bio: "JVM developer since 1999"
+  thumbnailUrl: "https://2017.geecon.cz/speakers/jarekr.jpg"
+-
+  id: "tomgab"
+  name: "Tomer"
+  surname: "Gabel"
+  bio: "Oddball extraordinaire"
+  thumbnailUrl: "https://2017.geecon.cz/speakers/tomerg.jpg"
+-
+  id: "petpal"
+  name: "Peter"
+  surname: "Palaga"
+  bio: "Author of srcdeps, Senior Sustaining Engineer at Red Hat Middleware"
+  thumbnailUrl: "https://2017.geecon.cz/speakers/peterp.jpeg"
+-
+  id: "lukjun"
+  name: "Lukas"
+  surname: "Jungmann"
+  bio: "Principal software developer at Oracle, currently spec lead on JSR 338, JSR 224 and JSR 67"
+  thumbnailUrl: "https://2017.geecon.cz/speakers/lukasj.jpg"

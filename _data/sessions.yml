@@ -38,7 +38,12 @@ Finally we’ll compare Node.js and Java versions of this solution and compare t
 -
   id: 302
   title: "Dealing with CosmosDB"
-  description: "Level: 300 Areas: Cloud Applications Development and Deployment, Big Data, noSQL Abstract: CosmosDB service is a NoSQL is a globally distributed, multi-model database database service designed for scalable and high performance modern applications. CosmosDB is delivered as a fully managed service with an enterprise grade SLA. It supports querying of documents using a familiar SQL over hierarchical JSON documents. Azure Cosmos DB is a superset of the DocumentDB service. It allows you to store and query noSQL data, regardless of schema. In this presentation, you will learn: • How to get started with CosmosDB you provision a new database account. • How to index documents • How to create applications using CosmosDB (using REST API or programming libraries for several popular language) • Best practices designing applications with CosmosDB • Best practices creating queries. The Level 300 means advanced material. The Level that I mention mention can be seen here: https://blogs.technet.microsoft.com/ieitpro/2006/09/29/microsofts-standard-level-definitions-100-to-400/ I can do the session event with Level 400 – expert material, but I’m afraid that only few people can understand the content if it is presented as an expert material."
+  description: "CosmosDB service is a NoSQL is a globally distributed, multi-model database database service designed for scalable and high performance modern applications. CosmosDB is delivered as a fully managed service with an enterprise grade SLA. It supports querying of documents using a familiar SQL over hierarchical JSON documents. Azure Cosmos DB is a superset of the DocumentDB service. It allows you to store and query noSQL data, regardless of schema. In this presentation, you will learn: 
+<li> How to get started with CosmosDB you provision a new database account. 
+</li><li>How to index documents 
+</li><li>How to create applications using CosmosDB (using REST API or programming libraries for several popular language) 
+</li><li> Best practices designing applications with CosmosDB 
+</li><li>Best practices creating queries.</li>"
   language: ""
   speakers: [mihmat]
 -
@@ -53,12 +58,6 @@ Finally we’ll compare Node.js and Java versions of this solution and compare t
   description: "Unit testing is nice, but without a proper integration testing you might not know how your application will behave once it's deployed to the real environment. Before the Docker, configuring the environment for integration testing was painful – people were using fake database implementations, mocking servers, usually it wasn't cross-platform as well. But now, we can easily prepare the environment with Docker for our tests. In this talk I would like to spread the word about TestContainers ( https://github.com/testcontainers/testcontainers-java ) – a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. A year ago we (ZeroTurnaround) decided to join our Docker-based test engine and TestContainers, and now it's open-sourced, available to everyone, so you can test your apps like we do :)"
   language: ""
   speakers: [antarh]
--
-  id: 305
-  title: "Microservices love Domain Driven Design, why and how?"
-  description: "Without any doubt Eric Evans' book 'Domain Driven Design' is being considered as a 'must have read' among many IT specialists from various domains. With the emergence of Microservices Domain Driven Design has become more relevant then ever. This talk explains how the patterns and concepts of Domain Driven Design relate to Microservice architectures. In addition to that I will show off how Domain Driven Design will help you to structure and model your Microservices in terms of granularity, business context and interface design (just to name a few). This talk will also address how you can use Context Maps (from the DDD strategic design) for planning transformations of monolithic legacy application landscapes towards Microservices. Finally we will also take a look at the topic of Domain Events and how they can help us reaching a loose(r) coupling of Microservices that need to interact with each other."
-  language: ""
-  speakers: [micplo]
 -
   id: 306
   title: "Sequencing Dance Music with Clojure"
@@ -192,12 +191,6 @@ better in some cases, the performance of native languages.</l>"
   language: ""
   speakers: [niepal]
 -
-  id: 325
-  title: "High Performance Managed Languages"
-  description: "TBD"
-  language: ""
-  speakers: [martho]
--
   id: 326
   title: "How to write maintainable code"
   description: "The problem that new technology doesn’t fix is unmaintainable code. The core of maintainable code is clean code with good tests, but that by itself isn’t enough. This talk introduces techniques for optimising code for maintainability, including getting better at naming, explaining code with tests, which code comments you actually need, README-driven development and Minimum Viable Documentation. Traditional, software maintenance involves too much documentation and comments that no-one writes. Meanwhile, naming and abstraction are too hard to always get right, so you need small doses of comments and documentation. More importantly, you need to avoid wasting time on bad comments and documentation without giving up on them entirely. After the excitement of adopting new technology and software craftsmanship comes the horror of your next maintenance project. As Jean-Paul Sartre said*, ‘Hell is other people’s code’. As a lead developer, your future happiness depends on maintainable code."
@@ -249,6 +242,64 @@ What are the selling points of our product, and how can we validate that we are 
 <l>Also we will discuss what we consider the most typical obstacles to be aware of when working with developers, business people and customers.</l>"
   language: ""
   speakers: [maroso, zuzzat]
+-
+  id: 333
+  title: "Software Is Details"
+  description: "'It's just a detail.' Have you ever said that or been told that? Whether
+ it's about implementation or requirements, we often use the word detail to
+ suggest that something is not important enough to worry about. There are so
+ many things to worry about in software development that we need to
+ prioritise — too much detail, not enough focus. The problem is that in
+software, the details matter because that is what software is: lots of
+ details brought together in combination. If we don't focus on the details,
+ we get debt, defects and delays."
+  language: ""
+  speakers: [kevhen]
+-
+  id: 334
+  title: "Full Stack Developer"
+  description: " There is often a lot of talk about full-stack developers, but with few exceptions such developers only touch on a subset of the technologies and practices that constitute a full stack. The focus is largely on using web frameworks and databases, but device drivers, middleware development and other forms of systems programming are normally missing from the 'full stack'.
+
+This talk, however, has little to do with that: it actually is about stacks. They appear all over code and computer science, from call stacks to undo lists to common examples for testing and specification. This talk will use the stack as its vehicle to drive through a number of topics of interest and relevance to the modern developer, from state machines to functional programming, from unit tests to concurrency, from the code to the real full stack of development."
+  language: ""
+  speakers: [kevhen]
+-
+  id: 335
+  title: "Making It Count: Quality is Not Optional"
+  description: "All too often quality comes along as an afterthought to the software systems we build. Sometimes quality is not even a concern at all. However, increasingly our systems have to be right the first time. Software is hard to design and implement. Let alone design and implement well. What can we do to be better at designing and delivering better software and systems? Does language choice, such as Java vs. C++ vs. C vs. Erlang really matter in terms of producing quality software? Can you actually produce quality systems on budget and on time?
+In this session, we will discuss lessons learned from almost a decade of working on NASA software projects that had to work correctly or people could die. And how these lessons continue to impact the speakers mindset and outlook on a daily basis."
+  language: ""
+  speakers: [todmon]
+-
+  id: 336
+  title: "Excel in Java"
+  description: "Business users love to interact with applications with spreadsheet files as much as the developers hates doing so. There are many ways how to generate Excel files in Java, starting with 'CSV will do' approach or 'Generate HTML and save it as XLS', but what your users really is to get rich content full of colours, different borders and fonts, filters and more. Apache POI is powerful library which allows you to create such documents but it is difficult to use. Spreadsheet Builder provides declarative DSL to create Excel files with grace. The DSL for writing spreadsheets is mirrored in query language to read spreadsheets which can be used to import or test generated files more easily. After short introduction, the framework will be presented on Java and Groovy live examples."
+  language: ""
+  speakers: [vlaora]
+-
+  id: 337
+  title: "Walking in Code – VR experience"
+  description: "Have you ever tried to visualize a system you are working on? There are lots of tools that can help, they create nice diagrams (UML) or charts. They work, but after a while are boring. Because they are flat! Thanks to the new toys such as Oculus Rift or HTC Vive you can see the things from a new perspective. You can actually immerse yourself in code. Imagine: you can walk around the classes and touch methods with your hands. That is crazy experience... a toy - but maybe a revolution and new way of looking at dashboards, diagrams ..and maybe your future IDE. I will show you my experiments and how to quickly build similar ones with webvr and aframe framework."
+  language: ""
+  speakers: [jarrat]
+-
+  id: 338
+  title: "Slaying Sacred Cows: Deconstructing Dependency Injection"
+  description: "This talk revisits dependency injection, and attempts to answer a single question honestly, or at least while pointing out and acknowledging the biases at play: 'is dependency injection a good thing?' Dependency injection has fast established itself as a major design pattern in modern software. No longer the province of server-side and enterprise software, it is now a fundamental component of frameworks from Spring to Angular.js. With such widespread success, the time is ripe to take a fresh look at dependency injection if we are to understand it better. After all, DI is instrumental in building large systems that are loosely coupled, and it cleanly separates your tests from implementation... or does it?"
+  language: ""
+  speakers: [tomgab]
+-
+  id: 339
+  title: "srcdeps - source dependencies with Maven and Gradle"
+  description: "While the idea of source dependencies is not new -- some languages have it already -- its implementation in the field of Java and its build tools is a novetly. With srcdeps, a Maven or Gradle project can define its dependencies in terms of specific source commits that are built by srcdeps 'on the fly' when they are requested. Such source dependencies do not need to be present in any remote Maven repository - i.e. they do not need to be released. We will compare srcdeps with Maven SNAPSHOTs and show how they can be useful in testing and integration or for fixing third-party code. In a live demo, we will show how to switch a dependency from a released version to a source revision."
+  language: ""
+  speakers: [petpal]
+-
+  id: 340
+  title: "Java EE 8 finally final! Now what?"
+  description: "During this session, we will cover in details the new capabilities that have been added in the latest release of the Java EE platform, i.e. Java EE 8. - JAX-RS 2.1’s new Reactive client API - Bean Validation 2.0 improvements - Servlet 4.0 HTTP/2 support - CDI 2.0 Asynchronous events - The addition of a new JSON Binding API, i.e. JSON-B 1.0 - A new cross-platform security API ... We will then discuss the recently announced move of Java EE to an open source foundation and what it exactly means. Attend this session to understand what Java EE 8 brings today and where Java EE is going tomorrow!"
+  language: ""
+  speakers: [lukjun]
 -
   id: 901
   title: "Registration & breakfast"
