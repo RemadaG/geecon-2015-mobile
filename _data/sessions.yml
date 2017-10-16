@@ -103,7 +103,7 @@ Finally we’ll compare Node.js and Java versions of this solution and compare t
 -
   id: 313
   title: "Continuous Code Quality with the SonarEcosystem"
-  description: "SonarQube is the leading platform for static code analysis and Continuous Code Quality. In this talk we will look into all three lines of defense of the SonarEcosystem and how they can help to find bugs before they enter your codebase (or at least go into production). After this talk, you’ll have a good overview of the SonarEcosystem as well as actionable starting points for increasing your code quality. Furthermore, we will share learnings from using SonarQube for more than 4 years and pointers to additional resources. I first talked about this topic at the local java meetup in vienna and received very favorable feedback. Slides can be found here (will be updated accordingly): <a href= 'https://www.slideshare.net/RomanPickl/continuous-code-quality-with-the-sonar-ecosystem'>  https://www.slideshare.net/RomanPickl/continuous-code-quality-with-the-sonar-ecosystem </a> Would love to deliver an updated version at geecon Prague 2017."
+  description: "SonarQube is the leading platform for static code analysis and Continuous Code Quality. In this talk we will look into all three lines of defense of the SonarEcosystem and how they can help to find bugs before they enter your codebase (or at least go into production). After this talk, you’ll have a good overview of the SonarEcosystem as well as actionable starting points for increasing your code quality. Furthermore, we will share learnings from using SonarQube for more than 4 years and pointers to additional resources. I first talked about this topic at the local java meetup in vienna and received very favorable feedback."
   language: ""
   speakers: [rompic]
 -
@@ -177,7 +177,7 @@ runtimes, particularly for JIT compilers and garbage collectors. In
 this talk we will explore how our managed runtimes can equal, and even
 better in some cases, the performance of native languages.</l>"
   language: ""
-  speakers: [todmon]
+  speakers: [martho]
 -
   id: 323
   title: "Live Coding: CQRS + Event Sources system"
@@ -257,7 +257,7 @@ software, the details matter because that is what software is: lots of
   speakers: [kevhen]
 -
   id: 334
-  title: "Full Stack Developer"
+  title: "Full Stack Developer (in Room 9)"
   description: " There is often a lot of talk about full-stack developers, but with few exceptions such developers only touch on a subset of the technologies and practices that constitute a full stack. The focus is largely on using web frameworks and databases, but device drivers, middleware development and other forms of systems programming are normally missing from the 'full stack'.
 
 This talk, however, has little to do with that: it actually is about stacks. They appear all over code and computer science, from call stacks to undo lists to common examples for testing and specification. This talk will use the stack as its vehicle to drive through a number of topics of interest and relevance to the modern developer, from state machines to functional programming, from unit tests to concurrency, from the code to the real full stack of development."
@@ -265,7 +265,7 @@ This talk, however, has little to do with that: it actually is about stacks. The
   speakers: [kevhen]
 -
   id: 335
-  title: "Making It Count: Quality is Not Optional"
+  title: "Making It Count: Quality is Not Optional (in Room 9)"
   description: "All too often quality comes along as an afterthought to the software systems we build. Sometimes quality is not even a concern at all. However, increasingly our systems have to be right the first time. Software is hard to design and implement. Let alone design and implement well. What can we do to be better at designing and delivering better software and systems? Does language choice, such as Java vs. C++ vs. C vs. Erlang really matter in terms of producing quality software? Can you actually produce quality systems on budget and on time?
 In this session, we will discuss lessons learned from almost a decade of working on NASA software projects that had to work correctly or people could die. And how these lessons continue to impact the speakers mindset and outlook on a daily basis."
   language: ""
@@ -344,7 +344,7 @@ In this session, we will discuss lessons learned from almost a decade of working
   language: ""
 -
   id: 909
-  title: "Opening ceremony"
+  title: "Opening ceremony (in Room 9)"
   description: ""
   presentation: ""
   service: "true"
