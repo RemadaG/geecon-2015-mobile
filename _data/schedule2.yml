@@ -2,9 +2,9 @@
   date: "2016-10-20"
   dateReadable: "20 OCTOBER - CONFERENCE DAY 2"
   tracks: 
-    - {title: "Track 1", color: "#fbb531"}
-    - {title: "Track 2", color: "#49abd0"}
-    - {title: "Track 3", color: "#fbb531"}
+    - {title: "Room 4", color: "#fbb531"}
+    - {title: "Room 6", color: "#49abd0"}
+    - {title: "Room 9", color: "#fbb531"}
   timeslots:
     - {
     	startTime: "8:30",
@@ -14,7 +14,7 @@
     - {
     	startTime: "9:00",
     	endTime: "9:50",
-    	sessionIds: [910, 302, 312]
+    	sessionIds: [328, 302, 312]
     }
     - {
         startTime: "9:50",
@@ -24,7 +24,7 @@
     - {
         startTime: "10:10",
         endTime: "11:00",
-    	sessionIds: [910, 320, 910]
+    	sessionIds: [339, 320, 338]
     }
     - {
         startTime: "11:00",
@@ -44,7 +44,7 @@
     - {
     	startTime: "12:50",
     	endTime: "13:40",
-    	sessionIds: [309, 910, 306]
+    	sessionIds: [309, 331, 306]
     }
     - {
     	startTime: "13:40",
@@ -54,7 +54,7 @@
     - {
         startTime: "13:50",
     	endTime: "14:40",
-    	sessionIds: [303, 910, 910]
+    	sessionIds: [303, 329, 337]
     }
     - {
     	startTime: "14:40",
@@ -64,7 +64,7 @@
     - {
         startTime: "15:00",
     	endTime: "15:50",
-    	sessionIds: [317, 310, 910]
+    	sessionIds: [317, 310, 333]
     }
     - {
     	startTime: "15:50",
@@ -73,16 +73,16 @@
     }
     - {
     	startTime: "16:00",
-    	endTime: "16:20",
-    	sessionIds: [910, 319, 910]
+    	endTime: "16:50",
+    	sessionIds: [321, 319, 336]
     }
     - {
-    	startTime: "16:20",
-        endTime: "16:40",
+    	startTime: "16:50",
+        endTime: "17:00",
         sessionIds: [904]
     }
     - {
-          startTime: "16:40",
-          endTime: "17:30",
-          sessionIds: [907]
+          startTime: "17:00",
+          endTime: "17:50",
+          sessionIds: [334]
     }
