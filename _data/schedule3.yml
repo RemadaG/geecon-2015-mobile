@@ -1,0 +1,84 @@
+- 
+  date: "2017-05-11"
+  dateReadable: "11 MAY - CONFERENCE DAY 3"
+  tracks:
+    - {title: "Room A", color: "#fbb531"}
+    - {title: "Room B", color: "#49abd0"}
+    - {title: "Room C", color: "#fbb531"}
+    - {title: "Room D", color: "#49abd0"}
+  timeslots:
+    - {
+    	startTime: "08:30",
+    	endTime: "09:00",
+    	sessionIds: [902]
+    }
+    - {
+    	startTime: "09:00",
+    	endTime: "09:50",
+    	sessionIds: [910,910,910,910]
+    }
+    - {
+        startTime: "09:50",
+        endTime: "10:10",
+        sessionIds: [905]
+    }
+    - {
+        startTime: "10:10",
+        endTime: "11:00",
+        sessionIds: [910,910,910,910]
+    }
+    - {
+        startTime: "11:00",
+        endTime: "11:20",
+        sessionIds: [905]
+    }
+    - {
+        startTime: "11:20",
+        endTime: "12:10",
+        sessionIds: [910,910,910,910]
+    }
+    - {
+        startTime: "12:10",
+        endTime: "13:00",
+        sessionIds: [906]
+    }
+    - {
+    	startTime: "13:00",
+    	endTime: "13:50",
+    	sessionIds: [910,910,910,910]
+    }
+    - {
+        startTime: "13:50",
+        endTime: "14:10",
+        sessionIds: [905]
+    }
+    - {
+        startTime: "14:10",
+        endTime: "15:00",
+        sessionIds: [910,910,910,910]
+    }
+    - {
+        startTime: "15:00",
+        endTime: "15:10",
+        sessionIds: [905]
+    }
+    - {
+        startTime: "15:10",
+        endTime: "15:35",
+        sessionIds: [911,911,911,911]
+    }
+    - {
+        startTime: "15:35",
+        endTime: "16:00",
+        sessionIds: [911,911,911,911]
+    }
+    - {
+        startTime: "16:00",
+        endTime: "16:20",
+        sessionIds: [905]
+    }
+    - {
+        startTime: "16:20",
+        endTime: "17:10",
+        sessionIds: [908]
+    }
