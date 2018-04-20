@@ -447,6 +447,40 @@ The Java Memory Model Kind' </a> would be a plus.
   language: ""
   speakers: [vensub]
 -
+  id: 413
+  title: "Is disruption an imperative or an illusion?"
+  description: "
+New technology innovations are in the news every day, but what’s real, and how real is it?  As developers, how do we decide where to invest our time and effort to be part of the next wave of real innovation?
+
+And how is this ever-increasing pace of change affecting our companies, our teams, and ourselves in how we work, communicate, and grow?
+"
+  language: ""
+  speakers: [petlar]
+-
+  id: 414
+  title: "Clean code with Java 9"
+  description: "One of the most talked about features of the latest release of Java is arguably JShell, Java’s Read-Eval-Print-Loop implementation. However, there is a whole set of smaller features allowing developers to produce cleaner code faster. In this session, we'll use JShell to demonstrate how Java 9 allows us to write cleaner code by exploring features like factory methods for collections, extended streams, updates to Optional, try with effectively final resources, private methods, process management API, stackwalker, and more."
+  language: ""
+  speakers: [mircup]
+-
+  id: 415
+  title: "Hype on Machine Learning is great, but there is a work to do."
+  description: "It is great to learn new tools and techniques. As I've learnt how to use Machine Learning tools I thought I'd found a magic wand. We all see multiple problems that might be solved with little help of magic. We have an input data, we know more less what we want to have on output. Machine Learning is a tempting offer, but usually if you don't have good knowledge of your problem, it is much easier to build solution with simpler tools. We will discuss how to start with ML and where not to use it."
+  language: ""
+  speakers: [krzdeb]
+-
+  id: 416
+  title: "What do Software Developers have common with Motorcycle Drivers?"
+  description: "Starting from myself - I am a software developer and an active motorcycle diver. Actually a lot of my IT colleagues do ride a motorcycle. Is it a coincidence or The World is too lazy for coincidences? Both activities i.e. developing a software and riding a motorcycle do have some common aspects. Especially things that happens inside one’s head, especially in those moments when things go wrong. And when things go wrong, usually it starts in small, innocent things and ends with a big bang! In case of motorcycle diving so called “survival reactions” were proposed and researched. In short words these are a human reactions based on instinct, habits or assumptions that leads to a wrong decision and actions making - in the result to a crash. In the world of IT software developers also do have such “survival reactions” - this that one try to do to avoid issues with delivering project on time. Unintentionally a decision that should save the day leads to a even bigger problems in the longer run. Let me highlight common factors, requirements and qualities required both from developers and riders. Let me point situations when so called survival reactions in software development will lead unintentionally to a crash. A piece of full movie/book (book was bought first) that make me start to think about survival reactions in software development; https://youtu.be/wwU8My1IBW8?t=1m9s stream: software engineering, agile methodologies target audience: beginner/daily user/epert length: 15 minutes including discussion"
+  language: ""
+  speakers: [rafloj]
+-
+  id: 417
+  title: "Building testable APIs using functions"
+  description: "In this live coding talk you will learn about simple functional techniques that encourage separation of concerns. I will build a stateful HTTP API from highly isolated and testable components. Majority of us intuitively know what separation of concerns is. However, knowing something and using it in practice are two different things. Developers in many projects are drowning in entangled spaghetti-like codebases. We need better tools that force us to think about the responsibilities more often. The session will introduce those tools by showing a practical example: a Pac-Man game web server. I will code in Scala using Akka HTTP and Monix libraries. On top of that, I will also show how you can achieve the same results in Java using Vavr."
+  language: ""
+  speakers: [micpla]
+-
   id: 901
   title: "Registration & breakfast"
   description: ""

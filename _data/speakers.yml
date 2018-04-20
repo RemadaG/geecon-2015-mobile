@@ -412,3 +412,33 @@
   surname: "Malawski"
   bio: "Java Champion, Reactive Streams TCK, hAkker at Lightbend"
   thumbnailUrl: "https://2018.geecon.org/speakers/konradm.jpg"
+-
+  id: "petlar"
+  name: "Pete"
+  surname: "Larson"
+  bio: "Technology enthusiast & insurance transformation programmes leader @EY"
+  thumbnailUrl: "https://2018.geecon.org/speakers/petel.jpg"
+-
+  id: "mircup"
+  name: "Miro"
+  surname: "Cupak"
+  bio: "Software developer, open-source fan, Java enthusiast, DNAstacker"
+  thumbnailUrl: "https://2018.geecon.org/speakers/miroc.jpg"
+-
+  id: "krzdeb"
+  name: "Krzysztof"
+  surname: "Debski"
+  bio: "Engineer and snowboarder"
+  thumbnailUrl: "https://2018.geecon.org/speakers/krzysztofd.jpg"
+-
+  id: "rafloj"
+  name: "Rafał"
+  surname: "Łojek"
+  bio: "Software engineer and coach. In non mutual devotion to Clojure language, with head full of ideas"
+  thumbnailUrl: "https://2018.geecon.org/speakers/rafall.jpg"
+-
+  id: "micpla"
+  name: "Michał"
+  surname: "Płachta"
+  bio: "Makes things alive using computers. For fun and for living"
+  thumbnailUrl: "https://2018.geecon.org/speakers/michalp.jpg"
