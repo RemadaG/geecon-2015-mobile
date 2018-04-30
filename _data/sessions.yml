@@ -46,8 +46,22 @@
   speakers: [volsim]
 -
   id: 350
-  title: "BigO notation in modern hardware. A performance approach"
-  description: "Big O notation classifies the algorithms according to how their running time or space requirements. Apparently, having a lower complexity for a specific algorithm imply, at least in theory, a quicker run than another having a bigger complexity. However this is not always true, especially in case of modern architectures since the runtime performance is highly impacted by the way memory is accessed (e.g. memory access patterns), data structures types and their layout in main memory, the dependencies between code instructions and their footprint. Also paradigms like “cache oblivious algorithms” or “data oriented design” brings guidance towards improving the runtime performance. The talk contains different test scenarios based on different algorithms, using different data types and different memory access patterns and analyzes the response time or throughput in light of theoretical BigO complexity, as well as what happens under the hood from hardware perspective revealing instructions and data cache misses, cache associativity effect, data Translation Lookaside Buffer for misses, page walk duration, number of CPU instructions and CPU cycles, etc. Main topics: CPU caches and their impact on the BigO complexity Cases when BigO complexity wins and CPU caches are not quite helpful What programmers can do to speed up the runtime execution when dealing with complexity Algorithms using different data structures (e.g. array 2D/3D, list, tree, map, etc.) analyzed from BigO complexity vs. runtime performance NB: Hardware counters (e.g. CPU, Memory) will be used to demonstrate what happens under the hood"
+  title: "Demystifying the most significant Java 9 language features"
+  description: "The presentation aims to reveal how the most significant Java 9 language features work under the hood. Each topic is covered by few code examples, bytecode instructions, JMH tests and x86 assembly generated code (only in few specific cases). We try to build a top down approach and to understand what is happening at each level inside the JVM, starting with source code, followed by javac and then JIT compilation process.
+
+
+Main topics:
+
+<li>Private interface methods
+</li><li>String in Java 9 (Compact strings and Indify String concatenation )
+</li><li>Collection factory methods
+</li><li>StackWalker
+</li><li>Contended locks in Java 9
+</li><li>Segmented Code Cache
+</li>
+
+
+Attendees will have a clear and comprehensive understanding about all of these internals, which might make a difference in writing better and more performant code."
   language: ""
   speakers: [ionbal]
 -
@@ -77,7 +91,12 @@
 -
   id: 355
   title: "Building evolutionary architectures in agile environments"
-  description: "The era of big upfront design has passed, we living in a world with a high degree of volatility in software. A new term has recently coined out: evolutionary. During our session we will share guidelines and tactics in order to design and protect an evolutionary architecture in agile environment. Nowadays, the Architect role seems blurry in light of Agile environments, especially due to Agile Manifesto Principle #11 which states “best architectures […] emerge from self organizing teams”. On the other side, the business driver wants the product to be delivered in time, to be flexible, extensible, modifiable and easy maintainable. In regards to that blending Agile and Architecture in most of the projects is not an easy task, especially when the focus is towards delivering functionality and less on internal product quality. Our talk is supposed to cover below topics: - What are the Agile Manifesto traps/missconceptions in lights of Architecture? - Are Agile and Architecture real enemies or just friends? Do they share the same goal? - Guidelines to create an Agile Architecture. - How can Agile Architectures be protected by time, to avoid degradation across its Architecturally Significant Requirements? - What are the pitfalls and anti-patterns in creating Agile Architectures? Based on our experience (Xavier’s as Agile Catalyst at Murex and myself as Software Architect at Luxoft) we will cover all of above topics and provide attendees real life examples from our working environments about how to create agile (e.g. evolutionary) architectures in a successful manner."
+  description: "The era of big upfront design has passed, we living in a world with a high degree of volatility in software. A new term has recently coined out: evolutionary. During our session we will share guidelines and tactics in order to design and protect an evolutionary architecture in agile environment. Nowadays, the Architect role seems blurry in light of Agile environments, especially due to Agile Manifesto Principle #11 which states “best architectures […] emerge from self organizing teams”. On the other side, the business driver wants the product to be delivered in time, to be flexible, extensible, modifiable and easy maintainable. In regards to that blending Agile and Architecture in most of the projects is not an easy task, especially when the focus is towards delivering functionality and less on internal product quality. Our talk is supposed to cover below topics: 
+<li> What are the Agile Manifesto traps/missconceptions in lights of Architecture? 
+</li><li> Are Agile and Architecture real enemies or just friends? Do they share the same goal? 
+</li><li>Guidelines to create an Agile Architecture. 
+</li><li> How can Agile Architectures be protected by time, to avoid degradation across its Architecturally Significant Requirements? </li><li> What are the pitfalls and anti-patterns in creating Agile Architectures? </li>
+Based on our experience (Xavier’s as Agile Catalyst at Murex and myself as Software Architect at Luxoft) we will cover all of above topics and provide attendees real life examples from our working environments about how to create agile (e.g. evolutionary) architectures in a successful manner."
   language: ""
   speakers: [ionbal, xavren]
 -
@@ -481,6 +500,43 @@ And how is this ever-increasing pace of change affecting our companies, our team
   language: ""
   speakers: [micpla]
 -
+  id: 419
+  title: "High request rate system architecture - an Ad Tech case study"
+  description: "Ad Technology companies employ highly sophisticated software to process and respond to hundreds of thousands of requests per second to display on-line ads that will build the brand awareness, encourage you to visit promoted pages or buy advertised merchandise. Processing stream of requests that has fluctuating volume throughout a day calls for proper architectural solutions that will guarantee undisturbed operations. Let’s study the case of Codewise’s Ad Tech Platform - it’s purpose, architecture, architectural alternatives and evolution."
+  language: ""
+  speakers: [jakdzo]
+-
+  id: 420
+  title: "Cracking the code to secure software"
+  description: "What is it that makes writing secure software so difficult? Why do we keep making the same mistakes over and over again? One challenge is that developers are busy delivering features and meeting deadlines – giving security requirements less priority. In this talk you’ll learn to use principles and mindsets from Domain Driven Design combined with a pinch of security awareness, to create secure code – while still focusing on your business features. You’ll learn the basic principles of Secure by Design and how to use concepts such as Domain Primitives and Entity Snapshots to harden your code. What a Domain DoS attack is, and how to incorporate security testing in your delivery pipeline. The ideas and tools presented are directly applicable in your daily work."
+  language: ""
+  speakers: [dansaw]
+-
+  id: 421
+  title: "War of Words: Why programmers suck at salary negotiations and A deep personal dive into Self-Awareness for Introverts"
+  description: "
+
+I take a deep look at my (emotional) insides - which I suspect are a lot like yours - and introverts and conflict-avoiders everywhere.  I don't take verbal assaults or even verbal sparring well... if it's outside of my 'comfort zone'  (I totally rock it in my zone).  We'll work through a common enough situation (an angry co-worker screws up and blames me), paying special attention to emotional states during the encounter.  We then go through the post-analysis: getting emotionally jarred/hurt/wrecked, why I didn't stand up verbally, stewing on the attack, and finally recovering.  And then we'll go through what *can* be done.
+We'll look at some key insights into common introvert thinking patterns (verbal vs emotional processing) - and what you can do about it, how to bring your strengths to bear, and how to compensate for your emotional weaknesses.  How to spot and avoid Dangerous people, and to surround yourself only with Good people.  We'll cover Love a bit also: unmet expectations, and why you can't Change your Lover... but you can change who you Love, and how you talk about Love to your Lover.  This will be an emotional talk, NOT a Tech-Talk at all, but geared for techie people who might want to beef up their EQ (Emotional Quotient).
+
+Along the way, we'll figure out why programmers suck at salary negotiations... and what you can do about it.
+"
+  language: ""
+  speakers: [clicli]
+-
+  id: 422
+  title: "NoSQL Means No Security?"
+  description: "New systems are always interesting targets since their security model couldn’t mature yet. NoSQL databases are no exception and had some bad press about their security, but how does their protection actually look like? We will take a look at three widely used systems and their unique approaches: <li> MongoDB: Widely criticized for publicly accessible databases and a common victim of ransomware. Actually, it provides an elaborate authentication and authorization system, which we will cover from a historic perspective and put an emphasis on the current state. </li><li>Redis: Security through obscurity or how you can rename commands. And it features a unique tradeoff for binding to publicly accessible interfaces. </li><li> Elasticsearch: Groovy scripting has been a constant headache, but the new, custom-built scripting language Painless tries to take the pain away literally.
+</li>"
+  language: ""
+  speakers: [phikre]
+-
+  id: 423
+  title: "Small intro to Big Data"
+  description: "Pig, Hive, Flink, Kafka, Zeppelin... if you now wonder if someone just tried to offend you or are those just Pokemon names, then this talk is just for you! Big Data is everywhere and new tools for it are released almost at the speed of new JavaScript frameworks. During this entry level presentation we will walk though the challenges which Big Data presents, reflect how big is big and introduce currently most fancy and popular (mostly open source) tools. We'll try to spark off interest in Big Data by showing application areas and by throwing ideas where you can later dive into."
+  language: ""
+  speakers: [micmat]
+-
   id: 901
   title: "Registration & breakfast"
   description: ""
@@ -530,13 +586,6 @@ And how is this ever-increasing pace of change affecting our companies, our team
   service: "true"
   language: ""
 -
-  id: 908
-  title: "Closing ceremony & Keynote"
-  description: ""
-  presentation: ""
-  service: "true"
-  language: ""
--
   id: 910
   title: "TBA"
   description: "To Be Announced"
@@ -552,15 +601,8 @@ And how is this ever-increasing pace of change affecting our companies, our team
   language: ""
 -
   id: 990
-  title: "Party time!"
-  description: ""
-  presentation: ""
-  service: "true"
-  language: ""
--
-  id: 991
-  title: "Party time!"
-  description: ""
+  title: "Party"
+  description: "Party time!"
   presentation: ""
   service: "true"
   language: ""

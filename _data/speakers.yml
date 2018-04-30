@@ -442,3 +442,21 @@
   surname: "Płachta"
   bio: "Makes things alive using computers. For fun and for living"
   thumbnailUrl: "https://2018.geecon.org/speakers/michalp.jpg"
+-
+  id: "jakdzo"
+  name: "Jakub"
+  surname: "Dżon"
+  bio: "High-performance systems developer"
+  thumbnailUrl: "https://2018.geecon.org/speakers/jakubd.jpg"
+-
+  id: "dansaw"
+  name: "Daniel"
+  surname: "Sawano"
+  bio: "Developer, architect, public speaker, author, and agile dude"
+  thumbnailUrl: "https://2018.geecon.org/speakers/daniels.jpg"
+-
+  id: "micmat"
+  name: "Michał"
+  surname: "Matłoka"
+  bio: "1 of 40 CEO at SoftwareMill. Open-source contributor fascinated by Big Data world"
+  thumbnailUrl: "https://2018.geecon.org/speakers/michalm.png"
