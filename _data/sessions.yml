@@ -620,8 +620,15 @@ Along the way, we'll figure out why programmers suck at salary negotiations... a
   service: "true"
   language: ""
 -
-  id: 909
+  id: 908
   title: "Opening ceremony"
+  description: ""
+  presentation: ""
+  service: "true"
+  language: ""
+-
+  id: 909
+  title: "Closing ceremony"
   description: ""
   presentation: ""
   service: "true"
