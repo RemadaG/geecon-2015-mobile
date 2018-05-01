@@ -125,11 +125,11 @@
   bio: "Software engineer @Gradle, JUnit maintainer @junitteam"
   thumbnailUrl: "https://2018.geecon.org/speakers/marcp.jpeg"
 -
-  id: "antovc"
-  name: "Anton"
-  surname: "Ovchinnikov"
+  id: "dmiorn"
+  name: "Dmitry"
+  surname: "Ornatsky"
   bio: "Experienced Data Scientist and Product Manager at Grid Dynamics"
-  thumbnailUrl: "https://2018.geecon.org/speakers/antono.jpeg"
+  thumbnailUrl: "https://2018.geecon.org/speakers/dimitryo.jpg"
 -
   id: "jartul"
   name: "Jaroslav"
@@ -413,6 +413,12 @@
   bio: "Java Champion, Reactive Streams TCK, hAkker at Lightbend"
   thumbnailUrl: "https://2018.geecon.org/speakers/konradm.jpg"
 -
+  id: "andgrz"
+  name: "Andrzej"
+  surname: "Grzesik"
+  bio: "Java Champion, distributed systems maker"
+  thumbnailUrl: "https://2018.geecon.org/speakers/andrzejg.jpg"
+-
   id: "petlar"
   name: "Pete"
   surname: "Larson"
@@ -460,3 +466,21 @@
   surname: "Matłoka"
   bio: "1 of 40 CEO at SoftwareMill. Open-source contributor fascinated by Big Data world"
   thumbnailUrl: "https://2018.geecon.org/speakers/michalm.png"
+-
+  id: "pawkam"
+  name: "Paweł"
+  surname: "Kamiński"
+  bio: "Java programmer at codewise.com"
+  thumbnailUrl: "https://2018.geecon.org/speakers/kaminskip.jpg"
+-
+  id: "krzkud"
+  name: "Krzysztof"
+  surname: "Kudryński"
+  bio: "passionate problem-solver with experience in system design, AI and algorithms"
+  thumbnailUrl: "https://2018.geecon.org/speakers/krzysztofk.jpg"
+-
+  id: "blakub"
+  name: "Błażej"
+  surname: "Kubiak"
+  bio: "enthusiast of deep learning and all technologies that bring this enthusiasm from dream into reality"
+  thumbnailUrl: "https://2018.geecon.org/speakers/blazejk.jpg"

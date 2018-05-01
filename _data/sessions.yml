@@ -136,7 +136,7 @@ In this talk, we will discuss technologies capabilities for building chatbots. T
 </li><li> How to build a chatbot with AIaaS and what you’ll have to do on your own. 
 </li>"
   language: ""
-  speakers: [antovc]
+  speakers: [dmiorn]
 -
   id: 358
   title: "The Hibernate Universe - Beyond known CRUD-Galaxies"
@@ -282,7 +282,7 @@ precipice of a topic no one agrees on.  Onward!"
   speakers: [chanut]
 -
   id: 382
-  title: "Infrastructure management made easy with InfraDSL"
+  title: "Infrastructure as a code simplified by conventions"
   description: "Infrastructure, especially in a cloud-based environment is complex, dynamic and consists of many unique components. If you take a quick look under the hood of any cloud-based infrastructure project, you will find that many of elements involved are tightly intertwined leading to higher maintenance costs and a chaotic environment. Fortunately, using infrastructure as code goes a long way to resolving these issues but if consistent standards are not enforced, you may be left with the same kind of mess you were trying to avoid in the first place. In this presentation, I'll show how easily you can define your whole infrastructure stack, including all of the myriad relationships between components and the standards that govern them, in a simple Groovy DSL using the InfraDSL project as an example. Implementing this approach will make managing your systems easy to do and scalable."
   language: ""
   speakers: [jakkub]
@@ -405,7 +405,7 @@ This session delves into widely used OAuth 2.0 and OpenID Connect standards, exp
   language: ""
   speakers: [jirpec]
 -
-  id: 404
+  id: 304
   title: "Kotlin EE: Boost your Productivity"
   description: "Kotlin is a language for the JVM, invented by JetBrains a few years ago. But what the hell is Kotlin EE? If you never heard of Kotlin EE, don’t panic, it does not exist. But you can use it right away and boost your productivity! I invented the term Kotlin EE as a synonym for using the Kotlin language together with the Java EE API to create services of any size (microservices, nanoservices etc.) with just a few lines of code and the ability to focus on the business logic. Kotlin and Java EE are a perfect couple for writing micro- or nanoservices. Kotlin is a very pragmatic language, builds on many concepts and techniques from Java, designed for developer productivity. Kotlin works great with all existing Java libraries and frameworks and runs with the same level of performance as Java. The Java EE API allows us to code against a proven and stable API. Provided libraries like JAX-RS for writing RESTful APIs and Jackson for JSON (de)serializing decrease the need for additional third-party libraries which results in a short build time and a small artifact size. Benefit from a very fast build and test feedback and stay focused on your code. In this talk, I try to prove my statements from above. Live on stage I write a service in Kotlin with a RESTful JSON API with only a few lines of code and run the service using a local Docker cloud where you can see how these can be scaled up and down to manage fluctuating loads. Coding, building, testing, deploying, scaling: fast and efficient!"
   language: ""
@@ -465,6 +465,17 @@ The Java Memory Model Kind' </a> would be a plus.
   description: "We constantly hear that change should be affordable and cost effective. True, but, in reality, that's easily said than done. Complexity makes change hard. We can't shy away from the hard problems posed by domains and business needs. So, how can we solve complicated problems without getting dragged into the quagmire of what appears to be an inevitable complexity? In this keynote, an award winning author and software practitioner will share experiences and observations from working on multiple software projects, about what leads to complexities, the traps developers and organizations fall into, and what we can do to effectively deal with these common, recurring issues we see across domains and products."
   language: ""
   speakers: [vensub]
+-
+  id: 412
+  title: "Blockchain: more than bitcoin"
+  description: "There is more to blockchain than Bitcoin, Ethereum and all the mining!
+
+Let's see how do these technologies can affect us, developers.
+This session starts with facts, establishing what blockchain, smart contracts and other concepts are. Armed with theory, we will showcase a 'smart contract' application, built in Java, with open source, then discuss applications, problems and consider implications of a contract being put 'out there' (and what is 'there') You will walk out understanding what a 'distributed ledger' is, knowing what to get from Github. And maybe an idea of an application, who knows?
+
+Let's now build those revolutions everybody is speaking about!"
+  language: ""
+  speakers: [andgrz]
 -
   id: 413
   title: "Is disruption an imperative or an illusion?"
@@ -536,6 +547,36 @@ Along the way, we'll figure out why programmers suck at salary negotiations... a
   description: "Pig, Hive, Flink, Kafka, Zeppelin... if you now wonder if someone just tried to offend you or are those just Pokemon names, then this talk is just for you! Big Data is everywhere and new tools for it are released almost at the speed of new JavaScript frameworks. During this entry level presentation we will walk though the challenges which Big Data presents, reflect how big is big and introduce currently most fancy and popular (mostly open source) tools. We'll try to spark off interest in Big Data by showing application areas and by throwing ideas where you can later dive into."
   language: ""
   speakers: [micmat]
+-
+  id: 424
+  title: "I hate getting stuck in a jam on the highway! A story about connecting microservices"
+  description: "Working on a real time bidding platform is a demanding job. Response latency is critical and high traffic volume affects how we utilize available resources. All this leads to greatest challenge - distributing work over microservices. I will present real life problems that forced us to redesign our microservice communication so that applications stay performant and resilient. I’ll also show how we learned from previous mistakes to create a small and reusable library on top of netty.io and aeron.io that aids to readily implement business features."
+  language: ""
+  speakers: [pawkam]
+-
+  id: 425
+  title: "A Crash Course in Modern Hardware"
+  description: "I discuss the Von Neumann architecture, CISC vs RISC, the rise of multicore, Instruction-Level Parallelism (ILP), pipelining, out-of-order dispatch, static vs dynamic ILP, performance impact of cache misses, memory performance, memory vs CPU caching, examples of memory/CPU cache interaction, and tips for improving performance on modern hardware."
+  language: ""
+  speakers: [clicli]
+-
+  id: 426
+  title: "Walking in Code – VR experience"
+  description: "Have you ever tried to visualize a system you are working on? There are lots of tools that can help, they create nice diagrams (UML) or charts. They work, but after a while are boring. Because they are flat! Thanks to the new toys such as Oculus Rift or HTC Vive you can see the things from a new perspective. You can actually immerse yourself in code. Imagine: you can walk around the classes and touch methods with your hands. That is crazy experience... a toy - but maybe a revolution and new way of looking at dashboards, diagrams ..and maybe your future IDE. I will show you my experiments and how to quickly build similar ones with webvr and aframe framework."
+  language: ""
+  speakers: [jarrat]
+-
+  id: 427
+  title: "Deep Learning in Computer Vision"
+  description: "When we look at the world our brain instantly turns the images we see into information, intuition and feeling. It does so with an enormous computational effort, using a network with overwhelming, unexplored architecture. We are not even close to create a machine of comparable cababilities, but step by step, improving both the hardware and algorithmic approach, we can make machine understand images they see. In this talk you will learn how to design and develop such a network. We will go from the basic machine learning concepts, through the advanced practical tips, up to using the most-recent state-of-the art architectures in practice. You will see examples on how insanely complicated problems can be solved using a portable computer. And in the meanwhile you will understand what is going on, why new layers are added and why new concept have to be introduced."
+  language: ""
+  speakers: [krzkud, blakub]
+-
+  id: 428
+  title: "Manage Yourself!"
+  description: "TBD"
+  language: ""
+  speakers: [jurapp]
 -
   id: 901
   title: "Registration & breakfast"
