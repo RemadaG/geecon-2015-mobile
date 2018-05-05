@@ -592,11 +592,11 @@ To survive as a company, the organization needs to become a shapeshifter: someti
   language: ""
   speakers: [tomgab]
 -
-  id: 432
-  title: "HotSpot intrinsics"
+  id: 433
+  title: "Using Reactive APIs of Java 9"
   description: "TBD"
   language: ""
-  speakers: [volsim]
+  speakers: [vensub]
 -
   id: 901
   title: "Registration & breakfast"
@@ -669,7 +669,7 @@ To survive as a company, the organization needs to become a shapeshifter: someti
   language: ""
 -
   id: 990
-  title: "Party @ Hala Główna ul. Dolnych Młynów 10"
+  title: "Party @ Hala Główna, Dolnych Młynów 10 Street"
   description: "Party time!"
   presentation: ""
   service: "true"
