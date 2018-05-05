@@ -203,12 +203,6 @@ During this talk, I will give you a quick introduction to these projects so that
   language: ""
   speakers: [marzaj]
 -
-  id: 370
-  title: "Enhance your UX - Multi Device Controls"
-  description: "Everybody knows boring form based user interfaces. What if one would add mobile devices to improve the UX of desktop- and webapplications? In a research project at the University of Applied Sciences and Arts Northwestern Switzerland we have tried achieve this by using a new approach this topic. The idea is to enhance controls in a way that they can be remote controlled by a mobile device. As an example you can think about a text input field that gets the focus and the actual data input is done on a mobile phone. This sesssion will give you an overview about the concept and will show you some results of the research project as demos."
-  language: ""
-  speakers: [gergru]
--
   id: 371
   title: "Docs in the self documenting world"
   description: "Most of the teams are still in a never-ending quest for the documentation sweet spot. The place that you don’t have spend too much time maintaining it, yet it brings a lot of value and is up to date. For some the starting point was from agile manifesto or software craftsmanship misunderstanding, which is not-documenting at all. Others decided to build a comprehensive documentation, soon to discover it is a challenge to keep it up with the reality (which is the code). There is a better way to build a good Developer Experience. I will share several options, that you may take advantage of, including: partially executable documentation without (non-docstring) human- and machine-readable HTTP API documentation automated tests as documentation"
@@ -461,7 +455,7 @@ The Java Memory Model Kind' </a> would be a plus.
   speakers: [aleshi]
 -
   id: 411
-  title: "Do not walk away from Complexity, Run"
+  title: "Do not walk away from Complexity, Run (in Room 1 + transmitted to Room 12)"
   description: "We constantly hear that change should be affordable and cost effective. True, but, in reality, that's easily said than done. Complexity makes change hard. We can't shy away from the hard problems posed by domains and business needs. So, how can we solve complicated problems without getting dragged into the quagmire of what appears to be an inevitable complexity? In this keynote, an award winning author and software practitioner will share experiences and observations from working on multiple software projects, about what leads to complexities, the traps developers and organizations fall into, and what we can do to effectively deal with these common, recurring issues we see across domains and products."
   language: ""
   speakers: [vensub]
@@ -478,7 +472,7 @@ Let's now build those revolutions everybody is speaking about!"
   speakers: [andgrz]
 -
   id: 413
-  title: "Is disruption an imperative or an illusion?"
+  title: "Is disruption an imperative or an illusion? (in Room 1 + transmitted to Room 12)"
   description: "
 New technology innovations are in the news every day, but what’s real, and how real is it?  As developers, how do we decide where to invest our time and effort to be part of the next wave of real innovation?
 
@@ -524,7 +518,7 @@ And how is this ever-increasing pace of change affecting our companies, our team
   speakers: [dansaw]
 -
   id: 421
-  title: "War of Words: Why programmers suck at salary negotiations and A deep personal dive into Self-Awareness for Introverts"
+  title: "War of Words: Why programmers suck at salary negotiations and A deep personal dive into Self-Awareness for Introverts (in Room 1 + transmitted to Room 12)"
   description: "
 
 I take a deep look at my (emotional) insides - which I suspect are a lot like yours - and introverts and conflict-avoiders everywhere.  I don't take verbal assaults or even verbal sparring well... if it's outside of my 'comfort zone'  (I totally rock it in my zone).  We'll work through a common enough situation (an angry co-worker screws up and blames me), paying special attention to emotional states during the encounter.  We then go through the post-analysis: getting emotionally jarred/hurt/wrecked, why I didn't stand up verbally, stewing on the attack, and finally recovering.  And then we'll go through what *can* be done.
@@ -573,10 +567,36 @@ Along the way, we'll figure out why programmers suck at salary negotiations... a
   speakers: [krzkud, blakub]
 -
   id: 428
-  title: "Manage Yourself!"
-  description: "TBD"
+  title: "Manage Yourself (in Room 1 + transmitted to Room 12)"
+  description: "You want to scale agile, lean or DevOps, but you don’t know how. You like some methods and frameworks, but they don’t fit in your context. You know the organization needs to change, but there is a strong sense of “change resistance”.
+Scaling Agile to work in large and fast-growing organizations is a hot topic. Some coaches and consultants offer methods and frameworks (SAFe, LeSS, Nexus, Holocracy) but others don’t believe such models can work. Companies such as Spotify publish their own custom approach, but it appears that people try to copy these examples without thinking, and that doesn’t work either.
+To survive as a company, the organization needs to become a shapeshifter: sometimes hierarchical, sometimes networked; sometimes efficient, sometimes effective; sometimes great at execution, and other times great at innovation. You can only achieve this by motivating people to change continuously. To achieve this, we take a closer look at gamification and habit-forming. Because games and habits are the keys to intrinsic motivation and change. And you need those in your company to become a great shapeshifter!"
   language: ""
   speakers: [jurapp]
+-
+  id: 429
+  title: "Arm Based Servers and Java: Synergizing Performance"
+  description: "TBD"
+  language: ""
+  speakers: [monbec]
+-
+  id: 430
+  title: "New features in Hadoop 3 and how can Spark benefit from them"
+  description: "Hadoop 2 was a major breathrough, opening up the computation model of its clusters to non-MapReduce distributed computing models, such as MPP and their implementations, Spark and Impala being the most prominent. Lately, Hadoop 3.0.0 entered the stage, bringing about a set of bug fixes and new features and determining the future of the platform. The presentation will explain key features from the new release: erasure coding, new YARN Timeline Service, opportunistic contiainers, extended resource model and updated High Availability configuration and their practical meaning for Big Data development. It will also show how Spark can benefit from adopting these Hadoop 3 featues in multiple ways in the future. The talk is aimed at an advanced audience and requires prior knowledge of Hadoop, HDFS and Spark."
+  language: ""
+  speakers: [kamowc]
+-
+  id: 431
+  title: "Slaying Sacred Cows: Deconstructing Dependency Injection"
+  description: "This talk revisits dependency injection, and attempts to answer a single question honestly, or at least while pointing out and acknowledging the biases at play: 'is dependency injection a good thing?' Dependency injection has fast established itself as a major design pattern in modern software. No longer the province of server-side and enterprise software, it is now a fundamental component of frameworks from Spring to Angular.js. With such widespread success, the time is ripe to take a fresh look at dependency injection if we are to understand it better. After all, DI is instrumental in building large systems that are loosely coupled, and it cleanly separates your tests from implementation... or does it?"
+  language: ""
+  speakers: [tomgab]
+-
+  id: 432
+  title: "HotSpot intrinsics"
+  description: "TBD"
+  language: ""
+  speakers: [volsim]
 -
   id: 901
   title: "Registration & breakfast"
@@ -621,14 +641,14 @@ Along the way, we'll figure out why programmers suck at salary negotiations... a
   language: ""
 -
   id: 908
-  title: "Opening ceremony"
+  title: "Opening ceremony (in Room 1 + transmitted to Room 12)"
   description: ""
   presentation: ""
   service: "true"
   language: ""
 -
   id: 909
-  title: "Closing ceremony"
+  title: "Closing ceremony (in Room 1 + transmitted to Room 12)"
   description: ""
   presentation: ""
   service: "true"
@@ -649,7 +669,14 @@ Along the way, we'll figure out why programmers suck at salary negotiations... a
   language: ""
 -
   id: 990
-  title: "Party"
+  title: "Party @ Hala Główna ul. Dolnych Młynów 10"
+  description: "Party time!"
+  presentation: ""
+  service: "true"
+  language: ""
+-
+  id: 991
+  title: "Party @ Kazimierz district"
   description: "Party time!"
   presentation: ""
   service: "true"

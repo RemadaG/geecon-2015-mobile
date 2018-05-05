@@ -209,12 +209,6 @@
   bio: "Software Craftsman and Trainer"
   thumbnailUrl: "https://2018.geecon.org/speakers/marcinz.jpg"
 -
-  id: "gergru"
-  name: "Gerrit"
-  surname: "Grunwald"
-  bio: "Gerrit is a software engineer focused on UI/UX working for Canoo Engineering"
-  thumbnailUrl: "https://2018.geecon.org/speakers/gerritg.jpeg"
--
   id: "wojerb"
   name: "Wojtek"
   surname: "Erbetowski"
@@ -484,3 +478,9 @@
   surname: "Kubiak"
   bio: "enthusiast of deep learning and all technologies that bring this enthusiasm from dream into reality"
   thumbnailUrl: "https://2018.geecon.org/speakers/blazejk.jpg"
+-
+  id: "kamowc"
+  name: "Kamil"
+  surname: "Owczarek"
+  bio: "Big Data Developer / Team Leader @ IQVIA. 'Data is always more valuable than you recognize it to be'"
+  thumbnailUrl: "https://2018.geecon.org/speakers/kamilo.jpg"
