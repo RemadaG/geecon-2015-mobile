@@ -57,7 +57,7 @@ Main topics:
 </li><li>Collection factory methods
 </li><li>StackWalker
 </li><li>Contended locks in Java 9
-</li><li>Segmented Code Cache
+</li><li>onSpinWait​()
 </li>
 
 
@@ -430,7 +430,7 @@ This session delves into widely used OAuth 2.0 and OpenID Connect standards, exp
   speakers: [marszy]
 -
   id: 409
-  title: "Networks and Types -- the Future of Akka"
+  title: "Networks and Types - the Future of Akka"
   description: "In this talk we'll explore Akka's new Typed Actor APIs as well as the over-the-network Akka Streams and how they are able to marry Types with Networks. Akka does so while remaining true to its Erlang-inspired way of building 'let it crash' style Reactive Systems, that can react and self heal from failures. As this idea is now becoming more mainstream than ever, we'll deep dive into these concepts, investigate the trade-offs, failure scenarios and healing mechanisms and how Akka helps to deal with the inherent complexities of such cloud-native systems."
   language: ""
   speakers: [konmal]
@@ -518,7 +518,7 @@ And how is this ever-increasing pace of change affecting our companies, our team
   speakers: [dansaw]
 -
   id: 421
-  title: "War of Words: Why programmers suck at salary negotiations and A deep personal dive into Self-Awareness for Introverts (in Room 1 + transmitted to Room 12)"
+  title: "A War of Words: Self-Awareness for Introverts (and why programmers suck at salary negotiations) (in Room 1 + transmitted to Room 12)"
   description: "
 
 I take a deep look at my (emotional) insides - which I suspect are a lot like yours - and introverts and conflict-avoiders everywhere.  I don't take verbal assaults or even verbal sparring well... if it's outside of my 'comfort zone'  (I totally rock it in my zone).  We'll work through a common enough situation (an angry co-worker screws up and blames me), paying special attention to emotional states during the encounter.  We then go through the post-analysis: getting emotionally jarred/hurt/wrecked, why I didn't stand up verbally, stewing on the attack, and finally recovering.  And then we'll go through what *can* be done.
@@ -594,7 +594,7 @@ To survive as a company, the organization needs to become a shapeshifter: someti
 -
   id: 433
   title: "Using Reactive APIs of Java 9"
-  description: "TBD"
+  description: "Reactive Programming is no longer an esoteric idea. Many libraries and tools have started providing excellent support for this idea of programming. So much that Java 9 has embraced this idea by including it into the specification. In this presentation we will take a dive into what reactive programming looks like from the Java specification point of view."
   language: ""
   speakers: [vensub]
 -
