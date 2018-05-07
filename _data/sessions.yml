@@ -488,7 +488,7 @@ And how is this ever-increasing pace of change affecting our companies, our team
   speakers: [mircup]
 -
   id: 415
-  title: "Hype on Machine Learning is great, but there is a work to do."
+  title: "Hype on Machine Learning is great, but there is a work to do"
   description: "It is great to learn new tools and techniques. As I've learnt how to use Machine Learning tools I thought I'd found a magic wand. We all see multiple problems that might be solved with little help of magic. We have an input data, we know more less what we want to have on output. Machine Learning is a tempting offer, but usually if you don't have good knowledge of your problem, it is much easier to build solution with simpler tools. We will discuss how to start with ML and where not to use it."
   language: ""
   speakers: [krzdeb]
@@ -512,8 +512,8 @@ And how is this ever-increasing pace of change affecting our companies, our team
   speakers: [jakdzo]
 -
   id: 420
-  title: "Cracking the code to secure software"
-  description: "What is it that makes writing secure software so difficult? Why do we keep making the same mistakes over and over again? One challenge is that developers are busy delivering features and meeting deadlines – giving security requirements less priority. In this talk you’ll learn to use principles and mindsets from Domain Driven Design combined with a pinch of security awareness, to create secure code – while still focusing on your business features. You’ll learn the basic principles of Secure by Design and how to use concepts such as Domain Primitives and Entity Snapshots to harden your code. What a Domain DoS attack is, and how to incorporate security testing in your delivery pipeline. The ideas and tools presented are directly applicable in your daily work."
+  title: "Creating secure software - benefits from cloud thinking"
+  description: "Security is a tricky field – as developers, it doesn’t seem to matter how the software is designed. There’s always someone able to hack it. But as it turns out, software design can bring security benefits. Often when we hear the word ‘cloud’ we think it’s insecure, but in this talk you’ll learn how design patterns based on concepts such as 12-factor and cloud native apps not only yield great software, but also bring security benefits as an implicit side effect. These design patterns are applicable to legacy as well as green-field development, and regardless if you are running in the cloud or on-premise, you still get the same security benefits. And on top of this, you’ll see how it all comes together to create the foundation of modern software security – software that is secure by design."
   language: ""
   speakers: [dansaw]
 -
@@ -567,7 +567,7 @@ Along the way, we'll figure out why programmers suck at salary negotiations... a
   speakers: [krzkud, blakub]
 -
   id: 428
-  title: "Manage Yourself (in Room 1 + transmitted to Room 12)"
+  title: "Manage Yourself"
   description: "You want to scale agile, lean or DevOps, but you don’t know how. You like some methods and frameworks, but they don’t fit in your context. You know the organization needs to change, but there is a strong sense of “change resistance”.
 Scaling Agile to work in large and fast-growing organizations is a hot topic. Some coaches and consultants offer methods and frameworks (SAFe, LeSS, Nexus, Holocracy) but others don’t believe such models can work. Companies such as Spotify publish their own custom approach, but it appears that people try to copy these examples without thinking, and that doesn’t work either.
 To survive as a company, the organization needs to become a shapeshifter: sometimes hierarchical, sometimes networked; sometimes efficient, sometimes effective; sometimes great at execution, and other times great at innovation. You can only achieve this by motivating people to change continuously. To achieve this, we take a closer look at gamification and habit-forming. Because games and habits are the keys to intrinsic motivation and change. And you need those in your company to become a great shapeshifter!"
@@ -576,7 +576,13 @@ To survive as a company, the organization needs to become a shapeshifter: someti
 -
   id: 429
   title: "Arm Based Servers and Java: Synergizing Performance"
-  description: "TBD"
+  description: "
+Arm's Infrastructure LOB (line of business) is one of the support structures for its rich Enterprise ecosystem. 
+
+In this presentation, JVM architect, Monica Beckwith provides an insight into the synergy between the various stakeholders for OpenJDK aarch64.
+
+
+Monica will also cover LTS (and non) release cadence for OpenJDK, a few Java 9+ features, that are geared towards performance and will provide an overview of a few internal and external tools employed at Arm."
   language: ""
   speakers: [monbec]
 -
