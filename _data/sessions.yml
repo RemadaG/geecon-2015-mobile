@@ -687,3 +687,10 @@ Monica will also cover LTS (and non) release cadence for OpenJDK, a few Java 9+ 
   presentation: ""
   service: "true"
   language: ""
+-
+  id: 999
+  title: "---"
+  description: "Talk cancelled"
+  presentation: ""
+  service: "true"
+  language: ""
