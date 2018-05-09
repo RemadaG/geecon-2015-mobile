@@ -500,8 +500,8 @@ And how is this ever-increasing pace of change affecting our companies, our team
   speakers: [rafloj]
 -
   id: 417
-  title: "Building testable APIs using functions"
-  description: "In this live coding talk you will learn about simple functional techniques that encourage separation of concerns. I will build a stateful HTTP API from highly isolated and testable components. Majority of us intuitively know what separation of concerns is. However, knowing something and using it in practice are two different things. Developers in many projects are drowning in entangled spaghetti-like codebases. We need better tools that force us to think about the responsibilities more often. The session will introduce those tools by showing a practical example: a Pac-Man game web server. I will code in Scala using Akka HTTP and Monix libraries. On top of that, I will also show how you can achieve the same results in Java using Vavr."
+  title: "Building testable APIs using functions & meshes"
+  description: "In this live coding talk you will learn about functional techniques that encourage separation of concerns. I will build a stateful HTTP API from highly isolated components that are easier to test than entangled spaghetti-like codebases. I will show you how tests can help us scaffold the architecture and how should we approach testing in the era of microservices. In the session I will use immutability, type parameters and function parameters as tools to implement a very practical example: Pac-Man game web server. I will code in Scala using Akka HTTP and deploy to Kubernetes with Istio service mesh."
   language: ""
   speakers: [micpla]
 -
