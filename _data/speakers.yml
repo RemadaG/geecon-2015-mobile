@@ -179,6 +179,12 @@
   bio: "Lead Software Engineer at Salesforce"
   thumbnailUrl: "https://2018.geecon.cz/speakers/dmitryv.png"
 -
+  id: "jarrat"
+  name: "Jarosław"
+  surname: "Ratajski"
+  bio: "Java developer since 1999"
+  thumbnailUrl: "https://2018.geecon.cz/speakers/jarekr.jpg"
+-
   id: "oledok"
   name: "Oleh"
   surname: "Dokuka"
@@ -196,3 +202,9 @@
   surname: "Brauner"
   bio: "Software Architect at REWE Digital"
   thumbnailUrl: "https://2018.geecon.cz/speakers/ansgarb.jpeg"
+-
+  id: "andgrz"
+  name: "Andrzej"
+  surname: "Grzesik"
+  bio: "Java Champion, distributed systems maker"
+  thumbnailUrl: "https://2018.geecon.cz/speakers/andrzejg.jpg"
