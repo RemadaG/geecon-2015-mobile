@@ -208,3 +208,15 @@
   surname: "Grzesik"
   bio: "Java Champion, distributed systems maker"
   thumbnailUrl: "https://2018.geecon.cz/speakers/andrzejg.jpg"
+-
+  id: "marszy"
+  name: "Marcin"
+  surname: "Szymaniuk"
+  bio: "Marcin is a Data Engineer and Consultant at TantusData."
+  thumbnailUrl: "https://2018.geecon.cz/speakers/marcins.jpeg"
+-
+  id: "danleb"
+  name: "Daniel"
+  surname: "Lebrero"
+  bio: "Java elder, reluctant architect"
+  thumbnailUrl: "https://2018.geecon.cz/speakers/daniell.jpg"
