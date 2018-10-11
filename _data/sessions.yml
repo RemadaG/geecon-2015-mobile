@@ -332,6 +332,13 @@ In this session I'd like to explore all that, share real-life stories and exampl
   service: "true"
   language: ""
 -
+  id: 912
+  title: "Topic tables"
+  description: ""
+  presentation: ""
+  service: "true"
+  language: ""
+-
   id: 990
   title: "Party"
   description: "Party time!"
