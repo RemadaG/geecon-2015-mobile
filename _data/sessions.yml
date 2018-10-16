@@ -409,9 +409,16 @@ In this session I'd like to explore all that, share real-life stories and exampl
 -
   id: 912
   title: "Topic tables"
-  description: "Topic tables"
+  description: "Join other attendees and share ideas, talk about the recent challenges, or find solution for a problem. During this session you can connect with other like-minded people in a space designated for certain languages, technologies, and interests.
+
+1. Suggest a topic
+
+Look for large white sheets of paper, and tell everyone what is on your mind! You can also tweet using #topicforgeecon hashtag. Vote for topics (mark it with line/x/heart) and like tweets to show others you’re interested.
+
+2. Choose a room and have fun
+
+We will group similar topics and assign a room. Topics will be pinned before room entrance (list of topics and rooms will be also posted using attendees slack channel - slack.geecon.cz), so you will be able to join others also interested in eg. Kotlin, JVM tuning, Machine learning or testability."
   presentation: ""
-  service: "true"
   language: ""
 -
   id: 990
