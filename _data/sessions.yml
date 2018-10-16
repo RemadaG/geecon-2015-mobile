@@ -283,6 +283,60 @@ In this session I'd like to explore all that, share real-life stories and exampl
   language: ""
   speakers: [tomgab]
 -
+  id: 472
+  title: "Gradual migration from Java EE to MicroProfile IO"
+  description: "The goal of MicroProfile is to optimise Java EE for a micro-service architecture. It is based on some of the Java EE specifications and standardise a few technologies from the micro-services space. However, some of the microprofile implementations are completely different 'servers', like the KumuluzEE server. So how can you migrate easily from your favourite Java EE server to a MicroProfile implementation? This session shows you an overview of what MicroProfile.IO is and how it relates to Java EE. It then demonstrates with a few examples how you can adjust your Java EE application to incorporate some of the MicroProfile.IO specifications and how you can transform your Java EE application to a MicroProfile.IO one using WildFly Swarm, Liberty, Payara Micro and KumuluzEE."
+  language: ""
+  speakers: [ondmih]
+-
+  id: 475
+  title: "Developing bots during the BTC gold rush"
+  description: "During BTC frenzy days on December 2017, a funny story happened. Many people tried to promote (shill) their favorite coins. This usually worked for those with many followers. One of those people was John McAfee. When he started promoting coins, price doubled within minutes. * Intro Satirize the get rich scheme mentality of crypto and John McAfee’s personality Emphasize on how dangerous crypto market is (95% drop from all time highs for some coins) Describe the pattern that I observed and how I came up with the idea. * Implementation Create a web crawler which will scan John McAfee’s tweet for crypto symbols (presentation of Twitters API for reading tweets) Tune our crawler to make the maximum amount of calls while avoiding a 429 response from Twitter server, in order to extract the info asap. Create an automated bot for placing orders (presentation of Binance/Bittrex API trading platforms for placing orders) Search the tweeted symbol within our cached symbol pool and see if we can place an order at the exchange Optimize the program to find a good entry and exit price * What was the result? The bot worked as expected! I wasn’t the only one who implemented the idea.. Massive server delays/crashes due to extreme order volume (5-10 min timeout) * Closing notes Pet projects owe to be fun and you should not be afraid to play and experiment with all the available APIs. If you have different hobbies, try and combine them, something fun might come up! (Implementation and design took me like 12h, lost some capital but loved it!) Crypto is a risky area where big fish always eat the small ones. Please don’t ever ever involve and if so be extremely cautious. Huge price fluctuations * Additional content The application above run locally on my pc, but I could show how it could be deployed on AWS servers."
+  language: ""
+  speakers: [lavnom]
+-
+  id: 711
+  title: "Lunch - room 7"
+  description: "Vietnamese pork loin + grilled potatoes + salad"
+  presentation: ""
+  service: "true"
+  language: ""
+-
+  id: 712
+  title: "Lunch - room 5"
+  description: "Chicken filet in paprika sauce + rice + salad"
+  presentation: ""
+  service: "true"
+  language: ""
+-
+  id: 713
+  title: "Lunch - room 3"
+  description: "Vegies in delicate curry sauce on coconut milk + rice"
+  presentation: ""
+  service: "true"
+  language: ""
+-
+  id: 721
+  title: "Lunch - room 7"
+  description: "Meat balls in tomato&basil sauce"
+  presentation: ""
+  service: "true"
+  language: ""
+-
+  id: 722
+  title: "Lunch - room 5"
+  description: "Beef vindalloo gulash + wild rice + salad"
+  presentation: ""
+  service: "true"
+  language: ""
+-
+  id: 723
+  title: "Lunch - room 3"
+  description: " Dumplings: russian and lentil + salad (vege)"
+  presentation: ""
+  service: "true"
+  language: ""
+-
   id: 901
   title: "Registration & breakfast"
   description: ""

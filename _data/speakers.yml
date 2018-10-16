@@ -212,7 +212,7 @@
   id: "marszy"
   name: "Marcin"
   surname: "Szymaniuk"
-  bio: "Marcin is a Data Engineer and Consultant at TantusData."
+  bio: "Data Engineer and Consultant at TantusData"
   thumbnailUrl: "https://2018.geecon.cz/speakers/marcins.jpeg"
 -
   id: "danleb"
@@ -220,3 +220,15 @@
   surname: "Lebrero"
   bio: "Java elder, reluctant architect"
   thumbnailUrl: "https://2018.geecon.cz/speakers/daniell.jpg"
+-
+  id: "ondmih"
+  name: "Ondrej"
+  surname: "Mihályi"
+  bio: "Developer, trainer and consultant, exploring new approaches with already proven Java tooling"
+  thumbnailUrl: "https://2018.geecon.cz/speakers/mihailo.jpg"
+-
+  id: "lavnom"
+  name: "Lavkos"
+  surname: "Nomikos"
+  bio: "backend Java developer since 2014"
+  thumbnailUrl: "https://2018.geecon.cz/speakers/lavakosn.jpg"
