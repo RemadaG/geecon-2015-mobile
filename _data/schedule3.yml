@@ -1,0 +1,88 @@
+- date: "2019-05-17"
+  dateReadable: "17th of May 2019 - day 3"
+  tracks:
+    - {title: "Track 1", color: "#fbb531"}
+    - {title: "Track 2", color: "#49abd0"}
+    - {title: "Track 3", color: "#fbb531"}
+    - {title: "Track 4", color: "#49abd0"}
+  timeslots:
+    - {
+      startTime: "08:30",
+      endTime: "09:00",
+      sessionIds: [902]
+    }
+    - {
+      startTime: "09:00",
+      endTime: "09:50",
+      sessionIds: [511, 504, 910, 529]
+    }
+    - {
+      startTime: "09:50",
+      endTime: "10:10",
+      sessionIds: [905]
+    }
+    - {
+      startTime: "10:10",
+      endTime: "11:00",
+      sessionIds: [510, 487, 910, 509]
+    }
+    - {
+      startTime: "11:00",
+      endTime: "11:30",
+      sessionIds: [905]
+    }
+    - {
+      startTime: "11:30",
+      endTime: "12:20",
+      sessionIds: [505, 484, 910, 497]
+    }
+    - {
+      startTime: "12:20",
+      endTime: "13:00",
+      sessionIds: [906]
+    }
+    - {
+      startTime: "13:00",
+      endTime: "13:50",
+      sessionIds: [508, 479, 522, 910]
+    }
+    - {
+      startTime: "13:50",
+      endTime: "14:10",
+      sessionIds: [905]
+    }
+    - {
+      startTime: "14:10",
+      endTime: "15:00",
+      sessionIds: [910, 523, 910, 514]
+    }
+    - {
+      startTime: "15:00",
+      endTime: "15:10",
+      sessionIds: [905]
+    }
+    - {
+      startTime: "15:10",
+      endTime: "15:35",
+      sessionIds: [910, 501, 532, 534]
+    }
+    - {
+      startTime: "15:35",
+      endTime: "16:00",
+      sessionIds: [910, 498, 910, 533]
+    }
+    - {
+      startTime: "16:00",
+      endTime: "16:20",
+      sessionIds: [905]
+    }
+    - {
+      startTime: "16:20",
+      endTime: "17:40",
+      sessionIds: [909]
+    }
+    - {
+      startTime: "16:40",
+      endTime: "17:30",
+      sessionIds: [907]
+    }
