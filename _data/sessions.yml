@@ -76,8 +76,12 @@ You will leave with practical suggestions to help you accelerate your developmen
   speakers: [joslon]
 -
   id: 494
-  title: "How (NOT) to use Reactive Streams in Java 9+"
-  description: "Reactive Streams is a standard for asynchronous data processing in a streaming fashion with non-blocking backpressure. Starting from Java 9, they have become a part of the JDK in the form of the java.util.concurrent.Flow interfaces. Having the interfaces at hand may tempt you to write your own implementations. Surprising as it may seem, that’s not what they are in the JDK for. In this session we’re going to go through the basic concepts of reactive stream processing and see how (not) to use the APIs included in JDK 9+. Plus we’re going to ponder the possible directions in which JDK’s Reactive Streams support may go in the future."
+  title: "Reactive Integration with Akka Streams and Alpakka"
+  description: "An alpaca is like a camel, but is Alpakka like Apache Camel? Can we use the reactive approach in the area of integration as well, instead of the blocking approach that Camel usually offers? In this live coding session we’re going to explore the possibilities that Alpakka - a set of connectors for Akka Streams - offers to fetch data from various data sources and send it to different destinations. Using those, you’re going to learn, on a working example, how to build a reactive integration layer with the help of Akka Streams - one of the most popular Reactive Streams implementations. And if you thought Akka and friends were only for the Scala people, come to learn the nice Java APIs and see how wrong you were. 
+<br><br>
+Code: https://github.com/rucek/reactive-integration-with-akka-streams-and-alpakka 
+<br><br>
+Slides: https://www.slideshare.net/SoftwareMill/reactive-integration-with-akka-streams-and-alpakka"
   language: ""
   speakers: [jackun]
 -
@@ -280,8 +284,13 @@ You will leave with practical suggestions to help you accelerate your developmen
   speakers: [mickor]
 -
   id: 531
-  title: "Gra o sumie niezerowej, czyli o różnorodności"
-  description: "Nie będziemy mówić o różnorodności mikrousług w systemie rozproszonym ani o różnicach architektur procesorów, podejść do programowania czy frameworków. Chcemy porozmawiać o różnorodności najważniejszego “składnika” sztuki programistycznej, czasem złośliwie nazywanego interfejsem białkowym. Porozmawiajmy o nas, programistach i programistkach. Słysząc o działaniach wspierających “diversity w it” niektórzy się uśmiechają, a inni zaciskają zęby. Dla jednych jest to oczekiwany standard, dla innych niezrozumiałe akcje, których cel jest w najlepszym przypadku mglisty lub niezrozumiały. HR Business Partner Asia i programista Adam postanowili połączyć siły i zastanowić się: czy problem w ogóle istnieje? Czemu akcje promującde różnorodność wywołują ona tak wiele kontrowersji? Dlaczego firmy inwestują w te działania? Jakie są najbardziej rozpowszechnione mity i nieporozumienia?"
+  title: "Non-zero sum game: a talk about diversiity"
+  description: "We won't talk about differences between microservices in distributed systems nor CPU architectures, approaches to coding or frameworks. We want to talk about the diversity among the most essential 'ingredient' of coding. We want to talk about us, software engineers.
+
+When hearing about 'diversity in IT' some of us smile, while others frown. It might be something we expect from the company or we might perceive it as unnecessary actions aimed at imagined and nonexistent problems.
+
+Asia (HR Business Partner) and Adam (developer) decided to tackle this problem together. Is there really a need to promote diversity? Why is it so controversial? What are the facts and myths concerning diversity? Come see our presentation to learn more.
+"
   language: ""
   speakers: [joadeb, adadub]
 -
@@ -308,6 +317,75 @@ You will leave with practical suggestions to help you accelerate your developmen
   description: "In this talk we are going to create a functional and blazingly fast microservice. We will use functional programming abstractions to quickly mix & match different HTTP libraries, state implementations and concurrency configurations. Each step will be followed by a performance analysis using different tools from JVM toolbox. This talk is for you if you want to see how type classes, cats IO monad, async-profiler, flame graphs and wrk are used together to create microseconds-fast Scala service for YouTube videos statistics."
   language: ""
   speakers: [micpla]
+-
+  id: 536
+  title: "Create your own Interpreter with a JIT in 1 hour"
+  description: "During this talk I will describe how you can use Eclipse OMR technologies to easily create an Interpreter for a new or existing runtime and get a JIT for free! I will walk through the simple steps to create a small, efficient Interpreter and JIT using the new OMR InterpreterBuilder for any runtime. One of the major benefits is that once the Interpreter is written the same code is used to create a JIT for the runtime. This means there is only 1 place to modify code. Everyone understands the benefit of having a JIT so getting one for free is a huge advantage. By the end of the talk we will have successfully implemented a simple Interpreter and JIT using the InterpreterBuilder and compared the performance with an Interpreter written in C++. Runtime and language enthusiasts should definitely check out the OMR project to see how it can help. The OMR project is a set of open source C and C++ components that can be used to build robust language runtimes that support many different hardware and operating system platforms. One key feature of the OMR project is that it can be used to improve an existing runtime for languages with mature communities without forcing the communities to switch from their favourite runtime."
+  language: ""
+  speakers: [chagra]
+-
+  id: 537
+  title: "Exploring reactive programming in Java"
+  description: "When Java 8 was first introduced, it revolutionized the way Java applications were written by providing the core constructs for asynchronous programming and handling data streams. With Java 9-12, these capabilities were extended to the level that allows us to write truly modern, reactive applications with the JDK. In this live-coding session, we explore the building blocks or reactive systems available in the JDK today, which create 8 levels of reactive programming. We specifically focus on JDK 9-12 features, such as updates to the Stream and CompletableFuture APIs, Reactive Streams publish-subscribe framework, HTTP/2 client, and more."
+  language: ""
+  speakers: [mircup]
+-
+  id: 538
+  title: "Micronaut, Dragon-Slayer (Spring/boot) or just another framework"
+  description: "In the Java world, Spring is a great beast, a Dragon, and with a good reason. Spring is a very powerful framework which does a lot for developers while giving them a lot of power. All this power, of course, doesn't come without its price. Most of the developers using Spring are either happy to pay this price or not aware of it at all. On the other hand, Micronaut comes with the promise of all the power of Spring, while not having any of the costs that Spring brings to the table. Let us look at it, how it compare and differ to Spring and if it lives up to its promises."
+  language: ""
+  speakers: [vladej]
+-
+  id: 539
+  title: "Netty 5 - Lessons learned"
+  description: "Netty is one of the most used network frameworks on the JVM (if not the most used) which provides its users not only with great flexibility but also with superb performance.
+While Netty 4.x was a great success and is used literally everywhere in production it became clear over the “years” that a few design choices that where made did produce various limitations. As work has started on Netty 5, it’s time to fix these limitations and incorporate all the feedback we received from the community and core maintainers. 
+
+This talk will focus on multiple core changes that are scheduled for netty 5 by explaining what “real-world issues” these solve and how these changes will help to operate Netty in high-scale production environments. Also it will give a brief overview of the general planed timeline of Netty 5 and roadmap."
+  language: ""
+  speakers: [normau]
+-
+  id: 540
+  title: "Why you (don't) want to write you own memory buffer recycler?"
+  description: "Why JVM allocates so much memory every time a request is handled by our application? As our heaps grow, you wonder what would it take to have it under control. Life can become much easier if we ensure that memory is allocated only once, right? Let's have a look at the challenges of memory buffer recycling using object pooling."
+  language: ""
+  speakers: [raffol]
+-
+  id: 541
+  title: "Recycling examples"
+  description: "Have you ever wondered how you can recycle your Gherkin examples and verify different parts of your application using the same example? This is a two two part problem: * implement an adapter for each seam you want to connect through * use the adapter when running Cucumber Thomas will show an example using Cucumber-JVM where he recycles examples by varying adapters. The result is fast feedback if the business logic is broken. Slower but accurate feedback if the delivery mechanism is broken. At the end of the day, you can be certain that you won't let your users down when they get to use the application. There will be code implemented and executed on stage that will show one way of recycling examples."
+  language: ""
+  speakers: [thosun]
+-
+  id: 542
+  title: "Developer's guide to selling your soul"
+  description: "In almost every developer's life there comes a time at which he/she has to choose. To go into management, or to stay in development. Now, if you're a 'my concept of fun is reading about monads and category theory' kind of developer, this will probably feel like you're selling your soul to 'The Man'. But here's the hard truth. No matter what you want to achieve in your professional life, chances are you'll need other people to do that. So doing at least some sort of management is not an option, it's a necessity. In this talk I'll tell you my experience of going through this transformation. I'll try to sum up my ups and downs into a quick and easy cookbook you can use in your day-to-day operations. So that you still have time to do what you love the most, develop!"
+  language: ""
+  speakers: [hrvcrn]
+-
+  id: 543
+  title: "Kotlin is for hipsters"
+  description: "Most developers like using cool, shiny, new technologies. But at the same time, we embrace the 'known' older technology stacks when creating software which will run in production, and for good reason! At the Port of Rotterdam we decided to take a leap of faith and embrace our inner hipsters. Unhindered with any prior experience, we started developing our applications using Kotlin. In this talk, we will share our experiences with developing in Kotlin for a few months. Hopefully, we will enthuse you to make the same decision!"
+  language: ""
+  speakers: [jorvan, riclip]
+-
+  id: 544
+  title: "Data Streaming: Which horse to bet on?"
+  description: "Data streaming has been mainstream in the development world for a few years already, bringing us lots of mature frameworks, like: Spark Streaming, Flink, Akka Streams or Kafka Streams. This abundance is always welcome, but can also be confusing, when having to pick one with lowest latency, highest throughput or best CPU / memory utilization. The aim of this talk is to provide a reliable response to those dilemmas as much as it is possible."
+  language: ""
+  speakers: [kamowc]
+-
+  id: 545
+  title: "RSocket - Future Reactive Application Protocol"
+  description: "Are you doing microservices? Are you frustrated by slow REST? Tired of unreliable gRPC? Do you need faster client-server communication, but don’t want to invent your WS-protocol? The answer is RSocket. RSocket in a new application-level protocol with reactive streams semantic. It will make your system scalable, fast and resilient. Come and learn why RSocket is the future of cross-services communication. In this session, you will learn why RSocket is an innovative solution for cross-server communication. The session provides an overview of how we can use RSocket and how we can improve gRPC using RSocket. Finally, we will understand why we should start using RSocket today."
+  language: ""
+  speakers: [oledok]
+-
+  id: 546
+  title: "Superpowers of Kotlin Delegation"
+  description: "Property delegation is pretty new feature in the programming world and most developers use only small amount of possibilities it provides. On the other hand, class delegation is known for decades and it was promoted by big authorities. All it needed was language support, which was introduced in Kotlin. On this session, we are going to dive into possibilities that Kotlin delegation gives. Let's discover this features and understand its superpowers"
+  language: ""
+  speakers: [marmos]
 -
   id: 711
   title: "Lunch - room 7"
