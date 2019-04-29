@@ -147,7 +147,17 @@ Slides: https://www.slideshare.net/SoftwareMill/reactive-integration-with-akka-s
 -
   id: 507
   title: "Is writing performant code too expensive?"
-  description: "While compute becomes faster and cheaper we are tempted to abandon sanity and shield ourselves from reality and laws of physics. The resulting mess of monstrous Slack instances rampaging across our RAM should makes us stop (because our computers did it already) and wonder where did we go wrong? Rising developer salaries and time to market pace are tempting us to abandon all hope for optimising our code and understanding our systems. Contrary to what casual reader could think this is a deeply technical presentation. We will gaze into hardware counters, NUMA nodes, vector registers and that darkness will stare back at us. All this to get a taste of what is possible on current hardware, to learn the COST of scalability and forever change how you feel when accessing invoice list in your local utilities provider UI so that after 20s of waiting all 12 elements will be displayed (surely Cthulhu must be eating their compute because it is NOT possible Tauron hosts it’s billing services on FIRST GEN IPHONE). Key takeaways: - Software (esp. backend) is only a small part of a successful product. - Many successful companies strive to validate features early which leaves little time for good engineering and performance work - There are, however cases when optimization can provide 10-100x speed up which brings tremendous value to products and clients - To identify such opportunities we need to have good intuition about what hardware and proper algorithms can do - Memory bandwidth per core for AMD EPYC and Intel Xeon systems - How branch predictor affects performance and how to work around it - Memory access patterns impact on performance and how to invert them"
+  description: "While compute becomes faster and cheaper we are tempted to abandon sanity and shield ourselves from reality and laws of physics. The resulting mess of monstrous Slack instances rampaging across our RAM should makes us stop (because our computers did it already) and wonder where did we go wrong? Rising developer salaries and time to market pace are tempting us to abandon all hope for optimising our code and understanding our systems. Contrary to what casual reader could think this is a deeply technical presentation. We will gaze into hardware counters, NUMA nodes, vector registers and that darkness will stare back at us. All this to get a taste of what is possible on current hardware, to learn the COST of scalability and forever change how you feel when accessing invoice list in your local utilities provider UI so that after 20s of waiting all 12 elements will be displayed (surely Cthulhu must be eating their compute because it is NOT possible Tauron hosts it’s billing services on FIRST GEN IPHONE). 
+Key takeaways: 
+<li> Software (esp. backend) is only a small part of a successful product. 
+</li><li> Many successful companies strive to validate features early which leaves little time for good engineering and performance work
+</li><li> There are, however cases when optimization can provide 10-100x speed up which brings tremendous value to products and clients 
+</li><li> To identify such opportunities we need to have good intuition about what hardware and proper algorithms can do 
+</li><li> Memory bandwidth per core for AMD EPYC and Intel Xeon systems 
+</li><li> How branch predictor affects performance and how to work around it
+</li><li> Memory access patterns impact on performance and how to invert them
+</li>
+"
   language: ""
   speakers: [tomkow]
 -
@@ -284,7 +294,7 @@ Slides: https://www.slideshare.net/SoftwareMill/reactive-integration-with-akka-s
   speakers: [mickor]
 -
   id: 531
-  title: "Non-zero sum game: a talk about diversiity"
+  title: "Non-zero sum game: a talk about diversity"
   description: "We won't talk about differences between microservices in distributed systems nor CPU architectures, approaches to coding or frameworks. We want to talk about the diversity among the most essential 'ingredient' of coding. We want to talk about us, software engineers.
 
 When hearing about 'diversity in IT' some of us smile, while others frown. It might be something we expect from the company or we might perceive it as unnecessary actions aimed at imagined and nonexistent problems.
@@ -296,7 +306,18 @@ Asia (HR Business Partner) and Adam (developer) decided to tackle this problem t
 -
   id: 532
   title: "Jazon - test assertions on JSONs have never been easier"
-  description: "Have you ever written a test where you needed to someway assert on JSON payload? With the recent fashion of microservices and real-time data pipelines, most of us faced that challenge. It wasn’t that hard but it often turned into a miserable pile of duplicated code for more complex test suites. I always felt we can do it better, so I decided to create a new open-source library that makes this process a lot easier - Jazon. Jazon was created during my work with Java microservices in Zendesk (previously Base). It is meant to help you ship your services faster and with more confidence. Regarding the features, it supports: - simple assertions on JSONs - assertions for unordered arrays (when order of items do not matter in your JSON response) - handy user-defined assertions (most powerful productivity booster) e.g. with Spock you can write: ``` jazon(response).matches( [ id: ANYTHING, elements: { it.size() == 17 } ] ) ``` - optimised to minimise code duplication - optimised for best human-readable error message allowing for fast error tracing And - most importantly - it is designed to be extensible and can easily support any JVM project - for teams using Java, Groovy, Scala, Kotlin. Out of the box, support for Groovy (for Spock test framework) and Java (as a Hamcrest matcher) will be provided as part of making Jazon open-source. IMPORTANT NOTE: Right now (Feb 2019) you cannot find any public info about this library. This is because I am still in progress of: - some final touches before publishing it - not to be too much embarrassed of the code ;) - making it open-source on Zendesk’s Github account The plan is that until end of March 2019 it will be published. I know this library is far away from being “rocket science” but I honestly find it very useful - that’s why I want to spread the word :)"
+  description: "Have you ever written a test where you needed to someway assert on JSON payload? With the recent fashion of microservices and real-time data pipelines, most of us faced that challenge. It wasn’t that hard but it often turned into a miserable pile of duplicated code for more complex test suites. I always felt we can do it better, so I decided to create a new open-source library that makes this process a lot easier - Jazon. The presentation will show how to use the tool and its features.
+
+
+Jazon was created during my work with Java microservices in Zendesk (previously Base). It is meant to help you ship your services faster and with more confidence. Regarding the features, it supports:
+ - simple assertions on JSONs <br>
+- assertions for unordered arrays (when order of items do not matter in your JSON response)<br>
+ - handy user-defined assertions (most powerful productivity booster) e.g. with Spock you can write: ``` jazon(response).matches( [ id: ANYTHING, elements: { it.size() == 17 } ] ) ``` <br>
+- optimised to minimise code duplication <br>
+- optimised for best human-readable error message allowing for fast error tracing <br>
+And - most importantly<br>
+ - it is designed to be extensible and can easily support any JVM project - for teams using Java, Groovy, Scala, Kotlin. 
+"
   language: ""
   speakers: [pawmik]
 -
@@ -353,7 +374,13 @@ This talk will focus on multiple core changes that are scheduled for netty 5 by 
 -
   id: 541
   title: "Recycling examples"
-  description: "Have you ever wondered how you can recycle your Gherkin examples and verify different parts of your application using the same example? This is a two two part problem: * implement an adapter for each seam you want to connect through * use the adapter when running Cucumber Thomas will show an example using Cucumber-JVM where he recycles examples by varying adapters. The result is fast feedback if the business logic is broken. Slower but accurate feedback if the delivery mechanism is broken. At the end of the day, you can be certain that you won't let your users down when they get to use the application. There will be code implemented and executed on stage that will show one way of recycling examples."
+  description: "Have you ever wondered how you can recycle your Gherkin examples and verify different parts of your application using the same example? This is a two two part problem: 
+<br>
+* implement an adapter for each seam you want to connect through 
+<br>
+* use the adapter when running Cucumber Thomas will show an example using Cucumber-JVM where he recycles examples by varying adapters. 
+
+The result is fast feedback if the business logic is broken. Slower but accurate feedback if the delivery mechanism is broken. At the end of the day, you can be certain that you won't let your users down when they get to use the application. There will be code implemented and executed on stage that will show one way of recycling examples."
   language: ""
   speakers: [thosun]
 -
@@ -375,17 +402,41 @@ This talk will focus on multiple core changes that are scheduled for netty 5 by 
   language: ""
   speakers: [kamowc]
 -
-  id: 545
-  title: "RSocket - Future Reactive Application Protocol"
-  description: "Are you doing microservices? Are you frustrated by slow REST? Tired of unreliable gRPC? Do you need faster client-server communication, but don’t want to invent your WS-protocol? The answer is RSocket. RSocket in a new application-level protocol with reactive streams semantic. It will make your system scalable, fast and resilient. Come and learn why RSocket is the future of cross-services communication. In this session, you will learn why RSocket is an innovative solution for cross-server communication. The session provides an overview of how we can use RSocket and how we can improve gRPC using RSocket. Finally, we will understand why we should start using RSocket today."
-  language: ""
-  speakers: [oledok]
--
   id: 546
   title: "Superpowers of Kotlin Delegation"
   description: "Property delegation is pretty new feature in the programming world and most developers use only small amount of possibilities it provides. On the other hand, class delegation is known for decades and it was promoted by big authorities. All it needed was language support, which was introduced in Kotlin. On this session, we are going to dive into possibilities that Kotlin delegation gives. Let's discover this features and understand its superpowers"
   language: ""
   speakers: [marmos]
+-
+  id: 547
+  title: "java.util.concurrent for Distributed Coordination"
+  description: "The evolution of distributed coordination tools shows that high-level APIs ease implementation of coordination tasks, such as leader election, locking, synchronized actions. For instance, the Chubby paper highlights familiarity of lock-based interfaces. Similarly, Apache Curator hides complexity of ZooKeeper recipes behind Java APIs, while etcd and Consul implement concurrency primitives on their own. A different path in this journey would be extending the long-lasting java.util.concurrent APIs for distributed coordination. Hazelcast follows this path by offering distributed implementations of Java locks, semaphores, and other concurrency primitives. Unfortunately, these implementations were suffering from consistency issues. In this talk, we will explore a brand new implementation of java.util.concurrent APIs on top of the Raft consensus algorithm. We will walk through code samples to see how Java locks, semaphores, etc. can be used in distributed environments that involve partial failures."
+  language: ""
+  speakers: [enskah]
+-
+  id: 548
+  title: "From notebooks to production - bringing devops to scientists"
+  description: "Delivering a data science to production currently looks something like this: Clara your brilliant data scientist creates a model in her notebook that can have a huge impact on the companies revenue after working on it isolated for a few weeks a pickle file is born and Clara has to find a way to expose to users, with any luck she will grab the correct product manager that will be able to maybe prioritize it during the next sprint, once the engineering team gets to it the model is already stale and the process resets. This familiar scenario wastes resources from multiple departments and introduces overhead instead of value. In this talk I want to show how to remove a major bottleneck between data science and production. Assaf a generic model serving framework and a few devops methods you can free your scientist to do science and move quickly while decoupling them from engineering efforts, allowing engineers to deliver value, stop doing repetitive work and focus on what they are best at. Assaf abstracts away caching and networking allowing scientists to use it as a library in their favorite language and focus on what's important to them. Assaf relies on persistent event streams to communicate between users and services and come with built-in metrics collection and tracing so deployed models are resilient and can be monitored efficiently, this highlights hotspots and triggers a darwinian process making teams focus on what's they know is important and reduce guessing to a minimum."
+  language: ""
+  speakers: [raaros]
+-
+  id: 549
+  title: "How shit works: TCP/IP"
+  description: "From the top of the stack, networks are remarkably simple to use. Just throw in a couple machines, some cables, a network switch and HTTP server, stir gently and season to taste, right? Your go-to high level protocol (HTTP anyone?) builds on a hierarchy of seemingly simple abstractions that hide immense complexity, and these abstractions inevitably leak. In the fourth part of this series we'll take a closer look at everyone's favorite protocol TCP/IP, enumerate the challenges it faces and see how it aims to solve them. With luck, you'll come away understanding enough so that next time you run into Connection Reset by Peer issues or SO_LINGER you'll have some idea what you're up against."
+  language: ""
+  speakers: [tomgab]
+-
+  id: 550
+  title: "TestContainers + JUnit5 = elegant end-to-end tests for microservices"
+  description: "Developing microservices is an exciting process but could be challenging at the same time. Sooner or later a developer needs to deploy his changes into production. With microservices it is not enough any more to check whether all unit and/or integration tests for a single service have passed. What developers badly need is an ability to check interactions of their release candidate against other services of stable versions. It could be done by adopting a canary deployment technique. In the worst case just of a small portion of production traffic would be affected. Another commonly used technique is to deploy the release candidate to some hardware QA environment. The drawback of this approach is that QA environment tends to turn into a mess of unstable services from various teams. This talk suggests to perform automatic testing of the release candidate against other real services started in Docker. TestContainers library facilitates simple start up of services and their dependencies, i.e. (No)SQL databases in containers. The lib has a list of valuable features which significantly simplify a developer’s life. - Docker environment autodiscovery - mapping to random unique host ports - easy Docker network configuration - waiting strategies for a ready status - containers cleanup guarantees - exposure of host ports to Docker networks JUnit 5 extensions are a flexible way to configure granularity of tests. For each service in a platform annotation and extension are implemented. Under th904e hood an extension would start and configure a corresponding service in Docker container. First service to be started is a service registry (Consul, Spring Cloud Eureka) so all business capable services could register and autodiscover their neighbors. Eventually automatic test invokes public HTTP endpoints of a service and verifies responses. Those response payloads might be contributed by multiple services of the platform even several hops away. In the demo part a simplified version of a SMS platform is emulated. Apart from Spring Cloud Eureka there are 3 more business services built on Spring Boot. One of them is Acceptor which accepts clients requests, consults Billing on a decision whether to proceed with a request or not. Eventually Sender does an actual submit of an SMS to a mobile operator. Later the operator pushes a delivery report to Sender’s endpoint which should be matched to the submitted message and forwarded to Acceptor and then to client. Final price of the message in Billing might be adjusted depending on a status in the delivery report. If those several business flows keep working with a release of any services it is already a lot for the business. To emulate operator and client MockServer is used."
+  language: ""
+  speakers: [serego]
+-
+  id: 551
+  title: "Monolith? Microservices? Is this important?"
+  description: "TBD"
+  language: ""
+  speakers: [barkuc]
 -
   id: 711
   title: "Lunch - room 7"
@@ -508,6 +559,12 @@ This talk will focus on multiple core changes that are scheduled for netty 5 by 
 <br/>We will group similar topics and assign a room. Topics will be pinned before room entrance (list of topics and rooms will be also posted using attendees slack channel - slack.geecon.cz), so you will be able to join others also interested in eg. Kotlin, JVM tuning, Machine learning or testability."
   presentation: ""
   language: ""
+-
+  id: 913
+    title: "Open Spaces"
+    description: ""
+    presentation: ""
+    language: ""
 -
   id: 990
   title: "Party"
