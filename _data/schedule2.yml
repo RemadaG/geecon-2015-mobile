@@ -78,11 +78,11 @@
     }
     - {
       startTime: "17:10",
-      endTime: "17:30",
+      endTime: "17:20",
       sessionIds: [904]
     }
     - {
-      startTime: "17:30",
-      endTime: "18:20",
+      startTime: "17:20",
+      endTime: "18:10",
       sessionIds: [907]
     }
