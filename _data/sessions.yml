@@ -24,7 +24,7 @@
   speakers: [fregeo]
 -
   id: 483
-  title: "Scaling your Architecture with Services and Events"
+  title: "Scaling your Architecture with Services and Events (in room 1 + transmitted to room 12)"
   description: "This session is a deep dive into the modern best practices around asynchronous decoupling, resilience, and scalability that allow us to implement a large-scale software system from the building blocks of events and services, based on the speaker's experiences implementing such systems at Google, eBay, and other high-performing technology organizations. 
 
 We will outline the various options for handling event delivery and event ordering in a distributed system. We will cover data and persistence in an event-driven architecture. Finally, we will describe how to combine events, services, and so-called 'serverless' functions into a powerful overall architecture. 
@@ -472,7 +472,7 @@ This session will include limitations of different container runtimes and how pr
   speakers: [kensip]
 -
   id: 557
-  title: "Leveraging Emerging Technology to Simplify the Travel Experience"
+  title: "Leveraging Emerging Technology to Simplify the Travel Experience (in room 1 + transmitted to room 12)"
   description: "Since the deregulation of the airline industry in 1979, the industry has changed in many ways. We have seen a wider choice in air travel, an exponential increase of airfares, the introduction of hub and spoke networks, the creation of global alliances, the introduction of low cost carriers with different economics from traditional network carriers, branded fares and new messaging standards for airlines to communicate with marketplaces. All of these transformations bring complexity which must be mastered to simplify the travel experience. This talk focuses on advances in emerging technology that can be harnessed to develop applications to simplify the travel experience."
   language: ""
   speakers: [benvin]
@@ -574,13 +574,13 @@ This session will include limitations of different container runtimes and how pr
   language: ""
 -
   id: 908
-  title: "Opening ceremony"
+  title: "Opening ceremony (in room 1 + transmitted to room 12)"
   description: ""
   service: "true"
   language: ""
 -
   id: 909
-  title: "Closing ceremony"
+  title: "Closing ceremony (in room 1 + transmitted to room 12)"
   description: ""
   service: "true"
   language: ""
