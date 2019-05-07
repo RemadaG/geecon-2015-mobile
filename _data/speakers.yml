@@ -161,12 +161,6 @@
   bio: "Dev that eternally hating databases eternally works on implementing them"
   thumbnailUrl: "https://2019.geecon.org/speakers/tomaszk.png"
 -
-  id: "emilen"
-  name: "Emilia"
-  surname: "Lendzion-Barszcz"
-  bio: "Addicted to spoiling, adrenaline, off-road tester"
-  thumbnailUrl: "https://2019.geecon.org/speakers/emilal.jpg"
--
   id: "jartul"
   name: "Jaroslav"
   surname: "Tulach"
@@ -190,12 +184,6 @@
   surname: "Borowiec"
   bio: "Senior Software Engineer at Ocado Technology"
   thumbnailUrl: "https://2019.geecon.org/speakers/tomaszb.jpg"
--
-  id: "dmivya"
-  name: "Dmitry"
-  surname: "Vyazelenko"
-  bio: "Software developer, speaker and disorganizer of unconferences"
-  thumbnailUrl: "https://2019.geecon.org/speakers/dmitryvy.jpg"
 -
   id: "dmivin"
   name: "Dmitry"
@@ -359,12 +347,6 @@
   bio: "Garbage Collection Architect working on Eclipse OMR and OpenJ9 Projects"
   thumbnailUrl: "https://2019.geecon.org/speakers/charlieg.jpg"
 -
-  id: "mircup"
-  name: "Miro"
-  surname: "Cupak"
-  bio: "VP Engineering at DNAstack"
-  thumbnailUrl: "https://2019.geecon.org/speakers/miroc.png"
--
   id: "vladej"
   name: "Vladimir"
   surname: "Dejanovic"
@@ -440,7 +422,7 @@
   id: "barkuc"
   name: "Bartłomiej"
   surname: "Kuczyński"
-  bio: "Java developer since 2006, now mentor, team leader, and \"guy who knows\""
+  bio: "Java developer since 2006, now mentor, team leader, and „guy who knows”"
   thumbnailUrl: "https://2019.geecon.org/speakers/bartlomiejk.jpg"
 -
   id: "brueck"
@@ -454,3 +436,15 @@
   surname: "Bossola"
   bio: "Developer by trade, passionate about Agile, TDD and Java"
   thumbnailUrl: "https://2019.geecon.org/speakers/brunob.jpg"
+-
+  id: "benvin"
+  name: "Ben"
+  surname: "Vinod"
+  bio: "Senior Vice President and Chief Scientist at Sabre"
+  thumbnailUrl: "https://2019.geecon.org/speakers/benv.jpg"
+-
+  id: "andgrz"
+  name: "Andrzej"
+  surname: "Grzesik"
+  bio: "distributed kwisatz haderach"
+  thumbnailUrl: "https://2019.geecon.org/speakers/andrzejg.jpg"
