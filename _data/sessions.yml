@@ -161,12 +161,6 @@ Key takeaways:
   language: ""
   speakers: [tomkow]
 -
-  id: 508
-  title: "Do you care about quality of your code?"
-  description: "Legacy code. An existing project. Do these sentences frighten you already? What if you're just starting a new job and are there as an expert? I often find a situation where people, starting automation testing (programming too!) have to add new functionality, new test case and ... the code calls for an earlier refactor. Of course, let's not forget that time and deadlines are chasing us. During this presentation, I would like to show you what situations I have had at work as a Test Automation Specialist, what testing architecture I have found and how I changed it. Also how important it is to think about the sustainability of such cases when designing, programming or refactor. The lecture is for everyone who cares about quality and comfort of their team."
-  language: ""
-  speakers: [emilen]
--
   id: 509
   title: "Forget Go. Go, Java, go!"
   description: "GraalVM's Substrate VM is a framework for ahead-of-time compilation of Java applications and smooth interaction with C-like data structures. It brings together the benefits of Java language with behavior of native programs. It offers smooth C-interop API for accessing and calling native OS functionality. The above combined with automatic memory management of Java objects make it a perfect fit for writing reliable, fast startup, low memory consumption applications. Let's see how easy it is to convert your Java applications to native! Let's explore how to use such binaries in the cloud containers. Let's investigate the C-interop API. Let's find out how to use Java where low level languages like C or Go were needed. Let's make Java a Universal language!"
@@ -195,7 +189,7 @@ Key takeaways:
   title: "What Lies Beneath"
   description: "What really happens when your Java program runs? After the transformation from Java source through bytecode and machine code to microcode, and the various optimizations that take place along the way, the instructions that are actually executed may be very different from what you imagined when you wrote the program. This session shows you tools and techniques for tracing that path. You’ll see what a simple program actually looks like when it really hits the hardware."
   language: ""
-  speakers: [dmivya, maunaf]
+  speakers: [maunaf]
 -
   id: 514
   title: "Modern Web Testing: Going Beyond Selenium"
@@ -345,12 +339,6 @@ And - most importantly<br>
   language: ""
   speakers: [chagra]
 -
-  id: 537
-  title: "Exploring reactive programming in Java"
-  description: "When Java 8 was first introduced, it revolutionized the way Java applications were written by providing the core constructs for asynchronous programming and handling data streams. With Java 9-12, these capabilities were extended to the level that allows us to write truly modern, reactive applications with the JDK. In this live-coding session, we explore the building blocks or reactive systems available in the JDK today, which create 8 levels of reactive programming. We specifically focus on JDK 9-12 features, such as updates to the Stream and CompletableFuture APIs, Reactive Streams publish-subscribe framework, HTTP/2 client, and more."
-  language: ""
-  speakers: [mircup]
--
   id: 538
   title: "Micronaut, Dragon-Slayer (Spring/boot) or just another framework"
   description: "In the Java world, Spring is a great beast, a Dragon, and with a good reason. Spring is a very powerful framework which does a lot for developers while giving them a lot of power. All this power, of course, doesn't come without its price. Most of the developers using Spring are either happy to pay this price or not aware of it at all. On the other hand, Micronaut comes with the promise of all the power of Spring, while not having any of the costs that Spring brings to the table. Let us look at it, how it compare and differ to Spring and if it lives up to its promises."
@@ -428,7 +416,7 @@ The result is fast feedback if the business logic is broken. Slower but accurate
 -
   id: 550
   title: "TestContainers + JUnit5 = elegant end-to-end tests for microservices"
-  description: "Developing microservices is an exciting process but could be challenging at the same time. Sooner or later a developer needs to deploy his changes into production. With microservices it is not enough any more to check whether all unit and/or integration tests for a single service have passed. What developers badly need is an ability to check interactions of their release candidate against other services of stable versions. It could be done by adopting a canary deployment technique. In the worst case just of a small portion of production traffic would be affected. Another commonly used technique is to deploy the release candidate to some hardware QA environment. The drawback of this approach is that QA environment tends to turn into a mess of unstable services from various teams. This talk suggests to perform automatic testing of the release candidate against other real services started in Docker. TestContainers library facilitates simple start up of services and their dependencies, i.e. (No)SQL databases in containers. The lib has a list of valuable features which significantly simplify a developer’s life. - Docker environment autodiscovery - mapping to random unique host ports - easy Docker network configuration - waiting strategies for a ready status - containers cleanup guarantees - exposure of host ports to Docker networks JUnit 5 extensions are a flexible way to configure granularity of tests. For each service in a platform annotation and extension are implemented. Under th904e hood an extension would start and configure a corresponding service in Docker container. First service to be started is a service registry (Consul, Spring Cloud Eureka) so all business capable services could register and autodiscover their neighbors. Eventually automatic test invokes public HTTP endpoints of a service and verifies responses. Those response payloads might be contributed by multiple services of the platform even several hops away. In the demo part a simplified version of a SMS platform is emulated. Apart from Spring Cloud Eureka there are 3 more business services built on Spring Boot. One of them is Acceptor which accepts clients requests, consults Billing on a decision whether to proceed with a request or not. Eventually Sender does an actual submit of an SMS to a mobile operator. Later the operator pushes a delivery report to Sender’s endpoint which should be matched to the submitted message and forwarded to Acceptor and then to client. Final price of the message in Billing might be adjusted depending on a status in the delivery report. If those several business flows keep working with a release of any services it is already a lot for the business. To emulate operator and client MockServer is used."
+  description: "Developing microservices is an exciting process but could be challenging at the same time. Sooner or later a developer needs to deploy his changes into production. With microservices it is not enough any more to check whether all unit and/or integration tests for a single service have passed. What developers badly need is an ability to check interactions of their release candidate against other services of stable versions. It could be done by adopting a canary deployment technique. In the worst case just of a small portion of production traffic would be affected. Another commonly used technique is to deploy the release candidate to some hardware QA environment. The drawback of this approach is that QA environment tends to turn into a mess of unstable services from various teams. This talk suggests to perform automatic testing of the release candidate against other real services started in Docker. TestContainers library facilitates simple start up of services and their dependencies, i.e. (No)SQL databases in containers. The lib has a list of valuable features which significantly simplify a developer’s life. - Docker environment autodiscovery - mapping to random unique host ports - easy Docker network configuration - waiting strategies for a ready status - containers cleanup guarantees - exposure of host ports to Docker networks JUnit 5 extensions are a flexible way to configure granularity of tests. For each service in a platform annotation and extension are implemented. Under the hood an extension would start and configure a corresponding service in Docker container. First service to be started is a service registry (Consul, Spring Cloud Eureka) so all business capable services could register and autodiscover their neighbors. Eventually automatic test invokes public HTTP endpoints of a service and verifies responses. Those response payloads might be contributed by multiple services of the platform even several hops away. In the demo part a simplified version of a SMS platform is emulated. Apart from Spring Cloud Eureka there are 3 more business services built on Spring Boot. One of them is Acceptor which accepts clients requests, consults Billing on a decision whether to proceed with a request or not. Eventually Sender does an actual submit of an SMS to a mobile operator. Later the operator pushes a delivery report to Sender’s endpoint which should be matched to the submitted message and forwarded to Acceptor and then to client. Final price of the message in Billing might be adjusted depending on a status in the delivery report. If those several business flows keep working with a release of any services it is already a lot for the business. To emulate operator and client MockServer is used."
   language: ""
   speakers: [serego]
 -
@@ -437,6 +425,57 @@ The result is fast feedback if the business logic is broken. Slower but accurate
   description: "TBD"
   language: ""
   speakers: [barkuc]
+-
+  id: 552
+  title: "Architecture: The hard parts"
+  description: "Architects often look harried and worried because they have no clean, easy decisions: everything is an awful tradeoff. Architecture has lots of difficult problems, which this talk highlights by investigating what makes architecture so hard. At the of core many architectural problems: getting good granularity, which we illustrate via event-driven architectures, teams, components, architectural quantum, and a host of other examples. We also illustrate reuse at the application, department, and enterprise level, and why reuse seems simple but isn’t. We also discuss difficult decisions, how to do tradeoff analysis, tools like MECE lists, and how to decouple services to achieve proper granularity. Architecture is full of hard parts; by tracing the common reasons and applying lessons more universally, we can make it softer."
+  language: ""
+  speakers: [neafor]
+-
+  id: 553
+  title: "CharBusters - 10 Unicode Myths"
+  description: "TBD"
+  language: ""
+  speakers: [tomnur]
+-
+  id: 554
+  title: "Three Programming Disruptions"
+  description: "As the pace of change accelerates, programmers are buffeted with new
+technologies, and must choose which ones to focus on to stay on the leading
+edge of the profession. Here are three technologies I've been studying that
+will cause significant changes to the programming world. Each one represents a
+different shift, and their disruptive effects will express themselves in
+unique ways."
+  language: ""
+  speakers: [brueck]
+-
+  id: 555
+  title: "Java 10/11 Memory Management and GC"
+  description: "
+One of the great advantages of the JRE is HotSpot which has evolved significantly since it's introduction in Java 1.2. The magic of the heuristics and garbage collection is great... until it isn't. At lower scale, the default configuration works just fine.   For those that are pushing the boundaries of scale it is invaluable to understand the underlying details of how memory is managed and how to influence desired results:  throughput vs latency.  
+
+This session will look at the Java monitoring and management capabilities, which includes the ability to make VM argument changes on the fly. This session will dive into the different memory compartments and how they are used by the JVM. Final this session will explore the different GC options including G1 and how they affect response times and throughput. This session will include features introduced in Java 9 to make it more container aware."
+  language: ""
+  speakers: [kensip]
+-
+  id: 556
+  title: "Production level Docker"
+  description: "
+There is no question that Docker has the attention of the majority of developers. It certainly makes isolating applications and their dependencies easy.  Less easy and obvious is how to manage these container in a production environment. This session will be lead by a speaker that has been running docker in production since pre-1.0 days and works with dozens of companies that do the same.
+
+This session will walk through the basics of creating docker images including details of the Dockerfile.   We will discuss typical Datacenter deployments of docker running in Mesos, DC/OS and Kubernetes and how the docker image system works.   With that information we will then layout best practices for managing docker images.
+
+
+This session will include limitations of different container runtimes and how processes running in containers are managed in production, along with common failure modes.
+"
+  language: ""
+  speakers: [kensip]
+-
+  id: 557
+  title: "Leveraging Emerging Technology to Simplify the Travel Experience"
+  description: "Since the deregulation of the airline industry in 1979, the industry has changed in many ways. We have seen a wider choice in air travel, an exponential increase of airfares, the introduction of hub and spoke networks, the creation of global alliances, the introduction of low cost carriers with different economics from traditional network carriers, branded fares and new messaging standards for airlines to communicate with marketplaces. All of these transformations bring complexity which must be mastered to simplify the travel experience. This talk focuses on advances in emerging technology that can be harnessed to develop applications to simplify the travel experience."
+  language: ""
+  speakers: [benvin]
 -
   id: 711
   title: "Lunch - room 7"
