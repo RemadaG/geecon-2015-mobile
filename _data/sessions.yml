@@ -24,7 +24,7 @@
   speakers: [fregeo]
 -
   id: 483
-  title: "Scaling your Architecture with Services and Events"
+  title: "Scaling your Architecture with Services and Events (in room 1 + transmitted to room 12)"
   description: "This session is a deep dive into the modern best practices around asynchronous decoupling, resilience, and scalability that allow us to implement a large-scale software system from the building blocks of events and services, based on the speaker's experiences implementing such systems at Google, eBay, and other high-performing technology organizations. 
 
 We will outline the various options for handling event delivery and event ordering in a distributed system. We will cover data and persistence in an event-driven architecture. Finally, we will describe how to combine events, services, and so-called 'serverless' functions into a powerful overall architecture. 
@@ -472,10 +472,55 @@ This session will include limitations of different container runtimes and how pr
   speakers: [kensip]
 -
   id: 557
-  title: "Leveraging Emerging Technology to Simplify the Travel Experience"
+  title: "Leveraging Emerging Technology to Simplify the Travel Experience (in room 1 + transmitted to room 12)"
   description: "Since the deregulation of the airline industry in 1979, the industry has changed in many ways. We have seen a wider choice in air travel, an exponential increase of airfares, the introduction of hub and spoke networks, the creation of global alliances, the introduction of low cost carriers with different economics from traditional network carriers, branded fares and new messaging standards for airlines to communicate with marketplaces. All of these transformations bring complexity which must be mastered to simplify the travel experience. This talk focuses on advances in emerging technology that can be harnessed to develop applications to simplify the travel experience."
   language: ""
   speakers: [benvin]
+-
+  id: 558
+  title: "What do I do with 1000 cores"
+  description: "Supercomputer-worthy memory and core counts have much more approachable to mere mortals. 'What can it do' is the obvious follow up question, leaving 'mining' and 'mirkoservices' aside One use-case is simulation, especially based around agents. I will talk about agent based modelling, from the point of view of a developer building the framework, focusing on some interesting, non-trivial or plain old surprising experiences I'm getting building a JVM-based agent-based modelling SDK at Simudyne. We will talk performance, distributed systems, multithreading and SDK design. We will not cover statistics or modelling, but I'll be happy to talk in person."
+  language: ""
+  speakers: [andgrz]
+-
+  id: 559
+  title: "An overview of available opensource tools to secure your Java code"
+  description: "When you want to secure your code there are a variety of tools that you can use, each of them dedicated to a specific stage in the project lifecycle. Of course, there are static code analysis tools (SAST) that you can use sometimes even on your editor, but what about SIS? DAST? IAST? WAF? And, wait, are you still using *just* prepared statements and not a RASP solution? Do not be scared of all these acronyms! Learn which opensource tools are available now, which ones are on the frontier, and what are the techniques available. After a 20 minutes introduction with slides, we will install and run plenty of them, live, so that hopefully you will be able to use them the next day yourself!"
+  language: ""
+  speakers: [brubos]
+-
+  id: 560
+  title: "Enough java.lang.String to Hang Ourselves ..."
+  description: "Is it better to write '' + 42 or Integer.toString(42)? How much memory can you save if you intern() all of your strings? How can String Deduplication reduce your memory footprint and what does it cost? And how much memory will Java 9 Strings save in Polish? What is the maximum length of a constant String? And a dynamic String? How much faster is new StringBuilder().append('Hello ').append(name).toString() than 'Hello ' + name? What are intrinsics and how do they relate to Strings? Are Strings really immutable? How can you efficiently create substrings? These and many more questions we will answer during this talk. Level: Intermediate Might want to add Dmitry Vyazelenko as co-speaker. We presented this talk together at Oracle Code One."
+  language: ""
+  speakers: [heikab]
+-
+  id: 561
+  title: "The time relativity principle"
+  description: "The moment when you code. You type. You type a lot. You type `LocalDateTime`. The moment you know you are doomed. How hard can time be? Sometimes, time gives us a hard time. This time, we will have a deeper dive into what it takes for a String of `2019-05-15T09:00:00` to become an instance of `java.time.Instant`. This is what this lightning talk will be about."
+  language: ""
+  speakers: [jakmar]
+-
+  id: 562
+  title: "Thread Safety with Phaser, StampedLock and VarHandle"
+  description: "Every major Java version introduces a new and better way of managing state. Java 7 gave us Phaser as a replacement for CountDownLatch and CyclicBarrier. Hardly any programmers know how it works, even though we are now on Java 11. Java 8 gave us StampedLock, useful as a lighter read 'lock' when building concurrent classes. Again, not very widely known, but lots of use cases. Java 9 introduced VarHandle as an escape latch for the Unsafe addicts. In this talk we will show all three concepts and explain when each should be used. Level: Advanced"
+  language: ""
+  speakers: [heikab]
+-
+  id: 563
+  title: "8ms/99th write percentile latency - is it fast? Understanding the importance of \"SRE implements devops\""
+  description: "It's been 10 years since devops buzzword started buzzing around and 11 years since Cassandra has been open - sourced by Facebook. What we have learned about database reliability since then? 
+
+I would like to tell you a story about #noops company that decided to run own Cassandra clusters around globe having high - throughput and low latency system dependant upon it. It's a story about understanding, that reliability is the most important feature of every product. 
+
+Do you know that targeting specific level of reliability is the key to establish balance between high reliability and providing new features to drive user acquisition and revenue growth? Does it sound like bullshit bingo? Great - during this presentation I will explain in detail how our journey to 'reliable enough' looked like in terms of maintaining Cassandra clusters.
+You will learn about the basics of Site Reliability Engineering, how to talk to your business introducing Customer Reliability Engineering and when you might finally say 'ok, we've finished it, our database is reliable enough, let's do something else'. 
+
+Why I chose Cassandra as the subject of this talk? Because it's reliability is very tricky - it's distributed, clustered database providing eventual and tunable consistency. And after many
+years of working with MySQL/MariaDB/PgSQL/Oracle I can easily say, that Cassandra is an operational hell which can be tamed with well known SRE practices and good, old engineering skills.
+"
+  language: ""
+  speakers: [maclas]
 -
   id: 711
   title: "Lunch - room 7"
@@ -550,13 +595,13 @@ This session will include limitations of different container runtimes and how pr
   language: ""
 -
   id: 908
-  title: "Opening ceremony"
+  title: "Opening ceremony (in room 1 + transmitted to room 12)"
   description: ""
   service: "true"
   language: ""
 -
   id: 909
-  title: "Closing ceremony"
+  title: "Closing ceremony (in room 1 + transmitted to room 12)"
   description: ""
   service: "true"
   language: ""
@@ -583,8 +628,9 @@ This session will include limitations of different container runtimes and how pr
   language: ""
 -
   id: 913
-  title: "Open Spaces"
+  title: "Open Spaces + Part @HEVRE, Beera Meiselsa 18 Street"
   description: ""
+  service: "true"
   language: ""
 -
   id: 990
