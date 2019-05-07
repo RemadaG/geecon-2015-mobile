@@ -1,10 +1,10 @@
 - date: "2019-05-15"
   dateReadable: "15th of May 2019 - day 1"
   tracks:
-    - {title: "Track 1", color: "#fbb531"}
-    - {title: "Track 2", color: "#49abd0"}
-    - {title: "Track 3", color: "#fbb531"}
-    - {title: "Track 4", color: "#49abd0"}
+    - {title: "Room 1", color: "#fbb531"}
+    - {title: "Room 12", color: "#49abd0"}
+    - {title: "Room 11", color: "#fbb531"}
+    - {title: "Room 10", color: "#49abd0"}
   timeslots:
     - {
       startTime: "09:00",
@@ -34,7 +34,7 @@
     - {
       startTime: "12:20",
       endTime: "13:10",
-      sessionIds: [910, 487, 478, 547]
+      sessionIds: [560, 487, 478, 547]
     }
     - {
       startTime: "13:10",
@@ -54,7 +54,7 @@
     - {
       startTime: "15:00",
       endTime: "15:50",
-      sessionIds: [539, 519, 910, 499]
+      sessionIds: [539, 519, 558, 499]
     }
     - {
       startTime: "15:50",
