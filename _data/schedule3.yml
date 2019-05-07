@@ -28,16 +28,16 @@
     }
     - {
       startTime: "11:00",
-      endTime: "11:30",
+      endTime: "11:20",
       sessionIds: [904]
     }
     - {
-      startTime: "11:30",
-      endTime: "12:20",
+      startTime: "11:20",
+      endTime: "12:10",
       sessionIds: [505, 484, 541, 497]
     }
     - {
-      startTime: "12:20",
+      startTime: "12:10",
       endTime: "13:00",
       sessionIds: [906]
     }

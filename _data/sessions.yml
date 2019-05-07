@@ -441,112 +441,96 @@ The result is fast feedback if the business logic is broken. Slower but accurate
   id: 711
   title: "Lunch - room 7"
   description: "Vietnamese pork loin + grilled potatoes + salad"
-  presentation: ""
   service: "true"
   language: ""
 -
   id: 712
   title: "Lunch - room 5"
   description: "Chicken filet in paprika sauce + rice + salad"
-  presentation: ""
   service: "true"
   language: ""
 -
   id: 713
   title: "Lunch - room 3"
   description: "Vegies in delicate curry sauce on coconut milk + rice"
-  presentation: ""
   service: "true"
   language: ""
 -
   id: 721
   title: "Lunch - room 7"
   description: "Meat balls in tomato&basil sauce"
-  presentation: ""
   service: "true"
   language: ""
 -
   id: 722
   title: "Lunch - room 5"
   description: "Beef vindalloo gulash + wild rice + salad"
-  presentation: ""
   service: "true"
   language: ""
 -
   id: 723
   title: "Lunch - room 3"
   description: " Dumplings: russian and lentil + salad (vege)"
-  presentation: ""
   service: "true"
   language: ""
 -
   id: 901
   title: "Registration & breakfast"
   description: ""
-  presentation: ""
   service: "true"
   language: ""
 -
   id: 902
   title: "Breakfast"
   description: ""
-  presentation: ""
   service: "true"
   language: ""
 -
   id: 904
   title: "Break"
   description: "The best time to take coffee or juice"
-  presentation: ""
   service: "true"
   language: ""
 -
   id: 905
   title: "Coffee Break"
   description: "The best time to talk with speakers and attendees"
-  presentation: ""
   service: "true"
   language: ""
 -
   id: 906
   title: "Lunch Break"
   description: ""
-  presentation: ""
   service: "true"
   language: ""
 -
   id: 907
   title: "Keynote"
   description: ""
-  presentation: ""
   service: "true"
   language: ""
 -
   id: 908
   title: "Opening ceremony"
   description: ""
-  presentation: ""
   service: "true"
   language: ""
 -
   id: 909
   title: "Closing ceremony"
   description: ""
-  presentation: ""
   service: "true"
   language: ""
 -
   id: 910
   title: "TBA"
   description: "To Be Announced"
-  presentation: ""
   service: "true"
   language: ""
 -
   id: 911
   title: "Lighting talk TBA"
   description: "Lighting talk - To Be Announced"
-  presentation: ""
   service: "true"
   language: ""
 -
@@ -557,18 +541,15 @@ The result is fast feedback if the business logic is broken. Slower but accurate
 <br/>Look for large white sheets of paper, and tell everyone what is on your mind! You can also tweet using #topicforgeecon hashtag. Vote for topics (mark it with line/x/heart) and like tweets to show others you’re interested.
 <br/>2. Choose a room and have fun
 <br/>We will group similar topics and assign a room. Topics will be pinned before room entrance (list of topics and rooms will be also posted using attendees slack channel - slack.geecon.cz), so you will be able to join others also interested in eg. Kotlin, JVM tuning, Machine learning or testability."
-  presentation: ""
   language: ""
 -
   id: 913
-    title: "Open Spaces"
-    description: ""
-    presentation: ""
-    language: ""
+  title: "Open Spaces"
+  description: ""
+  language: ""
 -
   id: 990
   title: "Party"
   description: "Party time!"
-  presentation: ""
   service: "true"
   language: ""
