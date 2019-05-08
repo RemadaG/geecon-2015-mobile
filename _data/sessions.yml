@@ -421,8 +421,9 @@ The result is fast feedback if the business logic is broken. Slower but accurate
   speakers: [serego]
 -
   id: 551
-  title: "Monolith? Microservices? Is this important?"
-  description: "TBD"
+  title: "Monolith? Microservices? Who cares?"
+  description: "Conversations about architecture can now be summarized in simple words - you start a project, do microservices. 
+The question is, is this a good approach? Is each problem to be solved using the 'cloud application in microservice architecture'? Of course not! So why are we doing this? Is there a different approach to the problem? Do classic monoliths make sense? During the lecture, we will discuss this topic. We will dismantle the first few classic applications and problems in monolithic systems. We will look at how to create programs and, at the same time, not drown in service bills."
   language: ""
   speakers: [barkuc]
 -
@@ -434,7 +435,11 @@ The result is fast feedback if the business logic is broken. Slower but accurate
 -
   id: 553
   title: "CharBusters - 10 Unicode Myths"
-  description: "TBD"
+  description: "Character encoding, just like many other tasks in our industry, seems straightforward and predictable. But when you look close enough, correct encoding of Polish or Chinese characters is not that obvious. During this seemingly trivial talk I'll show you, how complex Unicode can get. What kinds of problems, also related to security, we can expect. How many traps are buried in the specification and its Java implementation. For example did you know that a single UTF-32 character can take as many as... 28 bytes? And did I mention the Oxford Dictionaries Word of the Year 2015, that is... ':joy:' (yes, emoji, we'll talk about them as well).
+
+<li> If you believe that `char` is the best type to encode characters in Java, come to my talk!
+</li><li> If you ever used `String.length()` to calculate the length of a `String` and you think it returns the number of characters - I'll tell you the truth
+</li><li> If you don't want people getting killed because of a Unicode-related bug in your application, I'll teach you how. Yes, unfamiliarity of Unicode can kill. Literally.</li>"
   language: ""
   speakers: [tomnur]
 -
@@ -472,8 +477,8 @@ This session will include limitations of different container runtimes and how pr
   speakers: [kensip]
 -
   id: 557
-  title: "Leveraging Emerging Technology to Simplify the Travel Experience (in room 1 + transmitted to room 12)"
-  description: "Since the deregulation of the airline industry in 1979, the industry has changed in many ways. We have seen a wider choice in air travel, an exponential increase of airfares, the introduction of hub and spoke networks, the creation of global alliances, the introduction of low cost carriers with different economics from traditional network carriers, branded fares and new messaging standards for airlines to communicate with marketplaces. All of these transformations bring complexity which must be mastered to simplify the travel experience. This talk focuses on advances in emerging technology that can be harnessed to develop applications to simplify the travel experience."
+  title: "Leveraging Emerging Technologies in Travel for Competitive Advantage (in room 1 + transmitted to room 12)"
+  description: "Over the past few decades, the airline industry has transformed in many ways, leading to growing complexity in processing data from a wide variety of data sources to solve complex business problems.  Capturing data across customer touchpoints provides a foundation for knowledge discovery and developing predictive models using Artificial Intelligence. Emerging technologies that give machines access to data and let them learn promotes the concept of continuous improvement that minimizes expensive repetitive calibrations. Modeling using this approach is gaining in importance and it represents a fundamentally different approach to creating software since the machine learns from examples rather than being explicitly programmed for a specific outcome.  This talk will discuss required software tools that can be accessed in the cloud, cases as it relates to travel and programming languages that are commonly used."
   language: ""
   speakers: [benvin]
 -
@@ -521,6 +526,20 @@ years of working with MySQL/MariaDB/PgSQL/Oracle I can easily say, that Cassandr
 "
   language: ""
   speakers: [maclas]
+-
+  id: 564
+  title: "Machine Learning powered regression"
+  description: "How can we make a full regression of our platform before each of the releases, to be sure we have not damaged something unexpected when making our changes? Full regression of any web platform is a process which requires tremendous effort and is error-prone. It can be automated in a classical way, covered with test cases and scenarios, but it is extremely hard to cover the application in literal 100%. Doing the full regression manually is not a solution due to the effort needed and spending a few days of work doing so before each release would be an extreme waste of workforce. Our idea? Use a screenshot comparator, with a bit of data science flavour. First of all, we need to store a valid state of an application to assert if there have been any changes. As covering the whole application with test cases is time-consuming, we have thought about a different document covering the whole application - the sitemap. To ensure that we will use the proper version as a model, we should test the application manually, which will take some time, but we plan to do it only once. Afterwards, we can store the state of the application by making screenshots of every page. As we have a sitemap we can go through every subpage and make a screenshot of it displayed on different browsers. When we have a base we can compare to - every time we would like to make a regression, we can make new screenshots of the application, and compare those with the base ones and if we spot a difference, we know that something is happening. This non-standard approach should be the most efficient as the applications tend to change very often and managing and replacing the screenshots is the easiest way to keep the apps up to date."
+  language: ""
+  speakers: [pawdyr]
+-
+  id: 565
+  title: "Iconoclasm (in room 1 + transmitted to room 12)"
+  description: "History is littered with the stories of iconoclasts – people who truly stood out as pioneers, lateral thinkers, and in some cases, outright heroes–and their successes and failures. From the baseball management vision of Branch Hickey to the glassblowing vision of Dale Chihuly to the engineering design vision of Steve Jobs, iconoclasts have changed our world in subtle and profound ways, sometimes loudly, sometimes quietly.
+
+For an industry that seems so ripe and so rife with «special personalities», it would seem that programming is tied up deeply with iconoclasm. But what defines the iconoclast, what demarcates the «true» iconoclast from the mere pretender, and how can we use the characteristics of the iconoclast to change our own immediate surroundings for the better?"
+  language: ""
+  speakers: [tednew]
 -
   id: 711
   title: "Lunch - room 7"
@@ -628,10 +647,15 @@ years of working with MySQL/MariaDB/PgSQL/Oracle I can easily say, that Cassandr
   language: ""
 -
   id: 913
-  title: "Open Spaces + Part @HEVRE, Beera Meiselsa 18 Street"
-  description: ""
-  service: "true"
+  title: "Open Spaces with Bruce Eckel and Party - HEVRE, Meiselsa 18 Street"
+  description: "Want to talk about design patterns? Looking for the answer how to deliver high quality software on time? Maybe you would like to ask others what is the real value of automated tests? Or how big is big data and how to deal with it?  ;-)  There are many questions like these, and that is why we would like to invite you to GeeCON Open Spaces.
+                <br>
+                <br>
+                We have asked for help of <a href='https://2019.geecon.org/speakers/info.html?id=539' target='_blank'>Bruce Eckel</a> himself! Bruce have led and participated in many unconference-style events and he will lead the GeeCON Open Spaces. If you want to know more about unconferences, watch his short introductory presentation.<br>
+                 <br>
+                 <iframe allowfullscreen='' frameborder='0' height='315' src='http://www.youtube.com/embed/aD3S0wlbek0' width='420'></iframe>"
   language: ""
+  speakers: [brueck]
 -
   id: 990
   title: "Party"
