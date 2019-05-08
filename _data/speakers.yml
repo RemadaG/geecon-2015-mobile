@@ -448,3 +448,15 @@
   surname: "Grzesik"
   bio: "distributed kwisatz haderach"
   thumbnailUrl: "https://2019.geecon.org/speakers/andrzejg.jpg"
+-
+  id: "maclas"
+  name: "Maciej"
+  surname: "Lasyk"
+  bio: "Cloud Acrobat at Codewise"
+  thumbnailUrl: "https://2019.geecon.org/speakers/maciejl.jpeg"
+-
+  id: "pawdyr"
+  name: "Paweł"
+  surname: "Dyrek"
+  bio: "Former developer and project manager. Fan of technology and Agile methodology enthusiast"
+  thumbnailUrl: "https://2019.geecon.org/speakers/paweld.jpg"
