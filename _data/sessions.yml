@@ -647,10 +647,15 @@ For an industry that seems so ripe and so rife with «special personalities», i
   language: ""
 -
   id: 913
-  title: "Open Spaces + Part @HEVRE, Beera Meiselsa 18 Street"
-  description: ""
-  service: "true"
+  title: "Open Spaces with Bruce Eckel and Party - HEVRE, Meiselsa 18 Street"
+  description: "Want to talk about design patterns? Looking for the answer how to deliver high quality software on time? Maybe you would like to ask others what is the real value of automated tests? Or how big is big data and how to deal with it?  ;-)  There are many questions like these, and that is why we would like to invite you to GeeCON Open Spaces.
+                <br>
+                <br>
+                We have asked for help of <a href='https://2019.geecon.org/speakers/info.html?id=539' target='_blank'>Bruce Eckel</a> himself! Bruce have led and participated in many unconference-style events and he will lead the GeeCON Open Spaces. If you want to know more about unconferences, watch his short introductory presentation.<br>
+                 <br>
+                 <iframe allowfullscreen='' frameborder='0' height='315' src='http://www.youtube.com/embed/aD3S0wlbek0' width='420'></iframe>"
   language: ""
+  speakers: [brueck]
 -
   id: 990
   title: "Party"
