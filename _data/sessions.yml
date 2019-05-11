@@ -541,6 +541,12 @@ For an industry that seems so ripe and so rife with «special personalities», i
   language: ""
   speakers: [tednew]
 -
+  id: 566
+  title: "Devops@Scale"
+  description: "In this talk we’ll take you to a scaling journey, from 3 developers to a 100. We’ll talk about the challenges each milestone in this growth brings, both technological and methodological, and how to solve those challenges using the right mix of people, the right selection of tools and the correctly crafted process. The speakers excel in the different aspects of this triangle and went through this journey (more than once) themselves. And the fun and entertaining presentation as a Greek tragedy can’t hurt, can it?"
+  language: ""
+  speakers: [leoigo]
+-
   id: 711
   title: "Lunch - room 7"
   description: "Vietnamese pork loin + grilled potatoes + salad"

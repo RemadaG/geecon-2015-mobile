@@ -460,3 +460,9 @@
   surname: "Dyrek"
   bio: "Former developer and project manager. Fan of technology and Agile methodology enthusiast"
   thumbnailUrl: "https://2019.geecon.org/speakers/paweld.jpg"
+-
+  id: "leoigo"
+  name: "Leonid"
+  surname: "Igolnik"
+  bio: "Experienced technologist, engineering leader, enterpreneur"
+  thumbnailUrl: "https://2019.geecon.org/speakers/leonidi.jpg"
