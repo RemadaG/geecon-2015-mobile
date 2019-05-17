@@ -415,8 +415,17 @@ The result is fast feedback if the business logic is broken. Slower but accurate
   speakers: [tomgab]
 -
   id: 550
-  title: "TestContainers + JUnit5 = elegant end-to-end tests for microservices"
-  description: "Developing microservices is an exciting process but could be challenging at the same time. Sooner or later a developer needs to deploy his changes into production. With microservices it is not enough any more to check whether all unit and/or integration tests for a single service have passed. What developers badly need is an ability to check interactions of their release candidate against other services of stable versions. It could be done by adopting a canary deployment technique. In the worst case just of a small portion of production traffic would be affected. Another commonly used technique is to deploy the release candidate to some hardware QA environment. The drawback of this approach is that QA environment tends to turn into a mess of unstable services from various teams. This talk suggests to perform automatic testing of the release candidate against other real services started in Docker. TestContainers library facilitates simple start up of services and their dependencies, i.e. (No)SQL databases in containers. The lib has a list of valuable features which significantly simplify a developer’s life. - Docker environment autodiscovery - mapping to random unique host ports - easy Docker network configuration - waiting strategies for a ready status - containers cleanup guarantees - exposure of host ports to Docker networks JUnit 5 extensions are a flexible way to configure granularity of tests. For each service in a platform annotation and extension are implemented. Under the hood an extension would start and configure a corresponding service in Docker container. First service to be started is a service registry (Consul, Spring Cloud Eureka) so all business capable services could register and autodiscover their neighbors. Eventually automatic test invokes public HTTP endpoints of a service and verifies responses. Those response payloads might be contributed by multiple services of the platform even several hops away. In the demo part a simplified version of a SMS platform is emulated. Apart from Spring Cloud Eureka there are 3 more business services built on Spring Boot. One of them is Acceptor which accepts clients requests, consults Billing on a decision whether to proceed with a request or not. Eventually Sender does an actual submit of an SMS to a mobile operator. Later the operator pushes a delivery report to Sender’s endpoint which should be matched to the submitted message and forwarded to Acceptor and then to client. Final price of the message in Billing might be adjusted depending on a status in the delivery report. If those several business flows keep working with a release of any services it is already a lot for the business. To emulate operator and client MockServer is used."
+  title: "Testcontainers: a year-in-review"
+  description: "Unit testing is fine, but without proper integration testing,
+                especially if you work with external resources like databases and other services,
+                you might not know how your application will actually behave once it has been deployed to the real production environment.
+                <br/><br/>
+                Testcontainers is a popular JVM testing library that provides lightweight, throwaway instances of common databases,
+                Selenium web browsers, or anything else that can run in a Docker container.
+                <br/><br/>
+                In this talk, we will briefly go throught the past, present and the future of the library.
+                <br/><br/>
+                Spoiler! By coming, you will learn new things even if you're an active user of Testcontainers ;)"
   language: ""
   speakers: [serego]
 -
@@ -586,6 +595,24 @@ For an industry that seems so ripe and so rife with «special personalities», i
   id: 723
   title: "Lunch - room 6"
   description: "Vegies with tofu in coconut milk curry + jasmine rice"
+  service: "true"
+  language: ""
+-
+  id: 731
+  title: "Lunch - room 2&3"
+  description: "Thai chicken + wild rice"
+  service: "true"
+  language: ""
+-
+  id: 732
+  title: "Lunch - room 5"
+  description: "Fishburger + tatar sauce ith egg + potatoes + salad"
+  service: "true"
+  language: ""
+-
+  id: 733
+  title: "Lunch - room 6"
+  description: "Dumplings: Spinach&feta + Russian with salad"
   service: "true"
   language: ""
 -
