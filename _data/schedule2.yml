@@ -1,5 +1,5 @@
 -
-  date: "2018-10-18"
+  date: "2019-10-18"
   dateReadable: "18 OCTOBER - CONFERENCE DAY 2"
   tracks:
     - {title: "Room 4", color: "#fbb531"}
@@ -63,7 +63,7 @@
     }
     - {
       startTime: "15:00",
-      endTime: "15:50"
+      endTime: "15:50",
       sessionIds: [578, 910, 577]
     }
     - {

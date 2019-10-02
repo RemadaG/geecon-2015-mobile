@@ -1,4 +1,5 @@
-date: "2018-10-17"
+-
+  date: "2019-10-17"
   dateReadable: "17 OCTOBER - CONFERENCE DAY 1"
   tracks:
     - {title: "Room 4", color: "#fbb531"}
@@ -78,5 +79,5 @@ date: "2018-10-17"
     - {
       startTime: "17:10",
       endTime: "18:00",
-      sessionIds: [595, 910, 910]
+      sessionIds: [595, 607, 910]
     }
