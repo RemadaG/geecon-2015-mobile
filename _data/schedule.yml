@@ -12,13 +12,13 @@ date: "2018-10-17"
     }
     - {
       startTime: "09:40",
-      endTime: "10:00",
+      endTime: "10:10",
       sessionIds: [908]
     }
     - {
-      startTime: "10:00",
+      startTime: "10:10",
       endTime: "11:00",
-      sessionIds: [910]
+      sessionIds: [907]
     }
     - {
       startTime: "11:00",
@@ -28,7 +28,7 @@ date: "2018-10-17"
     - {
       startTime: "11:20",
       endTime: "12:10",
-      sessionIds: [910, 910, 910]
+      sessionIds: [567, 568, 910]
     }
     - {
       startTime: "12:10",
@@ -38,28 +38,37 @@ date: "2018-10-17"
     - {
       startTime: "13:00",
       endTime: "13:50",
-      sessionIds: [910, 910, 910]
+      sessionIds: [569, 910, 910]
     }
     - {
       startTime: "13:50",
       endTime: "14:00",
       sessionIds: [904]
     }
-
     - {
       startTime: "14:00",
       endTime: "14:50",
-      sessionIds: [910, 910, 910]
+      sessionIds: [910, 589, 910]
     }
     - {
       startTime: "14:50",
-      endTime: "16:10",
+      endTime: "15:10",
       sessionIds: [912]
+    }
+    - {
+      startTime: "15:10",
+      endTime: "16:00",
+      sessionIds: [910, 588, 587]
+    }
+    - {
+      startTime: "16:00",
+      endTime: "16:10",
+      sessionIds: [904]
     }
     - {
       startTime: "16:10",
       endTime: "17:00",
-      sessionIds: [910, 910, 910]
+      sessionIds: [604, 591, 910]
     }
     - {
       startTime: "17:00",
@@ -69,5 +78,5 @@ date: "2018-10-17"
     - {
       startTime: "17:10",
       endTime: "18:00",
-      sessionIds: [910, 910, 910]
+      sessionIds: [595, 910, 910]
     }
