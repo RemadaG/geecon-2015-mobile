@@ -58,7 +58,7 @@ date: "2018-10-17"
     - {
       startTime: "15:10",
       endTime: "16:00",
-      sessionIds: [910, 588, 587]
+      sessionIds: [570, 588, 587]
     }
     - {
       startTime: "16:00",
