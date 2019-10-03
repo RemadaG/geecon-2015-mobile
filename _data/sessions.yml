@@ -204,6 +204,12 @@ In this talk, we will show a live demo of many of the recently added and newly d
   language: ""
   speakers: [adadub]
 -
+  id: 606
+  title: "From Java Monolith to K8s: Lessons learned in an Open Source project"
+  description: "I was in charge of migrating a monolithic open-source large application written Java to a cloud-native approach running smoothly on Kubernetes. To fully take advantage of the new environment, the architecture was completely redesigned. In this session, I will cover my lessons-learned from that exciting/painful experience and give you some guidance on what going cloud-native could mean for you. I will cover tools around the K8S ecosystem that will help you to sail smoothly to your destination port. A live demo on how it feels to bring an application to Kubernetes – with a hint to the typical pitfalls will be presented."
+  language: ""
+  speakers: [mausal]
+-
   id: 607
   title: "Chaos Development: Removing software as the inhibitor of Agile"
   description: "
@@ -225,6 +231,47 @@ For the first style, we will delve into the aspects of the style, particularly i
 "
   language: ""
   speakers: [fregeo]
+-
+  id: 608
+  title: "The future of Java is now"
+  description: "What’s new in Java today, and what’s coming to Java tomorrow? This talk will review some of the recent enhancements made to the language and the platform, as well as offer a glimpse into some of the features in development that will continue to improve both developer productivity and program performance while retaining Java’s core values of readability, generality, and compatibility."
+  language: ""
+  speakers: [gavbie]
+-
+  id: 609
+  title: "Yamlware and the state machine"
+  description: "Yaml FTW! Infrastructure as code is eating the world (well, part of it). YAML, JSON, TOML, HCL and several other languages tend to describe the desired state of your infrastructure controlled by the STATE MACHINE. How does it work? Let’s dive into an illustrated journey behind the machinery of various tools like Terraform, Ansible, Kubernetes."
+  language: ""
+  speakers: [andada]
+-
+  id: 610
+  title: "Spring Framework 5.2: Core Container Revisited"
+  description: "Spring Framework 5.2 takes Spring 5's common themes to the next level: embracing new reactive technologies such as R2DBC and RSocket through Spring's transaction and messaging abstractions, and revisiting the core component container for GraalVM support and compile-time annotation indexing. This talk focuses on core facilities for optimized application architectures in modern deployment environments, with support for Java as well as Kotlin, as a foundation for higher-level features in Spring Data and Spring Boot."
+  language: ""
+  speakers: [juehoe]
+-
+  id: 611
+  title: "Kotlin: 102 - beyond the basics"
+  description: "tbd"
+  language: ""
+  speakers: [hadhar]
+-
+  id: 612
+  title: "Welcome to the Machine"
+  description: "Information is everywhere and for many people, especially in the connected world, it is accessible freely or at a minimal cost. News outlets rely on social media to broadcast breaking news. Social media in turn relies on us to feed it with information, be it of our surroundings or our personal information. It’s become somewhat of a self-sustaining self-serving machine in which we’re all part of. It’s big data and we’re a cog in the wheel. For now of course, because with big data and cheap yet powerful hardware, AI also wants to play the game.
+
+And if information and knowledge is the key to success, surely this means we’re on the right path. The question is, will we notice some of the warning signs before it’s too late…"
+  language: ""
+  speakers: [hadhar]
+-
+  id: 613
+  title: "From sync to async web. The swampy grounds of handling http requests."
+  description: "We live in exciting times. People say servlets - as we know them - are dead. The future is bright and asynchronous. Bright and event loop'ed. Bright and reactive. 
+People judge - it's not async / reactive / nodejs'ed, it's a dead end. But the world of sync and async is not black and white. It's shady, swampy and full of surprises. In this talk, we will explore some of these shades of grey. 
+
+In this talk, we will try to give an opinionated answer if reactive all the things is a way to go, at least in the context of web applications. We will explore the spectrum between traditionally synchronous servlets and a fully blown async reactive approach. With the support of numbers, measurements and experiments, we will investigate the simple and traditional approach to web requests. See where it works and where it fails - based on some typical web applications use cases. Having such sub-optimal resource utilization as a baseline, we will look for some other approaches and evaluate them from different perspectives: performance (an obvious one) but also readability, familiarity and a general common sense."
+  language: ""
+  speakers: [jakmar]
 -
   id: 711
   title: "Lunch - room 7"

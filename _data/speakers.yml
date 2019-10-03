@@ -208,3 +208,21 @@
   surname: "Dubiel"
   bio: "Building stuff @ Allegro"
   thumbnailUrl: "https://2019.geecon.cz/speakers/adamd.jpg"
+-
+  id: "mausal"
+  name: "Mauricio"
+  surname: "Salatino"
+  bio: "Open Source - Kubernetes-Addict - Java Developer"
+  thumbnailUrl: "https://2019.geecon.cz/speakers/mauricios.png"
+-
+  id: "gavbie"
+  name: "Gavin"
+  surname: "Bierman"
+  bio: "Programming languages researcher at Oracle"
+  thumbnailUrl: "https://2019.geecon.cz/speakers/gavinb.jpg"
+-
+  id: "jakmar"
+  name: "Jakub"
+  surname: "Marchwicki"
+  bio: "Ppl say I hardly code but tend to have nice ideas"
+  thumbnailUrl: "https://2019.geecon.cz/speakers/jakubm.jpg"
