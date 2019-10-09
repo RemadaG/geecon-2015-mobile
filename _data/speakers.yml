@@ -232,3 +232,9 @@
   surname: "Garbacz"
   bio: "Artificial Intelligence developer and chatbots specialist"
   thumbnailUrl: "https://2019.geecon.cz/speakers/karolinab.jpg"
+-
+  id: "adadud"
+  name: "Adam"
+  surname: "Dudczak"
+  bio: "Search Team Manager at Allegro"
+  thumbnailUrl: "https://2019.geecon.cz/speakers/adamdu.png"

@@ -289,6 +289,22 @@ Spring Framework 5 is here ! It introduces the Spring developer to a growing wor
   language: ""
   speakers: [joslon]
 -
+  id: 617
+  title: "Inspired to Code"
+  description: "Programming is not considered a dangerous occupation.  We sit in a comfortable chair all day, typing away at the keyboard.  Besides a bit of wrist tendonitis and back pain, how bad can this be?   '... much study wearies the body'
+- King Solomon.  It is physically exhausting when we think all day long.  What's worse, the stress does not get a chance
+ to escape from our body.  Then our inactivity affects our sleep.  And to make matters worse, companies tempt us with lo
+w quality sugary foods like donuts and packet chips.  In this talk Heinz will share from his life, how his journey is ta
+king him towards better health.  Tips like prioritizing sleep.  Gadgets that will help measure our progress.  (Geeks love gadgets.)  Also some interesting Java puzzles to engage the brain."
+  language: ""
+  speakers: [heikab]
+-
+  id: 618
+  title: "Let's Play!"
+  description: "ML and AI technologies are a great tool to automate various business processes. In this short presentation I will try to automate something significant, something which usually takes long hours, may ruin health, lead to sleep deprivation, may even break up families... we will try to teach computers play games so we won't have to. How to translate game play problem into language of ML algorithms? I will explore possible solutions from the simplest manually crafted algorithm through classical supervised learning methods to end up with reinforcement learning based approaches. This presentation may contain asteroids, spaceships, laser guns and a significant portion of poor Python code."
+  language: ""
+  speakers: [adadud]
+-
   id: 711
   title: "Lunch - room 7"
   description: "Vietnamese pork loin + grilled potatoes + salad"
