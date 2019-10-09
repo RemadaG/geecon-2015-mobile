@@ -54,7 +54,7 @@
   speakers: [jartul]
 -
   id: 578
-  title: "Purely Disfunctional Data Structures"
+  title: "Purely Dysfunctional Data Structures"
   description: "The design of performant immutable data structures is a challenge that was accepted by Chris Okasaki over 20 years ago. In this talk, we’ll explore what the concept of Persistent Data Structures is, how are they implemented, and how much blood, sweat, and tears need to be done on the other side to make the experience of working with immutable data structures efficient."
   language: ""
   speakers: [grzpiw]
@@ -264,14 +264,30 @@ And if information and knowledge is the key to success, surely this means we’r
   language: ""
   speakers: [hadhar]
 -
-  id: 613
-  title: "From sync to async web. The swampy grounds of handling http requests."
-  description: "We live in exciting times. People say servlets - as we know them - are dead. The future is bright and asynchronous. Bright and event loop'ed. Bright and reactive. 
-People judge - it's not async / reactive / nodejs'ed, it's a dead end. But the world of sync and async is not black and white. It's shady, swampy and full of surprises. In this talk, we will explore some of these shades of grey. 
+  id: 614
+  title: "Extending Cloud/Desktop IDEs, providing a new choice for developers."
+  description: "Developers, using several programming languages at work,  have a choice  of IDE and can have  the same language support  because of new  standards like the Language Server Protocol (LSP, https://microsoft.github.io/language-server-protocol/ )  and  Debug Adapter Protocol (DAP, https://microsoft.github.io/debug-adapter-protocol/).  The majority of modern IDEs implement support for those protocols giving developers freedom to switch between languages or IDEs, Cloud or Desktop IDEs,  or extend or build their own flavors of IDEs using frameworks like Eclipse Theia ( https://www.theia-ide.org/,  https://github.com/theia-ide/theia ). 
 
-In this talk, we will try to give an opinionated answer if reactive all the things is a way to go, at least in the context of web applications. We will explore the spectrum between traditionally synchronous servlets and a fully blown async reactive approach. With the support of numbers, measurements and experiments, we will investigate the simple and traditional approach to web requests. See where it works and where it fails - based on some typical web applications use cases. Having such sub-optimal resource utilization as a baseline, we will look for some other approaches and evaluate them from different perspectives: performance (an obvious one) but also readability, familiarity and a general common sense."
+Our team of developers  build DevOps tools for mainframe developers who often need to work with Java, High-Level Assembler, Cobol or even TypeScript to support enterprise applications running in mission-critical infrastructure spread from mainframe to distributed systems. Our goal is to provide a choice of tools for developers and let them learn technologies, adapt to business faster and enjoy their work in such environment .  In cooperation with several open-source communities like Eclipse Che ( https://projects.eclipse.org/projects/ecd.che ) , Eclipse Theia supported by RedHat, IBM, TypeFox, CA Technologies a Broadcom company and others we extend Eclipse Che and Theia platforms with our own implementation of LSP, DAP  https://projects.eclipse.org/proposals/eclipse-che4z . We also use several languages in our own development, TypeScript for development of Explorer for z/OS https://github.com/eclipse/che-che4z-explorer-for-zos or Java for development of LSP for COBOL https://github.com/eclipse/che-che4z-lsp-for-cobol. Freedom for developer can look like this video https://www.youtube.com/watch?v=zcZaOlb98Ec&feature=youtu.be. 
+
+This presentation  is to share our experience with designing and building solution on cloud based IDE. We are going to review a set of cutting edge technologies developers may use to create platform agnostic solutions.
+"
   language: ""
-  speakers: [jakmar]
+  speakers: [evzdem]
+-
+  id: 615
+  title: "Let's chat about chatbots"
+  description: "In the last couple of years, the popularity of messaging apps has grown rapidly. Because of that fact, chatbots, computer algorithms with the ability to communicate with people in their natural language, became a big thing as well. Nowadays, one can talk to chatbots in a variety of websites, messenger, WhatsApp, Skype, and others. There are a lot of applications where chatbots can be valuable: customer service, handling minor daily tasks, updates and content delivery, e-commerce bots, event reservations, agenda/scheduling, virtual assistants, project management, data gathering, and analysis. One of the most important questions that can be asked considering this topic is: how does chatbot actually work? There are two general types: those that use pattern matching (simpler to implement, usually use the combination of if-else statements and basic statistics), and Natural Language Processing (NLP) with Natural Language Understanding (NLU) based algorithms, but only the latter type can be really considered as an artificial intelligence due to its complexity. NLP is mostly used for text analysis purposes such as Information Retrieval, Information Extraction or Text Mining. To actually achieve those goals, some necessary steps need to be followed: tokenization, syntax analysis, semantic analysis, discourse analysis, and pragmatic analysis. All of them will be discussed during the presentation for beginners."
+  language: ""
+  speakers: [kargar]
+-
+  id: 616
+  title: "Reactive Spring"
+  description: "Microservices and big-data increasingly confront us with the limitations of traditional input/output. In traditional IO, work that is IO-bound dominates threads. This wouldn't be such a big deal if we could add more threads cheaply, but threads are expensive on the JVM, and most other platforms. Even if threads were cheap and infinitely scalable, we'd still be confronted with the faulty nature of networks. Things break, and they often do so in subtle, but non-exceptional ways. Traditional approaches to integration bury the faulty nature of networks behind overly simplifying abstractions. We need something better.
+
+Spring Framework 5 is here ! It introduces the Spring developer to a growing world of support for reactive programming across the Spring portfolio, starting with a new Netty-based web runtime, component model and module called Spring WebFlux, and then continuing to Spring Data Kay, Spring Security 5.0, Spring Boot 2.0 and Spring Cloud Finchley. Sure, it sounds like a lot, but don't worry! Join me, your guide, Spring developer advocate Josh Long, and we'll explore the wacky, wonderful world of Reactive Spring together."
+  language: ""
+  speakers: [joslon]
 -
   id: 711
   title: "Lunch - room 7"
