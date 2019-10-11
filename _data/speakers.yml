@@ -179,6 +179,12 @@
   bio: "A software engineer with long JVM-based systems history"
   thumbnailUrl: "https://2019.geecon.cz/speakers/konradk.png"
 -
+  id: "niklip"
+  name: "Nikita"
+  surname: "Lipsky"
+  bio: "JVM and compiler engineer at Huawei"
+  thumbnailUrl: "https://2019.geecon.cz/speakers/nikital.jpg"
+-
   id: "marste"
   name: "Martin"
   surname: "Štefanko"
@@ -236,5 +242,11 @@
   id: "adadud"
   name: "Adam"
   surname: "Dudczak"
-  bio: "Search Team Manager at Allegro"
+  bio: "long tail of search"
   thumbnailUrl: "https://2019.geecon.cz/speakers/adamdu.png"
+-
+  id: "vlaora"
+  name: "Vladimir"
+  surname: "Orany"
+  bio: "Test Facilitator at Agorapulse"
+  thumbnailUrl: "https://2019.geecon.cz/speakers/vladimiro.jpg"

@@ -178,6 +178,12 @@ In this talk we'll go for a tour of Kotlin Native features, which in the end all
   language: ""
   speakers: [konkam]
 -
+  id: 601
+  title: "Escaping The Jar Hell With Jigsaw Layers"
+  description: "Jigsaw modules are often criticized for the lack of versioning that exists in alternative module systems for Java, such as OSGi. One of the main purposes of versioning is to solve the so called Jar Hell problem that arises when your application depends on two different versions of the same library. While Jigsaw is able to detect this conflicting situation, it won’t allow you to load both versions that are placed on the module path. However, it is not always possible to eliminate all version conflicts from your application, because other versions of the same libraries can come to your application indirectly via dependencies that you do not control. Fortunately, there is a native solution for the problem in Jigsaw called Layers. In this session, I will show what problems Jigsaw could have introduced if it had explicit versions for modules, and how Jigsaw Layers in conjunction with Jigsaw Services help to solve the Jar Hell problem safely."
+  language: ""
+  speakers: [niklip]
+-
   id: 602
   title: "A different flavor of the distributed transaction"
   description: "Transactions are one of the most complex and yet very important areas of computing. They can get particularly hard when the system moves to the distributed environments as almost every component in the distributed system is liable to failures. Traditional locking protocols, used in transaction solutions today, are then very prone to holding locks on resources for unnecessarily long periods. The saga pattern provides an alternative non-blocking solution with the design that allows individual parts of the transaction to commited immediately and independently. This design is specifically suitable for long running transactions and distributed systems. In this session, we will present a newly created MicroProfile specification called Long Running Actions (LRA) which provides a definition of the transactional protocol and a simple API for the distributed transactions in the Java microservices environment based on the saga pattern. We will show you why the saga pattern is a very suitable transactional solution for many distributed microservices applications and demonstrate the usage o the LRA specification with the live coded demo."
@@ -191,7 +197,7 @@ In this talk we'll go for a tour of Kotlin Native features, which in the end all
   speakers: [rusmeh, tanros]
 -
   id: 604
-  title: "The Future of Java is Today"
+  title: "The Future of Java is Now: deep dive"
   description: "The Java platform experiences an outburst of cool new features – recently, local variable type inference, switch enhancements and multi-line string literals have been added to the Java language. Many other features are being in the pipeline and are actively worked on, like simple data carriers and pattern matching for the Java language, or  value types for the Java virtual machine. These features are delivered quickly, thanks to the recently adopted, predictable, six-months schedule of major Java SE releases. This new release cadence means new Java platform features are delivered twice every year!
 
 In this talk, we will show a live demo of many of the recently added and newly developed features and improvements for the Java platform, including those mentioned above."
@@ -233,7 +239,7 @@ For the first style, we will delve into the aspects of the style, particularly i
   speakers: [fregeo]
 -
   id: 608
-  title: "The future of Java is now"
+  title: "The Future of Java is Now"
   description: "What’s new in Java today, and what’s coming to Java tomorrow? This talk will review some of the recent enhancements made to the language and the platform, as well as offer a glimpse into some of the features in development that will continue to improve both developer productivity and program performance while retaining Java’s core values of readability, generality, and compatibility."
   language: ""
   speakers: [gavbie]
@@ -257,7 +263,7 @@ For the first style, we will delve into the aspects of the style, particularly i
   speakers: [hadhar]
 -
   id: 612
-  title: "Welcome to the Machine"
+  title: "Welcome to the Machine (in room 9)"
   description: "Information is everywhere and for many people, especially in the connected world, it is accessible freely or at a minimal cost. News outlets rely on social media to broadcast breaking news. Social media in turn relies on us to feed it with information, be it of our surroundings or our personal information. It’s become somewhat of a self-sustaining self-serving machine in which we’re all part of. It’s big data and we’re a cog in the wheel. For now of course, because with big data and cheap yet powerful hardware, AI also wants to play the game.
 
 And if information and knowledge is the key to success, surely this means we’re on the right path. The question is, will we notice some of the warning signs before it’s too late…"
@@ -290,7 +296,7 @@ Spring Framework 5 is here ! It introduces the Spring developer to a growing wor
   speakers: [joslon]
 -
   id: 617
-  title: "Inspired to Code"
+  title: "Inspired to Code (in room 9)"
   description: "Programming is not considered a dangerous occupation.  We sit in a comfortable chair all day, typing away at the keyboard.  Besides a bit of wrist tendonitis and back pain, how bad can this be?   '... much study wearies the body'
 - King Solomon.  It is physically exhausting when we think all day long.  What's worse, the stress does not get a chance
  to escape from our body.  Then our inactivity affects our sleep.  And to make matters worse, companies tempt us with lo
@@ -304,6 +310,23 @@ king him towards better health.  Tips like prioritizing sleep.  Gadgets that wil
   description: "ML and AI technologies are a great tool to automate various business processes. In this short presentation I will try to automate something significant, something which usually takes long hours, may ruin health, lead to sleep deprivation, may even break up families... we will try to teach computers play games so we won't have to. How to translate game play problem into language of ML algorithms? I will explore possible solutions from the simplest manually crafted algorithm through classical supervised learning methods to end up with reinforcement learning based approaches. This presentation may contain asteroids, spaceships, laser guns and a significant portion of poor Python code."
   language: ""
   speakers: [adadud]
+-
+  id: 619
+  title: "Reflection-Free Applications with Micronaut"
+  description: "Micronaut is a new framework designed for creating lightweight microservices with focus on the minimal memory footprint and deployment size. It is probably the only framework where GraalVM is a first-class citizen from day zero. Micronaut dependency injection mechanism is a reflection-free and proxy-free alternative to Spring. Let's take a look on new addition into the Micronaut's reflection-free ecosystem - Micronaut Data, native bean validation, bean introspection, new Jackson deserialization module.
+Micronaut provides compile-time dependency injection to minimize the memory overhead known from Spring. As it was created by the Grails team, Micronaut comes with easy to use the command-line interface. Java, Groovy and Kotlin languages are supported. Thanks to minimal startup time, you can deploy new instance in less than a second and you don't need any special infrastructure for you integration tests - you just spin up an embedded server and you are ready to go. Micronaut is a perfect fit for serverless functions such as AWS Lambda."
+  language: ""
+  speakers: [vlaora]
+-
+  id: 701
+  title: "Developer's guide to selling your soul (lightning talk)<br/><br/> Reflection-Free Applications with Micronaut (lightning talk)"
+  description: "In almost every developer's life there comes a time at which he/she has to choose. To go into management, or to stay in development. Now, if you're a 'my concept of fun is reading about monads and category theory' kind of developer, this will probably feel like you're selling your soul to 'The Man'. But here's the hard truth. No matter what you want to achieve in your professional life, chances are you'll need help from other people to do that. So doing at least some sort of management is not an option, it's a necessity. In this talk, I'll tell you about my experience of going through this transformation. I'll try to sum up my ups and downs into a quick and easy cookbook you can use in your day-to-day operations. So that you still have time to do what you love the most, develop!
+  <br/><br/>
+  Micronaut is a new framework designed for creating lightweight microservices with focus on the minimal memory footprint and deployment size. It is probably the only framework where GraalVM is a first-class citizen from day zero. Micronaut dependency injection mechanism is a reflection-free and proxy-free alternative to Spring. Let's take a look on new addition into the Micronaut's reflection-free ecosystem - Micronaut Data, native bean validation, bean introspection, new Jackson deserialization module.
+Micronaut provides compile-time dependency injection to minimize the memory overhead known from Spring. As it was created by the Grails team, Micronaut comes with easy to use the command-line interface. Java, Groovy and Kotlin languages are supported. Thanks to minimal startup time, you can deploy new instance in less than a second and you don't need any special infrastructure for you integration tests - you just spin up an embedded server and you are ready to go. Micronaut is a perfect fit for serverless functions such as AWS Lambda."
+  language: ""
+  speakers: [hrvcrn, vlaora]
+-
 -
   id: 711
   title: "Lunch - room 7"
