@@ -250,3 +250,9 @@
   surname: "Orany"
   bio: "Test Facilitator at Agorapulse"
   thumbnailUrl: "https://2019.geecon.cz/speakers/vladimiro.jpg"
+-
+  id: "dmikor"
+  name: "Dmitry"
+  surname: "Kornilov"
+  bio: "Oracle employer, Helidon project lead, speaker and open source enthusiast"
+  thumbnailUrl: "https://2019.geecon.cz/speakers/dmitryk.png"
