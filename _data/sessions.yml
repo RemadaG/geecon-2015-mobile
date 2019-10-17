@@ -337,38 +337,38 @@ Micronaut provides compile-time dependency injection to minimize the memory over
   speakers: [hrvcrn, vlaora]
 -
   id: 711
-  title: "Lunch - room 7"
-  description: "Vietnamese pork loin + grilled potatoes + salad"
+  title: "Lunch - room 3 (VEGE)"
+  description: "Penne with sundried tomatoes, garlic, olive oil and rucola with corregio cheese salad"
   service: "true"
   language: ""
 -
   id: 712
   title: "Lunch - room 5"
-  description: "Chicken filet in paprika sauce + rice + salad"
+  description: "Chicken filet with sundried tomatoes in red pesto sauce  + rice + salad"
   service: "true"
   language: ""
 -
   id: 713
-  title: "Lunch - room 3"
-  description: "Vegies in delicate curry sauce on coconut milk + rice"
+  title: "Lunch - room 7 (Gluten free)"
+  description: "Beef bourgignon + bunkwheat with vegies + salad"
   service: "true"
   language: ""
 -
   id: 721
-  title: "Lunch - room 7"
-  description: "Meat balls in tomato&basil sauce"
+  title: "Lunch - room 3 (VEGE)"
+  description: "Dumplings: Spinach & feta + Russian with salad"
   service: "true"
   language: ""
 -
   id: 722
   title: "Lunch - room 5"
-  description: "Beef vindalloo gulash + wild rice + salad"
+  description: "Pork Vietnamese + jasmine rice + salad"
   service: "true"
   language: ""
 -
   id: 723
-  title: "Lunch - room 3"
-  description: " Dumplings: russian and lentil + salad (vege)"
+  title: "Lunch - room 7"
+  description: "Turkey in thyme sauce + pearl barley with vegies + salad"
   service: "true"
   language: ""
 -
