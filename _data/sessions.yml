@@ -350,7 +350,7 @@ Micronaut provides compile-time dependency injection to minimize the memory over
 -
   id: 713
   title: "Lunch - room 7 (Gluten free)"
-  description: "Beef bourgignon + bunkwheat with vegies + salad"
+  description: "Beef bourguignon + bunkwheat with vegies + salad"
   service: "true"
   language: ""
 -
