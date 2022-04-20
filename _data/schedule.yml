@@ -70,8 +70,3 @@
       endTime: "17:50",
       sessionIds: [910, 910]
     }
-    - {
-      startTime: "Later",
-      endTime: "",
-      sessionIds: [990]
-    }
