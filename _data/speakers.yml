@@ -256,4 +256,21 @@
   surname: "Skowroński"
   bio: "Software engineer at PANSA. Member of Resilience4J core team"
   thumbnailUrl: "https://2022.geecon.org/speakers/tomaszs.jpg"
-
+-
+  id: "jakmar"
+  name: "Jakub"
+  surname: "Marchwicki"
+  bio: "Software craftsperson, Hazelcast"
+  thumbnailUrl: "https://2022.geecon.org/speakers/jakubm.jpeg"
+-
+  id: "tombor"
+  name: "Tomasz"
+  surname: "Borek"
+  bio: "Coder from Poland. Hoping to learn something new every day"
+  thumbnailUrl: "https://2022.geecon.org/speakers/tomaszb.jpeg"
+-
+  id: "tomlis"
+  name: "Tomasz"
+  surname: "Lis"
+  bio: "Senior Software Consultant at Capgemini"
+  thumbnailUrl: "https://2022.geecon.org/speakers/tomaszl.jpg"

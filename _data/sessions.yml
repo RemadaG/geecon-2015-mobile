@@ -290,6 +290,26 @@ Expect: code samples, why does our stack look the way it looks AND… what have 
   language: ""
   speakers: [tomsko]
 -
+  id: 732
+  title: "They say testing triangle but you are doing microservices. Now what?"
+  description: "Unit / Integration / GUI - an obvious association when anybody mentions a test triangle. Every ISTQB student can drill down these elements when woken up in the middle of the night. The thing is: is this decomposition still relevant? Does it even work when you run a highly distributed, microservice environment? Does this make any sense in a microservices world?. <br><br>
+
+During this session we will walk through different test goals, a different hypothesis we want to assert during testing, evaluate tools that can support us and see these tools in action: on a 'real' java based microservices. So expect some critical thinking and a walk-through a set of tools and methods on how to use unit and integration tests effectively. But first and foremost, we will look beyond that and look when to initialise application container, how to approach validation of the service's contracts and finally is it worth to mimic a part of production environment with test containers."
+  language: ""
+  speakers: [jakmar]
+-
+  id: 733
+  title: "Mongo - stepping around the pitfalls"
+  description: "Mongo - stepping around the pitfalls, avoiding marketing honeytraps (why Mongo marketing goes so far and where to find effective counters: Jepsen and Nemil Dalal; the (in)famous loosing data while reading problem or why clustering is hard and what you can do about it,  recently unveiled transactions and their issues and settings and general clustering, sharding, indexing, RAM usage and hints.)"
+  language: ""
+  speakers: [tombor]
+-
+  id: 734
+  title: "Serverless APIs - how to create APIs in the cloud within minutes"
+  description: "Delivering APIs to classic server infrastructure takes a lot of time. You need to create servers, application, spend a lot of effort on networking aspects. Cloud opens exciting opportunities to achieve the same in almost no time. Further more, you can go global really easily. I would like to focus on 3 most popular cloud technology providers: AWS, Azure, GCP. If You are a beginner or a daily user fascinated by cloud, feel invited to join me. Let's get together and see how we can create APIs using API Gateway technologies and Serverless functions - in few easy steps . I am also going to touch on some important topics like security and limitations of that solution. I will be happy to see You and have a great fun comparing inside-outs of solutions built by 3 of the biggest Cloud providers."
+  language: ""
+  speakers: [tomlis]
+-
   id: 901
   title: "Registration & breakfast"
   description: ""
