@@ -274,3 +274,9 @@
   surname: "Lis"
   bio: "Senior Software Consultant at Capgemini"
   thumbnailUrl: "https://2022.geecon.org/speakers/tomaszl.jpg"
+-
+  id: "jartul"
+  name: "Jaroslav"
+  surname: "Tulach"
+  bio: "NetBeans Platform Architect. Working on GraalVM at OracleLabs"
+  thumbnailUrl: "https://2022.geecon.org/speakers/jaroslavt.jpeg"

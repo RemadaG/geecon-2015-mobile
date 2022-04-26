@@ -310,6 +310,24 @@ During this session we will walk through different test goals, a different hypot
   language: ""
   speakers: [tomlis]
 -
+  id: 735
+  title: "GraalVM & Heap Dumps. Record, replay, analyze"
+  description: "GraalVM EE 21.3 provides revolutionary capabilities when it comes to 
+manipulating heap dump files. Do you want to automatically analyze, process and 
+categorize `.hprof` files collected from crashing kubernetes instances? Do you 
+want to process such files in Java? JavaScript? Python? Your own language? Ever 
+thought about generating `.hprof` files yourself? Analyzing them in your 
+favorite debugger!? All of that and even more magic is possible with the 
+GraalVM ecosystem. Let's explore it in our session!"
+  language: ""
+  speakers: [jartul]
+-
+  id: 736
+  title: "Back to First Principles"
+  description: "Culture this, culture that; much has been said about organizational culture, its effects on people and productivity, and very little on how to deliberately and concsiously craft your own. While I don't pretend to have the answers, I have found tremendous value in asking and iterating on the questions themselves. In this talk we will - instead of hashing out corporate values and mission statements - figure out how to ask (and evaluate) hard questions. By doing that we arrive at something far more fundamental and powerful: an ethos."
+  language: ""
+  speakers: [tomgab]
+-
   id: 901
   title: "Registration & breakfast"
   description: ""
