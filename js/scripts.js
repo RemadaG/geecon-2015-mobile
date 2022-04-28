@@ -226,6 +226,7 @@
             iframe.attr('src', iframe.attr('src'));
         });
         $('.slot').click(function() {
+            window.scrollTo(0, 0);
             location.hash = $(this).attr('id');
         });
 
