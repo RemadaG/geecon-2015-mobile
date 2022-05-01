@@ -328,6 +328,14 @@ GraalVM ecosystem. Let's explore it in our session!"
   language: ""
   speakers: [tomgab]
 -
+  id: 738
+  title: "The tale of math and scalability"
+  description: "Once upon a time in a land far away... Just kidding, it's not that type of a tale I'm about to tell you. I do, however, want you to think: when was the last time you did some theoretical math? <br>
+Despite being a part of a software engineer's everyday work, math is too often forgotten and in most cases, we do not think that it can actually impact our job.
+In this talk, I'm having a closer look at the math hidden behind our software. Can we in fact predict the scalability of our systems by using mathematical laws? Let's dive into some theory and find out."
+  language: ""
+  speakers: [barzyl]
+-
   id: 901
   title: "Registration & breakfast"
   description: ""

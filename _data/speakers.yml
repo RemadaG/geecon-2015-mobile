@@ -257,6 +257,12 @@
   bio: "Software engineer at PANSA. Member of Resilience4J core team"
   thumbnailUrl: "https://2022.geecon.org/speakers/tomaszs.jpg"
 -
+  id: "barzyl"
+  name: "Bartłomiej"
+  surname: "Żyliński"
+  bio: "Software Engineer who likes coding in Scala and blogging"
+  thumbnailUrl: "https://2022.geecon.org/speakers/bartlomiejz.jpg"
+-
   id: "jakmar"
   name: "Jakub"
   surname: "Marchwicki"
