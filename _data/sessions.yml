@@ -161,7 +161,7 @@ Surprisingly, there's very little advice out there on how to sensibly approach t
 -
   id: 695
   title: "Refactoring organisations"
-  description: "In our profession, we tend to reinvent the wheel. We introduce new silver bullets that promise to solve our products’ problems: aligning strategy, teams, architectural, and data processing decisions. We’ve all been there: from hundreds of microservices, introducing AI anywhere possible to vast Data Lakes swallowing all of our events. But we end up very often in silos, focusing too much on fine details without looking into a broader picture. That results in underperforming - working in silos, creating over-engineered solutions, or not delivering our business goals.\n\nHowever, several well-proven and well-explored engineering methodologies and tools can help us maximize our efforts - the autonomy of teams, architectures, and data processing they build, which boosts their productivity and quality of delivery. We’ll start with how to identify the proper business boundaries and align our teams together with them. We’ll see which ready-to-use tools we can utilize and how these affect and improve product engineering, data processing, and analytics teams - and, in the end - our overall productivity."
+  description: "In our profession, we tend to reinvent the wheel. We introduce new silver bullets that promise to solve our products’ problems: aligning strategy, teams, architectural, and data processing decisions. We’ve all been there: from hundreds of microservices, introducing AI anywhere possible to vast Data Lakes swallowing all of our events. But we end up very often in silos, focusing too much on fine details without looking into a broader picture. That results in underperforming - working in silos, creating over-engineered solutions, or not delivering our business goals. However, several well-proven and well-explored engineering methodologies and tools can help us maximize our efforts - the autonomy of teams, architectures, and data processing they build, which boosts their productivity and quality of delivery. We’ll start with how to identify the proper business boundaries and align our teams together with them. We’ll see which ready-to-use tools we can utilize and how these affect and improve product engineering, data processing, and analytics teams - and, in the end - our overall productivity."
   language: ""
   speakers: [wojpta]
 -
@@ -323,18 +323,27 @@ GraalVM ecosystem. Let's explore it in our session!"
   speakers: [jartul]
 -
   id: 736
-  title: "Back to First Principles"
+  title: "Back to First Principles (in room 1)"
   description: "Culture this, culture that; much has been said about organizational culture, its effects on people and productivity, and very little on how to deliberately and concsiously craft your own. While I don't pretend to have the answers, I have found tremendous value in asking and iterating on the questions themselves. In this talk we will - instead of hashing out corporate values and mission statements - figure out how to ask (and evaluate) hard questions. By doing that we arrive at something far more fundamental and powerful: an ethos."
   language: ""
   speakers: [tomgab]
 -
   id: 738
-  title: "The tale of math and scalability"
+  title: "The tale of math and scalability (Lightning talk)"
   description: "Once upon a time in a land far away... Just kidding, it's not that type of a tale I'm about to tell you. I do, however, want you to think: when was the last time you did some theoretical math? <br>
 Despite being a part of a software engineer's everyday work, math is too often forgotten and in most cases, we do not think that it can actually impact our job.
 In this talk, I'm having a closer look at the math hidden behind our software. Can we in fact predict the scalability of our systems by using mathematical laws? Let's dive into some theory and find out."
   language: ""
   speakers: [barzyl]
+-
+  id: 739
+  title: "Malevolent Architect: only bad decisions (in room 1)"
+  description: "Let's see how we can make the worst possible decisions during a project, and not get fired.
+We'll talk about not so obvious or counter-intuitive problems and how to deal with them, so that it won't be so easy to blame us later on. The list includes: debugging algorithms, logging, burn-out, neuroscience, depression, buying 3rd party software, handling toxic people, diagrams, burning russian coal (on CPU cycles), religious definitions of architecture and making your dev-life a nightmare. There'll be some solutions as well.
+The author might talk about his own experience. Or not. SLAs et al. 
+NSFW"
+  language: ""
+  speakers: [jaknab]
 -
   id: 901
   title: "Registration & breakfast"
@@ -373,13 +382,13 @@ In this talk, I'm having a closer look at the math hidden behind our software. C
   language: ""
 -
   id: 908
-  title: "Opening ceremony"
+  title: "Opening ceremony (in room 1)"
   description: ""
   service: "true"
   language: ""
 -
   id: 909
-  title: "Closing ceremony"
+  title: "Closing ceremony (in room 1)"
   description: ""
   service: "true"
   language: ""

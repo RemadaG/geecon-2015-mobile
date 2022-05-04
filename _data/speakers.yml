@@ -286,3 +286,9 @@
   surname: "Tulach"
   bio: "NetBeans Platform Architect. Working on GraalVM at OracleLabs"
   thumbnailUrl: "https://2022.geecon.org/speakers/jaroslavt.jpeg"
+-
+  id: "jaknab"
+  name: "Jakub"
+  surname: "Nabrdalik"
+  bio: "Solution architect and mentor at Bottega IT Minds, specializing in DDD, TDD, BDD and Spring"
+  thumbnailUrl: "https://2022.geecon.org/speakers/jakubn.jpeg"
