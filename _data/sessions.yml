@@ -433,37 +433,37 @@ NSFW"
   language: ""
 -
   id: 971
-  title: "Lunch - room 7"
-  description: "L1_1"
+  title: "Lunch - room 2"
+  description: "Roasted pork in mushroom sauce + pęczotto (pearl barley) + salad (gluten free)"
   service: "true"
   language: ""
 -
   id: 972
   title: "Lunch - room 5"
-  description: "L1_2"
+  description: "Grilled chicken filet in red pesto + rosemary potatoes + salad"
   service: "true"
   language: ""
 -
   id: 973
-  title: "Lunch - room 3"
-  description: "L1_3"
+  title: "Lunch - room 3 (VEGE)"
+  description: "Vegie cutlets with tzatziki sauce + rosemary potatoes + salad"
   service: "true"
   language: ""
 -
   id: 981
-  title: "Lunch - room 7"
+  title: "Lunch - room 2"
   description: "L2_1"
   service: "true"
   language: ""
 -
   id: 982
-  title: "Lunch - room 5"
+  title: "Lunch - room 3"
   description: "L2_2"
   service: "true"
   language: ""
 -
   id: 983
-  title: "Lunch - room 3"
+  title: "Lunch - room 6 (VEGE)"
   description: "L2_3"
   service: "true"
   language: ""
