@@ -452,36 +452,36 @@ NSFW"
 -
   id: 981
   title: "Lunch - room 2"
-  description: "L2_1"
+  description: "Turkey in thyme&cream sauce + rice + salad (gluten free)"
   service: "true"
   language: ""
 -
   id: 982
-  title: "Lunch - room 3"
-  description: "L2_2"
+  title: "Lunch - room 5"
+  description: "Pork steak in green pepper sauce + potatoes + salad"
   service: "true"
   language: ""
 -
   id: 983
   title: "Lunch - room 6 (VEGE)"
-  description: "L2_3"
+  description: "Penne Vegetariana (pasta) (gluten free)"
   service: "true"
   language: ""
 -
   id: 991
-  title: "Lunch - room 7"
-  description: "L3_1"
+  title: "Lunch - room 2"
+  description: "Cod filet in lemon sauce + potatoes + salad"
   service: "true"
   language: ""
 -
   id: 992
   title: "Lunch - room 5"
-  description: "L3_2"
+  description: "Chicken strogonoff + rice + salad (gluten free)"
   service: "true"
   language: ""
 -
   id: 993
-  title: "Lunch - room 3"
-  description: "L3_3"
+  title: "Lunch - room 6 (VEGE)"
+  description: "Dumplings: Spinach&feta + Ukrainian with salad"
   service: "true"
   language: ""
