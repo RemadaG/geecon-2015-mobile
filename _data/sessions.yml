@@ -260,6 +260,12 @@ Everyone is welcome. However, we recommend attendees have at least a working fam
   language: ""
   speakers: [karhar]
 -
+  id: 774
+  title: "CompletableFuture and its Quirks"
+  description: "CompletableFuture revolutionised asynchronous processing in Java. Unfortunately, it’s full of quirks, traps, and surprises… during this live coding session, we’ll have a look at things like: thread pools backing task execution, exception propagation, cancellations, and unintuitive methods from the public API."
+  language: ""
+  speakers: [grzpiw]
+-
   id: 901
   title: "Registration & breakfast"
   description: ""
@@ -297,13 +303,13 @@ Everyone is welcome. However, we recommend attendees have at least a working fam
   language: ""
 -
   id: 908
-  title: "Opening ceremony"
+  title: "Opening ceremony (in room 1 + transmitted to room 12)"
   description: ""
   service: "true"
   language: ""
 -
   id: 909
-  title: "Closing ceremony"
+  title: "Closing ceremony (in room 1 + transmitted to room 12)"
   description: ""
   service: "true"
   language: ""

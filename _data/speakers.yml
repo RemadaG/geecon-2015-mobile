@@ -178,3 +178,9 @@
   surname: "Viry"
   bio: "Modernizing legacy code at Neograms"
   thumbnailUrl: "https://2022.geecon.cz/speakers/patrickv.jpg"
+-
+  id: "grzpiw"
+  name: "Grzegorz"
+  surname: "Piwowarek"
+  bio: "Your friendly neighbourhood architect"
+  thumbnailUrl: "https://2022.geecon.cz/speakers/grzegorzp.jpg"
