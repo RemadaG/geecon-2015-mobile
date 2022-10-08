@@ -7,7 +7,7 @@ With MicroStream the data instances within the JVM memory ARE your database. You
 
 In this session, you will learn about the revolutionizing way of data storage with MicroStream. The basic principles, how it works, and demos are part of the agenda of this session."
   language: ""
-  speakers: [rudde ]
+  speakers: [rudde]
 -
   id: 745
   title: "From objects to functions"
@@ -23,7 +23,7 @@ Our home-grown copy service is the foundational storage system that takes care o
  
 In this talk, we will take a deeper look at the infrastructure behind the planet-scale replication service, discuss the challenges, and the approach taken to ensure that your data is geographically distributed for durability, availability, and latency purposes."
   language: ""
-  speakers: [janpus, monnaw]
+  speakers: [janpus, monnaw, slakwa]
 -
   id: 747
   title: "Slack & Micronaut - prefect combo for your side project"

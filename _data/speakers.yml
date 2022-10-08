@@ -1,5 +1,5 @@
 -
-  id: "rudde "
+  id: "rudde"
   name: "Rudy"
   surname: "De Busscher"
   bio: "Rudy loves to create applications with the Jakarta EE platform and MicroProfile implementations"
@@ -24,7 +24,7 @@
   thumbnailUrl: "https://2022.geecon.cz/speakers/monikan.jpeg"
 -
   id: "slakwa"
-  name: "Sławormir"
+  name: "Sławomir"
   surname: "Kwasiborski"
   bio: "Software Engineer at Google, fascinated by large scale systems and their behavior"
   thumbnailUrl: "https://2022.geecon.cz/speakers/slawomirk.jpeg"
