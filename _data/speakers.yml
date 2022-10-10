@@ -184,3 +184,27 @@
   surname: "Piwowarek"
   bio: "Your friendly neighbourhood architect"
   thumbnailUrl: "https://2022.geecon.cz/speakers/grzegorzp.jpg"
+-
+  id: "monbec"
+  name: "Monica"
+  surname: "Beckwith"
+  bio: ""
+  thumbnailUrl: "https://2017.geecon.org/speakers/monicab.jpg"
+-
+  id: "greyou"
+  name: "Greg"
+  surname: "Young"
+  bio: ""
+  thumbnailUrl: "https://s3.eu-central-1.amazonaws.com/org.geecon.webpage/2015.prague/speakers/54/greg.jpg"
+-
+  id: "eridoe"
+  name: "Erik"
+  surname: "Doernenburg"
+  bio: ""
+  thumbnailUrl: "https://2022.geecon.cz/speakers/erikD.jpg"
+-
+  id: "tholan"
+  name: "Thomas"
+  surname: "Langer"
+  bio: ""
+  thumbnailUrl: "https://2018.geecon.cz/speakers/tomasl.jpg"

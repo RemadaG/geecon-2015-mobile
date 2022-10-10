@@ -260,6 +260,14 @@ Everyone is welcome. However, we recommend attendees have at least a working fam
   language: ""
   speakers: [karhar]
 -
+  id: 773
+  title: "Meet James, the most famous Java Developer!"
+  description: "Imagine James. Imagine the most famous Java Developer being around. What kind of question would you ask him?
+
+What were his programming beginnings? What led James to Java? What does he think about contemporary Java? Is it still the same language as in the nineties? What development tools he's using?  Is JDK What kind of technologies interests him most? Have he ever been in Prague before?"
+  language: ""
+  speakers: [jartul]
+-
   id: 774
   title: "CompletableFuture and its Quirks"
   description: "CompletableFuture revolutionised asynchronous processing in Java. Unfortunately, it’s full of quirks, traps, and surprises… during this live coding session, we’ll have a look at things like: thread pools backing task execution, exception propagation, cancellations, and unintuitive methods from the public API."
@@ -400,3 +408,27 @@ Everyone is welcome. However, we recommend attendees have at least a working fam
   description: "L3_3"
   service: "true"
   language: ""
+-
+  id: 8001
+  title: "TBA"
+  description: ""
+  language: ""
+  speakers: [monbec]
+-
+  id: 8002
+  title: "TBA"
+  description: ""
+  language: ""
+  speakers: [greyou]
+-
+  id: 8003
+  title: "TBA"
+  description: ""
+  language: ""
+  speakers: [eridoe]
+-
+  id: 8004
+  title: "TBA"
+  description: ""
+  language: ""
+  speakers: [tholan]
