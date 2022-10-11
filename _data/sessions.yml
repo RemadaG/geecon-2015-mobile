@@ -274,6 +274,27 @@ What were his programming beginnings? What led James to Java? What does he think
   language: ""
   speakers: [grzpiw]
 -
+  id: 776
+  title: "Helidon Nima - Loom based microservices framework"
+  description: "For quite a long time we were forced to make a choice - performance vs. simplicity. Either use a complicated and performant reactive code, or use simple, yet limited blocking approach.Thanks to project Loom in JDK, the paradigm can shift once more even for applications that require high concurrency. I will introduce Helidon Nima - new microservices framework which is built on top of a server designed for Loom with fully synchronous routing that can block as needed, yet still provide high performance under heavy concurrent load. I'll also talk about challenges, benefits and impact on application development in such an environment. - Is it the end of reactive programming?"
+  language: ""
+  speakers: [dankec, tomlan]
+-
+  id: 777
+  title: "The Future of Hazelcast"
+  description: "Hazelcast is going through a cloud-native revolution and is no longer just a cache. It's not a stream processing engine, either. Let me give you a tour of what we're working on and what can you expect in the near and not-so-near future."
+  language: ""
+  speakers: [grzpiw]
+-
+  id: 778
+  title: "Developer experience platforms"
+  description: "
+Moving user experience and customer experience into the spotlight has made companies more successful. We're now seeing a strong interest in improving developer experience, too. One reason is efficiency. We want deliver more with the same development team. The key reason, though, is that a good developer experience leads to more responsive IT, which, in turn, leads to a more responsive and more successful business. 
+
+As a consultant Erik has seen how several organisations have built internal platforms to improve developer experience. In this talk he will share his observations on when it makes sense to build such a platform and on how to build and evolve it. This is complemented by a description of underlying technolgies, princicples, and practices.  "
+  language: ""
+  speakers: [eridor]
+-
   id: 901
   title: "Registration & breakfast"
   description: ""
@@ -420,12 +441,6 @@ What were his programming beginnings? What led James to Java? What does he think
   description: ""
   language: ""
   speakers: [greyou]
--
-  id: 8003
-  title: "TBA"
-  description: ""
-  language: ""
-  speakers: [eridoe]
 -
   id: 8004
   title: "TBA"

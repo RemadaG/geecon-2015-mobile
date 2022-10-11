@@ -185,6 +185,24 @@
   bio: "Your friendly neighbourhood architect"
   thumbnailUrl: "https://2022.geecon.cz/speakers/grzegorzp.jpg"
 -
+  id: "dankec"
+  name: "Daniel"
+  surname: "Kec"
+  bio: "Java Developer at Oracle working on Helidon project"
+  thumbnailUrl: "https://2022.geecon.cz/speakers/danielk.jpg"
+-
+  id: "tomlan"
+  name: "Tomas"
+  surname: "Langer"
+  bio: "Architect at Oracle, working on project Helidon"
+  thumbnailUrl: "https://2022.geecon.cz/speakers/tomasl.jpg"
+-
+  id: "eridor"
+  name: "Erik"
+  surname: "Dörnenburg"
+  bio: "Exploring better ways to create software for 25 years"
+  thumbnailUrl: "https://2022.geecon.cz/speakers/erickd.jpg"
+-
   id: "monbec"
   name: "Monica"
   surname: "Beckwith"
@@ -196,12 +214,6 @@
   surname: "Young"
   bio: ""
   thumbnailUrl: "https://s3.eu-central-1.amazonaws.com/org.geecon.webpage/2015.prague/speakers/54/greg.jpg"
--
-  id: "eridoe"
-  name: "Erik"
-  surname: "Doernenburg"
-  bio: ""
-  thumbnailUrl: "https://2022.geecon.cz/speakers/erikD.jpg"
 -
   id: "tholan"
   name: "Tomas"
