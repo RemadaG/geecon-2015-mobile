@@ -274,6 +274,12 @@ What were his programming beginnings? What led James to Java? What does he think
   language: ""
   speakers: [grzpiw]
 -
+  id: 775
+  title: "TBA"
+  description: "TBA"
+  language: ""
+  speakers: [monbec]
+-
   id: 776
   title: "Helidon Nima - Loom based microservices framework"
   description: "For quite a long time we were forced to make a choice - performance vs. simplicity. Either use a complicated and performant reactive code, or use simple, yet limited blocking approach.Thanks to project Loom in JDK, the paradigm can shift once more even for applications that require high concurrency. I will introduce Helidon Nima - new microservices framework which is built on top of a server designed for Loom with fully synchronous routing that can block as needed, yet still provide high performance under heavy concurrent load. I'll also talk about challenges, benefits and impact on application development in such an environment. - Is it the end of reactive programming?"
@@ -294,6 +300,24 @@ Moving user experience and customer experience into the spotlight has made compa
 As a consultant Erik has seen how several organisations have built internal platforms to improve developer experience. In this talk he will share his observations on when it makes sense to build such a platform and on how to build and evolve it. This is complemented by a description of underlying technolgies, princicples, and practices.  "
   language: ""
   speakers: [eridor]
+-
+  id: 779
+  title: "Blockchain technology can be a powerful tool if you know how to use it"
+  description: "Cryptocurrencies took over the world by storm. During the last year, the demand for blockchain developers grew by over 500%. Have you ever wondered why this technology is so popular? Is this just a trend or there is something more to it? Do you even need any special knowledge for it?
+
+We will find an answer to all of these questions and even more. 
+
+
+During this presentation, we will take a deeper look at Blockchain technology and Satoshi Nakamoto's whitepaper. Learn about the basics of concepts like Proof of Work and Proof of Stake. Take a look at how and why we can utilize this technology in our authorization and authentication procedures and discuss the possibilities of integrating blockchains with our existing Java BE applications.
+"
+  language: ""
+  speakers: [petnag]
+-
+  id: 780
+  title: "Real cloud-native with serverless Java"
+  description: "Serverless cloud computing provides you with an infrastructure out of the box to run your containerized microservices highly efficiently. Java integrates seamlessly with serverless infrastructure and leads to strong benefits: highest efficiency, endless scalability, high availability, the lowest possible effort for development, production usage, administration, and maintenance."
+  language: ""
+  speakers: [market]
 -
   id: 901
   title: "Registration & breakfast"
@@ -430,20 +454,8 @@ As a consultant Erik has seen how several organisations have built internal plat
   service: "true"
   language: ""
 -
-  id: 8001
-  title: "TBA"
-  description: ""
-  language: ""
-  speakers: [monbec]
--
   id: 8002
   title: "TBA"
   description: ""
   language: ""
   speakers: [greyou]
--
-  id: 8004
-  title: "TBA"
-  description: ""
-  language: ""
-  speakers: [tholan]
