@@ -221,6 +221,12 @@
   bio: "Peter is a lead software engineer at EPAM Systems"
   thumbnailUrl: "https://2022.geecon.cz/speakers/petera.png"
 -
+  id: "pioprz"
+  name: "Piotr"
+  surname: "Przybyl"
+  bio: "Software Gardener"
+  thumbnailUrl: "https://2022.geecon.cz/speakers/piotrp.jpg"
+-
   id: "greyou"
   name: "Greg"
   surname: "Young"

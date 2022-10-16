@@ -319,6 +319,30 @@ During this presentation, we will take a deeper look at Blockchain technology an
   language: ""
   speakers: [market]
 -
+  id: 781
+  title: "Sailing Modern Java"
+  description: "Another (half a) year has passed, another major Java™ version has been released.
+Java was supposed 'to be slow'. However, Java turns out to evolve so fast, that next releases aren't just version bumps, but might significantly change the rules of the game. That's a good reason to check out what's new in Java.
+
+We're going to cover some features of recent Java versions:<br>
+<li> Pattern Matching for switch,
+</li><li> Record Patterns,
+</li><li> Virtual Threads,
+</li><li> Calling native stuff,
+</li><li> Simple Web server,
+</li><li> what's gone and what will be gone,
+</li><li> and other stuff.</li>
+
+"
+  language: ""
+  speakers: [pioprz]
+-
+  id: 8801
+  title: "TBA"
+  description: ""
+  language: ""
+  speakers: [ marzim ]
+-
   id: 901
   title: "Registration & breakfast"
   description: ""
