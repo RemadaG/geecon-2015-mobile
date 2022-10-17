@@ -211,7 +211,7 @@ The focus of the talk is the Black Box architecture, and I will illustrate this 
   title: "Distributed Object Graphs with MicroStream"
   description: "Hibernate and relational databases have been the standard persistence for traditional monolithic applications for decades. However, using traditional persistence concepts for cloud-native microservices is mostly oversized, complex, and expensive. With MicroStream there is a cloud-native alternative. It is a micro persistent layer built for microservices that delivers lots of benefits. It allows persisting any Java object graph of any size and complexity in plain files, cloud blob stores, or any cloud DB. It enables ultra-fast in-memory data processing with microsecond query and response time, and now clustering and elastic auto-scaling containerized microservices. Implementing is even way faster and simpler than any database, to reduce complexity, effort, time-to-market, and cloud costs. MicroStream is open source and integrated with Micronaut and Helidon."
   language: ""
-  speakers: [market, dankec]
+  speakers: [market, davkra]
 -
   id: 768
   title: "GraalVM: Java ♥ Python ♥ Micronaut"
@@ -275,7 +275,7 @@ What were his programming beginnings? What led James to Java? What does he think
   speakers: [grzpiw]
 -
   id: 775
-  title: "TBA"
+  title: "Closing keynote"
   description: "TBA"
   language: ""
   speakers: [monbec]
