@@ -275,7 +275,7 @@ What were his programming beginnings? What led James to Java? What does he think
   speakers: [grzpiw]
 -
   id: 775
-  title: "Closing keynote"
+  title: "The `-ilities` of Software Engineering - How Qualities that go Beyond Functional Requirements Drive Innovations in Managed Runtimes"
   description: "TBA"
   language: ""
   speakers: [monbec]
@@ -337,11 +337,13 @@ We're going to cover some features of recent Java versions:<br>
   language: ""
   speakers: [pioprz]
 -
-  id: 8801
-  title: "TBA"
-  description: ""
+  id: 782
+  title: "Rethinking Unit Testing: Automating the Generation of Java Unit Tests"
+  description: "In an ideal world, any code we write would be tested in real time, letting us catch bugs on the fly to write 100% correct code. Automated test cases can help us move closer to this ideal, keeping code behavior stable and implementations regression-free. Test-driven development is a step ahead, allowing us to write better code and extend test suites one behavior at a time. However, all those test cases still need to be written manually, a painful time-consuming process that leaves plenty of room for error. Manually written tests often tend to be flawed, focusing on the happy path and overlooking corner cases and bugs.
+
+In this talk, Markus Zimmermann argues for a new way to dramatically improve unit testing. By generating unit tests based on the current implementation automatically rather than manually, we can improve productivity and catch bugs on the fly, while code is being written."
   language: ""
-  speakers: [ marzim ]
+  speakers: [marzim]
 -
   id: 901
   title: "Registration & breakfast"
@@ -477,9 +479,3 @@ We're going to cover some features of recent Java versions:<br>
   description: "L3_3"
   service: "true"
   language: ""
--
-  id: 8002
-  title: "TBA"
-  description: ""
-  language: ""
-  speakers: [greyou]

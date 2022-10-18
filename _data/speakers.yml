@@ -227,14 +227,8 @@
   bio: "Software Gardener"
   thumbnailUrl: "https://2022.geecon.cz/speakers/piotrp.jpg"
 -
-  id: "greyou"
-  name: "Greg"
-  surname: "Young"
-  bio: ""
-  thumbnailUrl: "https://s3.eu-central-1.amazonaws.com/org.geecon.webpage/2015.prague/speakers/54/greg.jpg"
--
   id: "davkra"
   name: "David"
   surname: "Král"
-  bio: ""
-  thumbnailUrl: ""
+  bio: "Java Software Developer on project Helidon at Oracle"
+  thumbnailUrl: "https://2022.geecon.cz/speakers/davidk.jpg"
