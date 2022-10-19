@@ -266,7 +266,7 @@ Everyone is welcome. However, we recommend attendees have at least a working fam
 
 What were his programming beginnings? What led James to Java? What does he think about contemporary Java? Is it still the same language as in the nineties? What development tools he's using?  Is JDK What kind of technologies interests him most? Have he ever been in Prague before?"
   language: ""
-  speakers: [jartul]
+  speakers: [jamgos, jartul]
 -
   id: 774
   title: "CompletableFuture and its Quirks"
