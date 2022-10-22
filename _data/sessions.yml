@@ -9,6 +9,16 @@ In this session, you will learn about the revolutionizing way of data storage wi
   language: ""
   speakers: [rudde]
 -
+  id: 744
+  title: "Why don't you create your next application without a database?"
+  description: "Within every application, data plays a very important role. Currently, we always use a database or a No-SQL solution to store our data externally to the Java process. But this comes with a cost, the impedance mismatch between the object-oriented world of Java and the external data storage. And developers spend a lot of time creating the mapping, writing queries, and optimizing the retrieval from the external system.
+
+With MicroStream the data instances within the JVM memory ARE your database. You can query them using the getter methods and the Stream API with extremely high performance and low latency as no mapping or external retrieval is needed. Your Java objects survive the JVM restart because they are serialized to disk for example with a new, from the ground built up very secure serialization solution.
+
+In this session, you will learn about the revolutionizing way of data storage with MicroStream. The basic principles, how it works, and demos are part of the agenda of this session."
+  language: ""
+  speakers: [rudde]
+-
   id: 745
   title: "From objects to functions"
   description: "Ever since my time at university, I’ve always wanted to write the best code possible. Early on, I realized that OOP is the way. I studied SOLID, GRASP and all the relevant patterns and coding practices. After more than ten years of  chasing the perfect OOP code, I realized that my code is finally functional. But how could that be? The answer starts with the basics of object-oriented programming and its goals. I came to the conclusion that OOP solves completely different problems from functional programming. This allows me to think about my code in a radically different way. It leads to modular, maintainable, ready-to-scale code. Forget about polymorphism, inheritance and classes. Open your minds, and let me challenge some basic principles you were convinced are indisputable."
@@ -344,6 +354,24 @@ We're going to cover some features of recent Java versions:<br>
 In this talk, Markus Zimmermann argues for a new way to dramatically improve unit testing. By generating unit tests based on the current implementation automatically rather than manually, we can improve productivity and catch bugs on the fly, while code is being written."
   language: ""
   speakers: [marzim]
+-
+  id: 783
+  title: "Micronaut Libraries for a Real Life"
+  description: "Agorapulse is an early adopter of Micronaut, and since the first Micronaut function deployed, we also started to open source our helper libraries. These are the ones you most likely would like to use in your projects. Gru for Micronaut helps you test your HTTP endpoints. Micronaut Console is a keyhole surgery tool that allows you to execute arbitrary code inside your application at runtime. Micronaut Worker can be considered a boosted version of the native Micronaut scheduler. It supports distributed execution with producer and consumer jobs. Micronaut Permissions framework allows you to define fine-grained business-oriented security rules inside your application."
+  language: ""
+  speakers: [vlaora]
+-
+  id: 8801
+  title: "Jakarta EE integration testing"
+  description: ""
+  language: ""
+  speakers: [rudde]
+-
+  id: 8802
+  title: "Admire Kotlin, adhere to Java19!"
+  description: ""
+  language: ""
+  speakers: [jartul]
 -
   id: 901
   title: "Registration & breakfast"
