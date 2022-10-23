@@ -361,9 +361,15 @@ In this talk, Markus Zimmermann argues for a new way to dramatically improve uni
   language: ""
   speakers: [vlaora]
 -
-  id: 8801
-  title: "Jakarta EE integration testing"
-  description: ""
+  id: 784
+  title: "Exploring Jakarta EE integration testing"
+  description: "Testing applications is challenging because repeatable tests require additional systems, such as databases, in a specific state.
+
+Despite the fact that Jakarta EE doesn't have any testing specifications, you can perform integration testing for your application using several libraries.
+
+We have a look at the libraries with an example and the problems each of them has.  In addition, we will examine the Testcontainers framework, which allows developers to test real-world applications by deploying them in containers using the production runtime and its dependent systems.
+
+An application can be tested and remotely debugged using one of the libraries we explore further."
   language: ""
   speakers: [rudde]
 -
