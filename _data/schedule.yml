@@ -1,72 +1,73 @@
-- date: "2022-10-24"
-  dateReadable: "24th of October - Conference Day 1"
+-
+  date: "2022-05-11"
+  dateReadable: "11th of May - Conference Day 1"
   tracks:
-    - { title: "Room 9", color: "#fbb531" }
-    - { title: "Room 6", color: "#49abd0" }
-    - { title: "Room 4", color: "#fbb531" }
+    - {title: "Room A", color: "#fbb531"}
+    - {title: "Room B", color: "#49abd0"}
+    - {title: "Room C", color: "#fbb531"}
   timeslots:
     - {
       startTime: "09:00",
       endTime: "10:00",
-      sessionIds: [ 901 ]
+      sessionIds: [901]
     }
     - {
       startTime: "10:00",
       endTime: "10:20",
-      sessionIds: [ 908 ]
+      sessionIds: [908]
     }
     - {
       startTime: "10:20",
       endTime: "11:20",
-      sessionIds: [ 762 ]
+      sessionIds: [910]
     }
     - {
       startTime: "11:20",
       endTime: "11:40",
-      sessionIds: [ 905 ]
+      sessionIds: [905]
     }
     - {
       startTime: "11:40",
       endTime: "12:30",
-      sessionIds: [ 767, 745, 759 ]
+      sessionIds: [910, 910, 910]
     }
     - {
       startTime: "12:30",
       endTime: "13:30",
-      sessionIds: [ 971, 972, 973 ]
+      sessionIds: [906]
     }
     - {
       startTime: "13:30",
       endTime: "14:20",
-      sessionIds: [ 750, 8802, 769 ]
+      sessionIds: [910, 910, 910]
     }
     - {
       startTime: "14:20",
       endTime: "14:40",
-      sessionIds: [ 905 ]
+      sessionIds: [905]
     }
     - {
       startTime: "14:40",
       endTime: "15:30",
-      sessionIds: [ 783, 751, 753 ]
+      sessionIds: [910, 910, 910]
     }
     - {
       startTime: "15:30",
       endTime: "15:50",
-      sessionIds: [ 905 ]
+      sessionIds: [905]
     }
     - {
       startTime: "15:50",
       endTime: "16:40",
-      sessionIds: [ 776, 768, 772 ]
+      sessionIds: [910, 910, 910]
     }
     - {
       startTime: "16:40",
       endTime: "17:00",
-      sessionIds: [ 905 ]
+      sessionIds: [905]
     }
     - {
       startTime: "17:00",
       endTime: "17:50",
-      sessionIds: [ 784, 754, 748 ]
+      sessionIds: [910, 910, 910]
     }

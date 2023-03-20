@@ -1,0 +1,74 @@
+-
+  date: "2022-05-13"
+  dateReadable: "13th of May - Conference Day 3"
+  tracks:
+    - {title: "Room A", color: "#fbb531"}
+    - {title: "Room B", color: "#49abd0"}
+    - {title: "Room C", color: "#fbb531"}
+    - {title: "Room D", color: "#49abd0"}
+  timeslots:
+    - {
+      startTime: "8:30",
+      endTime: "9:00",
+      sessionIds: [ 902 ]
+    }
+    - {
+      startTime: "9:00",
+      endTime: "9:50",
+      sessionIds: [910, 910, 910, 910]
+    }
+    - {
+      startTime: "9:50",
+      endTime: "10:10",
+      sessionIds: [ 905 ]
+    }
+    - {
+      startTime: "10:10",
+      endTime: "11:00",
+      sessionIds: [910, 910, 910, 910]
+    }
+    - {
+      startTime: "11:00",
+      endTime: "11:20",
+      sessionIds: [ 905 ]
+    }
+    - {
+      startTime: "11:20",
+      endTime: "12:10",
+      sessionIds: [910, 910, 910, 910]
+    }
+    - {
+      startTime: "12:10",
+      endTime: "13:10",
+      sessionIds: [ 906 ]
+    }
+    - {
+      startTime: "13:10",
+      endTime: "14:00",
+      sessionIds: [910, 910, 910, 910]
+    }
+    - {
+      startTime: "14:00",
+      endTime: "14:20",
+      sessionIds: [ 905 ]
+    }
+    - {
+      startTime: "14:20",
+      endTime: "15:10",
+      sessionIds: [910, 910, 910, 910]
+    }
+    - {
+      startTime: "15:10",
+      endTime: "15:30",
+      sessionIds: [ 905 ]
+    }
+    - {
+      startTime: "15:30",
+      endTime: "15:50",
+      sessionIds: [ 909 ]
+    }
+    - {
+      startTime: "15:50",
+      endTime: "16:40",
+      sessionIds: [ 910 ]
+    }
