@@ -119,7 +119,7 @@ The audience will get first-hand experience with how to write CREATE MODEL sql s
 - K-means clustering 
 - Matrix factorization
 - ARIMA time series predictions
-... and more 
+ ... and more 
 
 Models are trained and accessed in BigQuery using SQL — a language data analysts know. This enables business decision-making through predictive analytics across the organization without leaving the query editor. In the end, the audience will learn how everyday developers can build/train/run their own machine-learning models straight from the database query editor, by issuing CREATE MODEL statements"
   language: ""
