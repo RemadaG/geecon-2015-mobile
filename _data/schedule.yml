@@ -1,6 +1,6 @@
 -
-  date: "2022-05-11"
-  dateReadable: "11th of May - Conference Day 1"
+  date: "2022-04-19"
+  dateReadable: "19th of April - Conference Day 1"
   tracks:
     - {title: "Room A", color: "#fbb531"}
     - {title: "Room B", color: "#49abd0"}
