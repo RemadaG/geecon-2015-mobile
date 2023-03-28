@@ -2,9 +2,10 @@
   date: "2022-04-20"
   dateReadable: "20th of April - Conference Day 2"
   tracks:
-    - {title: "Room A", color: "#fbb531"}
-    - {title: "Room B", color: "#49abd0"}
-    - {title: "Room C", color: "#fbb531"}
+    - {title: "Room 1", color: "#fbb531"}
+    - {title: "Room 12", color: "#49abd0"}
+    - {title: "Room 11", color: "#fbb531"}
+    - {title: "Room 10", color: "#49abd0"}
   timeslots:
     - {
       startTime: "8:30",
