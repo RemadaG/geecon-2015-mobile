@@ -5,7 +5,6 @@
     - {title: "Room A", color: "#fbb531"}
     - {title: "Room B", color: "#49abd0"}
     - {title: "Room C", color: "#fbb531"}
-    - {title: "Room D", color: "#49abd0"}
   timeslots:
     - {
       startTime: "8:30",
@@ -15,7 +14,7 @@
     - {
       startTime: "9:00",
       endTime: "9:50",
-      sessionIds: [910, 910, 910, 910]
+      sessionIds: [910, 836, 792, 809]
     }
     - {
       startTime: "9:50",
@@ -25,7 +24,7 @@
     - {
       startTime: "10:10",
       endTime: "11:00",
-      sessionIds: [910, 910, 910, 795]
+      sessionIds: [795, 794, 827, 848]
     }
     - {
       startTime: "11:00",
@@ -35,7 +34,7 @@
     - {
       startTime: "11:20",
       endTime: "12:10",
-      sessionIds: [818, 794, 910, 910]
+      sessionIds: [818, 788, 837, 814]
     }
     - {
       startTime: "12:10",
@@ -45,7 +44,7 @@
     - {
       startTime: "13:10",
       endTime: "14:00",
-      sessionIds: [910, 801, 910, 910]
+      sessionIds: [800, 801, 791, 835]
     }
     - {
       startTime: "14:00",
@@ -55,7 +54,7 @@
     - {
       startTime: "14:10",
       endTime: "15:00",
-      sessionIds: [810, 822, 910, 910]
+      sessionIds: [830, 822, 806, 821]
     }
     - {
       startTime: "15:00",
@@ -65,7 +64,7 @@
     - {
       startTime: "15:20",
       endTime: "16:10",
-      sessionIds: [910, 910, 910, 910]
+      sessionIds: [810, 852, 847, 826]
     }
     - {
       startTime: "16:10",
@@ -75,7 +74,7 @@
     - {
       startTime: "16:30",
       endTime: "17:00",
-      sessionIds: [832, 829, 805, 910]
+      sessionIds: [832, 910, 805, 829]
     }
     - {
       startTime: "17:00",
@@ -85,7 +84,7 @@
     - {
       startTime: "17:10",
       endTime: "17:30",
-      sessionIds: [833, 834, 804, 910]
+      sessionIds: [833, 804, 834, 850]
     }
     - {
       startTime: "20:15",

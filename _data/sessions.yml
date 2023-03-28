@@ -523,6 +523,15 @@ Fortunately, KEDA and Knative on Kubernetes are designed to solve this challenge
   language: ""
   speakers: [danoh]
 -
+  id: 839
+  title: "Building Your Own Bot with GPT: Harnessing the Power of AI for Personalized Conversations"
+  description: "OpenAI's GPT-based language models have made it easy to build conversational agents that can respond to a wide range of queries. However, these models are not trained on personal data, which limits their ability to provide tailored responses. 
+
+This talk will focus on how to leverage OpenAI's APIs to build a personal chatbot that can provide personalized responses based on an individual's data. We will explore the technical aspects of building a custom data set and “training” a GPT-based model using OpenAI's API, and explore various strategies that can be used to improve the performance of the chatbot.
+"
+  language: ""
+  speakers: [alokir]
+-
   id: 840
   title: "Clean & Hexagonal Architecture - it really works!"
   description: "In IT industry we have a repeatable problem of code debt, which steals happiness from our work, inducing horrible stress and frustration.
@@ -571,6 +580,12 @@ This session is focused on how we have built centralised audit logging platform 
   language: ""
   speakers: [muhars]
 -
+  id: 847
+  title: "What is animation engineering?"
+  description: "At first glance, animation in games may not seem like a technical subject. One might imagine animators tirelessly crafting characters, which are then simply inserted into a game engine, ready for release. However, the reality is that animation features in games have numerous engineering challenges. For example, have you ever considered how the character is moved during complex animations with non-linear paths? Or why motion must be extracted from such animations? How do we optimize animations to meet CPU requirements? How can we ensure that a character's limbs interact realistically with surfaces rather than appearing to float or slide? And how do we account for variable frame rates? In this presentation, I will provide an introduction to the tools and techniques used by animation engineers to solve these problems."
+  language: ""
+  speakers: [robpiw]
+-
   id: 848
   title: "JVM and Kubernetes walk into a bar..."
   description: "Running the JVM-based applications on the Kubernetes cluster seems a relatively easy task - it's enough to pack the jar into the container and ready.
@@ -589,6 +604,18 @@ This presentation will present a counterintuitive, straightforward, and business
 We will look into what does it mean that a system is complex, and how to make good architectural decisions to enable fast growth at the hypergrowth stage."
   language: ""
   speakers: [wojpta]
+-
+  id: 850
+  title: "Enums on steroids - let's look at sealed classes!"
+  description: "Probably everyone has already become familiar with the mechanism of sealed classes introduced in Java 17. However, in addition to strict control of the class hierarchy, it also allows for the creation of non-obvious (yet facilitating) mechanisms. One of them will be enums on steroids - and that's what I want to talk about. It will definitely be interesting - feel free to join."
+  language: ""
+  speakers: [marchr]
+-
+  id: 852
+  title: "A parallel programming language extension for Java"
+  description: "The notion of 'thread' is a hardware-level concept that made its way into high-level languages. This impedance mismatch is one of the reasons why parallel programming is so complex and so painful, but it doesn't need to be that way. I will present a language-integrated parallel programming model based on a few simple additions to the Java language using compositional operators. This model is based on strong theoretical foundations, which makes it amenable to correctness proofs. I will claim, based on a number of examples, that it makes parallel programming simpler, more intuitive, more general and more efficient."
+  language: ""
+  speakers: [patvir]
 -
   id: 901
   title: "Registration & breakfast"

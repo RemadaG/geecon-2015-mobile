@@ -317,6 +317,12 @@
   bio: "Developer Advocate, Technical Marketing, CNCF Ambassador, International Speaker, Published Author"
   thumbnailUrl: "https://2023.geecon.org/speakers/danielo.jpeg"
 -
+  id: "alokir"
+  name: "Alon"
+  surname: "Kiriati"
+  bio: "Tech Lead @ Dropbox"
+  thumbnailUrl: "https://2023.geecon.org/speakers/alonk.jpg"
+-
   id: "piosuw"
   name: "Piotr"
   surname: "Suwała"
@@ -347,6 +353,12 @@
   bio: "Big Data Architect/Developer"
   thumbnailUrl: "https://2023.geecon.org/speakers/muh.jpeg"
 -
+  id: "robpiw"
+  name: "Robert"
+  surname: "Piwowarek"
+  bio: "Scala backend developer exploring the world of game development as a gameplay programmer"
+  thumbnailUrl: "https://2023.geecon.org/speakers/robertp.jpg"
+-
   id: "grzkoc"
   name: "Grzegorz"
   surname: "Kocur"
@@ -358,3 +370,15 @@
   surname: "Ptak"
   bio: "I work with software for the last 25 years, still enjoying the ride!"
   thumbnailUrl: "https://2023.geecon.org/speakers/wojtekp.jpg"
+-
+  id: "marchr"
+  name: "Marcin"
+  surname: "Chrost"
+  bio: "IT trainer at Sages and CodersLab with over 15 years of experience"
+  thumbnailUrl: "https://2023.geecon.org/speakers/marcinc.jpg"
+-
+  id: "patvir"
+  name: "Patrick"
+  surname: "Viry"
+  bio: "Modernizing mainframe applications at LzLabs"
+  thumbnailUrl: "https://2023.geecon.org/speakers/patrickv.jpg"
