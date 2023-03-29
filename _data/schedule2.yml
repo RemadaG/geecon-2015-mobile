@@ -15,7 +15,7 @@
     - {
       startTime: "9:00",
       endTime: "9:50",
-      sessionIds: [910, 836, 792, 809]
+      sessionIds: [823, 836, 792, 809]
     }
     - {
       startTime: "9:50",
@@ -45,7 +45,7 @@
     - {
       startTime: "13:10",
       endTime: "14:00",
-      sessionIds: [800, 801, 791, 835]
+      sessionIds: [800, 801, 817, 835]
     }
     - {
       startTime: "14:00",
@@ -55,7 +55,7 @@
     - {
       startTime: "14:10",
       endTime: "15:00",
-      sessionIds: [830, 822, 806, 821]
+      sessionIds: [838, 822, 806, 821]
     }
     - {
       startTime: "15:00",
