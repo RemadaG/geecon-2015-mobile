@@ -377,6 +377,12 @@
   bio: "IT trainer at Sages and CodersLab with over 15 years of experience"
   thumbnailUrl: "https://2023.geecon.org/speakers/marcinc.jpg"
 -
+  id: "andgrz"
+  name: "Andrzej"
+  surname: "Grzesik"
+  bio: "software maker and breaker"
+  thumbnailUrl: "https://2023.geecon.org/speakers/andrzejg.jpg"
+-
   id: "patvir"
   name: "Patrick"
   surname: "Viry"

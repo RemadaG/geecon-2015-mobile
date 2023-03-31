@@ -323,13 +323,6 @@ at work tomorrow."
   language: ""
   speakers: [thosun]
 -
-  id: 815
-  title: "MicroProfile Long Running Actions (LRA) - distributed transactions or fancy fault tolerance?"
-  description: "Have you ever wondered how hard it can be to apply the SAGA pattern to your microservices? Wonder no more, it's easy!  
-MicroProfile Long Running Actions (LRA) is specification that provides a lock-free, and consequently loosely-coupled, approach to achieve consistency in a microservice environment. With LRA solving the hard parts for you, you get distributed compensations almost for free. We will discover together how easy it is to use LRA with Helidon MP, MicroProfile compatible microservice framework and what coordinators you can use in your cluster."
-  language: ""
-  speakers: [dankec]
--
   id: 816
   title: "How shit works: Databases"
   description: "The last decade has seen a proliferation in data storage technologies, from MongoDB to ElasticSearch to Riak to Datomic and so many others: relational databases, document stores, key-value stores… oh my! So many choices, so much confusion.
@@ -610,6 +603,18 @@ We will look into what does it mean that a system is complex, and how to make go
   description: "Probably everyone has already become familiar with the mechanism of sealed classes introduced in Java 17. However, in addition to strict control of the class hierarchy, it also allows for the creation of non-obvious (yet facilitating) mechanisms. One of them will be enums on steroids - and that's what I want to talk about. It will definitely be interesting - feel free to join."
   language: ""
   speakers: [marchr]
+-
+  id: 851
+  title: "Avoiding mistakes with events, one at a time"
+  description: "Some say: Use events, events are great, all will be great and rosy.
+Then reality bites, and.. let's talk about strangers you'd rather avoid - mistakes to make when building using events.
+Things change, evolve, are not and overdelivered, old events start taking a lot of space, and someone is already using the name you wanted?!
+
+Expect: problems, symptoms, consequences, and some 'get-out-of' cards.
+
+Come for the experience others gained first-hand, so you know what to avoid."
+  language: ""
+  speakers: [andgrz]
 -
   id: 852
   title: "A parallel programming language extension for Java"
