@@ -32,7 +32,7 @@
   id: "katosu"
   name: "Katarzyna"
   surname: "Osuch-Bukowska"
-  bio: "Director of Engineering at FedEx Dataworks"
+  bio: "Senior Engineering Manager with over 18 years of experience"
   thumbnailUrl: "https://2023.geecon.org/speakers/katarzynao.jpg"
 -
   id: "ronvee"
@@ -388,3 +388,21 @@
   surname: "Viry"
   bio: "Modernizing mainframe applications at LzLabs"
   thumbnailUrl: "https://2023.geecon.org/speakers/patrickv.jpg"
+-
+  id: "greyou"
+  name: "Greg"
+  surname: "Young"
+  bio: "Independent consultant and entrepreneur"
+  thumbnailUrl: "https://2023.geecon.org/speakers/gregy.jpg"
+-
+  id: "marska"
+  name: "Marcin"
+  surname: "Skalski"
+  bio: "Software Engineer, Service Mesh and Platform Engineering fan"
+  thumbnailUrl: "https://2023.geecon.org/speakers/marcins.jpg"
+-
+  id: "alihal"
+  name: "Alicja"
+  surname: "Halamska"
+  bio: "Software engineer and an enthusiast of intricate problems whose solving gives her the greatest satisfaction"
+  thumbnailUrl: "https://2023.geecon.org/speakers/alicjah.jpg"

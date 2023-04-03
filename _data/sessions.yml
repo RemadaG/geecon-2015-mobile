@@ -622,6 +622,37 @@ Come for the experience others gained first-hand, so you know what to avoid."
   language: ""
   speakers: [patvir]
 -
+  id: 853
+  title: "Closing keynote"
+  description: "..."
+  language: ""
+  speakers: [greyou]
+-
+  id: 854
+  title: "What Scala Taught Me About Software Engineering"
+  description: "It's no secret that I've been an avid Scala fan for many years, going as far as organizing conferences in my home country. Not having the commercial opportunity to use my favorite language, the last few years have provided ample opportunities to reflect on what I had learned during my time with Scala: What made it so successful, initially? What lessons can I carry over to other languages? Join me as we untangle how Scala shaped the way I approach software engineering to this day."
+  language: ""
+  speakers: [tomgab]
+-
+  id: 855
+  title: "The early days of CQRS/Event Sourcing"
+  description: "..."
+  language: ""
+  speakers: [greyou]
+-
+  id: 856
+  title: "Free yourself from networking details by using a Service Mesh"
+  description: "Implementing bulletproof networking is demanding, requires attention to details, corner case testing. Using Service Mesh, you can move this repetitive task to the infrastructure level. Thanks to this, you will easily improve your product stability and reclaim the time you can use to deliver value to your customers. In this talk, I will show you how Kuma can help you implement battle-tested common network code."
+  language: ""
+  speakers: [marska]
+-
+  id: 857
+  title: "Don’t be afraid of graphs! Our journey to a graph database"
+  description: "Working as a software engineer, we often face the difficult choice of selecting a database for our newly created service.
+It happens that the answer to this question is far from optimal; sometimes the decisive factor are skills that the team possesses, other times we rely on the technologies that are used broadly in the company. There are situations, however, that force us to reach beyond and step out of our comfort zone in search of a perfect database, often among types that are not so common. During the lecture you will have the opportunity to learn about the most common graph database - Neo4J and what’s the story behind it at Allegro."
+  language: ""
+  speakers: [alihal]
+-
   id: 901
   title: "Registration & breakfast"
   description: ""
@@ -677,7 +708,7 @@ Come for the experience others gained first-hand, so you know what to avoid."
   language: ""
 -
   id: 911
-  title: "Lightning talks"
+  title: "Lightning talk"
   description: ""
   service: "true"
   language: ""
