@@ -1,45 +1,44 @@
--
-  date: "2022-04-19"
+- date: "2022-04-19"
   dateReadable: "19th of April - Conference Day 1"
   tracks:
-    - {title: "Room 1", color: "#fbb531"}
-    - {title: "Room 12", color: "#49abd0"}
-    - {title: "Room 11", color: "#fbb531"}
+    - { title: "Room 1", color: "#fbb531" }
+    - { title: "Room 12", color: "#49abd0" }
+    - { title: "Room 11", color: "#fbb531" }
   timeslots:
     - {
       startTime: "09:00",
       endTime: "10:00",
-      sessionIds: [901]
+      sessionIds: [ 901 ]
     }
     - {
-      startTime: "10:00",
-      endTime: "10:15",
-      sessionIds: [908]
+      startTime: "09:50",
+      endTime: "10:10",
+      sessionIds: [ 908 ]
     }
     - {
-      startTime: "10:15",
+      startTime: "10:10",
       endTime: "11:00",
-      sessionIds: [811]
+      sessionIds: [ 811 ]
     }
     - {
       startTime: "11:00",
       endTime: "11:20",
-      sessionIds: [905]
+      sessionIds: [ 905 ]
     }
     - {
       startTime: "11:20",
       endTime: "12:10",
-      sessionIds: [798, 816, 910]
+      sessionIds: [ 798, 816, 910 ]
     }
     - {
       startTime: "12:10",
       endTime: "13:10",
-      sessionIds: [906]
+      sessionIds: [ 906 ]
     }
     - {
       startTime: "13:10",
       endTime: "13:30",
-      sessionIds: [ 911, 855, 911 ]
+      sessionIds: [ 855, 859, 911 ]
     }
     - {
       startTime: "13:30",
@@ -49,35 +48,35 @@
     - {
       startTime: "13:40",
       endTime: "14:30",
-      sessionIds: [839, 790, 845]
+      sessionIds: [ 839, 790, 845 ]
     }
     - {
       startTime: "14:30",
       endTime: "14:50",
-      sessionIds: [905]
+      sessionIds: [ 905 ]
     }
     - {
       startTime: "14:50",
       endTime: "15:40",
-      sessionIds: [788, 813, 851]
+      sessionIds: [ 788, 813, 851 ]
     }
     - {
       startTime: "15:40",
       endTime: "16:00",
-      sessionIds: [905]
+      sessionIds: [ 905 ]
     }
     - {
       startTime: "16:00",
       endTime: "16:50",
-      sessionIds: [793, 812, 787]
+      sessionIds: [ 793, 812, 787 ]
     }
     - {
       startTime: "16:50",
       endTime: "17:10",
-      sessionIds: [905]
+      sessionIds: [ 905 ]
     }
     - {
       startTime: "17:10",
       endTime: "18:00",
-      sessionIds: [796, 820, 791]
+      sessionIds: [ 796, 820, 791 ]
     }

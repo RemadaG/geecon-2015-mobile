@@ -653,6 +653,20 @@ It happens that the answer to this question is far from optimal; sometimes the d
   language: ""
   speakers: [alihal]
 -
+  id: 858
+  title: "How to Become a Top-Performing Software Engineer through Real-World Open Source Practices"
+  description: "Are you tired of feeling stuck in your software engineering career? Do you want to learn from the best and take your skills to the next level? Look no further! Our talk will delve into the world of open source, a space where some of the most successful software products have been developed by global teams using high-quality design and reusable practices. The Open Source industry brings mature guidelines and methodologies for enhancing practices of documentation, architectural decisions record, code design and style, testing, and much more. These increasing practices' adoption has a name: Inner Source. Learn why and how adopting proven open-source practices within your organization can bring your documentation, decision-making, code design, and testing quality to the next level. Join us on this journey to success as we showcase the most effective practices from top open-source projects. By the end of our talk, you'll be equipped with the knowledge and skills to take your career to new heights and drive reusability and innovation within your team and organization. Don't miss out on this opportunity to level up your software engineering skills!"
+  language: ""
+  speakers: [otasan]
+-
+  id: 859
+  title: "5 quick tips to make your Java apps more awesome"
+  description: "'But what is awesome? Well, for instance, an awesome app reacts to failure and still remains functional, can provide information about its status, can provide an easy way of enabling easy way of toggling features, is easy to test, and is fast – it is ready to go to prod right away!
+
+We talk about these and other features and show you some options while we build an (slightly opinionated?) demo application from scratch. Join us for this fun evolution of a few lines of code into a modern cloud-native application!'"
+  language: ""
+  speakers: [rusmeh]
+-
   id: 901
   title: "Registration & breakfast"
   description: ""
