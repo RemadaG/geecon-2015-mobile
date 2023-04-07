@@ -326,7 +326,7 @@
   id: "piosuw"
   name: "Piotr"
   surname: "Suwała"
-  bio: "Craftsperson and DDD addict"
+  bio: "Software Architect @ Kinguin; DDD-GDA organiser"
   thumbnailUrl: "https://2023.geecon.org/speakers/piotrs.jpg"
 -
   id: "tomman"
@@ -404,5 +404,5 @@
   id: "alihal"
   name: "Alicja"
   surname: "Halamska"
-  bio: "Software engineer and an enthusiast of intricate problems whose solving gives her the greatest satisfaction"
+  bio: "Software engineer at Allegro’s antifraud team"
   thumbnailUrl: "https://2023.geecon.org/speakers/alicjah.jpg"

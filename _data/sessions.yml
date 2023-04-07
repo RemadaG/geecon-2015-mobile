@@ -667,6 +667,33 @@ We talk about these and other features and show you some options while we build 
   language: ""
   speakers: [rusmeh]
 -
+  id: 860
+  title: "Enterprise Kotlin: Jakarta EE for Kotlin developers"
+  description: "Kotlin is gaining traction and widespread usage, while Jakarta EE is developing faster than ever. What happens if we mix them together?
+
+In this talk, we’ll create a simple application, utilizing many of the Jakarta specifications, including Restful web services, JSON Binding, persistence, Bean Validation and more. We’ll do it in Kotlin, and show you the pitfalls you might run into as well as how to get around them.
+
+By the end of the talk, we’ll have a running application, with Kotlin powered by Jakarta EE.
+"
+  language: ""
+  speakers: [madoph]
+-
+  id: 861
+  title: "Event-Driven Micro-Minds: Emulating Neural Networks with Microservices for Enhanced Adaptability and Robustness"
+  description: "In this presentation, we introduce an innovative software architecture called event-driven micro-minds, which emulates neural networks by utilizing small, focused microservices. Developers can create systems programmed with instinctive innate behavior by representing neurons as microservices and synapses as event-driven functions. Micro-minds enable hardwired processing flows that pave the way for increased adaptability compared to traditional AI and ML systems.
+
+Attendees of this talk will gain insights into the benefits of employing micro-minds for application development, including enhanced adaptability, scalability, and ease of maintenance. We will also delve into practical examples demonstrating how to build robust and adaptable applications using the micro-minds approach.
+
+Join me as we explore the potential of event-driven micro-minds and how they can revolutionize how we develop and implement robust, adaptive software systems."
+  language: ""
+  speakers: [hugmck]
+-
+  id: 862
+  title: "MicroStream becomes..."
+  description: "MicroStream becomes..."
+  language: ""
+  speakers: [market]
+-
   id: 901
   title: "Registration & breakfast"
   description: ""
