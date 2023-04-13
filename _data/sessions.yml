@@ -689,8 +689,8 @@ Join me as we explore the potential of event-driven micro-minds and how they can
   speakers: [hugmck]
 -
   id: 862
-  title: "MicroStream becomes..."
-  description: "MicroStream becomes..."
+  title: "EclipseStore – The new, ultra-fast Java persistence for the cloud"
+  description: "Database development in Java is known as complex, effortful, time-consuming and expensive. Applications are mostly too slow and we spend a lot of time with trying to handle performance issues. Using caches is fine, but this leads to even higher complexity and to a further potential source of errors. Furthermore, traditional monolithic Java applications, Hibernate as a persistence framework and traditional database servers was great combination. However, the cloud, microservices and serverless computing has changed everything. Now, it’s time to rethink persistence. Imagine a new Java persistence that is tiny, leight-weight, pure Java, super simple to use, that enables you to build your data object model fully freely without any design requirements, allows you searching and filtering data in-memory in microseconds – which means up to 1000x faster than traditional Hibernate queries, without the need of any annoying mappings or data conversion, without effortful cache configurations, that works great with microservices and serverless functions, and even saves you 99% database costs in the cloud – that’s what EclipseStore is. But there is only one problem: this rocket is built for Java developers only!"
   language: ""
   speakers: [market]
 -
