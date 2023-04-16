@@ -247,7 +247,7 @@ So there is a chance for us. We still have a role to play in this engineering wi
   speakers: [jakmar]
 -
   id: 811
-  title: "Respect estimates (in room 1)"
+  title: "Respect estimates (Room 1)"
   description: "„Software is hard” was written by Donald Knuth. We, however make it even harder by focusing our efforts in the wrong directions. Quite often because we think(!) we follow good practices. What really we do is a cult, sometimes even a „cargo cult”.
 
 In the talk I will present some examples of wastes and cults that we do in everyday activities. This includes estimates, tests, agile meetings and architecture of our systems. We continue on doing some practices, even though we have completely lost original intention or the world has changed so much that they are not needed any more. 
@@ -623,7 +623,7 @@ Come for the experience others gained first-hand, so you know what to avoid."
   speakers: [patvir]
 -
   id: 853
-  title: "Closing keynote (in room 1)"
+  title: "Closing keynote (Room 1)"
   description: "..."
   language: ""
   speakers: [greyou]
@@ -731,13 +731,13 @@ Join me as we explore the potential of event-driven micro-minds and how they can
   language: ""
 -
   id: 908
-  title: "Opening ceremony (in room 1)"
+  title: "Opening ceremony (Room 1)"
   description: ""
   service: "true"
   language: ""
 -
   id: 909
-  title: "Closing ceremony (in room 1)"
+  title: "Closing ceremony (Room 1)"
   description: ""
   service: "true"
   language: ""
