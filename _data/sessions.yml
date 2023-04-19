@@ -776,55 +776,55 @@ Join me as we explore the potential of event-driven micro-minds and how they can
   language: ""
 -
   id: 971
-  title: "Lunch - room 7"
-  description: "L1_1"
+  title: "Lunch - room 5"
+  description: "Grilled chicken in parsley sauce + rice + salad (gluten free)"
   service: "true"
   language: ""
 -
   id: 972
-  title: "Lunch - room 5"
-  description: "L1_2"
+  title: "Lunch - room 3"
+  description: "Beef rolls in tomato and vegies sauce+ roasted potatoes + salad"
   service: "true"
   language: ""
 -
   id: 973
-  title: "Lunch - room 3"
-  description: "L1_3"
+  title: "Lunch - room 2"
+  description: "Delicate vegetable curry with tofu on jasmine rice (vegan)"
   service: "true"
   language: ""
 -
   id: 981
-  title: "Lunch - room 7"
-  description: "L2_1"
+  title: "Lunch - room 5"
+  description: "Chicken rolls stuffed with mushroom&cheese in thyme sauce with boiled potatoes and salad"
   service: "true"
   language: ""
 -
   id: 982
-  title: "Lunch - room 5"
-  description: "L2_2"
+  title: "Lunch - room 3"
+  description: "Penne Bolognese + cheese + salad"
   service: "true"
   language: ""
 -
   id: 983
-  title: "Lunch - room 3"
-  description: "L2_3"
+  title: "Lunch - room 2"
+  description: "Falafel balls with tzatziki sauce + boiled potatoes + salad (vegan, gluten free)"
   service: "true"
   language: ""
 -
   id: 991
-  title: "Lunch - room 7"
-  description: "L3_1"
+  title: "Lunch - room 5"
+  description: "Tender pork loin in forest mushroom + rosemary potatoes + salad (gluten free)"
   service: "true"
   language: ""
 -
   id: 992
-  title: "Lunch - room 5"
-  description: "L3_2"
+  title: "Lunch - room 3"
+  description: "Cod fillet in butter-lemon sauce + wild rice + salad"
   service: "true"
   language: ""
 -
   id: 993
-  title: "Lunch - room 3"
-  description: "L3_3"
+  title: "Lunch - room 2"
+  description: "Galician dumplings and spinach&cheese + salad"
   service: "true"
   language: ""
