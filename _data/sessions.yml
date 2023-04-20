@@ -40,13 +40,10 @@ In this talk you will hear about the lessons we learned including:
   speakers: [natsil]
 -
   id: 789
-  title: "Take Agile to the next level using InnerSource"
-  description: "InnerSource adopts OpenSource practices to code and helps reduce dependencies between development teams, break silos, as well as increases knowledge-sharing within the company. This approach can increase agility in your organization and take it to the next level.
-During this session, Katarzyna Osuch-Bukowska will present a real example of InnerSource implementation among 12 Agile teams in a department of over 100 software engineers at Grand Parade. Based on this experience, she will also highlight pros & cons of this practice - in what context InnerSource works and where it should be avoided.
-
-Target audience: Software developers, Scrum Masters, Managers, Product Owners, Leaders"
+  title: "Talk cancelled"
+  description: ""
   language: ""
-  speakers: [katosu]
+  speakers: []
 -
   id: 790
   title: "Data-oriented programming in Java"
