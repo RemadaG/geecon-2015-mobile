@@ -694,7 +694,7 @@ Join me as we explore the potential of event-driven micro-minds and how they can
   speakers: [market]
 -
   id: 863
-  title: "DevOps Transformation from the C-Level point of view"
+  title: "DevOps Transformation from the C-Level point of view (Room 1)"
   description: "Would you like to see more DevOps practices in your company? Do you know how to convince your top management to invest in tech debt removal? Would you like to become the CTO in future? If so, I invite you to my talk, in which I will tell you about my experience of working with C-Level executives on DevOps Transformations, in particular: • What are their needs. • What they are looking for. • Why are the proper measurements so crucial. • How to get the 'green light' for the true continuous delivery process. And most importantly - how to get funding for your DevOps Transformation. As a takeaway, you will get to know how to fuel DevOps Transformation fire to make it successful in your organization."
   language: ""
   speakers: [tomman]
@@ -765,7 +765,7 @@ Join me as we explore the potential of event-driven micro-minds and how they can
   service: "true"
   language: ""
 -
-  id: 912
+  id: 914
   title: "Topic tables"
   description: "Join other attendees and share ideas, talk about the recent challenges, or find solution for a problem. During this session you can connect with other like-minded people in a space designated for certain languages, technologies, and interests.
 <br/>1. Suggest a topic
