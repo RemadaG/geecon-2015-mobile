@@ -40,10 +40,13 @@ In this talk you will hear about the lessons we learned including:
   speakers: [natsil]
 -
   id: 789
-  title: "Talk cancelled"
-  description: ""
+  title: "Take Agile to the next level using InnerSource"
+  description: "InnerSource adopts OpenSource practices to code and helps reduce dependencies between development teams, break silos, as well as increases knowledge-sharing within the company. This approach can increase agility in your organization and take it to the next level.
+During this session, Katarzyna Osuch-Bukowska will present a real example of InnerSource implementation among 12 Agile teams in a department of over 100 software engineers at Grand Parade. Based on this experience, she will also highlight pros & cons of this practice - in what context InnerSource works and where it should be avoided.
+
+Target audience: Software developers, Scrum Masters, Managers, Product Owners, Leaders"
   language: ""
-  speakers: []
+  speakers: [katosu]
 -
   id: 790
   title: "Data-oriented programming in Java"
@@ -146,13 +149,12 @@ When we’re done, you’ll be ready to start using some of these structures in 
 -
   id: 797
   title: "Tracking Aircraft with Software-Defined Radio"
-  description: "Aircraft are everywhere. Knowing exactly where is paramount as it’s considered bad form for two aircraft to be in the same place at the same time. To avoid this, aircraft worldwide constantly and publicly broadcast their location, heading, and all sorts of other data using a system called ADS-B or Automatic Dependent Surveillance Broadcast.
+  description: "
+Aircraft are everywhere. Knowing exactly where is paramount as it’s considered bad form for two aircraft to be in the same place at the same time. To avoid this, aircraft worldwide constantly and publicly broadcast their location, heading, and all sorts of other data using a system called ADS-B or Automatic Dependent Surveillance Broadcast.
 
-This data is a natural fit for a streaming architecture. After all, it’s a constant stream of data that is literally being broadcast in real-time. But how can we capture these broadcasts and the data within? Surely it must require expensive hardware and special tools!
+This data is easy to capture using using a combination of a cheap radio dongle and free software—a combination called software-defined radio. Once captured, we can do pretty much anything we want. I've decided to capture it in an event stream, shove it down a websocket, and put it on a map.
 
-Not so much. It turns out that we can capture ADS-B data easily using a combination of a cheap radio dongle and free software—a combination called software-defined radio. From there we can store it in a streaming data structure and consume, transform, and publish it using microservices. Cool, right?
-
-In this session, you’ll learn how software-defined radio works (and not just for ADB-S), how to receive and store ADS-B data in streams, and how to use those streams with microservices. And, I’ll do it all by example—building a dashboard showing real-time flight data using Node.js, Redis Streams, and whatever front-end JavaScript framework happens to be popular that day!"
+In this lighting talk, I'll show how software-defined radio works by using it to capture live radio transmissions, from both local radio stations and my handheld amateur radio. And, we'll capture live ADS-B transmissions from aircraft transponders in the area to track nearby aircraft in real time!"
   language: ""
   speakers: [guyroy]
 -
@@ -691,6 +693,12 @@ Join me as we explore the potential of event-driven micro-minds and how they can
   language: ""
   speakers: [market]
 -
+  id: 863
+  title: "DevOps Transformation from the C-Level point of view"
+  description: "Would you like to see more DevOps practices in your company? Do you know how to convince your top management to invest in tech debt removal? Would you like to become the CTO in future? If so, I invite you to my talk, in which I will tell you about my experience of working with C-Level executives on DevOps Transformations, in particular: • What are their needs. • What they are looking for. • Why are the proper measurements so crucial. • How to get the 'green light' for the true continuous delivery process. And most importantly - how to get funding for your DevOps Transformation. As a takeaway, you will get to know how to fuel DevOps Transformation fire to make it successful in your organization."
+  language: ""
+  speakers: [tomman]
+-
   id: 901
   title: "Registration & breakfast"
   description: ""
@@ -747,6 +755,12 @@ Join me as we explore the potential of event-driven micro-minds and how they can
 -
   id: 911
   title: "Lightning talk"
+  description: ""
+  service: "true"
+  language: ""
+-
+  id: 912
+  title: "Talk cancelled"
   description: ""
   service: "true"
   language: ""
