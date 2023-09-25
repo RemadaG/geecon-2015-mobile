@@ -1,104 +1,92 @@
--
-  date: "2022-04-20"
-  dateReadable: "20th of April - Conference Day 2"
+- date: "2023-10-20"
+  dateReadable: "20th of October - Conference Day 2"
   tracks:
-    - {title: "Room 1", color: "#fbb531"}
-    - {title: "Room 12", color: "#49abd0"}
-    - {title: "Room 11", color: "#fbb531"}
-    - {title: "Room 10", color: "#49abd0"}
+    - { title: "Room A", color: "#fbb531" }
+    - { title: "Room B", color: "#49abd0" }
+    - { title: "Room C", color: "#fbb531" }
   timeslots:
     - {
       startTime: "8:30",
       endTime: "9:00",
-      sessionIds: [902]
+      sessionIds: [ 902 ]
     }
     - {
       startTime: "9:00",
       endTime: "9:50",
-      sessionIds: [823, 836, 792, 856]
+      sessionIds: [ 910, 910, 910 ]
     }
     - {
       startTime: "9:50",
-      endTime: "10:10",
-      sessionIds: [905]
+      endTime: "10:00",
+      sessionIds: [ 904 ]
     }
     - {
-      startTime: "10:10",
-      endTime: "11:00",
-      sessionIds: [795, 794, 827, 848]
+      startTime: "10:00",
+      endTime: "10:50",
+      sessionIds: [ 910, 910, 910 ]
     }
     - {
-      startTime: "11:00",
-      endTime: "11:20",
-      sessionIds: [905]
+      startTime: "10:50",
+      endTime: "11:10",
+      sessionIds: [ 905 ]
     }
     - {
-      startTime: "11:20",
-      endTime: "12:10",
-      sessionIds: [818, 857, 837, 814]
+      startTime: "11:10",
+      endTime: "12:00",
+      sessionIds: [ 910, 910, 910 ]
     }
     - {
-      startTime: "12:10",
-      endTime: "13:10",
-      sessionIds: [981, 982, 983]
+      startTime: "12:00",
+      endTime: "12:50",
+      sessionIds: [ 906 ]
     }
     - {
-      startTime: "13:10",
-      endTime: "14:00",
-      sessionIds: [800, 801, 817, 835]
+      startTime: "12:50",
+      endTime: "13:40",
+      sessionIds: [ 910, 910, 910 ]
     }
     - {
-      startTime: "14:00",
-      endTime: "14:10",
-      sessionIds: [904]
+      startTime: "13:40",
+      endTime: "13:50",
+      sessionIds: [ 904 ]
     }
     - {
-      startTime: "14:10",
+      startTime: "13:50",
+      endTime: "14:40",
+      sessionIds: [ 910, 910, 910 ]
+    }
+    - {
+      startTime: "15:40",
       endTime: "15:00",
-      sessionIds: [838, 822, 806, 821]
+      sessionIds: [ 905 ]
     }
     - {
       startTime: "15:00",
-      endTime: "15:20",
-      sessionIds: [905]
+      endTime: "15:50",
+      sessionIds: [ 910, 910, 910 ]
     }
     - {
-      startTime: "15:20",
-      endTime: "16:10",
-      sessionIds: [810, 852, 847, 826]
+      startTime: "15:50",
+      endTime: "16:00",
+      sessionIds: [ 904 ]
     }
     - {
-      startTime: "16:10",
+      startTime: "16:00",
+      endTime: "16:20",
+      sessionIds: [ 910, 910,910 ]
+    }
+    - {
+      startTime: "16:20",
       endTime: "16:30",
-      sessionIds: [905]
+      sessionIds: [ 904 ]
     }
     - {
       startTime: "16:30",
       endTime: "16:50",
-      sessionIds: [832, 860, 805, 829]
+      sessionIds: [ 909 ]
     }
     - {
       startTime: "16:50",
-      endTime: "17:00",
-      sessionIds: [904]
-    }
-    - {
-      startTime: "17:00",
-      endTime: "17:20",
-      sessionIds: [833, 804, 834, 850]
-    }
-    - {
-      startTime: "17:20",
-      endTime: "17:30",
-      sessionIds: [904]
-    }
-    - {
-      startTime: "17:30",
-      endTime: "17:50",
-      sessionIds: [797, 854, 858, 861]
-    }
-    - {
-      startTime: "21:00",
-      endTime: "",
-      sessionIds: [ 950 ]
+      endTime: "17:40",
+      sessionIds: [ 910 ]
     }

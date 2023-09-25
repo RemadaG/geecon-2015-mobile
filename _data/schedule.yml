@@ -1,82 +1,72 @@
-- date: "2022-04-19"
-  dateReadable: "19th of April - Conference Day 1"
+- date: "2022-10-19"
+  dateReadable: "19th of October - Conference Day 1"
   tracks:
-    - { title: "Room 1", color: "#fbb531" }
-    - { title: "Room 12", color: "#49abd0" }
-    - { title: "Room 11", color: "#fbb531" }
+    - { title: "Room A", color: "#fbb531" }
+    - { title: "Room B", color: "#49abd0" }
+    - { title: "Room C", color: "#49abd0" }
   timeslots:
     - {
       startTime: "09:00",
-      endTime: "09:50",
-      sessionIds: [ 901 ]
+      endTime: "10:00",
+      sessionIds: [ 910 ]
     }
     - {
-      startTime: "09:50",
-      endTime: "10:10",
+      startTime: "10:00",
+      endTime: "10:20",
       sessionIds: [ 908 ]
     }
     - {
-      startTime: "10:10",
-      endTime: "11:00",
-      sessionIds: [ 811 ]
-    }
-    - {
-      startTime: "11:00",
+      startTime: "10:20",
       endTime: "11:20",
-      sessionIds: [ 905 ]
+      sessionIds: [ 910 ]
     }
     - {
       startTime: "11:20",
-      endTime: "12:10",
-      sessionIds: [ 798, 816, 791 ]
+      endTime: "11:40",
+      sessionIds: [ 905 ]
     }
     - {
-      startTime: "12:10",
-      endTime: "13:10",
-      sessionIds: [ 971, 972, 973 ]
+      startTime: "11:40",
+      endTime: "12:30",
+      sessionIds: [ 910, 910, 910 ]
     }
     - {
-      startTime: "13:10",
+      startTime: "12:30",
       endTime: "13:30",
-      sessionIds: [ 862, 912, 859 ]
+      sessionIds: [ 906 ]
     }
     - {
       startTime: "13:30",
-      endTime: "13:40",
-      sessionIds: [ 904 ]
+      endTime: "14:20",
+      sessionIds: [ 910, 910, 910 ]
     }
     - {
-      startTime: "13:40",
-      endTime: "14:30",
-      sessionIds: [ 812, 790, 845 ]
-    }
-    - {
-      startTime: "14:30",
-      endTime: "14:50",
+      startTime: "14:20",
+      endTime: "14:40",
       sessionIds: [ 905 ]
     }
     - {
-      startTime: "14:50",
-      endTime: "15:40",
-      sessionIds: [ 839, 813, 851 ]
+      startTime: "14:40",
+      endTime: "15:30",
+      sessionIds: [ 910, 910, 910 ]
     }
     - {
-      startTime: "15:40",
-      endTime: "16:00",
+      startTime: "15:30",
+      endTime: "15:50",
       sessionIds: [ 905 ]
     }
     - {
-      startTime: "16:00",
-      endTime: "16:50",
-      sessionIds: [ 793, 788, 787 ]
+      startTime: "15:50",
+      endTime: "16:40",
+      sessionIds: [ 910, 910, 910 ]
     }
     - {
-      startTime: "16:50",
-      endTime: "17:10",
+      startTime: "16:40",
+      endTime: "17:00",
       sessionIds: [ 905 ]
     }
     - {
-      startTime: "17:10",
-      endTime: "18:00",
-      sessionIds: [ 796, 820, 849 ]
+      startTime: "17:00",
+      endTime: "17:50",
+      sessionIds: [ 910, 910, 910 ]
     }
