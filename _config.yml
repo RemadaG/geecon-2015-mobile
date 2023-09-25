@@ -10,7 +10,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: GeeCON 2023
+title: GeeCON Prague 2023
 email: ""
 description: "Let's move the Java world!"
 baseurl: "/geecon-2015-mobile"
@@ -29,7 +29,7 @@ organizerLogo: ""
 organizerLink: ""
 
 # Head
-metaKeywords: "GeeCON, JVM, Java, Scala, Kotlin"
+metaKeywords: "GeeCON, JVM, Java, Kotlin, Scala"
 
 # Navigation
 navigationLinks:
