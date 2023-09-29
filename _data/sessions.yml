@@ -1,4 +1,139 @@
 -
+  id: 501
+  title: "Registration & breakfast"
+  description: ""
+  service: "true"
+  language: ""
+-
+  id: 502
+  title: "Breakfast"
+  description: ""
+  service: "true"
+  language: ""
+-
+  id: 504
+  title: "Break"
+  description: "The best time to take coffee or juice"
+  service: "true"
+  language: ""
+-
+  id: 505
+  title: "Coffee Break"
+  description: "The best time to talk with speakers and attendees"
+  service: "true"
+  language: ""
+-
+  id: 506
+  title: "Lunch Break"
+  description: ""
+  service: "true"
+  language: ""
+-
+  id: 507
+  title: "Keynote"
+  description: ""
+  service: "true"
+  language: ""
+-
+  id: 508
+  title: "Opening ceremony"
+  description: ""
+  service: "true"
+  language: ""
+-
+  id: 509
+  title: "Closing ceremony"
+  description: ""
+  service: "true"
+  language: ""
+-
+  id: 510
+  title: "TBA"
+  description: "To Be Announced"
+  service: "true"
+  language: ""
+-
+  id: 511
+  title: "Lightning talk"
+  description: ""
+  service: "true"
+  language: ""
+-
+  id: 512
+  title: "Topic tables"
+  description: "Join other attendees and share ideas, talk about the recent challenges, or find solution for a problem. During this session you can connect with other like-minded people in a space designated for certain languages, technologies, and interests.
+<br/>1. Suggest a topic
+<br/>Look for large white sheets of paper, and tell everyone what is on your mind! You can also tweet using #topicforgeecon hashtag. Vote for topics (mark it with line/x/heart) and like tweets to show others you’re interested.
+<br/>2. Choose a room and have fun
+<br/>We will group similar topics and assign a room. Topics will be pinned before room entrance (list of topics and rooms will be also posted using attendees slack channel - slack.geecon.cz), so you will be able to join others also interested in eg. Kotlin, JVM tuning, Machine learning or testability."
+  language: ""
+-
+  id: 513
+  title: "Open Spaces + Part @HEVRE, Beera Meiselsa 18 Street"
+  description: ""
+  service: "true"
+  language: ""
+-
+  id: 550
+  title: "Party"
+  description: "Party time!"
+  service: "true"
+  language: ""
+-
+  id: 571
+  title: "Lunch - room 7"
+  description: "L1_1"
+  service: "true"
+  language: ""
+-
+  id: 572
+  title: "Lunch - room 5"
+  description: "L1_2"
+  service: "true"
+  language: ""
+-
+  id: 573
+  title: "Lunch - room 3"
+  description: "L1_3"
+  service: "true"
+  language: ""
+-
+  id: 581
+  title: "Lunch - room 7"
+  description: "L2_1"
+  service: "true"
+  language: ""
+-
+  id: 582
+  title: "Lunch - room 5"
+  description: "L2_2"
+  service: "true"
+  language: ""
+-
+  id: 583
+  title: "Lunch - room 3"
+  description: "L2_3"
+  service: "true"
+  language: ""
+-
+  id: 591
+  title: "Lunch - room 7"
+  description: "L3_1"
+  service: "true"
+  language: ""
+-
+  id: 592
+  title: "Lunch - room 5"
+  description: "L3_2"
+  service: "true"
+  language: ""
+-
+  id: 593
+  title: "Lunch - room 3"
+  description: "L3_3"
+  service: "true"
+  language: ""
+-
   id: 864
   title: "ID, EGO and Super EGO of your entity"
   description: "Performance is one of the most valuable things you can do in programming. Most people think of performance as 'code speed', but there is the other, darker side. Performance as the ability to develop and maintain code over time. 
@@ -325,9 +460,7 @@ Our talk will be beginner-friendly with practical demonstrations."
 -
   id: 897
   title: "Unleash the power of your applications with Micronaut and GraalVM"
-  description: "In this talk, Micronaut committer Álvaro Sánchez-Mariscal, will demonstrate how you can quickly build optimised Microservices with Micronaut & GraalVM Native Image. Attendees will learn how the combination of GraalVM Native Image and Micronaut can lead to efficient, highly performant, and optimised applications that can be perfectly deployed to environments like Kubernetes or serverless platforms.
-
-There will be a live coding demo of an application using Micronaut Data and GraalVM."
+  description: "In this talk, Juarez Junior, will demonstrate how you can quickly build optimised Microservices with Micronaut & GraalVM Native Image. Attendees will learn how the combination of GraalVM Native Image and Micronaut can lead to efficient, highly performant, and optimised applications that can be perfectly deployed to environments like Kubernetes or serverless platforms. There will be a live coding demo of an application using Micronaut Data and GraalVM."
   language: ""
   speakers: [juajun]
 -
@@ -382,118 +515,17 @@ In the talk: coroutines, receivers, context receivers, extension methods, and ot
   speakers: [market]
 -
   id: 905
-  title: "Coffee Break"
-  description: "The best time to talk with speakers and attendees"
-  service: "true"
+  title: "Where Did All the Fun Go?"
+  description: "Bogomil's career in IT started as a servant to programmers: fixing a line or two in the code, and now he is a Director in a vast international privacy company. When he looks back, it was different. Oh gosh, we had so much fun in the past. It seems that at some point recently, most of the world decided that IT is an elite profession that needs to produce only value no matter what. This is a great tragedy, and it must be rectified. Why do we have feelings, emotions, and personalities if we no longer have fun? In this talk, we'll take a retrospective journey through the years to what went wrong and how we fix it together. We will cover the epoch of the world before Agile to the era of the Artificial Immigrant(AI), who is here to take your jobs away. This session comes with a bit of a heavy metal music."
   language: ""
+  speakers: [bogsho]
 -
   id: 906
-  title: "Lunch Break"
-  description: ""
-  service: "true"
+  title: "Serverless Java hacks: Think different and leave old habits behind"
+  description: "In this presentation, we will delve into the details of developing serverless applications in Java, emphasizing the need for a paradigm shift in coding practices and architectural considerations. I will explain key aspects of serverless Java, including source code structuring, framework choices (many of them based on Jakarta EE), deployment strategies tailored for serverless environments, and runtime optimizations with GraalVM native compilation and tools like CRaC and AWS Snapstart.
+
+Serverless applications require precise attention to startup speed optimizations and efficient resource initialization. We will discuss strategies for resource management, advocating for lean connection and thread pools. Additionally, we will examine the importance of external configuration, statelessness, and the efficient storage of state data in external services or databases within the context of serverless architectures.
+
+As part of our technical exploration, I will highlight the advantages of using specialized client libraries optimized for startup speed, in contrast to traditional libraries designed for high throughput. By the end of this session, you will gain a deep understanding of the technical nuances involved in serverless Java development, equipping you with the tools and insights needed to optimize performance and seamlessly adapt to serverless computing environments."
   language: ""
--
-  id: 907
-  title: "Keynote"
-  description: ""
-  service: "true"
-  language: ""
--
-  id: 908
-  title: "Opening ceremony"
-  description: ""
-  service: "true"
-  language: ""
--
-  id: 909
-  title: "Closing ceremony"
-  description: ""
-  service: "true"
-  language: ""
--
-  id: 910
-  title: "TBA"
-  description: "To Be Announced"
-  service: "true"
-  language: ""
--
-  id: 911
-  title: "Lightning talk"
-  description: ""
-  service: "true"
-  language: ""
--
-  id: 912
-  title: "Topic tables"
-  description: "Join other attendees and share ideas, talk about the recent challenges, or find solution for a problem. During this session you can connect with other like-minded people in a space designated for certain languages, technologies, and interests.
-<br/>1. Suggest a topic
-<br/>Look for large white sheets of paper, and tell everyone what is on your mind! You can also tweet using #topicforgeecon hashtag. Vote for topics (mark it with line/x/heart) and like tweets to show others you’re interested.
-<br/>2. Choose a room and have fun
-<br/>We will group similar topics and assign a room. Topics will be pinned before room entrance (list of topics and rooms will be also posted using attendees slack channel - slack.geecon.cz), so you will be able to join others also interested in eg. Kotlin, JVM tuning, Machine learning or testability."
-  language: ""
--
-  id: 913
-  title: "Open Spaces + Part @HEVRE, Beera Meiselsa 18 Street"
-  description: ""
-  service: "true"
-  language: ""
--
-  id: 950
-  title: "Party"
-  description: "Party time!"
-  service: "true"
-  language: ""
--
-  id: 971
-  title: "Lunch - room 7"
-  description: "L1_1"
-  service: "true"
-  language: ""
--
-  id: 972
-  title: "Lunch - room 5"
-  description: "L1_2"
-  service: "true"
-  language: ""
--
-  id: 973
-  title: "Lunch - room 3"
-  description: "L1_3"
-  service: "true"
-  language: ""
--
-  id: 981
-  title: "Lunch - room 7"
-  description: "L2_1"
-  service: "true"
-  language: ""
--
-  id: 982
-  title: "Lunch - room 5"
-  description: "L2_2"
-  service: "true"
-  language: ""
--
-  id: 983
-  title: "Lunch - room 3"
-  description: "L2_3"
-  service: "true"
-  language: ""
--
-  id: 991
-  title: "Lunch - room 7"
-  description: "L3_1"
-  service: "true"
-  language: ""
--
-  id: 992
-  title: "Lunch - room 5"
-  description: "L3_2"
-  service: "true"
-  language: ""
--
-  id: 993
-  title: "Lunch - room 3"
-  description: "L3_3"
-  service: "true"
-  language: ""
+  speakers: [ondmih]

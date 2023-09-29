@@ -297,3 +297,18 @@ I work at Digital Asset writing Haskell and Scala – but my heart is still clos
   surname: "Kett"
   bio: "Markus and his team have been working on IDE tools for Java and database development for almost 20 years. He is the product owner of the RapidClipse IDE project, which is a free Eclipse distribution and visual Java IDE. Markus is co-founder and CEO at MicroStream, editor in chief for the free JAVAPRO magazine in Germany, and organizer of the Java conference JCON. He is an independent editor for several magazines, and speaker at many developer conferences, user groups, and meetups."
   thumbnailUrl: "https://2023.geecon.cz/speakers/markusk.jpg"
+-
+  id: "bogsho"
+  name: "Bogomil"
+  surname: "Shopov"
+  bio: "I have a lot of experience in the software development industry, and I use the knowledge to mix approaches, flavors, and methodologies to create beautiful recipes for success."
+  thumbnailUrl: "https://2023.geecon.cz/speakers/bogomils.jpg"
+-
+  id: "ondmih"
+  name: "Ondro"
+  surname: "Mihalyi"
+  bio: "Ondro is a software developer and consultant specializing in combining standard and proven tools to solve new and challenging problems. He's been developing in Java for over 10 years. He’s worked for clients like Payara, LottoLand, Uniqa and others. 
+He has co-founded OmniFish, which provides enterprise support for Eclipse GlassFish and expert Jakarta EE services. He’s passionate about helping his clients and the wider Java community with their projects based on Jakarta EE and similar technologies.
+As an experienced Java developer and instructor, he's helped companies build and educate their development teams and improve their development processes.
+He's a core member of several opensource projects and Jakarta EE specification projects. He’s a frequent conference speaker, leader of the Czech JUG, and a Java Champion."
+  thumbnailUrl: "https://2023.geecon.cz/speakers/ondrom.jpg"
