@@ -78,7 +78,7 @@
     - {
       startTime: "17:20",
       endTime: "17:40",
-      sessionIds: [ 905, 906, 511 ]
+      sessionIds: [ 905, 906, 910 ]
     }
     - {
       startTime: "17:40",
@@ -88,5 +88,5 @@
     - {
       startTime: "17:50",
       endTime: "18:10",
-      sessionIds: [ 902, 899, 511 ]
+      sessionIds: [ 902, 899, 909 ]
     }

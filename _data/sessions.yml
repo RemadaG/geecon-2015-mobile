@@ -529,3 +529,31 @@ Serverless applications require precise attention to startup speed optimizations
 As part of our technical exploration, I will highlight the advantages of using specialized client libraries optimized for startup speed, in contrast to traditional libraries designed for high throughput. By the end of this session, you will gain a deep understanding of the technical nuances involved in serverless Java development, equipping you with the tools and insights needed to optimize performance and seamlessly adapt to serverless computing environments."
   language: ""
   speakers: [ondmih]
+-
+  id: 907
+  title: "GraalVM Scripting Languages as Maven Dependencies"
+  description: "The GraalVM project serves as an umbrella for a diverse set of interesting technologies, all built around the GraalVM compiler. The most well-known at this time is the GraalVM native-image tool. However, there is also the GraalVM JIT compiler, a drop-in replacement for HotSpot's C2 compiler, and implementations of additional GraalVM languages such as the Python (GraalPy) and JavaScript (GraalJS).
+
+These additional GraalVM languages can be used as standalone distributions or through a Java embedding API, allowing for the extension of Java applications with these languages. For instance, you can offer Python scripting capabilities to users of your Java application. Even if such an application is compiled with native-image, it retains the ability to dynamically load, execute, and even JIT compile Python scripts.
+
+With its recent release, the GraalVM project was restructured, decoupling the additional languages from its core. We now have the GraalVM JDK distribution, which is an OpenJDK build enhanced with native-image, and the additional languages are delivered as Maven dependencies, compatible not only with GraalVM JDK but also with OpenJDK and OracleJDK, albeit with some caveats.
+
+In this session, we will explore how to use GraalVM languages as Maven dependencies and showcase their potential to enhance Java applications."
+  language: ""
+  speakers: [stesin]
+-
+  id: 909
+  title: "Falling in love with json(net)"
+  description: "JSON is a piece of technology clearly involving simultaneous or alternating emotions of love and hate. Mostly hate. At the same time people (over)use it everywhere. Kubernetes cluster configuration - checked. Grafana (or any other monitoring) dashboard - checked. Managing AWS account permissions - checked. 
+At the same time, we strive for infrastructure as code so the codebase keeps growing and growing with copy-and-paste 'templates' managed via string replacement. 
+But we can do better. 
+
+In this short talk I'd like to take you to the world of jsonnet - a configuration language not just a data format. We will walk through the basics and see how to keep sanity when working with configurations."
+  language: ""
+  speakers: [jakmar]
+-
+  id: 910
+  title: "TBA"
+  description: "TBA"
+  language: ""
+  speakers: [thosun]

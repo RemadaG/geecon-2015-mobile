@@ -312,3 +312,29 @@ He has co-founded OmniFish, which provides enterprise support for Eclipse GlassF
 As an experienced Java developer and instructor, he's helped companies build and educate their development teams and improve their development processes.
 He's a core member of several opensource projects and Jakarta EE specification projects. He’s a frequent conference speaker, leader of the Czech JUG, and a Java Champion."
   thumbnailUrl: "https://2023.geecon.cz/speakers/ondrom.jpg"
+-
+  id: "stesin"
+  name: "Štěpán"
+  surname: "Šindelář"
+  bio: "Stepan has been member of the GraalVM team for last 8 years. He is currently working on GraalPy: an alternative Python implementation based on GraalVM technologies."
+  thumbnailUrl: "https://2023.geecon.cz/speakers/stepans.jpeg"
+-
+  id: "jakmar"
+  name: "Jakub"
+  surname: "Marchwicki"
+  bio: "Jakub is a software craftsperson with nearly two decades of commercial experience in programming - wearing multiple hats and getting hands dirty in multiple environments. Some languages, some frameworks, blah blah blah - don’t matter. Architect, programmer, manager, technical trainer, tech lead, wannabe entrepreneur, and former JUG leader. There is a fair chance he does non of those right. Jakub divides his time between gaining hands-on project experience and sharing it afterwards with the community at conferences or local Java Users Groups."
+  thumbnailUrl: "https://2023.geecon.cz/speakers/jakubm.png"
+-
+  id: "thosun"
+  name: "Thomas"
+  surname: "Sundberg"
+  bio: "With more than 25 years in software development, Thomas is an independent consultant based in Stockholm, Sweden. He has a Masters degree in Computer Science from the Royal Institute of Technology (KTH), Sweden’s leading technical university. After graduation, Thomas also taught at KTH. Thomas currently teaches Behaviour-Driven Development, BDD, with Aslak Hellesøy, the creator of Cucumber. Thomas has commit privileges on the open-source Cucumber project, and works in partnership with Cucumber Ltd. as well as Mozaic Works. As a consultant, trainer, and developer Thomas has created value for many teams around Europe. For the last ten years, Thomas has been an invited conference speaker at GeeCON, I T.A.K.E. Unconference, and European Testing Conference on topics including software craftsmanship, clean code, test automation, and continuous deployment.
+
+
+
+His blog at http://www.thinkcode.se/blog shares his obsessions with technical excellence, Test-Driven Development, TDD, and BDD
+
+
+
+"
+  thumbnailUrl: "https://2023.geecon.cz/speakers/thomass.jpg"
