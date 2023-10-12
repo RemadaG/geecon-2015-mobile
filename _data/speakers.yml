@@ -258,7 +258,7 @@ Adam regularly organizes Java / Web / Cloud / Architectures online live workshop
   id: "micfea"
   name: "Michael"
   surname: "Feathers"
-  bio: "Michael Feathers is the founder and Director of R7K Research & Conveyance, a company specializing in software and organization design. Michael is also the author of the book Working Effectively with Legacy Code (Prentice Hall, 2004)."
+  bio: "Michael Feathers is Founder and Director of R7K Research & Conveyance, a company specializing in software and organisation design. He has helped hundreds of organisations revitalise their code, undertake process change and improve their design skills."
   thumbnailUrl: "https://2023.geecon.cz/speakers/michaelf.png"
 -
   id: "juajun"
@@ -338,3 +338,11 @@ His blog at http://www.thinkcode.se/blog shares his obsessions with technical ex
 
 "
   thumbnailUrl: "https://2023.geecon.cz/speakers/thomass.jpg"
+-
+  id: "maxarr"
+  name: "Maximillian"
+  surname: "Arruda"
+  bio: "Maximillian has been involved with software development since 2003, he is a Developer Advocate, Software Engineer, SouJava JUG leader, Open-source enthusiast, Committer of the Eclipse JNoSQL Project - an implementation for Jakarta NoSQL and Jakarta Data specifications, Jakarta EE Contributor and Ambassador, who enjoys learning and helping developers by organizing, participating, and speaking at tech events and meetup community events.
+
+Besides liking tech stuff, Maximillian loves martial arts, especially Shotokan Karate - he is  1st DAN and he teaches in the school that his association is part of. He follows the 'family first' philosophy! He loves to enjoy and play video-games with his sons: Pietro and Giulliano. Of course, he loves so much with his wife: Maira."
+  thumbnailUrl: "https://2023.geecon.cz/speakers/maximilliana.jpg"

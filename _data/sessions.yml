@@ -485,8 +485,9 @@ In the talk: coroutines, receivers, context receivers, extension methods, and ot
   speakers: [jarrat]
 -
   id: 900
-  title: "Keynote"
-  description: "TBD"
+  title: "AI, Determinism, Code Generation and Refactoring (Room 9)"
+  description: "At this point, we are past the initial hype cycle of AI. Many of us have tried to figure out where AI tools fit in the development process.Initially there were hopes and fears that we could easily generate code from prompts and have AI tools perform unguided refactoring. The truth is, AI tools aren’t fully capable of those tasks but they can still be useful.
+In this keynote, Michael Feathers will talk about the current state of AI usage, practices he has found useful and directions all of this might go."
   language: ""
   speakers: [micfea]
 -
@@ -554,6 +555,33 @@ In this short talk I'd like to take you to the world of jsonnet - a configuratio
 -
   id: 910
   title: "Let’s dive into the topic of testability"
-  description: "TBA"
+  description: "In order to be able to test something, you want to be aware of
+potential pitfalls. Many of these pitfalls can be mitigated as long as
+you know how. This is a highly contextual area. Sometimes you can test
+in isolation, sometimes you need to prepare half of the world in the
+proper state in order to be able to perform a reasonable test.
+
+We will look at some examples that may cause you some headache<br>
+* Time - how do you write a test that includes time passing in a fast unit test?<br>
+* Randomness - how can you test something that includes random values
+for basic correctness?<br>
+* Expensive collaborators - how do make sure your system can be
+verified without calling a third party payment gateway?
+
+There may even be a few war stories…
+
+This topic is large so we will only be able to scratch the surface
+during a lightning talk. Nevertheless, you will get some ideas on how
+to approach some problems when you face them. Most importantly, you
+know that there is probably a solution, now you just have to find it.
+"
   language: ""
   speakers: [thosun]
+-
+  id: 911
+  title: "What is the N+1 Query problem and how to detect it?"
+  description: "ORM frameworks have revolutionized how developers interact with databases, offering a seamless bridge between object-oriented programming and relational databases. However, with convenience comes challenges. Dive into the notorious N+1 query problem, a common inefficiency that arises from ORM's lazy loading mechanism. But fear not, there are solutions at hand!
+Let's explore various strategies to tackle this issue, from eager loading to batching preferences and manual entity loading. 
+By the end of this talk, you'll be equipped with actionable insights to optimize your ORM interactions and ensure efficient data retrieval."
+  language: ""
+  speakers: [maxarr]
