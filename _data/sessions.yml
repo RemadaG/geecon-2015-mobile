@@ -36,13 +36,13 @@
   language: ""
 -
   id: 508
-  title: "Opening ceremony"
+  title: "Opening ceremony (Room 9)"
   description: ""
   service: "true"
   language: ""
 -
   id: 509
-  title: "Closing ceremony"
+  title: "Closing ceremony (Room 9)"
   description: ""
   service: "true"
   language: ""
@@ -492,7 +492,7 @@ In this keynote, Michael Feathers will talk about the current state of AI usage,
   speakers: [micfea]
 -
   id: 901
-  title: "Avoiding mistakes with events, one at a time"
+  title: "Avoiding mistakes with events, one event at a time"
   description: "Some say: Use events, events are great, all will be great and rosy. Then reality bites, and.. let's talk about strangers you'd rather avoid - mistakes to make when building using events. Things change, evolve, are not and overdelivered, old events start taking a lot of space, and someone is already using the name you wanted?! Expect: problems, symptoms, consequences, and some 'get-out-of' cards. Come for the experience others gained first-hand, so you know what to avoid."
   language: ""
   speakers: [andgrz]
@@ -513,7 +513,7 @@ In this keynote, Michael Feathers will talk about the current state of AI usage,
   title: "Get Started Coding with EclipseStore and Build Ultra-fast In-Memory Database Apps and Elastic Scaleable Microservies on Kubernetes"
   description: "EclipseStore (formerly MicroStream) was built to become the new Java persistence for next-generation enterprise applications, containerized microservices, and serverless infrastructure. In this session, you will learn how to get started coding with EclipseStore. EclipseStore is a revolutionary databaseless persistence approach. The idea behind the project is: build any Java app, process data in the memory by using Core Java only, your Java environment cares for persistence full-automated like magic. Just use a cloud object storage such as AWS S3 or plain file storage instead. The high complexity of external database systems, mappings, schema migration, caching and database clusters is eliminated. An external database system is not required at all. A cloud object sotrage such as AWS S3 or even plain files are used instead. There are 3 major benefits: 1) high performance in-memory data processing, up to 1000x faster queries compared to JPA, microsecond response time, gigantic workloads. 2) 98% database cost savings in the cloud. 3) Revolutionary simple architecture and implementation, Core Java features only, higher developer joy and productivity, and faster time to market."
   language: ""
-  speakers: [market]
+  speakers: [market, chrkue]
 -
   id: 905
   title: "Where Did All the Fun Go?"
@@ -579,9 +579,19 @@ know that there is probably a solution, now you just have to find it.
   speakers: [thosun]
 -
   id: 911
-  title: "What is the N+1 Query problem and how to detect it?"
-  description: "ORM frameworks have revolutionized how developers interact with databases, offering a seamless bridge between object-oriented programming and relational databases. However, with convenience comes challenges. Dive into the notorious N+1 query problem, a common inefficiency that arises from ORM's lazy loading mechanism. But fear not, there are solutions at hand!
+  title: "Simplifying Polyglot Persistence Integration with Jakarta Data: A Hands-on Approach"
+  description: "In the ever-evolving world of Java enterprise applications, efficient data integration is key for robust and scalable apps. This session introduces Jakarta Data, a groundbreaking Jakarta EE specification designed to transform the way we handle data. Discover how this robust framework: - Simplifies data integration processes. - Bridges various Jakarta EE technologies. - Promotes the polyglot persistence. With its ability to easily engage with a range of database styles, Jakarta Data ensures developers can prioritize core business strategies, paving the way for faster application development. Our exploration will cover the capabilities and advantages of Jakarta Data, showcasing its application in contemporary enterprise structures. Whether you’re dealing with relational databases or venturing into document-based NoSQL solutions, learn why Jakarta Data, with its adaptable and open-source attributes, is an indispensable tool for Java developers.
 Let's explore various strategies to tackle this issue, from eager loading to batching preferences and manual entity loading. 
 By the end of this talk, you'll be equipped with actionable insights to optimize your ORM interactions and ensure efficient data retrieval."
   language: ""
   speakers: [maxarr]
+-
+  id: 912
+  title: "Feeding the ML model with data from the database"
+  description: "In today's fast-paced business environment, organizations are constantly seeking ways to derive actionable insights from their data as quickly as possible. ML models are capable of doing that. However, implementing a complete ML pipeline can be quite challenging, especially if you want to process newly arrived data immediately or you have a legacy system which is hard to connect with your modern infrastructure . Change Data Capture (CDC) has emerged as a technology for delivering real-time data changes from various sources, especially from the databases. In this talk we will introduce Debezium (https://debezium.io) a leading open source framework for CDC. We will discuss how it can be leveraged for ingesting data from the various databases into ML frameworks like TensorFlow and what the pitfalls are if you go this route. 
+
+Attendees will gain a deeper understanding of how Debezium CDC works, how it can help them to ingest data from the source database into the ML framework in real time and also what are the possible challenges with this approach.
+
+"
+  language: ""
+  speakers: [vojjur]
