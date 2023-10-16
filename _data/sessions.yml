@@ -513,7 +513,7 @@ In this keynote, Michael Feathers will talk about the current state of AI usage,
   title: "Get Started Coding with EclipseStore and Build Ultra-fast In-Memory Database Apps and Elastic Scaleable Microservies on Kubernetes"
   description: "EclipseStore (formerly MicroStream) was built to become the new Java persistence for next-generation enterprise applications, containerized microservices, and serverless infrastructure. In this session, you will learn how to get started coding with EclipseStore. EclipseStore is a revolutionary databaseless persistence approach. The idea behind the project is: build any Java app, process data in the memory by using Core Java only, your Java environment cares for persistence full-automated like magic. Just use a cloud object storage such as AWS S3 or plain file storage instead. The high complexity of external database systems, mappings, schema migration, caching and database clusters is eliminated. An external database system is not required at all. A cloud object sotrage such as AWS S3 or even plain files are used instead. There are 3 major benefits: 1) high performance in-memory data processing, up to 1000x faster queries compared to JPA, microsecond response time, gigantic workloads. 2) 98% database cost savings in the cloud. 3) Revolutionary simple architecture and implementation, Core Java features only, higher developer joy and productivity, and faster time to market."
   language: ""
-  speakers: [market, chrkue]
+  speakers: [chrkue, market]
 -
   id: 905
   title: "Where Did All the Fun Go?"
