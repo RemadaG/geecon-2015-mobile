@@ -595,3 +595,9 @@ Attendees will gain a deeper understanding of how Debezium CDC works, how it can
 "
   language: ""
   speakers: [vojjur]
+-
+  id: 913
+  title: "Frameworks Unplugged: Building Distributed Systems in Pure Java"
+  description: "Building a hello-world REST example in spring-boot does not take more than a couple of minutes. ChatGPT generates it within seconds (including the maven files), and the example will probably let you pass java programming 101. You can ask ChatGPT to add a distributed cache to your application, and it will provide a good recipe for embedding Hazelcast into your java solution. The same goes for database access, choosing a persistence framework, etc. These are becoming everyday, menial tasks a supervised machine can perform independently. Does this mean software engineering is in decline, developers are no longer needed, and we should look for a new job? And this presentation will be about carpentry? Nope. When we ask the computer how do the REST endpoints work? What are the standard HTTP methods such as GET, POST, PUT, DELETE, and how does the computer know which method I'm calling - the responses become vaguer and vaguer. How does a distributed system know its state, and how do clusters discover members? These are trickier questions, and one needs to know what to ask for. So there is a chance for us. We still have a role to play in this engineering wishy-washy. We need to understand the basics which support the frameworks we use daily - and that's what we will focus on during this session. Not just by scratching a surface, not by an academic lecture. We will dive into the code and implement a simple cluster, distributed system replicating data over the network. No frameworks, just Java code and principles, definitions and algorithms underlying our everyday work. What can possibly go wrong?"
+  language: ""
+  speakers: [jakmar]
