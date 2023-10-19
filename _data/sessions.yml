@@ -81,38 +81,38 @@
   language: ""
 -
   id: 571
-  title: "Lunch - room 7"
-  description: "L1_1"
+  title: "Lunch - Room 3 (VEGE)"
+  description: "VEGE: Zucchini cutlets with tzatziki sauce + rice + salad"
   service: "true"
   language: ""
 -
   id: 572
-  title: "Lunch - room 5"
-  description: "L1_2"
+  title: "Lunch - Room 5 (Gluten free)"
+  description: "Grilled chicken in red pesto sauce + rice + salad"
   service: "true"
   language: ""
 -
   id: 573
-  title: "Lunch - room 3"
-  description: "L1_3"
+  title: "Lunch - Room 7"
+  description: "Grilled pork in green peppercorn sauce + boiled potatoes + salad"
   service: "true"
   language: ""
 -
   id: 581
-  title: "Lunch - room 7"
-  description: "L2_1"
+  title: "Lunch - Room 3 (VEGE)"
+  description: "Dumplings: Galician & Spinach + salad"
   service: "true"
   language: ""
 -
   id: 582
-  title: "Lunch - room 5"
-  description: "L2_2"
+  title: "Lunch - Room 5"
+  description: "Roasted turkey in capsicum sauce + rice + salad"
   service: "true"
   language: ""
 -
   id: 583
-  title: "Lunch - room 3"
-  description: "L2_3"
+  title: "Lunch - room 7 (Gluten free)"
+  description: "Roasted pork in parsnip sauce + boiled potatoes + salad"
   service: "true"
   language: ""
 -
