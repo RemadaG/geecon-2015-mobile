@@ -7,3 +7,9 @@ https://jekyllrb.com/docs/
 ```
 bundle exec jekyll serve
 ```
+
+## How to build site to ./_site
+
+```
+bundle exec jekyll build
+```
