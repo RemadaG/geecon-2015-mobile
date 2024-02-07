@@ -1,0 +1,72 @@
+- date: "2024-05-17"
+  dateReadable: "17th of May - Conference Day 3"
+  tracks:
+    - { title: "Room 1", color: "#fbb531" }
+    - { title: "Room 12", color: "#49abd0" }
+    - { title: "Room 11", color: "#fbb531" }
+  timeslots:
+    - {
+      startTime: "8:30",
+      endTime: "9:00",
+      sessionIds: [ 502 ]
+    }
+    - {
+      startTime: "9:00",
+      endTime: "9:50",
+      sessionIds: [ 510, 510, 510 ]
+    }
+    - {
+      startTime: "9:50",
+      endTime: "10:10",
+      sessionIds: [ 505 ]
+    }
+    - {
+      startTime: "10:10",
+      endTime: "11:00",
+      sessionIds: [ 510, 510, 510 ]
+    }
+    - {
+      startTime: "11:00",
+      endTime: "11:20",
+      sessionIds: [ 505 ]
+    }
+    - {
+      startTime: "11:20",
+      endTime: "12:10",
+      sessionIds: [ 510, 510, 510 ]
+    }
+    - {
+      startTime: "12:10",
+      endTime: "13:10",
+      sessionIds: [ 510, 510, 510 ]
+    }
+    - {
+      startTime: "13:10",
+      endTime: "14:00",
+      sessionIds: [ 510, 510, 510 ]
+    }
+    - {
+      startTime: "14:00",
+      endTime: "14:20",
+      sessionIds: [ 505 ]
+    }
+    - {
+      startTime: "14:20",
+      endTime: "15:10",
+      sessionIds: [ 510, 510, 510 ]
+    }
+    - {
+      startTime: "15:10",
+      endTime: "15:30",
+      sessionIds: [ 505 ]
+    }
+    - {
+      startTime: "15:30",
+      endTime: "15:50",
+      sessionIds: [ 509 ]
+    }
+    - {
+      startTime: "15:50",
+      endTime: "16:50",
+      sessionIds: [ 507 ]
+    }
