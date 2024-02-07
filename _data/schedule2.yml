@@ -1,10 +1,10 @@
 - date: "2024-05-16"
   dateReadable: "16th of May - Conference Day 2"
   tracks:
-    - { title: "Room 1", color: "#fbb531" }
-    - { title: "Room 12", color: "#49abd0" }
-    - { title: "Room 11", color: "#fbb531" }
-    - { title: "Room 10", color: "#49abd0" }
+    - { title: "Room A", color: "#fbb531" }
+    - { title: "Room B", color: "#49abd0" }
+    - { title: "Room C", color: "#fbb531" }
+    - { title: "Room D", color: "#49abd0" }
   timeslots:
     - {
       startTime: "8:30",
@@ -39,7 +39,7 @@
     - {
       startTime: "12:10",
       endTime: "13:10",
-      sessionIds: [ 510, 510, 510 ]
+      sessionIds: [ 506 ]
     }
     - {
       startTime: "13:10",
