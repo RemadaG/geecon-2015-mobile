@@ -63,7 +63,7 @@
   language: ""
 -
   id: 511
-  tag: "LT"
+  tag: "lt"
   title: "Lightning talk"
   description: ""
   service: "true"
@@ -256,7 +256,7 @@ You'll leave this talk even more satisfied that you've embraced Kafka as the hea
   speakers: [vikgam]
 -
   id: 927
-  tag: ""
+  tag: "ai"
   title: "Gemini, Google's Large Language Model"
   description: "Gemini is the Large Language Model (LLM) powering Bard, but you can also use its API through Google Cloud and integrate it into your applications. Gemini offers different sizes, from Nano to Ultra, including Pro. Its unique feature is its multimodality: you can give it text, images, or videos! This opens up new use cases for you.
 
@@ -373,7 +373,7 @@ In this session I’m going to demonstrate to you a couple of common battle-prov
   speakers: [jackun]
 -
   id: 937
-  tag: "LT"
+  tag: "lt"
   title: "5 tips to help you communicate with the business world"
   description: "“I didn’t study computer science in order to have to talk to people” is one of many jokes popular among developers. The truth is, we can’t isolate ourselves behind computer screens forever. Communication, be it during online meetings, or in person in the office, will be an important part of our work. During this short talk I would like to give you five tips to make it a bit easier. I would like to move your focus away from the problems in this field and shift it to the solutions and tools. For these tools to be most efficient you will have to make them a habit. I hope that by the end of this talk you will feel more comfortable with business meetings. This talk will be for everyone - feel free to join!"
   language: ""
@@ -508,7 +508,7 @@ We will try to understand what it means for an in-memory cache to be serverless,
   speakers: [tomreh]
 -
   id: 949
-  tag: ""
+  tag: "ai"
   title: "Harnessing the power of text embeddings"
   description: "The sales tech is well primed to make the best use of the current advances in Large
 Language models. While the pandemic accelerated the adoption of Software as a Service
@@ -547,7 +547,7 @@ In my talk, I want to show you when this rule doesn't apply. I will show you how
   speakers: [barkuc]
 -
   id: 953
-  tag: "LT"
+  tag: "lt"
   title: "Atomics Habits in cost optimizations in the cloud"
   description: "A short motivating talk with the Atomic Habits story to encourage audience, by presenting high level 7 cost optimization best practices, to take daily small improvements to reduce cloud cost of their applications."
   language: ""
@@ -565,7 +565,7 @@ Okay, please join us to learn how NOT to use virtual threads, and see the potent
   speakers: [pioprz]
 -
   id: 955
-  tag: ""
+  tag: "ai"
   title: "LLM—Search Engine Killer?"
   description: "It’s easy to think that Large Language Models make the search engines of old obsolete—why would you want to present users with a list of possibly relevant results, if you can prepare a tailored-made response, answering the user directly, precisely and confidently?
 
