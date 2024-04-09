@@ -13,3 +13,10 @@ bundle exec jekyll serve
 ```
 bundle exec jekyll build
 ```
+
+
+## How to build site to other directory (need to rename to schedule)
+
+```
+bundle exec jekyll build --destination schedule
+```
