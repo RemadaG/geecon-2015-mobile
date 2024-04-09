@@ -272,7 +272,7 @@ Hold on tight! The Gemini capsule is about to take off
   speakers: [guilaf]
 -
   id: 928
-  tag: ""
+  tag: "architecture"
   title: "Architecture Uncomplicated: tools for simplified large scale systems"
   description: "
 Forget about the spine-chilling tales of managing large–scale systems. It doesn’t have to be a daunting task. We’re here to advocate for battle’s proven simplicity with a pinch of fun. We’ll slice through the Gordian knot of complexity, juggle scalability patterns while uncovering their dark sides, and turn time modelling into a time-travel adventure.
@@ -766,7 +766,7 @@ Let's reconsider how teams can work more enjoyably and efficiently, minimizing w
   speakers: [tievan, tifjer]
 -
   id: 976
-  tag: ""
+  tag: "architecture"
   title: "Let's Learn to Identify Technical Requirements for Better Design"
   description: "Have you ever heard phrases like 'it must work 24/7,' 'I want 100% availability,' only to end up with 'in reality, a VM will be more than sufficient'? Or conversely, 'No SLA, my platform is not critical, it just needs to run precisely at 6:54 AM on the first day of the month'? If these situations sound familiar, don't miss out! Whether these Non-Functional Requirements are explicit or not, they are the keystone of any architecture aligned with client needs.
 
