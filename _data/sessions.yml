@@ -172,7 +172,7 @@ This talk targets beginner/daily user/experts alike."
   speakers: [ignmar]
 -
   id: 916
-  tag: ""
+  tag: "performance"
   title: "Trash Talk - Exploring the JVM memory management"
   description: "In the realm of Java programming, understanding memory management and garbage collection mechanisms cannot only be helpful for optimizing performance and resource utilization but also in general will help you to use the right garbage collector for your application. This session will be about memory allocation, object lifecycle, and garbage collection strategies within the Java Virtual Machine (JVM). Attendees will gain insights into memory allocation strategies, object retention policies, and various garbage collection algorithms like generational and concurrent collection. So when you are interested in getting more knowledge about which garbage collector to use best for your application or about memory management in the JVM, this session is for you."
   language: ""
@@ -284,7 +284,7 @@ Join us to transform your approach to evolving system architecture, leaving you 
   speakers: [wojpta]
 -
   id: 929
-  tag: ""
+  tag: "performance"
   title: "Performance tests and other lies"
   description: "It is a well-known truth that few of us care about the performance of our code, even fewer of us have dealt with performance tests.
 
@@ -418,7 +418,7 @@ This talk equips architects and developers to view software as adaptive, living 
   speakers: [hugmck]
 -
   id: 940
-  tag: ""
+  tag: "performance"
   title: "Scaling Event-Driven Services at Wix: Exploring Effective Sharding Patterns"
   description: "
 Join us as we delve into the world of scaling event-driven services at Wix, where the infra team faces the challenge of handling massive traffic and managing vast datasets that require horizontal scaling. In this talk, we will shine a light on the sharding patterns employed by our team, which have proven instrumental in overcoming these scaling hurdles.
@@ -449,7 +449,7 @@ In this session, I will go through the benefits of server-side rendering and sho
   speakers: [ivagri]
 -
   id: 942
-  tag: ""
+  tag: "cloud"
   title: "The Hacker’s Guide to Insecure Workload Configuration in Kubernetes"
   description: "Do you want to see live Kubernetes hacking? Come to see interactive demos where your newly registered accounts in a k8s application are hijacked.
 
@@ -467,7 +467,7 @@ When I first took part in a behavioural interview for a leadership position in 2
   speakers: [katosu]
 -
   id: 945
-  tag: ""
+  tag: "performance"
   title: "`Who cares about speed?`"
   description: "In an ever-evolving world of Java Development, every technology promises improvements. 
 
@@ -759,7 +759,7 @@ Let's reconsider how teams can work more enjoyably and efficiently, minimizing w
   speakers: [antkek]
 -
   id: 975
-  tag: ""
+  tag: "cloud"
   title: "Bootiful Kubernetes Operators"
   description: "You know what's fun? Automating the ever livin' heck out of infrastructure! Slaying that YAML! Nobody wants to painstakingly build something and then spend weeks trying to write the YAML to describe it to the infrastructure. Thankfully, Kubernetes provides composability through abstractions like operators, controllers, and custom resource definitions. These days, it's trivial to extend Kubernetes with a Spring Boot application, turn it into a GraalVM native image that runs in a Docker container, and then deploy that. Join us, and we'll learn how to extend and automate Kubernetes with Spring Boot and Spring Native-powered custom operators and eliminate that ever-so-pesky YAML."
   language: ""
@@ -808,7 +808,7 @@ We will translate all these concepts into real-world applications and architectu
   speakers: [josgol]
 -
   id: 980
-  tag: "lt"
+  tag: "ai"
   title: "mayAI? - Exploring Graphical Tools for Model Visualization and Enhancement"
   description: "Our topic is focused on an idea we developed during a hackathon, an idea that provides a graphical visualization for neural networks, deep learning, and machine learning models represented in NNEF, data flow, and relationships between nodes of the AI model. The product is designed to help AI engineers quickly comprehend and debug AI models with which they might not be familiar but the topic will focus mostly on why we need such a product when developing GenAI."
   language: ""
