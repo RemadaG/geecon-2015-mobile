@@ -15,13 +15,8 @@
 						<!--{% if session.language != null %}-->
 						<!--<span class="theme-metadata"><span class="caption">Room: </span>{{ session.language }}</span>-->
 						<!--{% endif %}-->
-						{% if session.complexity != null %}
-						<span class="theme-metadata"><span class="caption">Complexity: </span>{{ session.complexity }}</span>
-						{% endif %}
-						{% if session.video %}
-						<div class="theme-video embed-responsive embed-responsive-16by9">
-						    <iframe class="embed-responsive-item" src="{{ session.video }}"></iframe>
-						</div>
+						{% if session.tag != null %}
+						<span class="theme-metadata"><span class="caption">Session type: </span>{{ session.tag | upcase}}</span>
 						{% endif %}
 						<p class="theme-description">{{ session.description }}</p>
 						<!--{% if session.presentation %}-->
