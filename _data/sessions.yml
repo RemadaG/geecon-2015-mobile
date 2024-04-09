@@ -576,7 +576,7 @@ How do LLMs of today stack up against the current known approaches, like keyword
   speakers: [zbypap]
 -
   id: 956
-  tag: ""
+  tag: "cloud"
   title: "High performance Serverless Java on AWS"
   description: "Java is for many years one of the most popular programming languages, but it used to have hard times in the Serverless community. Java is known for its high cold start times and high memory footprint, comparing to other programming languages like Node.js and Python. In this talk I'll look at the general best practices and techniques we can use to decrease memory consumption, cold start times for Java Serverless development on AWS including GraalVM (Native Image) and AWS own offering SnapStart based on Firecracker microVM snapshot and restore and CRaC (Coordinated Restore at Checkpoint) project. I'll also provide a lot of benchmarking on Lambda functions trying out various deployment package sizes, memory settings,  Java compilation options and HTTP (a)synchronous clients and measure their impact on cold and warm start times."
   language: ""
