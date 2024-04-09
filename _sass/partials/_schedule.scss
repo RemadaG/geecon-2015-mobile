@@ -182,11 +182,24 @@ $small-label-width: 80px;
         transform: translateY(5px);
     }
 }
+
+.slot-color- {
+}
+
+.slot-color-ai {
+    background: #FBB531;
+}
+
+.slot-color-cloud {
+    background: #FFC1B5;
+}
+
 .slot-language {
     position: absolute;
     font-size: 11px;
     right: 15px;
     top: 20px;
+    font-weight: bold;
 }
 .service-description {
     margin-top: 15px;

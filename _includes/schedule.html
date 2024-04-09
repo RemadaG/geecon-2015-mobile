@@ -39,9 +39,9 @@
                                 {% if slot == session.id and session.service == null %}
                                 <div id="session-{{ session.id }}" class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height" data-slot-detail="{{ day.tracks[slotIndex].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
                                     <div class="color-line" style="background: {{ day.tracks[slotIndex].color }}"></div>
-                                    <div class="slot-content" style="border-right-color: {{ day.tracks[slotIndex].color }}">
+                                    <div class="slot-content slot-color-{{ session.tag }}" style="border-right-color: {{ day.tracks[slotIndex].color }}">
                                         <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
-                                        <span class="slot-language">{{session.language | upcase}}</span>
+                                        <span class="slot-language">{{session.tag | upcase}}</span>
                                         <ul class="slot-speakers">
                                             {% for speaker in site.data.speakers %}
                                                 {% for session_speaker in session.speakers %}
