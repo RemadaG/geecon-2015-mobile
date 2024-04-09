@@ -179,7 +179,7 @@ This talk targets beginner/daily user/experts alike."
   speakers: [gergru]
 -
   id: 918
-  tag: ""
+  tag: "architecture"
   title: "Going AOT: Everything you need to know about GraalVM for Java"
   description: "In the past few years GraalVM got widely adopted by the Java ecosystem, and now it's hard to imagine starting a new project, especially for the cloud, without at least considering going native. However, taking a new technology to production requires research and preparation. What is the best way to build and deploy such native executables? Once deployed, how can I monitor them? Can I test them as I do with regular Java applications? What if startup is less important, how do I optimize for peak performance and latency? How do I use frameworks and libraries?
 This session will cover all of those steps and illustrate them with examples. We'll also have plenty of time for questions – bring them all!"
@@ -194,7 +194,7 @@ This session will cover all of those steps and illustrate them with examples. We
   speakers: [tomman]
 -
   id: 921
-  tag: ""
+  tag: "architecture"
   title: "Mitosis Pattern: Scale software while avoiding becoming a legacy monolith without falling into the microservices trap"
   description: "
 Just as development should be iterative, software design should change when the context and our understanding of the problem evolve. As a software grows to solve more problems, it becomes less supple in its ability to evolve. Tensions arise within the business model of the software that struggles to stay coherent.
@@ -302,7 +302,7 @@ However, if you feel like a 'higher priest of the machine' and you are familiar 
   speakers: [jarpal, micjon]
 -
   id: 930
-  tag: ""
+  tag: "architecture"
   title: "Migrate your company to microservices: a step by step tutorial"
   description: "I’ve worked with microservices for 9 years now, and I’ve migrated systems from monoliths / distributed monoliths to microservices. Companies call me to help them in this process, and I kind of worked my “standard” way of how to do this. In this talk, I’d like to show you step by step what I do when I help companies moving into microservices. This talk is not about how to design microservices per se (I’ve already talked about it a lot, and I give workshops on that) but what exactly I do in the process, and what you should not forget about. So it’s everything apart from architecture itself.
 
@@ -337,7 +337,7 @@ As a result of this talk, you’ll have the necessary foundations to threat mode
   speakers: [grzmil]
 -
   id: 933
-  tag: ""
+  tag: "news"
   title: "Demystifying Java Virtual Threads - lessons learned from adding them to GlassFish"
   description: "Do you want to understand how Java Virtual Threads really work and whether the myths you heard about are true or not? I’ll answer these questions and will teach you when to leverage virtual threads in your applications, how they could optimize performance and resource usage, and potential pitfalls to avoid. I will also share insights based on my hands-on experience implementing support for them in Eclipse GlassFish and Grizzly projects. 
 
@@ -364,7 +364,7 @@ Is freelancing right for you? How does one start a consulting business? What can
   speakers: [tomgab]
 -
   id: 936
-  tag: ""
+  tag: "news"
   title: "Pain-free Functional Programming with Java 21"
   description: "For newcomers with a Java background, Functional Programming can seem counter-intuitive at first. Using immutable values and data structures, pattern matching, handling errors without exceptions, or avoiding dependency injection frameworks, not to mention dealing with abstractions like product/union types or monads - all these can blow your mind. But fear not the unknown, my friend. 
 
@@ -483,14 +483,14 @@ Join us to explore and learn about finding the balance.
   speakers: [raffol]
 -
   id: 946
-  tag: ""
+  tag: "cloud"
   title: "Java on AWS - all the details that matter"
   description: "AWS is tech stack-agnostic, period. But it doesn't mean engineers in Amazon didn't do anything to improve Developer eXperience (DX) for JVM programmers around the globe. Let's make the rounds and review all the major QoL improvements & JVM-specific hints you should be aware of (if you deploy your Java/Kotlin/Scala/Groovy/... apps into the cloud). Some of the topics covered: Powertools for AWS Lambda (Java), SnapStart for Lambda (& other cold-start optimizations), runtime hooks (with CRaC) for Lambda, serverless Java with GraalVM, what's in AWS Toolkit & AWS SDKs, Java on Graviton, Q Code Transformation (with OpenRewrite), CodeWhisperer & Java, what's Corretto, Java on serverless containers with App Runner, JVM apps observability on AWS, CDK with Java, integration for popular web frameworks (Spring, Micronaut, Quarkus)."
   language: ""
   speakers: [sebgeb]
 -
   id: 947
-  tag: ""
+  tag: "cloud"
   title: "Dissecting serverless runtimes - from functions to databases"
   description: "As software engineers, we are often confused or biased, or concerned. On one hand, we know there is no cloud; there are just computers somewhere else. On the other, we keep getting hyped about the serverless, whether it be a function, a computing platform, or a database. Then we add cloud-native to the mix, and we get completely mystified. So, let's learn. 
 
@@ -539,7 +539,7 @@ In this talk, we will make a live coding session presenting a solution with Jaka
   speakers: [maxarr, gabsil]
 -
   id: 952
-  tag: ""
+  tag: "lt"
   title: "Kommandos vs Scouts – different style of development"
   description: "Most of us have grown up in the shadow of the 'scout rule' - the rule that says 'leave things better than you found them'. But is it good and applicable in every case?
 In my talk, I want to show you when this rule doesn't apply. I will show you how to work differently and how this can affect the atmosphere in your team. I will show you 'The Commandos Rule' that will give you a way to get things done."
@@ -547,14 +547,14 @@ In my talk, I want to show you when this rule doesn't apply. I will show you how
   speakers: [barkuc]
 -
   id: 953
-  tag: "lt"
+  tag: "cloud"
   title: "Atomics Habits in cost optimizations in the cloud"
   description: "A short motivating talk with the Atomic Habits story to encourage audience, by presenting high level 7 cost optimization best practices, to take daily small improvements to reduce cloud cost of their applications."
   language: ""
   speakers: [barwie]
 -
   id: 954
-  tag: ""
+  tag: "news"
   title: "Butcher Virtual Threads like a pro!"
   description: "Java™ 21 is real now. And so are virtual threads. Everyone got excited about them, yet you prefer to keep your Java 8 job forever, and you already have a nice plan to “accidentally” derail the migration to 21 by using virtual threads in a very, very unfortunate way. What a pity…
 
@@ -707,7 +707,7 @@ Let's try to answer all of those questions and more!
   speakers: [otasan]
 -
   id: 968
-  tag: ""
+  tag: "architecture"
   title: "Embracing Microservices"
   description: "Microservices have been around for a while, and the industry discovered myriad ways of failing to implement them. For example, due to suboptimal team compositions, attachment to old monolithic-friendly habits, poor deployment practices, grotesque corporate security policies, etc.
 
@@ -716,7 +716,7 @@ In this talk, I will help you learn from others’ mistakes. We’ll recall the 
   speakers: [grzpiw]
 -
   id: 969
-  tag: ""
+  tag: "news"
   title: "Virtual threads - no pain, no gain"
   description: "Project Loom, or virtual threads, promised fast, lightweight user-space threads that are very cheap to block. While this is true, everything in life comes at a price. However, virtual threads allow users to not care about it. It is the job of the underlying libraries that all our applications use. Issues that can still occur with virtual threads, such as pinning, monopolization, or large thread-local objects, still present real-world problems many libraries still need to account for. In this session, we explain the virtual thread model execution and compare it to the event loop/reactive model utilized in Quarkus. We will also dive into individual problems that virtual threads might encounter and demonstrate how you can verify that your code doesn’t run into them. By the end of the talk, you’ll understand these (from the user point of view invisible) issues that often manifest only under high loads."
   language: ""
@@ -733,14 +733,14 @@ What are the possible ways we can implement distributed concurrency primitives a
   speakers: [androd]
 -
   id: 972
-  tag: ""
+  tag: "cloud"
   title: "Weaving Spring Cloud Gateway on Loom"
   description: "We will provide a brief history of API gateways in Spring Cloud, including Zuul and why we built Spring Cloud Gateway to replace it. Then we will give a short primer on how the gateway routes and filters requests. We will then introduce how Spring Cloud Gateway can work in servlet containers using virtual threads on Java 21. We will compare and contrast this new functionality to the original WebFlux-based Spring Cloud Gateway."
   language: ""
   speakers: [spegib]
 -
   id: 973
-  tag: ""
+  tag: "lt"
   title: "Continuous Improvements of The Code Review Process"
   description: "Different teams have different practices when it comes to code review. As a senior software engineer, working in the industry for over a decade, I have seen and experienced various code review processes. In this talk, I will share the best practices I have learned for conducting an effective code review. These practices will improve your code review process and contribute to your team's productivity, delivery, and quality of features."
   language: ""
@@ -777,7 +777,7 @@ By the end of this presentation, we'll know how to identify those elusive NFRs t
   speakers: [phiduv, aletou]
 -
   id: 977
-  tag: ""
+  tag: "architecture"
   title: "Unleash the power of your applications with Micronaut and GraalVM"
   description: "In this talk, Micronaut committer Álvaro Sánchez-Mariscal, will demonstrate how you can quickly build optimised Microservices with Micronaut & GraalVM Native Image. Attendees will learn how the combination of GraalVM Native Image and Micronaut can lead to efficient, highly performant, and optimised applications that can be perfectly deployed to environments like Kubernetes or serverless platforms.
 
@@ -796,7 +796,7 @@ In this session, we will talk about the current state of AI, how it is changing 
   speakers: [jamcol]
 -
   id: 979
-  tag: ""
+  tag: "architecture"
   title: "From Chaos to Order: Transforming Analytical Data with Event-Driven Architecture"
   description: "Architecture trends have come a long way, from monolithic structures to microservices, 
 and in recent years, the rise of event-driven architecture has been shaking things up in the software world. 
@@ -808,14 +808,14 @@ We will translate all these concepts into real-world applications and architectu
   speakers: [josgol]
 -
   id: 980
-  tag: "ai"
+  tag: "lt"
   title: "mayAI? - Exploring Graphical Tools for Model Visualization and Enhancement"
   description: "Our topic is focused on an idea we developed during a hackathon, an idea that provides a graphical visualization for neural networks, deep learning, and machine learning models represented in NNEF, data flow, and relationships between nodes of the AI model. The product is designed to help AI engineers quickly comprehend and debug AI models with which they might not be familiar but the topic will focus mostly on why we need such a product when developing GenAI."
   language: ""
   speakers: [serkur, serili]
 -
   id: 981
-  tag: ""
+  tag: "news"
   title: "The Hidden Gems of Java 22"
   description: "Java is innovative with each release, and to become a creative engineer for your company, you should know what is new in your language. This session will dust off Java SE's 22 hidden gems, including new cool language features, compiler changes, library additions, and critical bug fixes. They're handy in your day-to-day work."
   language: ""
