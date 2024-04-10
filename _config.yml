@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: GeeCON Krakow 2024
 email: ""
 description: "Let's move the Java world!"
-baseurl: "/schedule"
+baseurl: "/geecon-2015-mobile"
 url: "http://geecon.org"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
