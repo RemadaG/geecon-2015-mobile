@@ -820,3 +820,46 @@ We will translate all these concepts into real-world applications and architectu
   description: "Java is innovative with each release, and to become a creative engineer for your company, you should know what is new in your language. This session will dust off Java SE's 22 hidden gems, including new cool language features, compiler changes, library additions, and critical bug fixes. They're handy in your day-to-day work."
   language: ""
   speakers: [mohtam]
+-
+  id: 982
+  tag: ""
+  title: "Breaking the Spring Framework's code: annotation's witchcraft"
+  description: "Many developers who use Spring Framework rely on annotations as a convenient shortcuts while composing certain business logic. Do you need to perform a composite update in SQL database? Bam! Use @Transactional. Do you need to create a new TTL index in MongoDB? Wham! Use @Indexed with proper options. Metrics? No problem, @Timed and other annotations are ready to be used! It's all fun and games until something breaks and we need to debug our code. Let's see what kind of sorcery does Spring use to carve these magical runes."
+  language: ""
+  speakers: [pawkow]
+-
+  id: 983
+  tag: "news"
+  title: "A Developer's Perspective On Greener Future: GreenOps in practice"
+  description: "Companies are trying to reduce their carbon footprint. For many, IT is a relevant factor on that journey, and they are looking at the new field of GreenOps for ideas and answers. Based on his work at Thoughtworks, a global IT consultancy that is also a founding member of the Green Software Foundation, Erik will provide the developer's perspective on GreenOps. Starting with some key concepts and principles, the talk moves to specific techniques, methods, and tools to measure and reduce an organisation's carbon footprint."
+  language: ""
+  speakers: [eridor]
+-
+  id: 984
+  tag: ""
+  title: "Observing Issues in Your Application"
+  description: "Imagine that you’re receiving a support ticket that your application is not working fine. You read the attached stacktrace and now it’s time to solve the mystery - what did the user do that led to throwing of this exception? Is it possible to find all the logs from all the applications that correspond to this user’s business operation?
+
+What if the user is complaining that the system is slow? How can you decide which concrete operation is the culprit? Is there any way to visualize the latency?
+
+
+Let’s answer these questions by taking a deep dive into application observability using distributed tracing, metrics, and correlated logs via Spring Cloud Sleuth, Tanzu Observabilty, OpenZipkin, OpenTelemetry, and more!
+
+
+The presentation will consist of some theory but there’ll also be live coding and demos."
+  language: ""
+  speakers: [margrz]
+-
+  id: 985
+  tag: "news"
+  title: "Stream Gathers - The biggest change to Java Streams since 10 years"
+  description: "Streams were introduced in Java 8 in 2014.
+In 10 years we have only seen some minor changes to it. 
+Until now, because Java 22 introduced Stream Gatherers, which allows for more powerful intermediate operations.
+But it does not stop there, it also comes with a complete API that allows us developers to create our own intermediate stream operations.
+And we all now, that the meat of stream operations is in the intermediate operations.
+Suddenly, your imagination is the only limitation.
+
+In this session I will introduce you to the new gatherers, and will deep dive into creating a custom gatherer ourselves, thus learning all the details of this new API."
+  language: ""
+  speakers: [ronvee]

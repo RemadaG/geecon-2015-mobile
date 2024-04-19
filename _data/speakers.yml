@@ -494,3 +494,37 @@ Passionate about discovering ways to help reduce developers carbon footprint, he
  Nowadays, I'm an engineer in the benchmarking infrastructure team at Neo4j where unpredictable things can happen.
 "
   thumbnailUrl: "https://2024.geecon.org/speakers/michalj.png"
+-
+  id: "pawkow"
+  name: "Paweł"
+  surname: "Kowalski"
+  bio: "Full-stack developer, comfortable in managing both back-end ecosystems based on JVM technologies as well as front-end ones based on Angular, React or vanilla JS. Clean code practitioner with passion to demystify uncommon or complex solutions and assembling gathered experience into lectures. 
+Privately, a husband and a father of two wonderful children, metal music lover and kettlebell hardstyle addict. I also enjoy solving crosswords, guitar playing and co-op games of any kind. Last but not least - connoisseur of memes and lame, ironic jokes."
+  thumbnailUrl: "https://2024.geecon.org/speakers/pawelk.jpg"
+-
+  id: "eridor"
+  name: "Erik"
+  surname: "Dörnenburg"
+  bio: "Erik is a software engineer and passionate technologist. On his extensive journey in the tech industry he has continuously encountered and embraced new technologies, finding ways to realise their potential while bringing along proven engineering practices. As CTO Europe at Thoughtworks he helps clients make the most out of modern technologies, platforms, and practices. Erik is a regular speaker, contributed to a few books, and maintains several open source projects. He holds a degree in Informatics from the University of Dortmund and studied Computer Science and Linguistics at University College Dublin."
+  thumbnailUrl: "https://2024.geecon.org/speakers/erickd.jpg"
+-
+  id: "margrz"
+  name: "Marcin"
+  surname: "Grzejszczak"
+  bio: "Co-author of SmartTesting, author of Hands-On Guide to Spring Cloud Contract: Creating Consumer-Driven Contracts to Leverage Contract Tests and Improve Your Code and co-author of Applied Continuous Delivery Live Lessons. Co-founder of the Warsaw Groovy User Group, Warsaw Cloud Native Meetup and the DiverseIT initiative. Author of 'Mockito Instant' and 'Mockito Cookbook' books.
+Working on Spring Observability, Spring Cloud Sleuth, Spring Cloud Contract projects at Broadcom."
+  thumbnailUrl: "https://2024.geecon.org/speakers/marcing.jpg"
+-
+  id: "ronvee"
+  name: "Ron"
+  surname: "Veen"
+  bio: "Ron is a highly experienced software engineer who has seen it all, from Midrange Systems to Micro Services.
+Through all of this, he is guided by his passion for software engineering and software architecture.
+For more than 15 years he has been working on the JVM and the Java ecosystem and has seen all the frameworks and libraries from Apache to ZK.
+He is an Oracle Certified Java Programmer (OCP) and Sun Certified Business Component Developer (SCBCD/OCPBCD).
+
+Ron is an avid fan of alternative JVM languages like Groovy, Scala, Clojure, and his personal favorite Kotlin.
+At Team Rockstars IT he is a Special Agent and senior developer who frequently speaks at international conferences.
+
+He just published on Cloud-native migration with Jakarta EE."
+  thumbnailUrl: "https://2024.geecon.org/speakers/ronv.jpg"
