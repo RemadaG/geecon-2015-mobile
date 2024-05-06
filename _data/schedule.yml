@@ -1,9 +1,9 @@
 - date: "2024-05-15"
   dateReadable: "15th of May - Conference Day 1"
   tracks:
-    - { title: "Room A", color: "#fbb531" }
-    - { title: "Room B", color: "#49abd0" }
-    - { title: "Room C", color: "#fbb531" }
+    - { title: "Room 1", color: "#fbb531" }
+    - { title: "Room 12", color: "#49abd0" }
+    - { title: "Room 11", color: "#fbb531" }
   timeslots:
     - {
       startTime: "09:00",
@@ -28,7 +28,7 @@
     - {
       startTime: "11:20",
       endTime: "12:10",
-      sessionIds: [ 927, 510, 930 ]
+      sessionIds: [ 927, 931, 930 ]
     }
     - {
       startTime: "12:10",
@@ -38,7 +38,7 @@
     - {
       startTime: "13:10",
       endTime: "14:00",
-      sessionIds: [ 935, 979,  510]
+      sessionIds: [ 928, 935,  986]
     }
     - {
       startTime: "14:00",
@@ -78,5 +78,5 @@
     - {
       startTime: "17:10",
       endTime: "18:00",
-      sessionIds: [ 939, 928, 985 ]
+      sessionIds: [ 939, 985, 922 ]
     }

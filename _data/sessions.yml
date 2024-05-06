@@ -842,16 +842,24 @@ We will translate all these concepts into real-world applications and architectu
 -
   id: 984
   tag: ""
-  title: "Observing Issues in Your Application"
-  description: "Imagine that you’re receiving a support ticket that your application is not working fine. You read the attached stacktrace and now it’s time to solve the mystery - what did the user do that led to throwing of this exception? Is it possible to find all the logs from all the applications that correspond to this user’s business operation?
-
-What if the user is complaining that the system is slow? How can you decide which concrete operation is the culprit? Is there any way to visualize the latency?
+  title: "Is your JVM app flying blind? Unmask hidden issues with Observability superpowers!"
+  description: "Struggling to debug latency, pinpoint bugs, or understand app behavior? This talk equips you with the ultimate Observability toolkit for your JVM-based application!
 
 
-Let’s answer these questions by taking a deep dive into application observability using distributed tracing, metrics, and correlated logs via Spring Cloud Sleuth, Tanzu Observabilty, OpenZipkin, OpenTelemetry, and more!
+Discover proven techniques to transform your application from opaque to transparent:
+<ul>
+<li>    Add superpowers instantly: Learn how to seamlessly inject observability into existing applications.
+</li><li>
+    Debug like a pro: Leverage metrics, distributed tracing, logs, and exemplars to pinpoint latency bottlenecks and hunt down elusive bugs.
+</li><li>
+
+    See the unseen: Gain deep insights into application health, performance, and user experience, empowering data-driven decisions.
+</li>
+</ul>
 
 
-The presentation will consist of some theory but there’ll also be live coding and demos."
+Ready to unleash the full potential of your JVM app using the industry’s golden standard? Join this session and become an Observability Jedi!
+"
   language: ""
   speakers: [margrz]
 -
