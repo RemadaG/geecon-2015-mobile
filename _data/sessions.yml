@@ -281,7 +281,7 @@ No sale of silver bullets here; instead, we arm you with practical solutions and
 
 Join us to transform your approach to evolving system architecture, leaving you with insights immediately applicable to your work."
   language: ""
-  speakers: [wojpta]
+  speakers: [wojpta, andgrz]
 -
   id: 929
   tag: "performance"
@@ -330,7 +330,7 @@ I will share my experiences from such projects, both from the perspective of a t
   id: 932
   tag: ""
   title: "You Too Can Do Threat Modeling"
-  description: "Threat modeling tends to daunt engineers and non-engineer folk alike. In this talk, I’ll show that the fear is unfounded. I’ll give a crash course on threat modeling, showing that it can be an easy and fun process that is also a nice group exercise. The course will be use as an example a real project I led, a help app for refugees from Ukraine (https://www.unitedforukraine.org). I’ll also share some lessons from my work at Google’s Account Compromise Protection.
+  description: "Threat modeling tends to daunt engineer and non-engineer folk alike. In this talk, I’ll show that the fear is unfounded. I’ll give a crash course on threat modeling, showing that it can be an easy and fun process that is also a nice group exercise. The course will use as an example a real project I led, a help app for refugees from Ukraine (<a href='https://www.unitedforukraine.org'>https://www.unitedforukraine.org</a>).
 
 As a result of this talk, you’ll have the necessary foundations to threat model any system you’d like. You’ll sleep better at night knowing that you got things covered."
   language: ""
@@ -418,23 +418,27 @@ This talk equips architects and developers to view software as adaptive, living 
   speakers: [hugmck]
 -
   id: 940
-  tag: "performance"
-  title: "Scaling Event-Driven Services at Wix: Exploring Effective Sharding Patterns"
+  tag: ""
+  title: "Scaling Horizons: Effective Strategies for Wix's Scaling challenges"
   description: "
-Join us as we delve into the world of scaling event-driven services at Wix, where the infra team faces the challenge of handling massive traffic and managing vast datasets that require horizontal scaling. In this talk, we will shine a light on the sharding patterns employed by our team, which have proven instrumental in overcoming these scaling hurdles.
+This session unveils the multifaceted horizontal scaling strategies that power Wix's robust infrastructure. From Kafka consumer scaling and dynamic traffic routing for site segments to DynamoDB sharding and MySQL clusters custom routing with ProxySQL, we dissect the mechanisms that ensure scalability and performance at Wix.
+
+
+Attendees will learn about the art of sharding and routing key selection across different systems, and how to apply these strategies to their own infrastructure. We'll share insights into choosing the right scaling strategy for various scenarios, balancing between managed services and custom solutions.
 
 
 Key Takeaways:
 <ul>
-<li> Naive Sharding: Discover how predetermining sharding based on known sets, such as Kafka clusters, can effectively distribute workload and enhance scalability.
-</li><li> Kafka Topic Partitions: Explore the dynamic division of keys between instances using topic partitions, enabling efficient data fetching from APIs in manageable chunks.
-</li><li> DynamoDB Partitions: Uncover the power of key-value store partitioning, leveraging its ability to maintain high read throughput and low latency, ensuring optimal performance.
+<li> Grasp various sharding techniques and routing strategies used at Wix.
+</li><li> Understand key considerations for sharding key and routing rule selection.
+</li><li> Learn when and why to choose specific horizontal scaling strategies.
+</li><li>Gain practical knowledge for applying these strategies to achieve scalability and high availability.
 </li>
 </ul>
 
 
 
-Don't miss this opportunity to gain valuable insights into sharding patterns that empower the scaling of event-driven services, as we share our experiences and lessons learned from Wix's event-streaming infrastructure team."
+Join us to gain a blueprint for scaling your systems horizontally, drawing from Wix's proven practices."
   language: ""
   speakers: [natsil]
 -
@@ -639,6 +643,14 @@ The development joy of Quarkus with all its goodies and incredible productivity 
   language: ""
   speakers: [abdsgh]
 -
+  id: 961
+  tag: ""
+  title: "Observability cookbook"
+  description: "In this talk, I will introduce a range of observability tools that will help you in discerning the real-time states of your systems and efficiently tackling debugging challenges. Throughout the talk, I will provide practical do's and don'ts for applications of those tools.
+The goal is to equip you not only with theoretical knowledge but also with tangible knowledge to apply and use those instruments. By the end of this session, you'll have a solid foundation in understanding those tools. Join me as we take a stroll into the world of observability."
+  language: ""
+  speakers: [micnic]
+-
   id: 962
   tag: ""
   title: "Die Hard - Defeating a Java compiler bug IS an Xmas story"
@@ -814,13 +826,6 @@ We will translate all these concepts into real-world applications and architectu
   language: ""
   speakers: [serkur, serili]
 -
-  id: 981
-  tag: "news"
-  title: "The Hidden Gems of Java 22"
-  description: "Java is innovative with each release, and to become a creative engineer for your company, you should know what is new in your language. This session will dust off Java SE's 22 hidden gems, including new cool language features, compiler changes, library additions, and critical bug fixes. They're handy in your day-to-day work."
-  language: ""
-  speakers: [mohtam]
--
   id: 982
   tag: ""
   title: "Breaking the Spring Framework's code: annotation's witchcraft"
@@ -863,3 +868,42 @@ Suddenly, your imagination is the only limitation.
 In this session I will introduce you to the new gatherers, and will deep dive into creating a custom gatherer ourselves, thus learning all the details of this new API."
   language: ""
   speakers: [ronvee]
+-
+  id: 986
+  tag: ""
+  title: "Twenty years of the four rules of simple design"
+  description: "Celebrating over twenty years of the four rules of simple design
+2024 marks the twentieth anniversary since the second edition of the seminal book Extreme Programming Explained by Kent Beck was published.
+This means that the four rules of simple design have been around for a long time. It is possible that they have been around your entire career. Do you know about them?
+They can be formulated as
+* Runs all the tests
+* Reveals intention
+* No duplicated logic 
+* Small
+Well, that can’t be too hard to follow. Or is it?
+Let’s explore these seemingly simple rules and see how they affect your code if properly applied.
+This will be a live coding session with a lot of refactoring applying the four rules of simple design."
+  language: ""
+  speakers: [thosun]
+-
+  id: 987
+  tag: ""
+  title: "Why not all hexagons have eight sides"
+  description: "Hexagonal architecture.
+You know it, you like it, you want to use it in your projects, but you’re not sure how to convince the team?
+Or perhaps your team leader tells you to use it, but you’re not sure why?
+You saw all the presentations and read all the blogs, but your understanding is still hazy around the edges?
+To solve all these dilemmas we first need to answer the question ‘why’ we use hexagonal architecture. What it derives from and what problems it helps us solve. Join me on the journey through the Valley of Architecture and we’re sure to find the answers to all of our questions."
+  language: ""
+  speakers: [krzprz]
+-
+  id: 988
+  tag: ""
+  title: "Digging for Truffles - Unveiling the Mysteries of GraalVM's Least Understood Component"
+  description: "Think finding truffles is tough? Try understanding Truffle in GraalVM!
+
+In this lighthearted talk, I'm going to simplify the complex and make sense of what Truffle really does in the GraalVM ecosystem. Continuing the culinary analogy, imagine Truffle as the secret sauce that makes everything in GraalVM tastier – supporting multiple languages and boosting performance, just like how real truffles elevate a dish.
+
+We'll slice through the technical jargon and explain what 'language implementation framework' really means. You'll learn how Truffle works, why it's important, and we'll even try to write some trivial Truffle Language – in a fashion of 'words are cheap, show me the code'."
+  language: ""
+  speakers: [artsko]

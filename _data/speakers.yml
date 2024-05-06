@@ -259,12 +259,6 @@ I was the founder and CTO of Wingman focused on helping sales teams capture and
 understand sales conversations."
   thumbnailUrl: "https://2024.geecon.org/speakers/srikar.jpg"
 -
-  id: "mohtam"
-  name: "Mohamed"
-  surname: "Taman"
-  bio: "A Chief Solutions Architect, a Java Champion, an Oracle ACE, a JCP member, 3 JSRs EG, and an EGJUG leader. An international speaker, book and video author, and writer for Java Magazine, IBM Developer, Oracle, and InfoQ. He won the Duke’s Choice 2015, 2014, and 2013 awards and the JCP Outstanding Adopt-a-jsr participant 2013 award."
-  thumbnailUrl: "https://2024.geecon.org/speakers/mohamedt.png"
--
   id: "maxarr"
   name: "Maximillian"
   surname: "Arruda"
@@ -335,6 +329,12 @@ Bartosz regularly blogs about programming best practices on his blog and his Git
   surname: "Sghiouar"
   bio: "Abdel Sghiouar is a senior Cloud Developer Advocate @Google Cloud. A co-host of the Kubernetes Podcast by Google and a CNCF Ambassador. His focused areas are GKE/Kubernetes, Service Mesh, and Serverless. Abdel started his career in data centers and infrastructure in Morocco, where he is originally from, before moving to Google's largest EU data center in Belgium. Then in Sweden, he joined Google Cloud Professional Services and spent five years working with Google Cloud customers on architecting and designing large-scale distributed systems before turning to advocacy and community work"
   thumbnailUrl: "https://2024.geecon.org/speakers/abdels.jpeg"
+-
+  id: "micnic"
+  name: "Michał"
+  surname: "Niczyporuk"
+  bio: "Software engineer with over 15 years of experience in various organisations - both in terms of scale and economic sectors. A generalist who prefers the backend and infrastructure to the frontend, but does not avoid it. Currently software samurai in merXu - the European renewable energy marketplace."
+  thumbnailUrl: "https://2024.geecon.org/speakers/michaln.jpg"
 -
   id: "przbie"
   name: "Przemek"
@@ -528,3 +528,40 @@ At Team Rockstars IT he is a Special Agent and senior developer who frequently s
 
 He just published on Cloud-native migration with Jakarta EE."
   thumbnailUrl: "https://2024.geecon.org/speakers/ronv.jpg"
+-
+  id: "andgrz"
+  name: "Andrzej"
+  surname: "Grzesik"
+  bio: "ags likes distributed systems in all shapes and form. Coding since the age of 8, loves simplicity and continuous delivery. While he has written in many languages, he favours the JVM. Since 'most software problems are people problems”, he stirs communities, organizes and speaks at conferences. And he is a Java Champion!"
+  thumbnailUrl: "https://2024.geecon.org/speakers/andrzejg.jpg"
+-
+  id: "thosun"
+  name: "Thomas"
+  surname: "Sundberg"
+  bio: "With more than 25 years in software development, Thomas is an independent consultant based in Stockholm, Sweden.
+He has a Masters degree in Computer Science from the Royal Institute of Technology (KTH), Sweden’s leading technical university. After graduation, Thomas also taught at KTH. 
+As a consultant, trainer, and developer Thomas has created value for many teams around Europe. For the last fifteen years, Thomas has been an invited conference speaker at numerous conferences around Europe speaking about topics including software craftsmanship, clean code, test automation, and continuous deployment."
+  thumbnailUrl: "https://2024.geecon.org/speakers/thomass.png"
+-
+  id: "krzprz"
+  name: "Krzysztof"
+  surname: "Przygudzki"
+  bio: "Software Developer @ hyperexponentoal
+ex- hazelcast, TouK, team leader @ Allegro Smart"
+  thumbnailUrl: "https://2024.geecon.org/speakers/krzysztofp.jpg"
+-
+  id: "tednew"
+  name: "Ted"
+  surname: "Neward"
+  bio: "Ted Neward currently labors on his own behalf, leveraging his speaking, writing, and coding experience to bring a technology-focused and -sharpened mindset to the mortgage industry. During his more code-focused years, he specialized in high-scale enterprise systems, working with clients ranging in size from Fortune 500 corporations to small 10-person shops. He is an authority in Java and .NET technologies, particularly in the areas of Java/.NET integration (both in-process and via integration tools like Web services), programming languages of all forms, back-end enterprise software systems, and virtual machine/execution engine plumbing.
+He is the author or co-author of several books, including <a href='http://www.wrox.com/WileyCDA/WroxTitle/Professional-F-2-0.productCd-047052801X.html'>Professional F# 2.0</a>, <a href='http://www.awprofessional.com/title/0321130006'>Effective Enterprise Java</a>, <a href='http://www.oreilly.com/catalog/csharpnut'>C# In a Nutshell</a>, <a href='http://www.newardassociates.com/files/SSCLI2.pdf'>SSCLI Essentials</a>, <a href='http://www.manning.com/books/neward3'>Server-Based Java Programming</a>, and a contributor to several technology journals. All told, he has written well over a hundred articles in both print and online form.
+Ted has also been an &quot;insider&quot; of one form or another with a variety of the technology providers of the world: an IBM Champion of Cloud, a Microsoft F# MVP (having also been an Architect and C# MVP in prior years), an F# Insider, C# Insider, VB Insider, INETA speaker, DevelopMentor instructor, PluralSight course author, and a member of various Java JSRs.
+He lives in the Pacific Northwest with his wife, two sons, three cats, twelve laptops, seven tablets, nine phones and a rather large utility bill.
+Visit his blog at <a href='http://blogs.tedneward.com'>http://blogs.tedneward.com</a>."
+  thumbnailUrl: "https://2024.geecon.org/speakers/tedn.png"
+-
+  id: "artsko"
+  name: "Artur"
+  surname: "Skowronski"
+  bio: "Head of Java/Kotlin Engineering at VirtusLab. W tym roku stuknęła mu dycha w branży. Tę dekadę spędził przy bardzo różnych projektach - takich, które startowały od zera, jak i grubo starszych od niego. Miał przyjemność pracować po różnych stronach barykady - jako Software Engineer, Tech Lead, Architekt czy nawet Technical Product Manager, co pozwala podchodzić do problemów z szeroką perspektywą. W dalszym ciągu uwielbia brudzić sobie ręce - od ponad dwóch lat, co tydzień publikuje autorskie przeglądy wydarzeń w świecie JVM."
+  thumbnailUrl: "https://2024.geecon.org/speakers/arturs.jpg"
