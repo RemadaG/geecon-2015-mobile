@@ -565,3 +565,13 @@ Visit his blog at <a href='http://blogs.tedneward.com'>http://blogs.tedneward.co
   surname: "Skowronski"
   bio: "Head of Java/Kotlin Engineering at VirtusLab. W tym roku stuknęła mu dycha w branży. Tę dekadę spędził przy bardzo różnych projektach - takich, które startowały od zera, jak i grubo starszych od niego. Miał przyjemność pracować po różnych stronach barykady - jako Software Engineer, Tech Lead, Architekt czy nawet Technical Product Manager, co pozwala podchodzić do problemów z szeroką perspektywą. W dalszym ciągu uwielbia brudzić sobie ręce - od ponad dwóch lat, co tydzień publikuje autorskie przeglądy wydarzeń w świecie JVM."
   thumbnailUrl: "https://2024.geecon.org/speakers/arturs.jpg"
+-
+  id: "wlokra"
+  name: "Włodek"
+  surname: "Krakowski"
+  bio: "
+Engineering Manager at Allegro, fascinated by developing people through a coaching management style and supporting clean code through refactoring.
+
+He has appeared many times at various conferences: 33rd Degree (now Devoxx), JDD, Confitura, 4x JBCNConf - Barcelona, Java2Days - Sofia) conducting lectures and workshops on code refactoring combined with the organization of team work. This way he can ensure that outcoming quality of the code is part of the software development process and is the result of effective teamwork.
+"
+  thumbnailUrl: "https://2024.geecon.org/speakers/wlodekk.jpeg"
