@@ -1,577 +1,485 @@
 -
-  id: "ignmar"
-  name: "Ignasi"
-  surname: "Marimon-Clos i Sunyol"
-  bio: "Back-End (JVM) developer for over 20 years. Java developer turned Scala developer. While working on Healthcare of Electoral systems, Ignasi focused on software engineering and quality assurance. He later expanded his interests into profiling and distributed systems. In recent years, his energy revolves around observability."
-  thumbnailUrl: "https://2024.geecon.org/speakers/ignasim.png"
+  id: "antarh"
+  name: "Anton"
+  surname: "Arhipov"
+  bio: "Anton is a Developer Advocate in the Kotlin team at JetBrains. With a professional background in server-side development, Anton has been building tools for developers for more than ten years. Recognised as a Java Champion since 2014, he often speaks at software conferences and contributes to the Kotlin YouTube channel."
+  thumbnailUrl: "https://2025.geecon.org/speakers/antona.jpg"
 -
   id: "gergru"
   name: "Gerrit"
   surname: "Grunwald"
   bio: "Gerrit Grunwald is a software engineer that loves coding for around 40 years already. He is a true believer in open source and has participated in popular projects like JFXtras.org as well as his own projects (TilesFX, Medusa, Enzo, SteelSeries Swing, SteelSeries Canvas, JDKMon). 
 Gerrit blogs regularly at http://harmonic-code.org, he is an active member of the Java community, where he founded and leads the Java User Group Münster (Germany), he is a JavaOne rockstar and a Java Champion. He is a speaker at conferences and user groups internationally and writes for several magazines."
-  thumbnailUrl: "https://2024.geecon.org/speakers/gerritg.png"
+  thumbnailUrl: "https://2025.geecon.org/speakers/gerritg.png"
 -
-  id: "rusmeh"
-  name: "Rustam"
-  surname: "Mehmandarov"
-  bio: "Passionate computer scientist. Java Champion and Google Developers Expert for Cloud. Public speaker. Mentor. Community builder."
-  thumbnailUrl: "https://2024.geecon.org/speakers/rustamm.jpeg"
+  id: "achwie"
+  name: "Achim"
+  surname: "Wiedemann"
+  bio: "I am a software engineer since over 15 years. Most of my career I spent in the Java ecosystem. I have worked in various industries across Germany and Canada. I am currently working for Bosch eBike Systems where we build a cloud platform for zero-emission mobility. Beside techie stuff I enjoy nature, traveling, music and hanging out with friends."
+  thumbnailUrl: "https://2025.geecon.org/speakers/achimw.jpg"
 -
-  id: "aliyur"
-  name: "Alina"
-  surname: "Yurenko"
-  bio: "Alina is a developer advocate for GraalVM at Oracle Labs, a research & development organization at Oracle. Loves both programming & natural languages, compilers, and open source."
-  thumbnailUrl: "https://2024.geecon.org/speakers/alinay.jpg"
--
-  id: "wojpta"
-  name: "Wojtek"
-  surname: "Ptak"
-  bio: "Wojtek works as Head of Product Engineering and Engineering Executive at Revolut. Before, he worked as CTO for several companies, provided consulting, training, and assisted in building various data collecting, analytics, and applied ML/AI solutions, including Big Data implementations, data stream processing systems, and data insight projects.  He worked with multiple Forbes 500 brands in the US, UK, and the Netherlands, including The Coca-Cola Company, the American Bankers Association, Macy’s, Bloomingdales, Heineken, Saks 5th Avenue, BP, Boots, Polo Ralph Lauren, Porsche, HSBC, and others."
-  thumbnailUrl: "https://2024.geecon.org/speakers/wojtekp.jpg"
--
-  id: "tomman"
-  name: "Tomasz"
-  surname: "Manugiewicz"
-  bio: "Tomasz Manugiewicz is the General Manager of Grand Parade Poland. An engineer at heart. A speaker by passion. He has delivered speeches at the largest European IT conferences, also as a keynote speaker. He has had presentations for brands such as Devoxx Belgium, Devoxx Poland, Agile Tour London, Agile Central Europe, DevDays Europe, and many more.
-
-In the IT sector since 2006. He worked as an Engineering Manager and, at the beginning of his path, when he was a Java Engineer, he helped to create the first Polish online banking systems. He also worked for international global corporations, including in the banking and ICT telecom sectors.
-
-Tomasz is an Agile enthusiast and coach - conducted his first Agile Transformation in 2009. He is a co-author of the leadership book 'The LiGHT BOOK2 - Leaders' insights for leaders based on true stories'. At the AGH University of Technology, he is a lecturer, supporting young engineers on their way to the world of IT."
-  thumbnailUrl: "https://2024.geecon.org/speakers/tomaszm.jpg"
--
-  id: "jultop"
-  name: "Julien"
-  surname: "Topcu"
-  bio: "I like to craft software with high business value using techniques from Domain-Driven Design, all powered by Xtreme Programming in the Kanban #NoEstimates philosophy. Member of the OWASP foundation, I evangelise on application security techniques in order to avoid being hacked properly."
-  thumbnailUrl: "https://2024.geecon.org/speakers/julient.png"
--
-  id: "josche"
-  name: "Josian"
-  surname: "Chevalier"
-  bio: "Software Craftsman at Shodo, I specialize in Domain Driven Design. I strive to improve my approach of software development and my knowledge, as well as raise awareness about software quality among developers."
-  thumbnailUrl: "https://2024.geecon.org/speakers/josianc.jpg"
+  id: "marste"
+  name: "Martin"
+  surname: "Stefanko"
+  bio: "Principal software engineer at Red Hat, BrnoJUG leader, author Quarkus in Action, MicroProfile committer, working on Red Hat middleware technologies like Quarkus, SmallRye, Wildfly, JBoss middleware (RESTEasy, Weld, ...), programming and microservices enthusiast."
+  thumbnailUrl: "https://2025.geecon.org/speakers/martins.png"
 -
   id: "adabie"
   name: "Adam"
   surname: "Bien"
-  bio: "Developer (Architect), Consultant, Trainer, Podcaster (<a href='https://airhacks.fm'>https://airhacks.fm</a>), AWS Hero and Java (Champion) enthusiast Adam Bien (<a href='https://adambien.blog'>https://adambien.blog</a>) uses Java since JDK 1.0 and JavaScript since LiveScript and still enjoys writing code.  Adam regularly organizes Java / Web / Cloud / Architectures online live workshops <a href='https://airhacks.live'>https://airhacks.live</a> and monthly Q&A live streaming show: <a href='https://airhacks.tv'>https://airhacks.tv</a>."
-  thumbnailUrl: "https://2024.geecon.org/speakers/adamb.jpeg"
--
-  id: "tomkow"
-  name: "Tomasz"
-  surname: "Kowalczewski"
-  bio: "Veteran of many failed paradigms, I worked in the industry long enough to remember when microservices was a new thing. My interests and talks focused on reactive programming, garbage collection, and performance engineering. I worked on large scale deployments in airline and adtech industries.
+  bio: "Developer (Architect), Consultant, Trainer, Podcaster (<a href='https://airhacks.fm'>https://airhacks.fm</a>), AWS Hero and Java (Champion) enthusiast Adam Bien (<a href='https://adambien.blog'>https://adambien.blog</a>) has been using Java since JDK 1.0 and JavaScript since LiveScript and still enjoys writing code.
 
-Right now working at VoltDB, a database that originated from a project by Michael Stonebraker and Andy Pavlo. Its in-memory architecture with efficient, shared nothing, thread per core design provides a great testing ground for novel architectural concepts."
-  thumbnailUrl: "https://2024.geecon.org/speakers/tomaszk.png"
+Adam regularly organises Java / Web / Cloud / Architectures online live workshops <a href='https://airhacks.live'>https://airhacks.live</a> and a monthly Q&A live streaming show: <a href='https://airhacks.tv'>https://airhacks.tv</a>."
+  thumbnailUrl: "https://2025.geecon.org/speakers/adamb.jpeg"
 -
-  id: "jonvil"
-  name: "Jonathan"
-  surname: "Vila"
-  bio: "Java Champion, Organiser at BarcelonaJUG and cofounder of JBCNConf and DevBcn conferences in Barcelona.
+  id: "adawar"
+  name: "Adam"
+  surname: "Warski"
+  bio: "I am one of the co-founders of SoftwareMill, where I primarily code using Java, Scala, and other interesting technologies. I am actively involved in open-source projects, such as Ox, Tapir, sttp, Quicklens, ElasticMQ, and others. I have also been a speaker at major conferences, including JavaOne, Devoxx, GeeCON and ScalaDays.
 
-Currently working as Developer Advocate in Java for Sonarsource (SonarLint,SonarQube), focused on Clean Code & Security.
-Former SE at Tetrate, SSE at Red Hat in Keycloak team, SSE at Ocado Technology, SSE at Netcentric.
-I have worked as a (paid) developer since 30 years ago using Java on Kubernetes for K8s Operator, Rest API, using Quarkus, GraalVM, Apache Camel | Go on Kubernetes for a Service Mesh layer on top of Istio |  PHP | VB | Python | Pascal | C | Delphi | Assembler
+In addition to writing closed- and open-source software, I spend my free time exploring various (functional) programming-related subjects. Any ideas or insights I gain usually end up with a blog (<a href='https://warski.org/articles'>https://warski.org/articles</a>)."
+  thumbnailUrl: "https://2025.geecon.org/speakers/adamw.jpg"
+-
+  id: "mihghe"
+  name: "Mihaela"
+  surname: "Gheorghe-Roman"
+  bio: "Mihaela is a Software Architect at Systematic, Romania. Ph.D in artificial neural network algorithms, Assistant Professor at the University of Cybernetics and Informatics in Bucharest, she is a dedicated lead developer and architect who enjoys sharing her knowledge.
 
-Very interested in simulated reality and psychology"
-  thumbnailUrl: "https://2024.geecon.org/speakers/jonathanv.jpg"
+In her professional career, spanning over 13+ years, she worked for telecom and defence domains with a focus on Java, Spring Boot, C, C#, Scala and Angular.
+
+
+Apart from her passion for programming, she loves parrots, she is enthusiastic about traveling the world and doing a lot of sports, from running at marathons, martial arts and to different aerobic trainings."
+  thumbnailUrl: "https://2025.geecon.org/speakers/mihaelag.png"
 -
-  id: "johjan"
-  name: "Johan"
-  surname: "Janssen"
-  bio: "Johan is working as software architect at ASML. He has been working for various demanding companies where rapidly delivering high-quality software was very important. Johan regularly writes articles for InfoQ and Java magazines, mainly around Java. He presented more than 90 conference sessions in 24 countries at conferences such as JavaOne, GOTO, Devoxx, JavaZone, J-Fall, J-Spring, Jfokus and JavaLand. Johan received the JavaOne Rock Star, Oracle Code One Star and Oracle ACE Pro awards."
-  thumbnailUrl: "https://2024.geecon.org/speakers/johanj.png"
--
-  id: "vikgam"
-  name: "Viktor"
-  surname: "Gamov"
-  bio: "Viktor Gamov is the Head of Developer Advocacy at StarTree, a pioneering company in real-time analytics with Apache Pinot®. With a rich background in implementing and advocating for distributed systems and cloud-native architectures, Viktor excels in open-source technologies. He is passionate about assisting architects, developers, and operators in crafting systems that are not only low in latency and scalable but also highly available.
-As a Java Champion and an esteemed speaker, Viktor is known for his insightful presentations at top industry events like JavaOne, Devoxx, Kafka Summit, and QCon. His expertise spans distributed systems, real-time data streaming, JVM, and DevOps.
-Viktor has co-authored 'Enterprise Web Development' from O'Reilly and 'Apache Kafka® in Action' from Manning. 
-Follow Viktor on X - @gamussa to stay updated with Viktor's latest thoughts on technology, his gym and food adventures, and insights into open-source and developer advocacy."
-  thumbnailUrl: "https://2024.geecon.org/speakers/viktorg.jpg"
--
-  id: "guilaf"
+  id: "guibla"
   name: "Guillaume"
-  surname: "Laforge"
-  bio: "Guillaume Laforge is a Developer Advocate for Google Cloud, focusing on event oriented architecture, API orchestration, and generative AI. He's also a Java Champion, and the co-founder of the Apache Groovy programming language."
-  thumbnailUrl: "https://2024.geecon.org/speakers/guillaumel.jpg"
--
-  id: "jarpal"
-  name: "Jarosław"
-  surname: "Pałka"
-  bio: "For more than 20 years in the IT industry, as a database administrator, programmer,
-architect, manager and 'onsite disaster engineer'.
-I took part in small,medium and nonsensically large projects carried out according to the rules 'Waterfall', Agile and in the absence of any methodologies,
-with the same always effect. Which led me to the conclusion that it doesn't matter what you do as long as you do it in the simplest possible way and use the right tools to do the work for you.
-Recently I spend too much time exploring JVM's best kept secrets, reading about managed runtime, parsers and interpreters.
-From time to time you can hear my low-quality jokes about
-architecture at conferences in Poland.
-I am also author of a blog on http://geekyprimitives.com/ and full time benchmarking infrastructure engineer at Neo4j."
-  thumbnailUrl: "https://2024.geecon.org/speakers/jarekp.jpg"
--
-  id: "jaknab"
-  name: "Jakub"
-  surname: "Nabrdalik"
-  bio: "21 years designing, building commercial systems and leading teams<br>
-9 years hands-on experience in microservices, including large monolith-to-microservice migrations. Public and private clouds, K8s, Kafka, and all the usual suspects<br>
-12 years teaching: 300+ workshops and talks on Domain Driven Design, Test Driven Development, Behavior Driven Development, eXtreme Programming, Craftsmanship, Reactive Programming, distributed and modular architectures, Spring, Java and IT management"
-  thumbnailUrl: "https://2024.geecon.org/speakers/jakubn.jpeg"
--
-  id: "grzmil"
-  name: "Grzegorz"
-  surname: "Milka"
-  bio: "Grzegorz Milka is a tech lead at Google working on account compromise protection. He’s a passionate software engineer who loves to learn and share all things related to making good and useful software. He’s particularly interested in functional programming, software architecture, and optimizing his Neovim development environment."
-  thumbnailUrl: "https://2024.geecon.org/speakers/grzegorzm.png"
--
-  id: "ondmih"
-  name: "Ondro"
-  surname: "Mihalyi"
-  bio: "Ondro is a software developer and consultant specializing in combining standard and proven tools to solve new and challenging problems. He's been developing in Java for over 10 years. He’s worked for clients like Payara, LottoLand, Uniqa and others. 
-He has co-founded OmniFish, which provides enterprise support for Eclipse GlassFish and expert Jakarta EE services. He’s passionate about helping his clients and the wider Java community with their projects based on Jakarta EE and similar technologies.
-As an experienced Java developer and instructor, he's helped companies build and educate their development teams and improve their development processes.
-He's a core member of several opensource projects and Jakarta EE specification projects. He’s a frequent conference speaker, leader of the Czech JUG, and a Java Champion."
-  thumbnailUrl: "https://2024.geecon.org/speakers/ondrom.jpg"
--
-  id: "jonhar"
-  name: "Jonathan"
-  surname: "Harel"
-  bio: "Jonathan is a digital comedian - touching on everything that involves humor, technology and creativity. He is the cofounder of Fine, a company that helps developers build software with AI agents; and the creator of 'Dark{mode}': a docu-comedy web series that covers developer experience topics, trends, and best practices."
-  thumbnailUrl: "https://2024.geecon.org/speakers/jonathanh.png"
--
-  id: "tomgab"
-  name: "Tomer"
-  surname: "Gabel"
-  bio: "A programming junkie and computer history aficionado, Tomer's been an avid software professional for almost two decades, during which he's built any number of (predominantly back-end) systems, cofounded two major Israeli user groups (Java.IL and Underscore), organized an annual Scala conference (Scalapeño) and is a recurring speaker at software conferences. Plying his trade as a gun-for-hire at Substrate, he secretly still hopes to realize his childhood dream of becoming a lion tamer."
-  thumbnailUrl: "https://2024.geecon.org/speakers/tomerg.jpg"
--
-  id: "jackun"
-  name: "Jacek"
-  surname: "Kunicki"
-  bio: "I'm a passionate software engineer living in the JVM land, where I mostly code and teach Scala and functional programming.
+  surname: "Blaquiere"
+  bio: "Guillaume is a Google Developer Expert on Cloud Platform since 2019 and works at Carrefour as Group Data Architect. 
 
-I believe that software craftsmanship is technology-agnostic, thus I try not to limit my portfolio to a narrow set of technologies.
+Java developer for more than 15 years, and despite positions of responsibilities, he has always kept his wish to create, develop, discover and test new solutions, especially in the Cloud, the machine learning or Python and Go language. 
 
-When sharing my knowledge, I always keep in mind that a working example is worth a thousand words, so you are very likely to see me in action during a live coding session."
-  thumbnailUrl: "https://2024.geecon.org/speakers/jacekk.jpg"
+
+Innovation addict and Google Cloud 3x certified, writer and speaker in his free time, he's fascinated by the serverless solution and all the 'usual' problems that it solves.
+
+
+More generally, he likes helping people stuck on Google Cloud; you can find him on Stack Overflow (guillaume-blaquiere), Medium (@guillaume-blaquiere) and Twitter (@gblaquiere)"
+  thumbnailUrl: "https://2025.geecon.org/speakers/guillaumeb.jpg"
 -
-  id: "mackrz"
-  name: "Maciej"
-  surname: "Krzysica"
-  bio: "Maciek has nearly 15 years of experience, first as a developer and now as a team leader at j-labs. Still connected to the Java word, he now explores the strange land of team management, people relations and business deciphering. He would like to focus on extracting the most useful and practical parts of the soft skills world and share them with other engineers"
-  thumbnailUrl: "https://2024.geecon.org/speakers/maciejk.jpg"
+  id: "heikab"
+  name: "Heinz"
+  surname: "Kabutz"
+  bio: "Dr. Heinz Kabutz is a globally recognized Java Champion and the creator of the acclaimed Java Specialists' Newsletter, which has been read by thousands of advanced Java programmers worldwide. With a PhD in Computer Science and decades of hands-on experience, Heinz is renowned for his deep technical insights, particularly in the areas of Java concurrency, performance optimization, and advanced programming techniques. As a sought-after speaker, trainer, and consultant, he has delivered engaging talks and workshops at premier Java conferences and for leading companies around the globe. Heinz's practical, no-nonsense approach to Java programming has made him a trusted authority in the industry. (Wow, thanks ChatGPT!) <a href='https://www.javaspecialists.eu'>https://www.javaspecialists.eu</a>"
+  thumbnailUrl: "https://2025.geecon.org/speakers/heinzk.jpg"
 -
-  id: "jarrat"
-  name: "Jarek"
-  surname: "Ratajski"
-  bio: "Jarek Ratajski is a software developer at Digital Asset. He started coding in 1990 on the commodore 64 and still loves it. For most of his professional career, Jarek was developing java applications for banks and insurance companies, however, in the last years, he is mostly coding Haskell, Scala, and Kotlin. At the conferences, he speaks often about functional programming, languages but mostly about things that make him angry at work."
-  thumbnailUrl: "https://2024.geecon.org/speakers/jarekr.png"
--
-  id: "hugmck"
-  name: "Hugh"
-  surname: "McKee"
-  bio: "Hugh McKee is a skilled back-end developer and developer advocate with decades of experience building enterprise applications. Specializing in large-scale, cloud-based systems, Hugh is dedicated to learning new technologies and sharing his knowledge with others. As a developer advocate, he speaks at conferences worldwide and is the author of 'Designing Reactive Systems: The Role Of Actors In Distributed Architecture.' With a passion for teaching and evolving his software engineering skills, Hugh is a valuable contributor to the tech community."
-  thumbnailUrl: "https://2024.geecon.org/speakers/hughm.jpg"
+  id: "marvan"
+  name: "Marit"
+  surname: "van Dijk"
+  bio: "Marit van Dijk is a software developer with over 20 years of diverse experience across various roles and companies. As a Java Champion and Developer Advocate at JetBrains, she is passionate about building awesome software in collaboration with amazing people, and making developers’ lives better.
+
+Marit is committed to continuous learning and actively shares her expertise in programming, software development, testing, and test automation.
+
+Marit regularly presents at international conferences, participates in webinars, and appears on podcasts. Additionally, she writes blog posts and tutorials, creates videos, and is a contributor to the book “97 Things Every Java Programmer Should Know” (O’Reilly Media).
+"
+  thumbnailUrl: "https://2025.geecon.org/speakers/maritd.png"
 -
   id: "natsil"
   name: "Natan"
   surname: "Silnitsky"
-  bio: "Natan Silnitsky is a backend-infra architect and developer at Wix. 
+  bio: "Natan Silnitsky is a backend-infra tech lead at Wix. 
 
-
-He's part of group that provides solutions for Wix's platformization and development needs that accelerate development of microservices and serverless functions at Wix.
-
+He designs and develops innovative solutions for Wix's platformization and development needs, significantly accelerating the creation and deployment of microservices and serverless functions.
 
 Before that he was tech lead for a team building event-driven libraries and tools on Kafka. 
 A co-maintainer of Greyhound, an open-source Kafka client, and a Scala enthusiast.
 
-
 Natan is a renowned speaker, blogger, and advocate for clean, functional code, efficient development, and exceptional software design."
-  thumbnailUrl: "https://2024.geecon.org/speakers/natans.jpeg"
+  thumbnailUrl: "https://2025.geecon.org/speakers/natans.jpg"
 -
-  id: "ivagri"
-  name: "Ivar"
-  surname: "Grimstad"
-  bio: "Ivar Grimstad is the Jakarta EE Developer Advocate at Eclipse Foundation. He is a Java Champion and JUG Leader based in Sweden.
-
-Besides advocating the Jakarta EE technologies, Ivar is contributing to the Jakarta EE specifications as well as being the PMC Lead for Eclipse Enterprise for Java (EE4J). He is also one of the specification leads for Jakarta MVC and represents Eclipse Foundation on the JCP Executive Committee.
-
-Ivar is also involved in a wide range of other open-source projects and communities. He is a frequent speaker at International developer conferences."
-  thumbnailUrl: "https://2024.geecon.org/speakers/ivarg.png"
--
-  id: "patweg"
-  name: "Patrycja"
-  surname: "Wegrzynowicz"
-  bio: "Patrycja is a lead engineer at Form3, working on reliability and performance of UK payments. She is also the founder of Yon Labs, a startup focusing on automated tools for detection and refactoring of security vulnerabilities, performance anti-patterns, or cloud issues and providing consultancy in Java, C++, Go, and cloud technologies.
- 
-She is a regular speaker at software conferences, including KubeCon, CodeOne, JavaOne, Devoxx, JFokus, and others. She was awarded an Oracle Groundbreaker Ambassador title in 2020 and 2021, Oracle ACE Associate and Pro in 2022 and 2023. She was also named as one of Top 10 Women in Tech in Poland in 2016.
-
-Her interests focus on automated software engineering, mainly static and dynamic analysis techniques to support software verification, optimization, and deployment."
-  thumbnailUrl: "https://2024.geecon.org/speakers/patrycjaw.jpg"
--
-  id: "katosu"
-  name: "Katarzyna"
-  surname: "Osuch-Bukowska"
-  bio: "I am Director of Engineering with 19 years of experience in IT specializing in building and running Agile development teams in various industries: transportation, finance and banking, sports betting, hospitality, supply chain. Before entering the leadership path, I worked for many years as a software developer. I am a strong advocate of setting the standards for engineering excellence and promoting best practices. Flexible in approach, I successfully combine corporate and start-up experience."
-  thumbnailUrl: "https://2024.geecon.org/speakers/katarzynao.jpg"
--
-  id: "raffol"
-  name: "Rafal"
-  surname: "Foltynski"
-  bio: "Following up on almost a decade spent in dozens of projects in Poland, moved to London to join one of the greatest and brightest bunch of chaps known to man :) Interested in everything 'fast and efficient'. Contributed to jackson-core. Brought one of the fastest open-source delivery vehicles for your logs (and other bytes). Ever heard of log4j2-elasticsearch? He's the author of this horror :)"
-  thumbnailUrl: "https://2024.geecon.org/speakers/rafalf.jpg"
--
-  id: "sebgeb"
-  name: "Sebastian"
-  surname: "Gebski"
-  bio: "Principal Solutions Architect at Amazon Web Services. ex-CTO, ex-VP/Eng. He has co-built online platforms since 2001: across all kinds of organizations - starting with startups and ending with international financial groups, on 3 continents. He was designing solutions for development factories up to 300 people and leading engineering organizations up to 70 people. Hyper-active blogger, co-host of CTO Morning Coffee and a serial reader. Fan of deliberate system design, System's Theory and practical applications of DSLs."
-  thumbnailUrl: "https://2024.geecon.org/speakers/sebastiang.jpeg"
--
-  id: "jakmar"
+  id: "jaknab"
   name: "Jakub"
-  surname: "Marchwicki"
-  bio: "Jakub is a software craftsperson with nearly two decades of commercial experience in programming - wearing multiple hats and getting hands dirty in multiple environments. Some languages, some frameworks, blah blah blah - don’t matter. Architect, programmer, manager, technical trainer, tech lead, wannabe entrepreneur, and former JUG leader. There is a fair chance he does non of those right. Jakub divides his time between gaining hands-on project experience and sharing it afterwards with the community at conferences or local Java Users Groups."
-  thumbnailUrl: "https://2024.geecon.org/speakers/jakubm.png"
+  surname: "Nabrdalik"
+  bio: "22 years designing & building systems, 10 years microservices, 6 years Event Driven systems, 12 years teaching and presenting.
+Over 300 workshops around the world. Cybersecurity, Banking, Finance, Telco, eCommerce, CMS, ERP and e-mobility and other domains."
+  thumbnailUrl: "https://2025.geecon.org/speakers/jakubn.jpg"
 -
-  id: "tomreh"
-  name: "Tomas"
-  surname: "Rehak"
-  bio: "Tomáš Řehák, CTO @ AGRP.DEV
-
-As the CTO at AGRP.DEV, I spearhead the development of CODEXIS, our flagship legal tech platform. My professional journey has been deeply rooted in Java, emphasizing clean, simple code and efficient, replicable local environments.
-
-My motto, 'clean code = simple code,' underlines my focus on code clarity and maintainability. I advocate for development environments that anyone can set up and run locally, streamlining the coding process.
-
-My background includes impactful roles at Avast, 4Finance, and ING Insurance, where Java's versatility played a crucial role in delivering innovative solutions.
-
-At GeeCON 2024, I look forward to sharing practical insights on Java, testing, automation, and DevOps, drawn from my experiences in the tech industry.
-"
-  thumbnailUrl: "https://2024.geecon.org/speakers/tomasr.jpeg"
+  id: "nicfra"
+  name: "Nicolas"
+  surname: "Fränkel"
+  bio: "Developer Advocate with 15+ years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector). Usually working on Java/Java EE and Spring technologies, but with focused interests like Rich Internet Applications, Testing, CI/CD and DevOps. Also double as a trainer and triples as a book author."
+  thumbnailUrl: "https://2025.geecon.org/speakers/nicolasf.jpg"
 -
-  id: "sriyek"
-  name: "Srikar"
-  surname: "Yekollu"
-  bio: "I am an architect with Clari, India. The bulk of my career has focused on
-applying ML algorithms to various problems across Amazon, Google and Uber. Before Clari,
-I was the founder and CTO of Wingman focused on helping sales teams capture and
-understand sales conversations."
-  thumbnailUrl: "https://2024.geecon.org/speakers/srikar.jpg"
--
-  id: "maxarr"
-  name: "Maximillian"
-  surname: "Arruda"
-  bio: "Maximillian has been involved with software development since 2003, he is a Software Engineer, Developer Advocate, SouJava JUG leader, Open-source enthusiast, Committer of the Eclipse JNoSQL Project - an implementation for Jakarta NoSQL and Jakarta Data specifications, Jakarta EE Contributor and Ambassador, who enjoys learning and helping developers by organizing, participating, and speaking at tech events and meetup community events.
-Besides liking tech stuff, Maximillian loves martial arts, especially Shotokan Karate - he is 1st DAN and teaches in the school that his association is part of. He follows the 'family first' philosophy! He highly enjoys playing video games with his sons: Pietro and Giulliano. Of course, he loves standing with his wife: Maira."
-  thumbnailUrl: "https://2024.geecon.org/speakers/maxa.jpg"
--
-  id: "gabsil"
-  name: "Gabriel"
-  surname: "Silva"
-  bio: "Software engineer with more than 3 years of experience in the market with Java technology, creator of the Java Journey initiative, and member of several relevant communities in the Java ecosystem."
-  thumbnailUrl: "https://2024.geecon.org/speakers/gabriels.jpeg"
--
-  id: "barkuc"
-  name: "Bartłomiej"
-  surname: "Kuczyński"
-  bio: "Born, turned on the computer and started programming. BSc in Computer Physics from the Faculty of Physics at the University of Warsaw, but the last 20 years have been spent programming on the JVM. Big fan of new technologies and the use of good old mathematics in modern enterprise IT. Private worshipper of the God Machine, fan of w40k, gamer and father of Gork (or Mork) and World Eater."
-  thumbnailUrl: "https://2024.geecon.org/speakers/bartlomiejk.jpg"
--
-  id: "barwie"
-  name: "Bartosz"
-  surname: "Wieczorek"
-  bio: "Last year in the Data and Analytics organization, Bartosz helped to fine-tune several key Big Data jobs which saved ~ $900k cloud costs per year. He also worked closely with Google architects and engineers to find best cost-effective cloud Big Data solutions which resulted in additional simplification of architecture for projects that were migrated from on premise data center to the cloud.
-
-Bartosz shared his knowledge and experience at numerous tech conferences for developers and data scientists (JDD, GeeCon, Data Science Summit). Additionally, he was a speaker at the AGH University, internal Google tech talk and Sabre internal and external meet-ups.
-
-Bartosz regularly blogs about programming best practices on his blog and his Github projects. He enjoys spending free time with his family in the nature, practicing water sports and cycling."
-  thumbnailUrl: "https://2024.geecon.org/speakers/bartoszw.jpg"
--
-  id: "pioprz"
-  name: "Piotr"
-  surname: "Przybyl"
-  bio: "Notorious engineer at work and after hours, tracing meanders of the art of software engineering. Remote Software Gardener, mostly working in web-oriented Java gardens. Java Champion. Testcontainers Champion. Oracle ACE. Programming usually in Java (since 1.3), Scala and Go, but in other languages too. Fan of agility, seen mostly as choosing the right tools and approaches after asking the right questions. Developer, trainer and conference speaker. In his talks, Piotr covers not only hardcore Java but also software architecture, computer security, and soft-skills."
-  thumbnailUrl: "https://2024.geecon.org/speakers/piotrp.jpg"
--
-  id: "zbypap"
-  name: "Zbyszko"
-  surname: "Papierski"
-  bio: "Engineer (sometimes trying to manage people) with 17 years of experience, with more than half of this spent on trying to understand search. Currently running things in search domain in Brainly, while helping Tricity JUG stay afloat. Enjoys learning new languages (without any intention to learn any of them)."
-  thumbnailUrl: "https://2024.geecon.org/speakers/zbyszkop.jpeg"
--
-  id: "vadkaz"
-  name: "Vadym"
-  surname: "Kazulkin"
-  bio: "Vadym Kazulkin is Head of Development at ip.labs GmbH, a 100% subsidiary of the FUJIFLM Group, based in Bonn. ip.labs is the world's leading white label e-commerce software imaging company. Vadym has been involved with the Java ecosystem for over twenty years. His focus and interests currently include the design and implementation of highly scalable and available applications, Serverless and AWS Cloud. Vadym is the co-organizer of the Java User Group Bonn meetup and AWS Community Builder in the Serverless category and a frequent speaker at various Meetups and conferences."
-  thumbnailUrl: "https://2024.geecon.org/speakers/vadymk.jpg"
--
-  id: "nitwak"
-  name: "Nitsan"
-  surname: "Wakart"
-  bio: "A blogger and a coder with a pedantic passion for performance. My work has spanned army intelligence systems, dot.com era startups, financial institutions and innovative product companies. A JVM Engineer by day, main contributor to lock free data structures library JCTools by night."
-  thumbnailUrl: "https://2024.geecon.org/speakers/nitsanw.jpeg"
--
-  id: "rafleg"
-  name: "Rafał"
-  surname: "Legiędź"
-  bio: "Rafał works as a software engineer for Transition Technologies PSC. Being in the industry since 2007 he develops his passion for the software at every possible moment. He believes that being pragmatic in our field is very helpful and proves that by switching technologies he uses whenever there is a need or an opportunity to learn new concepts. Started with .NET back-end solutions, he quickly became a web guy and then he got his head around different kind of mobile technologies and VR/AR. Also a Microsoft MVP in Mixed Reality."
-  thumbnailUrl: "https://2024.geecon.org/speakers/rafall.jpg"
--
-  id: "janmar"
-  name: "Jan"
-  surname: "Martiška"
-  bio: "Open source and Java craftsman, working for more than 12 years at Red Hat, nowadays mostly on Quarkus. I love creating frameworks, libraries, tools and APIs that developers will enjoy using. Eclipse MicroProfile committer. Lately I've started fiddling with our AI/Langchain4j story."
-  thumbnailUrl: "https://2024.geecon.org/speakers/janm.jpg"
--
-  id: "abdsgh"
-  name: "Abdel"
-  surname: "Sghiouar"
-  bio: "Abdel Sghiouar is a senior Cloud Developer Advocate @Google Cloud. A co-host of the Kubernetes Podcast by Google and a CNCF Ambassador. His focused areas are GKE/Kubernetes, Service Mesh, and Serverless. Abdel started his career in data centers and infrastructure in Morocco, where he is originally from, before moving to Google's largest EU data center in Belgium. Then in Sweden, he joined Google Cloud Professional Services and spent five years working with Google Cloud customers on architecting and designing large-scale distributed systems before turning to advocacy and community work"
-  thumbnailUrl: "https://2024.geecon.org/speakers/abdels.jpeg"
--
-  id: "micnic"
-  name: "Michał"
-  surname: "Niczyporuk"
-  bio: "Software engineer with over 15 years of experience in various organisations - both in terms of scale and economic sectors. A generalist who prefers the backend and infrastructure to the frontend, but does not avoid it. Currently software samurai in merXu - the European renewable energy marketplace."
-  thumbnailUrl: "https://2024.geecon.org/speakers/michaln.jpg"
--
-  id: "przbie"
-  name: "Przemek"
-  surname: "Bielicki"
-  bio: "Senior Software Engineer working for Gradle - creators of the most popular open source build tool for the JVM.
-Currently working in the Developer Productivity Engineering Team optimising productivity and happiness of Develocity engineers.
-
-Develops software professionally since 2003 - unprofessionally for over 30 years.
-
-Worked in mid-sized and large corporations (e.g. Lufthansa, Intel, Amadeus) but prefers smaller companies.
-Knows how to write software ('Hello, World', at least) in C, C++, C# or JavaScript but feels most comfortable in the JVM world (Java, Groovy, Kotlin).
-
-Spent 25% of his life in the south of France but mainly associated with Tricity (mostly Gdynia)."
-  thumbnailUrl: "https://2024.geecon.org/speakers/przemyslawb.jpg"
+  id: "dankec"
+  name: "Daniel"
+  surname: "Kec"
+  bio: "After years of exploring all sides of Java in various companies landed in a great team that develops Helidon."
+  thumbnailUrl: "https://2025.geecon.org/speakers/danielk.jpg"
 -
   id: "vadpru"
   name: "Vadzim"
   surname: "Prudnikau"
-  bio: "Hands-on Architect and IT Trainer with 19 years of experience (6 years in the Norwegian market) who believes that technical skills, self-education, being a good team player, and knowledge sharing are the keys to success.
+  bio: "Hands-on Architect, IT Trainer, and Conference Speaker with 20 years of experience who believes that technical skills, self-education, being a good team player, and knowledge sharing are the keys to success.
 
-Trained 250+ people in Architecture, EventStorming, and TDD, completed 10+ projects that work in production, led 5 development teams, mentored 20+ developers, interviewed over 100 developers for 20+ positions, and created a Java department. An Expert in Java and has also experience with Kotlin, Groovy, and other programming languages."
-  thumbnailUrl: "https://2024.geecon.org/speakers/vadzimp.jpg"
+Trained over 450 people in Architecture, EventStorming, and TDD, completed more than 10 projects that are in production, led more than 5 development teams, mentored over 20 developers, interviewed over 100 developers for more than 20 positions, and created a Java department. An expert in Java and has also experience with Kotlin, Groovy, and other programming languages."
+  thumbnailUrl: "https://2025.geecon.org/speakers/vadzimp.jpg"
+-
+  id: "barsad"
+  name: "Baruch"
+  surname: "Sadogursky"
+  bio: "Baruch Sadogursky (@jbaruch) did Java before it had generics, DevOps before there was Docker, and DevRel before it had a name. He started DevRel at JFrog when it was ten people and took it all the way to a successful $6B IPO by helping engineers solve problems. Now Baruch keeps helping engineers solve problems but also helps companies help engineers solve problems. He is a co-author of the 'Liquid Software' and 'DevOps Tools for Java Developers' books, Java Champion and CNCF Ambassador alumni, serves on multiple conference program committees, and regularly speaks at numerous most prestigious industry conferences, including Kubecon, JavaOne (RIP), Devoxx, QCon, DevRelCon, DevOpsDays (all over), DevOops (not a typo) and others."
+  thumbnailUrl: "https://2025.geecon.org/speakers/baruchs.png"
+-
+  id: "dylbea"
+  name: "Dylan"
+  surname: "Beattie"
+  bio: "Dylan Beattie is a consultant, software developer and international
+keynote speaker. Dylan has been building data-driven web applications since the 1990s;
+he’s managed development teams, designed large-scale distributed systems, taught workshops
+ on Microsoft .NET and HTTP API development, and presented keynote talks at software conferences on four continents.
+
+Before founding Ursatile, Dylan was CTO at Skills Matter in London
+until they closed down in 2019. Prior to that  he was webmaster, IT Manager, and
+eventually systems architect at <a href='https://www.spotlight.com'>Spotlight</a>,
+where his first-hand experience of watching an organisation and its codebase
+evolve over more than a decade provided him with a unique insight into how
+everything from web standards and API design to Conway’s Law and recruitment
+ends up influencing a company’s code and culture.
+
+Dylan grew up in southern Africa, moving to the UK with his family when he was nine.
+He’s a <a href='https://mvp.microsoft.com/en-us/PublicProfile/5002699'>Microsoft MVP</a> and
+holds a degree in Computer Science from the University of Southampton. He’s the creator of
+<a href='https://codewithrockstar.com'>Rockstar</a>, a programming language designed for
+creating computer programs that are also songs, and he’s performed his software-themed
+parodies of classic rock songs all over the world with <a href='https://dylanbeattie.net/music'>The Linebreakers</a>.
+He’s into skiing, scuba diving, Lego, cats, travel and photography. You’ll find him
+online at <a href='https://dylanbeattie.net/'>dylanbeattie.net</a> and on Twitter
+as <a href='https://twitter.com/dylanbeattie/'>@dylanbeattie</a>, and offline at meetups and
+rock bars all over the world, wearing a big black hat."
+  thumbnailUrl: "https://2025.geecon.org/speakers/dylanb.jpg"
 -
   id: "jartul"
   name: "Jaroslav"
   surname: "Tulach"
   bio: "Jaroslav is the founder and initial architect of NetBeans, which is not just a well-known IDE, but also the first modular desktop application framework written in Java. Jaroslav devoted the last ten years to the design of interoperability between Java, JavaScript and other dynamic languages. Jaroslav is currently helping the dual syntax (visual & textual) Enso.org language to run faster and better reuse GraalVM polyglot capabilities."
-  thumbnailUrl: "https://2024.geecon.org/speakers/jaroslavt.jpg"
+  thumbnailUrl: "https://2025.geecon.org/speakers/jaroslavt.jpg"
 -
-  id: "pavmar"
-  name: "Pavel"
-  surname: "Marek"
-  bio: "Pavel currently works as a software engineer for Enso. His main focus is the compiler, interpreter, tooling, and performance monitoring. Before Enso, he used to maintain FastR, an alternative open-source interpreter of the R programming language based on GraalVM & Truffle, where he tried to make FastR even more compatible with the referential interpreter."
-  thumbnailUrl: "https://2024.geecon.org/speakers/pavelm.png"
+  id: "rusmeh"
+  name: "Rustam"
+  surname: "Mehmandarov"
+  bio: "Passionate computer scientist. Java Champion, Google Developers Expert for Cloud, and Docker Captain. Public speaker. Community builder. Mentor."
+  thumbnailUrl: "https://2025.geecon.org/speakers/rustamm.jpeg"
 -
-  id: "wojpit"
-  name: "Wojciech"
-  surname: "Pituła"
-  bio: "Staff Engineer with Scala background. Generalist. An absolute expert in faking expertise. A claimant to the title of The Laziest Person in Existence. Fighting an uneven battle with code and backlogs for the past 10 years."
-  thumbnailUrl: "https://2024.geecon.org/speakers/wojciechp.jpg"
+  id: "olggup"
+  name: "Olga"
+  surname: "Gupalo"
+  bio: "Member of the GraalVM and Graal.Cloud teams. Maintainer of the GraalVM website and documentation, with a focus on content management, accessibility, community outreach, and the creation of learning materials. Committed to share awareness about Native Image and other innovative Graal technologies among Java developers.
+GitHub profile: <a href='https://github.com/olyagpl'>https://github.com/olyagpl</a>"
+  thumbnailUrl: "https://2025.geecon.org/speakers/olgag.jpg"
 -
-  id: "otasan"
-  name: "Otavio"
-  surname: "Santana"
-  bio: "Otavio is an award-winning software engineer and architect passionate about empowering other engineers with open-source best practices to build highly scalable and efficient software. He is a renowned contributor to the Java and open-source ecosystems and has received numerous awards and accolades for his work. Otavio's interests include history, economy, travel, and fluency in multiple languages, all seasoned with a great sense of humor."
-  thumbnailUrl: "https://2024.geecon.org/speakers/otavios.png"
+  id: "dmyvya"
+  name: "Dmytro"
+  surname: "Vyazelenko"
+  bio: "Independent consultant working on Aeron at Adaptive. Disorganizer of the JCrete and JAlba unconferences."
+  thumbnailUrl: "https://2025.geecon.org/speakers/dmytrov.jpg"
 -
-  id: "grzpiw"
-  name: "Grzegorz"
-  surname: "Piwowarek"
-  bio: "Grzegorz Piwowarek is a Founding Engineer at Quesma, trainer, and blogger at 4comprehension.com. Loves distributed systems, internals, performance, and architecture. There are rumours that he exists only at compile-time..."
-  thumbnailUrl: "https://2024.geecon.org/speakers/grzegorzp.png"
+  id: "adadud"
+  name: "Adam"
+  surname: "Dudczak"
+  bio: "Engineer and builder at heart, always eager to make his hands dirty to solve real users problems and help the community. Experienced people and product leader with several years of experience in developing AI/ML-based solutions. I am professinaly involved with Java and related technologies since 2004. Interested in endurance sports, science fiction and local history. Top speaker at Geecon and Allegro Tech meeting."
+  thumbnailUrl: "https://2025.geecon.org/speakers/adamd.png"
 -
-  id: "marste"
-  name: "Martin"
-  surname: "Stefanko"
-  bio: "Principal software engineer at Red Hat, Brno JUG leader, MicroProfile committer, working on Red Hat middleware technologies like Quarkus, SmallRye, Wildfly, JBoss middleware (RESTEasy, Weld, ...), programming and microservices enthusiast."
-  thumbnailUrl: "https://2024.geecon.org/speakers/martins.png"
--
-  id: "androd"
-  name: "Andrii"
-  surname: "Rodionov"
-  bio: "Andrii is an associate professor at the National Technical University of Ukraine, reading a cycle of lectures about distributed systems. He currently works in the Hazelcast core team. Interested in microservices, distributed algorithms and data structures"
-  thumbnailUrl: "https://2024.geecon.org/speakers/andriir.jpeg"
--
-  id: "spegib"
-  name: "Spencer"
-  surname: "Gibb"
-  bio: "Spencer Gibb is a Software Engineer at Broadcom, where he is the co-founder and lead of the Spring Cloud Core projects.
-
-His interests include distributed systems, JVM languages, web services frameworks, message-driven architectures, and making software development simpler.
-
-He has industry experience in early e-commerce platforms, government and non-profit organizations, and business intelligence startups. He has extensive Java experience and experience in other languages, such as scala and python.
-
-His blog is located at https://gibb.tech."
-  thumbnailUrl: "https://2024.geecon.org/speakers/spencerg.jpg"
--
-  id: "kerken"
-  name: "Keren"
-  surname: "Kenzi"
-  bio: "Keren is a senior software developer with over a decade of experience in the industry. She holds an M.Sc. in Computer Science and is passionate about React and learning new technologies. Keren volunteers as a program manager at Baot, a community that supports women in R&D in their professional growth. She instructs and inspires people to write blogs in her tech blogging workshops. Keren has experience as a dev community leader and a co-organizer of meetups and events. And in her not-so-spare time, she studies psychology. Her hobbies include drawing, photography, and singing."
-  thumbnailUrl: "https://2024.geecon.org/speakers/kerenb.jpeg"
--
-  id: "antkek"
-  name: "Anton"
-  surname: "Keks"
-  bio: "Anton Keks is a software craftsman, co-founder of Codeborne, the only extreme programming shop in the region, a frequent speaker at conferences, and a lecturer in Tallinn Technical University. He is also a strong believer in open-source software and agile development methodologies, author of a popular network tool — Angry IP Scanner, and a regular contributor to other open-source projects. Before founding Codeborne, Anton has led a team of developers of the award-winning internet-bank of Swedbank for 5 years, gradually introducing agile methods. During this time he has also co-founded an Agile Estonia non-profit organization that organizes regular agile conferences in Estonia. During his spare time he plays guitar, rides a motorbike, and travels to remote corners of the world."
-  thumbnailUrl: "https://2024.geecon.org/speakers/antonk.jpg"
--
-  id: "tievan"
-  name: "Ties"
-  surname: "van de Ven"
-  bio: "Ties is a software engineer with a passion for concepts, software engineering fundamentals and helping others. He combines these passions by doing public speaking, volunteer work for organisations like Devoxx4kids and codingcoach and working as a Software Quality Expert at Alliander."
-  thumbnailUrl: "https://2024.geecon.org/speakers/ties.jpg"
--
-  id: "tifjer"
-  name: "Tiffany"
-  surname: "Jernigan"
-  bio: "Tiffany is a technology advocate, content creator, and community enabler in the Cloud Native space. She most recently was a senior developer advocate at VMware. She also formerly worked as a software developer and developer advocate at Amazon, Docker, and Intel. Before that, she graduated from Georgia Tech with a degree in electrical engineering. In her free time, she likes to travel and dabble in photography. You can find her on Twitter <a href='https://twitter.com/tiffanyfayj'>@tiffanyfayj</a>."
-  thumbnailUrl: "https://2024.geecon.org/speakers/tiffanyj.jpeg"
--
-  id: "phiduv"
-  name: "Philippe"
-  surname: "Duval"
-  bio: "I am a Senior Cloud Architect at Worldline. I work on payment products, wether on private and public Cloud with more than 5 years experience in Kubernetes.
-
-I also teach Java and cloud Transformation at several french universities."
-  thumbnailUrl: "https://2024.geecon.org/speakers/philipped.jpg"
--
-  id: "aletou"
-  name: "Alexandre"
-  surname: "Touret"
-  bio: "I am a senior software architect with 22 years' experience passionate about technology, cloud and development. Throughout my career,I have designed, built and managed systems from small to large in various business contexts such as insurance, financial services or mobility industries. I then enjoy sharing my knowledge by speaking at conferences, organizing workshops and writing articles."
-  thumbnailUrl: "https://2024.geecon.org/speakers/alext.png"
--
-  id: "alvsan"
-  name: "Álvaro"
-  surname: "Sánchez-Mariscal Arnaiz"
-  bio: "Álvaro is a passionate developer and agile enthusiast with over 22 years of experience. He is now a Principal Member of Technical Staff at Oracle Labs, where he is a Micronaut committer, helping to maintain and evolve the open-source framework.
-
-
-Before that, he was a Staff Engineer at VMWare, where he led the creation of new products to build, package, verify and publish software solutions with confidence in the VMware Marketplace. Previously, he spent some years working in different industries like gambling games (Odobo) and fintech (4Finance). Prior to that, he created his own company, Salenda, in 2005, a software factory and Atlassian Solution Partner headquartered in Madrid, Spain. Adaptavist acquired Salenda in 2019. Previously, he worked at companies like IBM BCS, Sun Microsystems or BEA Systems, where he was recognised as BEA Technical Director, an MVP awards program. He was also one of the initial founders and member of the Board of Directors of javaHispano in 2002, the world's largest Spanish-speaking Java User Group.
-
-
-Álvaro has spoken in 20 different countries at conferences like Devoxx BE/FR/MA, several Voxxed Days, GeeCON, JavaLand, JavaZone, jPrime, Codemotion and Commit Conf, among others. In his spare time, as well as coding and experimenting with new technologies, he likes to spend time with his wife and children, support CD Leganés football team, and play paddle tennis."
-  thumbnailUrl: "https://2024.geecon.org/speakers/alvaros.jpg"
--
-  id: "jamcol"
-  name: "Jamie"
-  surname: "Coleman"
-  bio: "Jamie is a Developer Advocate for Sonatype formally IBM, based in the UK. He talks about the importance of security in software, improving developer productivity and raising awareness about energy consumption of technology.
-Passionate about discovering ways to help reduce developers carbon footprint, he is also a subject matter expert in containerised solutions and build technologies. He fell in love with Java at University and has gone on to talk at many conferences about using Java with microservices and related technologies. He has worked on a wide variety of projects such as modernising IBM CICS mainframe testing infrastructure, creating, and automating the creation of Docker images for IBM’s products and contributing to a DevOps pipeline offering."
-  thumbnailUrl: "https://2024.geecon.org/speakers/jamiec.jpg"
--
-  id: "josgol"
-  name: "Josef"
-  surname: "Goldstein"
-  bio: "The data and culture guy. Currently leading the big data platform R&D at Wix. Josef has over a decade of experience building data intensive SaaS applications and growing the awesome teams that make them. He believes that the secret sauce for creating sustainable complex systems is good design practices, effective communication between people, and automating everything. In his day to day he works tirelessly on building the culture necessary to support these values and propagate them to others, one pep-talk at a time."
-  thumbnailUrl: "https://2024.geecon.org/speakers/josefg.jpg"
--
-  id: "serkur"
-  name: "Sergei"
-  surname: "Kurnevich"
-  bio: "Senior Software Engineer at Broadcom. I’m simply curious about how things work."
-  thumbnailUrl: "https://2024.geecon.org/speakers/sergeik.jpeg"
--
-  id: "serili"
-  name: "Sergiu"
-  surname: "Ilie"
-  bio: "Developer with 8+ years of experience with OOP languages, jumping in a new programming adventure every time I see the opportunity. Currently developing modern tools to help developing the mainframe worlds that still runs our financial world. And yes, Java works on z/OS"
-  thumbnailUrl: "https://2024.geecon.org/speakers/sergiui.jpg"
--
-  id: "micjon"
-  name: "Michał"
-  surname: "Jonko"
-  bio: "A Software Engineer with over 15 years in the field, mainly (but not only) focused on being a first line of defense in wars against JVM. Passionate about optimizations, finding performance, work automation, and even process identification and decision systems. Unfortunately, sometimes also a demanding grump, 'Agile lover', clean and easy to maintain code votary.
- Nowadays, I'm an engineer in the benchmarking infrastructure team at Neo4j where unpredictable things can happen.
-"
-  thumbnailUrl: "https://2024.geecon.org/speakers/michalj.png"
--
-  id: "pawkow"
-  name: "Paweł"
-  surname: "Kowalski"
-  bio: "Full-stack developer, comfortable in managing both back-end ecosystems based on JVM technologies as well as front-end ones based on Angular, React or vanilla JS. Clean code practitioner with passion to demystify uncommon or complex solutions and assembling gathered experience into lectures. 
-Privately, a husband and a father of two wonderful children, metal music lover and kettlebell hardstyle addict. I also enjoy solving crosswords, guitar playing and co-op games of any kind. Last but not least - connoisseur of memes and lame, ironic jokes."
-  thumbnailUrl: "https://2024.geecon.org/speakers/pawelk.jpg"
--
-  id: "eridor"
-  name: "Erik"
-  surname: "Dörnenburg"
-  bio: "Erik is a software engineer and passionate technologist. On his extensive journey in the tech industry he has continuously encountered and embraced new technologies, finding ways to realise their potential while bringing along proven engineering practices. As CTO Europe at Thoughtworks he helps clients make the most out of modern technologies, platforms, and practices. Erik is a regular speaker, contributed to a few books, and maintains several open source projects. He holds a degree in Informatics from the University of Dortmund and studied Computer Science and Linguistics at University College Dublin."
-  thumbnailUrl: "https://2024.geecon.org/speakers/erickd.jpg"
--
-  id: "margrz"
-  name: "Marcin"
-  surname: "Grzejszczak"
-  bio: "Co-author of SmartTesting, author of Hands-On Guide to Spring Cloud Contract: Creating Consumer-Driven Contracts to Leverage Contract Tests and Improve Your Code and co-author of Applied Continuous Delivery Live Lessons. Co-founder of the Warsaw Groovy User Group, Warsaw Cloud Native Meetup and the DiverseIT initiative. Author of 'Mockito Instant' and 'Mockito Cookbook' books.
-Working on Spring Observability, Spring Cloud Sleuth, Spring Cloud Contract projects at Broadcom."
-  thumbnailUrl: "https://2024.geecon.org/speakers/marcing.jpg"
--
-  id: "ronvee"
-  name: "Ron"
-  surname: "Veen"
-  bio: "Ron is a highly experienced software engineer who has seen it all, from Midrange Systems to Micro Services.
-Through all of this, he is guided by his passion for software engineering and software architecture.
-For more than 15 years he has been working on the JVM and the Java ecosystem and has seen all the frameworks and libraries from Apache to ZK.
-He is an Oracle Certified Java Programmer (OCP) and Sun Certified Business Component Developer (SCBCD/OCPBCD).
-
-Ron is an avid fan of alternative JVM languages like Groovy, Scala, Clojure, and his personal favorite Kotlin.
-At Team Rockstars IT he is a Special Agent and senior developer who frequently speaks at international conferences.
-
-He just published on Cloud-native migration with Jakarta EE."
-  thumbnailUrl: "https://2024.geecon.org/speakers/ronv.jpg"
--
-  id: "andgrz"
-  name: "Andrzej"
-  surname: "Grzesik"
-  bio: "ags likes distributed systems in all shapes and form. Coding since the age of 8, loves simplicity and continuous delivery. While he has written in many languages, he favours the JVM. Since 'most software problems are people problems”, he stirs communities, organizes and speaks at conferences. And he is a Java Champion!"
-  thumbnailUrl: "https://2024.geecon.org/speakers/andrzejg.jpg"
--
-  id: "thosun"
-  name: "Thomas"
-  surname: "Sundberg"
-  bio: "With more than 25 years in software development, Thomas is an independent consultant based in Stockholm, Sweden.
-He has a Masters degree in Computer Science from the Royal Institute of Technology (KTH), Sweden’s leading technical university. After graduation, Thomas also taught at KTH. 
-As a consultant, trainer, and developer Thomas has created value for many teams around Europe. For the last fifteen years, Thomas has been an invited conference speaker at numerous conferences around Europe speaking about topics including software craftsmanship, clean code, test automation, and continuous deployment."
-  thumbnailUrl: "https://2024.geecon.org/speakers/thomass.png"
--
-  id: "krzprz"
-  name: "Krzysztof"
-  surname: "Przygudzki"
-  bio: "Software Developer @ hyperexponential
-ex- hazelcast, TouK, team leader @ Allegro Smart"
-  thumbnailUrl: "https://2024.geecon.org/speakers/krzysztofp.jpg"
--
-  id: "tednew"
-  name: "Ted"
-  surname: "Neward"
-  bio: "Ted Neward currently labors on his own behalf, leveraging his speaking, writing, and coding experience to bring a technology-focused and -sharpened mindset to the mortgage industry. During his more code-focused years, he specialized in high-scale enterprise systems, working with clients ranging in size from Fortune 500 corporations to small 10-person shops. He is an authority in Java and .NET technologies, particularly in the areas of Java/.NET integration (both in-process and via integration tools like Web services), programming languages of all forms, back-end enterprise software systems, and virtual machine/execution engine plumbing.
-He is the author or co-author of several books, including <a href='http://www.wrox.com/WileyCDA/WroxTitle/Professional-F-2-0.productCd-047052801X.html'>Professional F# 2.0</a>, <a href='http://www.awprofessional.com/title/0321130006'>Effective Enterprise Java</a>, <a href='http://www.oreilly.com/catalog/csharpnut'>C# In a Nutshell</a>, <a href='http://www.newardassociates.com/files/SSCLI2.pdf'>SSCLI Essentials</a>, <a href='http://www.manning.com/books/neward3'>Server-Based Java Programming</a>, and a contributor to several technology journals. All told, he has written well over a hundred articles in both print and online form.
-Ted has also been an &quot;insider&quot; of one form or another with a variety of the technology providers of the world: an IBM Champion of Cloud, a Microsoft F# MVP (having also been an Architect and C# MVP in prior years), an F# Insider, C# Insider, VB Insider, INETA speaker, DevelopMentor instructor, PluralSight course author, and a member of various Java JSRs.
-He lives in the Pacific Northwest with his wife, two sons, three cats, twelve laptops, seven tablets, nine phones and a rather large utility bill.
-Visit his blog at <a href='http://blogs.tedneward.com'>http://blogs.tedneward.com</a>."
-  thumbnailUrl: "https://2024.geecon.org/speakers/tedn.png"
+  id: "ryahea"
+  name: "Ryan"
+  surname: "Healey"
+  bio: "Bioengineer turned programmer with 5 years professional experience at THG and LMAX, Ryan might not have as much experience in the game compared to most but he's keen to learn and eager to share what he's learnt. Strong believer that coding should be fun and hopes that his talks are too."
+  thumbnailUrl: "https://2025.geecon.org/speakers/ryanh.png"
 -
   id: "artsko"
   name: "Artur"
   surname: "Skowronski"
-  bio: "Head of Java/Kotlin Engineering at VirtusLab. W tym roku stuknęła mu dycha w branży. Tę dekadę spędził przy bardzo różnych projektach - takich, które startowały od zera, jak i grubo starszych od niego. Miał przyjemność pracować po różnych stronach barykady - jako Software Engineer, Tech Lead, Architekt czy nawet Technical Product Manager, co pozwala podchodzić do problemów z szeroką perspektywą. W dalszym ciągu uwielbia brudzić sobie ręce - od ponad dwóch lat, co tydzień publikuje autorskie przeglądy wydarzeń w świecie JVM."
-  thumbnailUrl: "https://2024.geecon.org/speakers/arturs.jpg"
--
-  id: "wlokra"
-  name: "Włodek"
-  surname: "Krakowski"
-  bio: "
-Engineering Manager at Allegro, fascinated by developing people through a coaching management style and supporting clean code through refactoring.
+  bio: "Head of Java/Kotlin Engineering at VirtusLab, he has been in the industry for ten years. During this time, he has had the opportunity to work in various roles, such as Software Engineer, Tech Lead, Architect, and even Technical Product Manager. This diverse experience enables him to approach problems from a holistic perspective. 
 
-He has appeared many times at various conferences: 33rd Degree (now Devoxx), JDD, Confitura, 4x JBCNConf - Barcelona, Java2Days - Sofia) conducting lectures and workshops on code refactoring combined with the organization of team work. This way he can ensure that outcoming quality of the code is part of the software development process and is the result of effective teamwork.
-"
-  thumbnailUrl: "https://2024.geecon.org/speakers/wlodekk.jpeg"
+He still loves to get his hands dirty - for more than two years, he has been publishing weekly reviews of events in the JVM world - <a href='https://jvm-weekly.com'>https://jvm-weekly.com</a>"
+  thumbnailUrl: "https://2025.geecon.org/speakers/arturs.jpeg"
+-
+  id: "barpis"
+  name: "Bartłomiej"
+  surname: "Pisulak"
+  bio: "Director of Cloud Quality Engineering with 12+ years of professional experience. Passionate about building successful organisations. Seasoned IT Trainer and university lecturer, with more than seven years of experience and 400+ people trained. Executive MBA graduate."
+  thumbnailUrl: "https://2025.geecon.org/speakers/bartlomiejp.jpg"
+-
+  id: "metata"
+  name: "Mete"
+  surname: "Atamel"
+  bio: "I’m a Software Engineer and a Developer Advocate at Google in London. I build tools, demos, tutorials, and give talks to educate and help developers to be successful on Google Cloud."
+  thumbnailUrl: "https://2025.geecon.org/speakers/metea.jpg"
+-
+  id: "micgaw"
+  name: "Michał"
+  surname: "Gawarzyński"
+  bio: "I have been working for Allegro for 7 years now. Currently, I am the leader of the team responsible for service mesh. I spent most of my time at Allegro as a software engineer developing solutions for marketing automation. For years, I ran the company's Krakow book club where we discussed topic related to distributed systems, databases and project management."
+  thumbnailUrl: "https://2025.geecon.org/speakers/michalg.jpg"
+-
+  id: "chanut"
+  name: "Charles"
+  surname: "Nutter"
+  bio: "Charles has been a Java developer for almost 30 years, and has helped to lead the JRuby Project since 2005. Today he is the leader architect and technologist at Headius Enterprises, providing commercial support options to users of JRuby and other open source projects."
+  thumbnailUrl: "https://2025.geecon.org/speakers/charlesn.jpg"
+-
+  id: "marlap"
+  name: "Marcin"
+  surname: "Łapaj"
+  bio: "An adult programmer and enthusiast of the craft approach to coding. For 18 years, he’s been writing code of varying quality. He has journeyed from developer to manager and back again. Personally, he’s passionate about cycling and travel."
+  thumbnailUrl: "https://2025.geecon.org/speakers/marcinl.jpg"
+-
+  id: "markod"
+  name: "Márton"
+  surname: "Kodok"
+  bio: "Márton is a 8x Google Developer Expert (GDE) on Cloud, a 3x Champion in the Cloud Innovators program, senior software architect at REEA.net who led the implementation of complex and distributed web backends serving millions of users for companies like Logomaker, Vodafone, LogoMix, Deluxe, WaterSmart, Ausschreibungsdienste and many more.
+
+Mentor and consultant for startups. Active contributor for open-source solutions like Beanstalkd console, and Riak admin interface. Expert in Cloud Technologies, Scalability, HA, Serverless, Cloud Run, Vertex AI, database systems like BigQuery, Redis, MySQL, Elasticsearch.
+
+Topics he is interested in: backend web development, cloud computing, community building, monitoring, devops, and continuous improvement of systems.
+
+
+When he is not coding, spends time hiking in the mountains with his family, or gurgling with their cat."
+  thumbnailUrl: "https://2025.geecon.org/speakers/martonk.jpg"
+-
+  id: "konsza"
+  name: "Konrad"
+  surname: "Szałkowski"
+  bio: "I’m a silicon-addicted Java developer, always on a mission to save the world from the clutches of legacy code—and occasionally rescue coffee machines in distress. My passion lies in turbocharging application performance and crafting solutions that are not only efficient but also a joy to debug."
+  thumbnailUrl: "https://2025.geecon.org/speakers/konrads.jpg"
+-
+  id: "androd"
+  name: "Andrii"
+  surname: "Rodionov"
+  bio: "Andrii is an associate professor at the National Technical University of Ukraine, reading a cycle of lectures about distributed systems. He currently works in the Moderne language team. Interested in microservices, distributed algorithms and data structures"
+  thumbnailUrl: "https://2025.geecon.org/speakers/andriir.jpeg"
+-
+  id: "piolas"
+  name: "Piotr"
+  surname: "Łaskawiec"
+  bio: "Pragmatic software architect and common sense evangelist. Deeply believes in holistic approach to software development. Occasional speaker and trainer. JVM enthusiast. Mastering the craft since the times of C64. He thrives on helping others to deliver high-quality solutions."
+  thumbnailUrl: "https://2025.geecon.org/speakers/piotrl.png"
+-
+  id: "haoli"
+  name: "Haoyi"
+  surname: "Li"
+  bio: "Li Haoyi graduated from MIT with a degree in Computer Science and Engineering, since then has built core infrastructure for high-growth companies like Dropbox and Databricks, and has been a major contributor to the open source community. His projects have over 10,000 stars on Github, and are downloaded over 20,000,000 times a month. Haoyi has deep experience in the JVM and has professionally built distributed backend systems, programming languages, high-performance web applications, and much more."
+  thumbnailUrl: "https://2025.geecon.org/speakers/haoyil.jpg"
+-
+  id: "bazrah"
+  name: "Bazlur"
+  surname: "Rahman"
+  bio: "A N M Bazlur Rahman is a Software Engineer with over a decade of specialized experience in Java and related technologies. His expertise has been formally recognized through the prestigious title of Java Champion. Beyond his professional commitments, Mr. Rahman is deeply involved in community outreach and education. He is the founder and current moderator of the Java User Group in Bangladesh, where he has organized educational meetups and conferences since 2013.
+
+In the past two years, Mr. Rahman has been an active speaker at various international conferences and Java user groups. His talks have often focused on specialized topics such as concurrency and virtual threads. In addition to his community work, Mr. Rahman also serves as an editor for Java Queue at InfoQ and Foojay.io, both of which are leading platforms for technology content. Notably, he has authored five books on the Java programming language in Bengali, three of which have become best sellers in Bangladesh.
+He is currently writing a new book with O'Reilly titled 'Modern Concurrency in Java'."
+  thumbnailUrl: "https://2025.geecon.org/speakers/bazlurr.jpg"
+-
+  id: "syesha"
+  name: "Syed M"
+  surname: "Shaaf"
+  bio: "Shaaf is a Principal Architect at Red Hat. A contributor to Konveyor community a CNCF Sandbox project.
+Mostly developing code with Java, Node and recently AI/ML. For the last 15 years, he has helped customers create and adopt open source solutions for applications, cloud and managed service, continuous integration environments, and frameworks. Shaaf is a technical editor at InfoQ and spends his time writing about Kubernetes, Security and Java"
+  thumbnailUrl: "https://2025.geecon.org/speakers/syedms.jpeg"
+-
+  id: "ronvee"
+  name: "Ron"
+  surname: "Veen"
+  bio: "Ron Veen is a seasoned software engineer with extensive experience ranging from Microservices to mainframes. His passion for software engineering and architecture has been his guiding force throughout his career. With over 20 years of expertise in the JVM and the Java ecosystem, Ron is an Oracle Certified Java Programmer (OCP) and a certified Sun Business Component Developer (SCBCD/OCPBCD). 
+
+A dedicated Java enthusiast, Ron also has a keen interest in alternative JVM languages, particularly Kotlin. At Team Rockstars IT, he serves as a Special Agent and lead developer, frequently speaking at international conferences. Ron is the author of books on Java Cloud-native migrations with Jakarta EE and on Virtual Threads, Structured Concurrency, and Scoped Values."
+  thumbnailUrl: "https://2025.geecon.org/speakers/ronv.jpg"
+-
+  id: "josgol"
+  name: "Josef"
+  surname: "Goldstein"
+  bio: "The data and culture guy. Currently leading the Big Data Platform R&D at Wix.
+Josef has over 15 years of experience building data intensive SaaS applications and growing the awesome teams that make them.
+He believes that the secret sauce for creating sustainable complex systems is good design practices, effective communication between people, and automating everything. In his day to day he works tirelessly on building the culture necessary to support these values and propagate them to others, one pep-talk at a time."
+  thumbnailUrl: "https://2025.geecon.org/speakers/josefg.png"
+-
+  id: "mohtam"
+  name: "Mohamed"
+  surname: "Taman"
+  bio: "Adopts Java SE.next(), JakartaEE.next(), a JCP member, was a JCP Executive Committee member, JSR 354, 363 & 377 Expert Group member, EGJUG leader, Oracle Egypt Architects Club board member, speaks Java, loves Mobile, Big Data, Cloud, Blockchain, and DevOps. 
+
+An international speaker, book and video author of “JavaFX essentials,” “Getting Started with Clean Code, Java SE 9”, and “Hands-On Java 10 Programming with JShell”, And I won Duke’s Choice 2015, 2014, and 2013 awards, and JCP Outstanding Adopt-a-Jar Participant 2013 awards."
+  thumbnailUrl: "https://2025.geecon.org/speakers/mohamedt.jpeg"
+-
+  id: "madoph"
+  name: "Mads"
+  surname: "Opheim"
+  bio: "Developer who wants to make people awesome in a safe environment. Strives for technical excellence while solving the right problems, and likes domain-driven design, modern agile, the JVM and to write code. Employed by Computas, currently working with the Norwegian Welfare Administration (NAV)."
+  thumbnailUrl: "https://2025.geecon.org/speakers/madso.png"
+-
+  id: "patdud"
+  name: "Patrik"
+  surname: "Duditš"
+  bio: "Patrik spent most of his career developing web applications on top of Java EE. The passion for this tech stack lead him to work full-time on cloud runtimes and MicroProfile and Jakarta EE specifications at Payara.
+
+His most favorite problems to tackle are distributed systems, monitoring, race conditions but single stack frontend development as well."
+  thumbnailUrl: "https://2025.geecon.org/speakers/patrikd.jpg"
+-
+  id: "alecha"
+  name: "Alexander"
+  surname: "Chatzizacharias"
+  bio: "Alexander, a 34-year-old Software Engineer at JDriven, holds dual Dutch and Greek nationality. He earned his master’s degree in Game Studies from the University of Amsterdam, where he discovered his passion for gamification and software engineering. Alexander aims to bridge the gap between game development and software engineering, believing that both industries have much to learn from each other. He is dedicated to integrating technologies and methodologies from both fields. Additionally, he enjoys experimenting with new technologies and cutting-edge sdk's."
+  thumbnailUrl: "https://2025.geecon.org/speakers/alexanderc.jpg"
+-
+  id: "pavlah"
+  name: "Pavel"
+  surname: "Lahoda"
+  bio: "As a Chief Binary Officer of Actiwerks, I am responsible for all the questions that can be answered by yes or no. Proud author of ObjectForms multiplatform development framework and Netopeer, a communication/security product"
+  thumbnailUrl: "https://2025.geecon.org/speakers/pavell.png"
+-
+  id: "szysad"
+  name: "Szymon"
+  surname: "Sadowski"
+  bio: "I've been a software engineer for over seven years, diving deep into Java, cloud tech and platform engineering. For me, coding's all about keeping it fun, treating it like art (no rushing!), and sharing what I know – because that's how we all get better. I love working on platforms and developer tools. It's a gig full of different challenges, which keeps it exciting!"
+  thumbnailUrl: "https://2025.geecon.org/speakers/szymons.jpg"
+-
+  id: "mackrz"
+  name: "Maciej"
+  surname: "Krzysica"
+  bio: "Maciek has 15 years of experience, first as a developer and now as a team leader at j-labs. Still connected to the Java word, he now explores the strange land of team management, people relations and business deciphering. He would like to focus on extracting the most useful and practical parts of the soft skills world and share them with other engineers."
+  thumbnailUrl: "https://2025.geecon.org/speakers/maciejk.jpg"
+-
+  id: "avipei"
+  name: "Aviva"
+  surname: "Peisach"
+  bio: "Aviva Peisach leads Wix's Backend Engineering Guild and heads the Wix-Identity company. With over 20 years of experience, she has held leadership roles in R&D across startups and corporations, including VP R&D and Engineering Director positions.
+
+Aviva is a champion for diversity and inclusion, having founded Israel's Women-in-Tech Forum and spearheaded numerous diversity and inclusion initiatives. Beyond her professional achievements, she is the proud mother of three, a coding teacher, belly dancer, public speaker and a published author.
+One of her main passions is production reliability and resilience, sharing knowledge and promoting it across organizations."
+  thumbnailUrl: "https://2025.geecon.org/speakers/avivap.jpg"
+-
+  id: "andada"
+  name: "Andrus"
+  surname: "Adamchik"
+  bio: "Andrus is a passionate open-source developer and a member of the Apache Software Foundation. He started programming in Java back in 1998, and founded a number of open-source projects: Apache Cayenne - a developer-friendly ORM, Bootique.io - a lightweight Java app platform, Agrest.io - a framework for dynamic REST services, and DFLib - DataFrame for Java. In his day job, Andrus is an IT entrepreneur, running a software company called ObjectStyle."
+  thumbnailUrl: "https://2025.geecon.org/speakers/andrusa.jpg"
+-
+  id: "vikgam"
+  name: "Viktor"
+  surname: "Gamov"
+  bio: "Viktor Gamov is a Developer Advocate at Confluent, a company that makes a cloud streaming platform based on Apache Kafka. Viktor has comprehensive expertise in building enterprise application architectures using open source technologies.  He enjoys helping architects and developers design and develop low latency, scalable, and highly available distributed systems. He is a professional conference speaker on distributed systems, streaming data, JVM, DevOps topics, and regular events, including JavaOne, Devoxx, OSCON, QCon, and others.  He co-authored O’Reilly’s «Enterprise Web Development.» He blogs at <a href='http://gamov.io'>http://gamov.io</a> and co-hosts DevRelRad.io. Follow Viktor on Twitter @gamussa, where he posts there about gym life, food, open-source, and, of course, Kafka and Confluent!"
+  thumbnailUrl: "https://2025.geecon.org/speakers/viktorg.jpg"
+-
+  id: "agnlas"
+  name: "Agnieszka"
+  surname: "Lasyk"
+  bio: "As a senior engineering leader, I bring over a decade of hands-on experience in software development and managing large-scale tech projects. At Schibsted Tech Polska, I focus on building innovative teams, aligning technology with organisational goals, and navigating the complexities of modern engineering management.
+My PhD research explores how advancements in AI and shifting generational values are redefining leadership roles, particularly for middle and line managers in tech organisations. I’m passionate about understanding how leaders can adapt to these changes and balance technological innovation with sustainability and human-centred values.
+As a conference speaker and mentor, I connect the dots between technology, leadership, and people. My sessions dive into practical strategies for building high-performing teams, adapting to disruptive technologies, and leading in an era of rapid change and ethical challenges.
+In my private time, I love being out in nature and taking long walks with my border collies. I also spend quite some time running in the woods and hills. "
+  thumbnailUrl: "https://2025.geecon.org/speakers/agnieszkal.png"
+-
+  id: "tomman"
+  name: "Tomasz"
+  surname: "Manugiewicz"
+  bio: "General Manager of polish engineering hub of global software company evoke. An engineer at heart. A speaker by passion. An author of “Executive Agile” book.
+In the IT sector since 2005. At the beginning of his path, when he was a Java Engineer, he helped to create one of the first Polish online banking systems. He also worked for global corporations, including banking and ICT telecom sectors. 
+Tomasz run IT projects also for US AirForce and Microsoft. He is an Agile enthusiast - conducted his first Agile Transformation in 2009 for T-Mobile Austria. 
+Working at the University of Science and Technology, he is a lecturer, running courses on Executive Agile as well as Software Architecture, supporting young engineers on their way to the world of IT.  He is also a lecturer in the field of Business Psychology at the Applied Psychology department of Jagiellonian University as well an Advisory Board Member at the faculty of Computer Science /Math."
+  thumbnailUrl: "https://2025.geecon.org/speakers/tomaszm.jpg"
+-
+  id: "emijia"
+  name: "Emily"
+  surname: "Jiang"
+  bio: "Emily Jiang is a Java Champion. She is Liberty Cloud Native Architect and Chief Advocate, Senior Technical Staff Member (STSM) in IBM, based at Hursley Lab in the UK. Emily is a MicroProfile and Jakarta EE guru and also a book author (ibm.biz/MicroProfileBook).
+At IBM, she leads the effort of implementing MicroProfile and Jakarta EE specifications on Open Liberty.
+
+She is passionate about MicroProfile and Jakarta EE. She regularly speaks at conferences, such as QCon, Code One, DevNexus, JAX London, Voxxed, Devoxx, EclipseCon, GeeCon, JFokus, etc. 
+
+Connect with Emily on Twitter <a href='https://x.com/emilyfhjiang'>@emilyfhjiang</a> or <a href='https://www.linkedin.com/in/emilyfhjiang'>LinkedIn</a>."
+  thumbnailUrl: "https://2025.geecon.org/speakers/emilyj.jpg"
+-
+  id: "loïmag"
+  name: "Loïc"
+  surname: "Magnette"
+  bio: "Loïc Magnette is a seasoned software developer with a strong background in consulting. Currently a senior developer at Oniryx, he specializes in Java and Angular, delivering innovative solutions and sharing his knowledge as a speaker. As a co-organizer of the Belgian Java User Group (BeJUG), he fosters connections within the developer community. Outside of tech, Loïc’s passion for wildlife inspires his work and creativity."
+  thumbnailUrl: "https://2025.geecon.org/speakers/loicm.jpg"
+-
+  id: "pawsto"
+  name: "Paweł"
+  surname: "Stobiecki"
+  bio: "In the tech world for 10+ years, currently helping big data users cruise the Ocado Technology data lakes. A software engineer with a product mindset, for whom the technology and frameworks are just a way to achieve a goal. After work he helps his wife run a forest-based company, sings dwarven songs at conventions, and - most importantly - makes board games."
+  thumbnailUrl: "https://2025.geecon.org/speakers/pawels.jpg"
+-
+  id: "maunaf"
+  name: "Maurice"
+  surname: "Naftalin"
+  bio: "Five decades in IT: developer, designer, architect, manager, teacher, and author. Working with Java since 1.0. Author, Mastering Lambdas, Java Generics and Collections. Disorganises the unconference JAlba. Java Champion. Speaks at conferences a lot."
+  thumbnailUrl: "https://2025.geecon.org/speakers/mauricen.png"
+-
+  id: "matrze"
+  name: "Mateusz"
+  surname: "Rzeszutek"
+  bio: "I'm a staff software engineer on the Clari Data Platform Connect team, working on a set of services that utilize Arrow and SQL to build a facade over Clari's database platform. An emeritus maintainer of the OpenTelemetry Instrumentation for Java project."
+  thumbnailUrl: "https://2025.geecon.org/speakers/mateuszr.jpeg"
+-
+  id: "jarpal"
+  name: "Jarosław"
+  surname: "Pałka"
+  bio: "For more than 20 years in the IT industry, as a database administrator, programmer, architect, manager and 'onsite disaster engineer'. I took part in small,medium and nonsensically large projects carried out according to the rules 'Waterfall', Agile and in the absence of any methodologies, with the same always effect. Which led me to the conclusion that it doesn't matter what you do as long as you do it in the simplest possible way and use the right tools to do the work for you. Recently I spend too much time exploring JVM's best kept secrets, reading about managed runtime, parsers and interpreters. From time to time you can hear my low-quality jokes about architecture at conferences in Poland. I am also author of a blog on http://geekyprimitives.com/ and full time benchmarking infrastructure engineer at Neo4j."
+  thumbnailUrl: "https://2025.geecon.org/speakers/jarekp.jpg"
+-
+  id: "pioprz"
+  name: "Piotr"
+  surname: "Przybył"
+  bio: "Notorious engineer at work and after hours, tracing meanders of the art of software engineering. Remote Software Gardener, mostly working in web-oriented Java gardens. Java Champion. Testcontainers Champion. Programming usually in Java (since 1.3), Scala and Go, but in other languages too. Fan of agility, seen mostly as choosing the right tools and approaches after asking the right questions. Developer, trainer and conference speaker. In his talks, Piotr covers not only hardcore Java but also software architecture, computer security, and soft-skills."
+  thumbnailUrl: "https://2025.geecon.org/speakers/piotrp.jpg"
+-
+  id: "tomgab"
+  name: "Tomer"
+  surname: "Gabel"
+  bio: "A programming junkie and computer history aficionado, Tomer's been an avid software professional for almost two decades, during which he's built any number of (predominantly back-end) systems, cofounded two major Israeli user groups (Java.IL and Underscore), organized an annual Scala conference (Scalapeño) and is a recurring speaker at software conferences. Plying his trade as a gun-for-hire at Substrate, he secretly still hopes to realize his childhood dream of becoming a lion tamer."
+  thumbnailUrl: "https://2025.geecon.org/speakers/tomerg.jpg"
+-
+  id: "jacmar"
+  name: "Jacek"
+  surname: "Marmuszewski"
+  bio: "Jacek Marmuszewski - DevSecOps with over ten years of experience building and managing cloud infrastructure. He worked for companies like Sabre and Oracle on mission-critical systems. He also had his share in startups, where as an early joiner, he promoted DevOps culture and advocated cloud-native architecture.
+
+Recently he co-founded Let’s Go DevOps company, where he helps others with designing, building, and maintaining cloud-native applications and infrastructure. He’s a big fan of cloud transformation and helps others leverage its full potential by picking the right components for the job."
+  thumbnailUrl: "https://2025.geecon.org/speakers/jacekm.jpg"
+-
+  id: "tomsik"
+  name: "Tomasz"
+  surname: "Sikora"
+  bio: "With extensive experience in software delivery, performance engineering, data warehousing, business intelligence, and machine learning, he excels in agile coaching and R&D. Tomasz Sikora holds a PhD in Computer Science from Birkbeck College, University of London, and a Master's degree from the Silesian University of Technology. His expertise in AI, neural networks, and genetic algorithms, combined with practical industry experience, makes him a respected authority in the tech community."
+  thumbnailUrl: "https://2025.geecon.org/speakers/tomaszs.jpeg"
+-
+  id: "otasan"
+  name: "Otavio"
+  surname: "Santana"
+  bio: "Empowering software engineers to deliver highly scalable and efficient software on the cloud with the ultimate sophistication techniques using the best practices on open source; lets them become productive and more influential, moving their technical careers to the next level.
+
+Otavio is a passionate Award-winning Software Engineer and Architect focused on cloud and Java technologies. He has deep expertise in polyglot persistence and high-performance applications in finance, social media, and e-commerce.
+
+Otavio has contributed to the Java and the Open source ecosystem in several ways, such helped the direction and objectives of the Java platform since Java 8 as a JCP executive member, besides being a committer and leader in several open-source products and specifications.
+
+Otavio is recognized for his Open Source contributions and has received many awards, including all JCP Awards categories and the Duke’s Choice Award, to name a few. Otávio is also a distinguished Java Champions and Oracle ACE program member. 
+
+Otávio loves history, economy, traveling, programming, and real-world languages. He speaks Portuguese, English, Spanish, Italian, and French fluently in dad jokes."
+  thumbnailUrl: "https://2025.geecon.org/speakers/otavios.jpg"
+-
+  id: "rafmac"
+  name: "Rafał"
+  surname: "Maciak"
+  bio: "Software engineer, passionate, and pragmatist experienced mainly in technologies around JVM. Experienced in developing large-scale, distributed/event-driven systems. Believes in the concepts that stand for three-letter shortcuts, like TDD, DDD, etc. Occasionally, enjoys stepping out of the nerd’s basement and interacting with others. Sometimes you may find him in front of the wall sticking the notes."
+  thumbnailUrl: "https://2025.geecon.org/speakers/rafalm.jpg"
+-
+  id: "arksok"
+  name: "Arkadiusz"
+  surname: "Sokołowski"
+  bio: "Over 20 years of practical Java & other JVM languages.Lecturing Java at Jagiellonian University. Likes to solve problems, not to code. Currently working as Engineering Manager at InPost."
+  thumbnailUrl: "https://2025.geecon.org/speakers/arkadiuszs.png"
+-
+  id: "stefro"
+  name: "Stefan"
+  surname: "Fromm"
+  bio: "Programming is my life's elixir. I have been developing software for more than 25 years. The JVM became my home 17 years ago. The Java ecosystem excited me more than ever. I tried better and worse solutions. I matured to strive for simple, understandable and predictable code. At Allegro I got the chance to fully dive into functional programming with Scala, my beloved programming language for a few years. After a long time of imperative programming in object-oriented style I feel that I found the right place to be."
+  thumbnailUrl: "https://2025.geecon.org/speakers/stefanf.jpg"
