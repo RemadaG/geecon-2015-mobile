@@ -43,14 +43,14 @@
 -
   id: 508
   tag: ""
-  title: "Opening ceremony (Room 1)"
+  title: "Opening ceremony"
   description: ""
   service: "true"
   language: ""
 -
   id: 509
   tag: ""
-  title: "Closing ceremony (Room 1)"
+  title: "Closing ceremony"
   description: ""
   service: "true"
   language: ""
@@ -95,64 +95,64 @@
 -
   id: 571
   tag: ""
-  title: "Lunch - Room 2 (VEGE)"
-  description: "VEGAN *Stuffed zucchini  + roasted potatoes + salad"
+  title: "Lunch - room 7"
+  description: "L1_1"
   service: "true"
   language: ""
 -
   id: 572
   tag: ""
-  title: "Lunch - Room 3"
-  description: "Chicken in thyme sauce + rice + salad"
+  title: "Lunch - room 5"
+  description: "L1_2"
   service: "true"
   language: ""
 -
   id: 573
   tag: ""
-  title: "Lunch - Room 5"
-  description: "Roasted pork in chanterelle + boiled potatoes + salad"
+  title: "Lunch - room 3"
+  description: "L1_3"
   service: "true"
   language: ""
 -
   id: 581
   tag: ""
-  title: "Lunch - Room 2 (VEGE)"
-  description: "VEGAN *Delicate vegetable curry with tofu on jasmine rice"
+  title: "Lunch - room 7"
+  description: "L2_1"
   service: "true"
   language: ""
 -
   id: 582
   tag: ""
-  title: "Lunch - Room 3"
-  description: "Penne Bolognese + salad"
+  title: "Lunch - room 5"
+  description: "L2_2"
   service: "true"
   language: ""
 -
   id: 583
   tag: ""
-  title: "Lunch - Room 5"
-  description: "*Roasted turkey  in cherries + rice + salad"
+  title: "Lunch - room 3"
+  description: "L2_3"
   service: "true"
   language: ""
 -
   id: 591
   tag: ""
-  title: "Lunch - Room 2 (VEGE)"
-  description: "Russian dumplings and spinach + salad"
+  title: "Lunch - room 7"
+  description: "L3_1"
   service: "true"
   language: ""
 -
   id: 592
   tag: ""
-  title: "Lunch - Room 3"
-  description: "Fish in leek sauce& potato wedges + salad"
+  title: "Lunch - room 5"
+  description: "L3_2"
   service: "true"
   language: ""
 -
   id: 593
   tag: ""
-  title: "Lunch - Room 5"
-  description: "*Chicken in capsicum sauce + barley + salad"
+  title: "Lunch - room 3"
+  description: "L3_3"
   service: "true"
   language: ""
 -
