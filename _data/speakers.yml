@@ -438,6 +438,12 @@ Connect with Emily on Twitter <a href='https://x.com/emilyfhjiang'>@emilyfhjiang
   bio: "A programming junkie and computer history aficionado, Tomer's been an avid software professional for almost two decades, during which he's built any number of (predominantly back-end) systems, cofounded two major Israeli user groups (Java.IL and Underscore), organized an annual Scala conference (Scalapeño) and is a recurring speaker at software conferences. Plying his trade as a gun-for-hire at Substrate, he secretly still hopes to realize his childhood dream of becoming a lion tamer."
   thumbnailUrl: "https://2025.geecon.org/speakers/tomerg.jpg"
 -
+  id: "oleiva"
+  name: "Oleksandr"
+  surname: "Ivanov"
+  bio: "Oleksandr Ivanov is a Software Development Manager at Tesco Technology. He leads innovations in Tesco Location Services - it's an API service that holds all key data of Tesco owned physical and virtual locations (Tesco stores and more) across all operating regions. He also contributes to Tesco’s growth as a Software Development Lifecycle recruitment leader. Outside of work, he likes playing guitar and spend time playing boarding games."
+  thumbnailUrl: "https://2025.geecon.org/speakers/oleksandri.jpg"
+-
   id: "jacmar"
   name: "Jacek"
   surname: "Marmuszewski"

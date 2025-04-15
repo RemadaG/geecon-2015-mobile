@@ -843,6 +843,15 @@ Join us to elevate your concurrent programming skills and confidently start expe
   language: ""
   speakers: [pioprz]
 -
+  id: 1053
+  tag: ""
+  title: "History in the Making: On Computer Preservation"
+  description: "Our young little industry is, at 70 years and an estimated 27 million engineers, no longer young or little. The breakneck pace of hardware and software evolution is unprecedented in human history, and the impact of computing on humanity - transforming industries, communication and social structures, even nationalities - will only be fully understood by historians in the distant future. But what will these historians learn from, if the fruits of our collective labor are discarded and forgotten, old computers rusting in landfills, bits and bites gone to the ether?
+
+Thus was born the computer preservation movement. A loose collection of hobbyists, collectors, traders and - more recently - legitimate non-profits and foundations - has set out to preserve and categorize this rich and fascinating history. Being a hobbyist vintage computer collector, this has been a passion as well as mission of mine for some 30 years. Join me as we explore this wonderful mix of history, technical challenge and pure computer geekdom!"
+  language: ""
+  speakers: [tomgab]
+-
   id: 1054
   tag: ""
   title: "How To Be a Rockstar Developer"
@@ -856,6 +865,13 @@ This is the story of Rockstar 2.0. You’ll learn about the history of esoteric 
 "
   language: ""
   speakers: [dylbea]
+-
+  id: 1057
+  tag: ""
+  title: "From candidate to architect mindset - how to pass system design interview"
+  description: "In today's fast-paced tech landscape, a top-tier software engineer isn't just about coding prowess. It's about being a strategic problem solver who can navigate complex business challenges with innovative solutions. As a software engineer, he should be able to facilitate technical discussions, choose the correct option, and have the necessary skill set to implement the selected option. This presentation is your roadmap to approaching System Design interviews, blending empirical research with practical insights to make the process intuitive and engaging. It provides several exact examples from real interviews and will equip you with the necessary tools to excel in standard System Design interviews."
+  language: ""
+  speakers: [oleiva]
 -
   id: 1058
   tag: ""
