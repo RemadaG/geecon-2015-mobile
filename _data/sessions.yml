@@ -941,3 +941,12 @@ By the end of this talk, you will gain practical insights into application of DO
 Before diving in I'll define what pure functions are and why we like them so much. We'll refactor the sample application to extract pure functions. During this journey I'll highlight some aspects of what to take special care of in the world of pure functions. I'll show you where you generally find them and increase your awareness of their existence. I hope that you'll look differently at your code after this presentation!"
   language: ""
   speakers: [stefro]
+-
+  id: 1065
+  tag: ""
+  title: "5 reasons why you should invest in automatic dependency upgrades"
+  description: "Nobody enjoys dependency upgrades - tedious, risky, and often dismissed as unnecessary. But what if automating them could turn a dreaded task into a strategic advantage?
+
+In this short presentation, I’ll reveal why regular and automated dependency upgrades are essential for Developers, DevOps engineers, and Security teams alike. We’ll explore five compelling reasons, grounded in real-world benefits from an (interesting) case study, that demonstrate how automation can improve security, productivity, and system reliability."
+  language: ""
+  speakers: [marzaj]

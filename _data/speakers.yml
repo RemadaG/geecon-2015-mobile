@@ -489,3 +489,9 @@ Otávio loves history, economy, traveling, programming, and real-world languages
   surname: "Fromm"
   bio: "Programming is my life's elixir. I have been developing software for more than 25 years. The JVM became my home 17 years ago. The Java ecosystem excited me more than ever. I tried better and worse solutions. I matured to strive for simple, understandable and predictable code. At Allegro I got the chance to fully dive into functional programming with Scala, my beloved programming language for a few years. After a long time of imperative programming in object-oriented style I feel that I found the right place to be."
   thumbnailUrl: "https://2025.geecon.org/speakers/stefanf.jpg"
+-
+  id: "marzaj"
+  name: "Marcin"
+  surname: "Zajączkowski"
+  bio: "Experienced software architect dedicated to delivering high-quality solutions. Passionate advocate for Software Craftsmanship, Clean Code, and Test-Driven Development, frequently sharing insights as a conference speaker and trainer. Specialist in deployment automation and Continuous Delivery within a well-structured SDLC. Known for a deliberative approach to problem-solving and troubleshooting. Enthusiast of concurrency, performance optimization, and software fine-tuning. Open source author, contributor, and occasional blogger - https://blog.solidsoft.pl/ ."
+  thumbnailUrl: "https://2025.geecon.org/speakers/marcinz.jpg"
