@@ -185,7 +185,7 @@ This session will give you an overview over the common struggle with this types 
   speakers: [gergru]
 -
   id: 993
-  tag: ""
+  tag: "teamculture"
   title: "The DNA of highly effective teams"
   description: "'Culture eats strategy for breakfast'. That widely quoted statement, attributed to Peter Drucker, never really spoke to me and I found it pretty bland - until the day I was asked how we were actually able to pull it off. Half a year earlier we cancelled the subscription to our 24/7 support team because they didn't have any work with our services. Now, as I was explaining to the former lead of that support team how we work, I realized that for the most part our smooth sailing could be attributed to our team culture - and it suddenly clicked. Now Drucker's sentence made sense.
 
@@ -196,7 +196,7 @@ Target audience: all people who are interested in how to collaborate more effect
   speakers: [achwie]
 -
   id: 994
-  tag: ""
+  tag: "ai"
   title: "The guardrails of the AI galaxy"
   description: "The use of AI in critical, sophisticated scenarios is desirable, but we all know it’s essentially impossible. Why? The non-deterministic nature of LLMs makes them prone to hallucinations and unreliable outputs. So, what can we do when our LLM responds with nonsense?
 
@@ -220,7 +220,7 @@ No builds, no Maven, no dependencies, just plain java, in rare cases javac and V
   speakers: [adabie]
 -
   id: 996
-  tag: ""
+  tag: "fp"
   title: "What is Functional Programming?"
   description: "Functional programming is here to stay. While it hasn't taken over the world, many of today’s popular programming languages have at least borrowed some of its concepts.
 
@@ -233,7 +233,7 @@ By the end, our goal will be to discuss functional programming more objectively 
   speakers: [adawar]
 -
   id: 997
-  tag: ""
+  tag: "architecture"
   title: "Java Streams: Evolution from JDK 8 to Today"
   description: "Java Streams, introduced in JDK 8, have become a cornerstone of modern Java programming. This session explores 
 the key enhancements and optimizations made to the Stream API in subsequent JDK releases. Join this session to learn about
@@ -262,7 +262,7 @@ Interactively, we will find and review those solutions, their pros and cons and 
   speakers: [guibla]
 -
   id: 999
-  tag: ""
+  tag: "architecture"
   title: "The Hidden Art of Thread-Safe Programming: Exploring java.util.concurrent"
   description: "Writing correct, thread-safe code is notoriously challenging. Unlike single-threaded code, concurrency bugs often remain hidden, waiting for the perfect storm of conditions to emerge. Even the standard Vector class, long trusted for its thread safety, harbored a race condition for 5 years, only to introduce a potential deadlock that persisted for the next 9 years.
 
@@ -281,7 +281,7 @@ In this talk we will discuss the benefits of deliberately practicing reading cod
   speakers: [marvan]
 -
   id: 1001
-  tag: ""
+  tag: "architecture"
   title: "Reinventing Microservices: Efficiency and Innovation with Single-Runtime"
   description: "Scaling microservices presents significant challenges—increased costs, complex upgrades, and inter-service communication overhead. At Wix, we faced these issues as our microservices grew to thousands. Enter Single-Runtime: a solution blending the flexibility of serverless with the cost efficiency of monolithic deployments. 
 
@@ -292,7 +292,7 @@ Join us to explore our journey in tackling resource usage and infrastructure com
   speakers: [natsil]
 -
   id: 1002
-  tag: ""
+  tag: "architecture"
   title: "Simplify your architecture"
   description: "We tend to overcomplicate things especially when we learn them.
 
@@ -314,7 +314,7 @@ I’m going to talk about:
   speakers: [jaknab]
 -
   id: 1003
-  tag: ""
+  tag: "devops"
   title: "End-to-End Pull Request Testing on Kubernetes: A Walkthrough"
   description: "As applications increasingly rely on Kubernetes for deployment, ensuring seamless integration and end-to-end testing during pull requests is crucial. This talk dives into the practical steps of building a robust CI/CD pipeline that mirrors production environments, enabling reliable and efficient testing within your Kubernetes ecosystem.
 
@@ -331,14 +331,14 @@ Depending on the audience, I can focus more on a aspect or another."
   speakers: [nicfra]
 -
   id: 1004
-  tag: ""
+  tag: "architecture"
   title: "Brief history of Virtual Threads in Java"
   description: "Threading in Java has a long and exciting history. To start from the beginning, let's look into the green threads and the subsequent transition to native threads. What were the shortcomings of native threads that needed to be overcome in Java web server runtimes? What was the history of Project Loom's endeavour to introduce continuations to Java? To add some excitement, we will compare reactive approaches with modern Virtual Threads and assess the support for Virtual Threads in modern microservice runtimes with Virtual Thread based Helidon 4."
   language: ""
   speakers: [dankec]
 -
   id: 1006
-  tag: ""
+  tag: "teamculture"
   title: "Coding Fast and Slow: Applying Kahneman's Insights to Improve Development Practices and Efficiency"
   description: "How does behavioral psychology connect to coding? This talk explores how understanding and managing your mental energy can transform the way you work. Using accessible research, including Daniel Kahneman’s concepts of “fast” and “slow” thinking, we’ll dive into how different types of thinking impact decision-making and productivity. We’ll also discuss how to conserve mental fuel, so you have the focus and clarity needed for critical tasks—even at the end of a demanding day.
 
@@ -350,7 +350,7 @@ If you’re interested in learning how to apply behavioral psychology to your wo
   speakers: [barsad]
 -
   id: 1007
-  tag: ""
+  tag: "fp"
   title: "Functional Programming with JVM and Truffle"
   description: "I am programming (for) the JVM for a long time. I have seen a lot of conferences and tons of Java programmers and I can guess what they are interested in and what they need. However during the last few years I have started to meet different group of programmers. Functional ones.
 
@@ -366,14 +366,14 @@ During my talk I am ready to shine a light on this functional world and reveal a
   speakers: [jartul]
 -
   id: 1008
-  tag: ""
+  tag: "cloud"
   title: "Optimising Java for Cloud: The Enterprise, The Serverless, and The Native."
   description: "Do you want to know your options for running Java on Google Cloud? We will explore various options for running workloads written using the latest Java and Jakarta EE versions on serverless offerings like CloudRun and Knative. Furthermore, we will look at optimizing your runtime performance using various frameworks and Native Image compilation."
   language: ""
   speakers: [rusmeh]
 -
   id: 1009
-  tag: ""
+  tag: "cloud"
   title: "From JVM to Native: The Path to Efficient Java Containers"
   description: "When billing costs in the cloud are based on resource usage, the general advice is simple: use less. In this session, we’ll explore how to build size-compact, cloud-native Java applications that are optimized for deployment in resource-constrained environments.
 We’ll focus on packaging a Spring Boot web server into slim, distroless, and scratch containers—each providing just enough operating system to run the application. Along the way, we’ll discuss the trade-offs of these approaches, and demonstrate how smaller containers not only reduce resource usage but also are faster to transfer and deploy, which is critical in autoscaling scenarios.
@@ -402,14 +402,14 @@ Applying these principles to the design of any application – low latency or ot
   speakers: [dmyvya]
 -
   id: 1011
-  tag: ""
+  tag: "lt"
   title: "Evolution of private banking product in 10 minutes."
   description: "This is an AI free talk. I wanted to tell you a story (hope you will find it quite funny) of a banking project which I was developing for several years. From idea, early prototype through rise of the first implementation, pains of maintenance (spring and hibernate included!), general rewrite (no-code? almost no code?) ending with long and prosper life on a modern tech stack (any ideas of a modern tech stack for manager? :-D). This lightning talk contains several general conclusions about product/tech which everyone should keep in their hearts during everyday work."
   language: ""
   speakers: [adadud]
 -
   id: 1012
-  tag: ""
+  tag: "architecture"
   title: "What's the best number of threads?"
   description: "Now you're presumably thinking, 'What a stupid question?'. Surely, there's no one answer to this. It depends on several factors; what you're doing, where the code is running, and how many you need. However, I had never really thought about it in-depth before until someone asked me: 'What is your favourite number of threads?'.
 
@@ -420,7 +420,7 @@ There is no barrier to entry here. If you know what a thread is, then you're qua
   speakers: [ryahea]
 -
   id: 1013
-  tag: ""
+  tag: "architecture"
   title: "JVM in the Age of AI: Babylon, Valhalla, TornadoVM and friends"
   description: "Are you tired of all the hype around yet another LLM-as-a-Service? That's why I want to talk about something more interesting than just another tool for prompt engineers.
 
@@ -431,7 +431,7 @@ We will also look at initiatives like TornadoVM. This will be an overall birds-e
   speakers: [artsko]
 -
   id: 1014
-  tag: ""
+  tag: "ai"
   title: "Leading in the AI Era: New Rules for Engineering Management"
   description: "The rise of AI is transforming engineering management, demanding fresh approaches to leadership and collaboration. Many engineering leaders, however, are unprepared for the challenges and opportunities AI presents.
 
@@ -440,7 +440,7 @@ This session will explore how to embrace AI-driven tools, foster collaboration b
   speakers: [barpis]
 -
   id: 1015
-  tag: ""
+  tag: "ai"
   title: "Avoid common LLM pitfalls"
   description: "It’s easy to generate content with a Large Language Model (LLM), but the output often suffers from hallucinations (fake content), outdated information (not based on the latest data), and reliance on public data only (no private data). Additionally, the output format can be chaotic, often littered with harmful or personally identifiable information (PII), and using a large context window can become expensive—making LLMs less than ideal for real-world applications.
 
@@ -465,14 +465,14 @@ By the end of this session, you’ll have a solid understanding of how LLMs can 
   speakers: [chanut]
 -
   id: 1019
-  tag: ""
+  tag: "ai"
   title: "From words to wisdom: How LLMs and vector databases revolutionize data understanding"
   description: "In this session, we will delve into the dynamic relationship between large language models (LLMs) and vector databases. LLMs, like ChatGPT, have the ability to generate human-like text and respond intelligently to questions. But how do these models understand and maintain context? The key lies in vectorization. Text is transformed into high-dimensional mathematical representations—vectors—that capture semantic meaning beyond individual words. These vectors allow LLMs to efficiently store, compare, and retrieve information. By utilizing vector databases, we can perform fast similarity searches, enabling AI systems to find the most relevant information, even when it isn’t an exact match to the input. This capability is crucial for tasks such as contextual search, recommendation systems, and natural language understanding. During the session using Kotlin and LangChain4j, I will demonstrate how to convert text into vectors, store them in a database, and retrieve relevant information in real-time."
   language: ""
   speakers: [marlap]
 -
   id: 1020
-  tag: ""
+  tag: "ai"
   title: "AI Agents with Gemini 2.0: Beyond the Chatbot"
   description: "You will learn how to move beyond simple LLM calls to build intelligent agents with Gemini 2.0. Learn how function calling, structured outputs, and async operations enable complex agent behavior and interactions. Discover how to create purpose-driven AI systems capable of a series of actions.
 
@@ -485,7 +485,7 @@ Join us to discover how Gemini 2.0 empowers you to create multi turn agentic wor
   speakers: [markod]
 -
   id: 1021
-  tag: ""
+  tag: "architecture"
   title: "Organizing chaos - Structured Concurrency"
   description: "When there’s order in our world, it’s much easier to navigate. As programmers, we rediscover this simple truth with great enthusiasm every few years. In Java 21, we’ve been given a new toy—virtual threads.
 
@@ -509,7 +509,7 @@ Then, we will look at how other languages apply these concepts and reuse Java-ba
   speakers: [androd]
 -
   id: 1024
-  tag: ""
+  tag: "ai"
   title: "Say `Hi!` to Spring AI and LangChain4j - Seamless Support for GenAI in Your System"
   description: "Generative AI is taking the world by storm. While some use cases may seem questionable, many systems can genuinely benefit from GenAI.
 
@@ -527,7 +527,7 @@ This talk presents a software architect's perspective on incorporating various G
   speakers: [haoli]
 -
   id: 1026
-  tag: ""
+  tag: "ai"
   title: "Java + LLMs: A hands-on guide to building LLM Apps in Java"
   description: "AI is revolutionizing the software landscape. However, for many Java developers, integrating these powerful AI tools into existing enterprise applications or a new one can feel daunting. In this hands-on session, we'll demystify the process and show you how to build LLM-powered features directly into your Java codebase.
 
@@ -650,21 +650,21 @@ This talk does not cover or promote any existing product. The ideas presented ca
   speakers: [pavlah]
 -
   id: 1036
-  tag: ""
+  tag: "devops"
   title: "Pipeline Perfection: Practical Tips to Optimise Your CI"
   description: "Your Continuous Integration pipeline is the bloodstream of your organization. In this talk, we’ll share hands-on tips and tricks to keep your pipeline fast, efficient, and reliable. From using the right CI strategies to parallel processing, running tests selectively, skipping unnecessary steps, and managing dependencies better, we’ll cover plenty of practical advice you can apply immediately. Uncover the secrets to a pipeline that never slows you down!"
   language: ""
   speakers: [szysad]
 -
   id: 1037
-  tag: ""
+  tag: "lt"
   title: "Why should we be careful with AI?"
   description: "AI will stay with us, whether we like it or not. The continuous growth of the possibilities of AI systems presents both opportunities and challenges, which requires from us to be more responsible for the world around us. The advent of AI can have a darker side, and it’s not necessary the development of rouge AI that will decide to wipe out humanity, like in the movies. During this talk I would like to give you some (possibly) less common perspectives on AI, and to leave you with some food for thought. This talk will be for everyone - feel free to join. And now ask yourself: can you tell if this abstract has been generated by AI, or not?"
   language: ""
   speakers: [mackrz]
 -
   id: 1038
-  tag: ""
+  tag: "teamculture"
   title: "From Hero to Zero - Evolving Resilience From a Hero Culture to a Zero Error One"
   description: "How do you move an organization from a culture of heroic production firefighting to one of consistent, proactive reliability? 
 At Wix, we transformed our approach to resilience and error prevention & handling, shifting from relying on heroic interventions to fostering a 'Zero Error' mindset, where errors are prevented, caught and resolved as early as the development phase and achieved five nines production availability!  
@@ -710,7 +710,7 @@ I look forward to seeing you at my talk!
   speakers: [vadpru]
 -
   id: 1041
-  tag: ""
+  tag: "architecture"
   title: "Stream Processing As You’ve Never Seen Before (Seriously): Apache Flink for Java Developers"
   description: "You were tasked with building a real-time platform, but traditional tools couldn’t handle the massive data streams, leading to lagging performance and frustrated users. Deadlines were looming, and the team needed a breakthrough.
 
@@ -730,7 +730,7 @@ By the end of this talk, you’ll be equipped to tackle real-time data challenge
   speakers: [vikgam]
 -
   id: 1042
-  tag: ""
+  tag: "teamculture"
   title: "Superhuman: How to Be a Manager (And Not Lose Your Mind)"
   description: "Being an engineering manager is so much more than just leading teams. Navigating AI-driven transformations, shifting generational expectations, and increasing emotional labour in leadership are just a few of the challenges that managers face while trying to maintain the team's motivation, well-being, and performance, juggling business priorities, managing tech debt, application performance, scalability, and reliability, and taking care of a bunch of other things (ofter forgetting to take care of themselves!)
 In this talk, I'll discuss the challenges of modern engineering management, including the tension between technical expertise and strategic leadership, the risks of burnout and boredom, and the growing demand for empathy-driven leadership. 
@@ -739,7 +739,7 @@ I'll share my learnings and insights into managing 'the engineering leg,' includ
   speakers: [agnlas]
 -
   id: 1043
-  tag: ""
+  tag: "teamculture"
   title: "The powerful careers of quiet engineers"
   description: "Stephen Hawking used to say that quiet people have the loudest minds.
 
@@ -837,7 +837,7 @@ Join us to elevate your concurrent programming skills and confidently start expe
   speakers: [jarpal]
 -
   id: 1052
-  tag: ""
+  tag: "ai"
   title: "To RAG or not to RAG"
   description: "Artificial intelligence is bombarding us from every direction in the news and on social media. One of the sensible immediate applications of AI is RAG, at least that's what they say—for instance, Thoughtworks discusses it in their Technology Radars. But what exactly is this RAG, how do you install or implement it, what are its requirements, is it always necessary, and is it generally worth it? Join my talk to find answers to these questions (and a few others), delivered through working code snippets!"
   language: ""
@@ -874,7 +874,7 @@ This is the story of Rockstar 2.0. You’ll learn about the history of esoteric 
   speakers: [oleiva]
 -
   id: 1058
-  tag: ""
+  tag: "devops"
   title: "500TB of audit logs for 500$/mo and still searchable in real time"
   description: "Audit logs, payments, or transaction logs,  … in the modern world, we are forced to store vast amounts of data for auditing and compliance purposes. When data volume grows, a question arises - should we store it on-premise with some “cheap disk arrays” or pay extra for cloud storage? The answer should be - let’s store it cheaply in the cloud! 
 
@@ -883,7 +883,7 @@ Let me show you how we managed to store over 500TB of audit data, with a cost un
   speakers: [jacmar]
 -
   id: 1059
-  tag: ""
+  tag: "teamculture"
   title: "Scaling Agile Teams: The Matrix Model for Scalable Autonomy"
   description: "As organizations grow, managing multiple agile teams becomes increasingly complex. A well-structured matrix model ensures scalability while maintaining autonomy and cross-team collaboration. This talk will explore:
 <ul>
@@ -900,7 +900,7 @@ Supporting materials, including case studies and slides, will be provided."
   speakers: [tomsik]
 -
   id: 1060
-  tag: ""
+  tag: "architecture"
   title: "Jakarta Data: Simplifying Database Operations for Modern Enterprise Architectures"
   description: "In enterprise software development, productivity is critical to delivering value faster while maintaining high-quality standards. This presentation will show how Jakarta Data empowers developers to achieve more with less code, making everyday database operations—like repository creation, dynamic queries, and multiple pagination—effortless. With Jakarta Data, you can handle these tasks in just a few lines of code, letting you focus on solving business problems rather than writing a boilerplate.
 
@@ -934,7 +934,7 @@ By the end of this talk, you will gain practical insights into application of DO
   speakers: [arksok]
 -
   id: 1063
-  tag: ""
+  tag: "lt"
   title: "Spotting Pure Functions in I/O Driven Code"
   description: "After a long time with imperative and mainly I/O driven systems the functional programming (FP) style becomes more and more present in my code. I finally realised that even without knowing FP I always searched for simple pure functions. I'd like to share my experiences with you in a tiny sample application.
 
