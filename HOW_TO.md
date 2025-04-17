@@ -22,3 +22,7 @@ First edit `_config.yml` and change `baseurl` to `/rwd-schedule` then
 ```
 bundle exec jekyll build --destination rwd-schedule
 ```
+
+## Changing styles
+
+After changing styles needs to rebuild and commit `main.css`.
