@@ -51,20 +51,6 @@ In her professional career, spanning over 13+ years, she worked for telecom and 
 Apart from her passion for programming, she loves parrots, she is enthusiastic about traveling the world and doing a lot of sports, from running at marathons, martial arts and to different aerobic trainings."
   thumbnailUrl: "https://2025.geecon.org/speakers/mihaelag.png"
 -
-  id: "guibla"
-  name: "Guillaume"
-  surname: "Blaquiere"
-  bio: "Guillaume is a Google Developer Expert on Cloud Platform since 2019 and works at Carrefour as Group Data Architect. 
-
-Java developer for more than 15 years, and despite positions of responsibilities, he has always kept his wish to create, develop, discover and test new solutions, especially in the Cloud, the machine learning or Python and Go language. 
-
-
-Innovation addict and Google Cloud 3x certified, writer and speaker in his free time, he's fascinated by the serverless solution and all the 'usual' problems that it solves.
-
-
-More generally, he likes helping people stuck on Google Cloud; you can find him on Stack Overflow (guillaume-blaquiere), Medium (@guillaume-blaquiere) and Twitter (@gblaquiere)"
-  thumbnailUrl: "https://2025.geecon.org/speakers/guillaumeb.jpg"
--
   id: "heikab"
   name: "Heinz"
   surname: "Kabutz"
@@ -125,7 +111,7 @@ Trained over 450 people in Architecture, EventStorming, and TDD, completed more 
   id: "barsad"
   name: "Baruch"
   surname: "Sadogursky"
-  bio: "Baruch Sadogursky (@jbaruch) did Java before it had generics, DevOps before there was Docker, and DevRel before it had a name. He started DevRel at JFrog when it was ten people and took it all the way to a successful $6B IPO by helping engineers solve problems. Now Baruch keeps helping engineers solve problems but also helps companies help engineers solve problems. He is a co-author of the 'Liquid Software' and 'DevOps Tools for Java Developers' books, Java Champion and CNCF Ambassador alumni, serves on multiple conference program committees, and regularly speaks at numerous most prestigious industry conferences, including Kubecon, JavaOne (RIP), Devoxx, QCon, DevRelCon, DevOpsDays (all over), DevOops (not a typo) and others."
+  bio: "Baruch Sadogursky did Java before it had generics, DevOps before there was Docker, and DevRel before it had a name. He started DevRel at JFrog when it was ten people and took it all the way to a successful $6B IPO by helping engineers solve problems. Now Baruch keeps helping engineers solve problems but also helps companies help engineers solve problems. He is a co-author of the 'Liquid Software' and 'DevOps Tools for Java Developers' books, Java Champion and CNCF Ambassador alumni, serves on multiple conference program committees, and regularly speaks at numerous most prestigious industry conferences, including Kubecon, JavaOne (RIP), Devoxx, QCon, DevRelCon, DevOpsDays (all over), DevOops (not a typo) and others."
   thumbnailUrl: "https://2025.geecon.org/speakers/baruchs.png"
 -
   id: "dylbea"
@@ -385,17 +371,6 @@ Tomasz run IT projects also for US AirForce and Microsoft. He is an Agile enthus
 Working at the University of Science and Technology, he is a lecturer, running courses on Executive Agile as well as Software Architecture, supporting young engineers on their way to the world of IT.  He is also a lecturer in the field of Business Psychology at the Applied Psychology department of Jagiellonian University as well an Advisory Board Member at the faculty of Computer Science /Math."
   thumbnailUrl: "https://2025.geecon.org/speakers/tomaszm.jpg"
 -
-  id: "emijia"
-  name: "Emily"
-  surname: "Jiang"
-  bio: "Emily Jiang is a Java Champion. She is Liberty Cloud Native Architect and Chief Advocate, Senior Technical Staff Member (STSM) in IBM, based at Hursley Lab in the UK. Emily is a MicroProfile and Jakarta EE guru and also a book author (ibm.biz/MicroProfileBook).
-At IBM, she leads the effort of implementing MicroProfile and Jakarta EE specifications on Open Liberty.
-
-She is passionate about MicroProfile and Jakarta EE. She regularly speaks at conferences, such as QCon, Code One, DevNexus, JAX London, Voxxed, Devoxx, EclipseCon, GeeCon, JFokus, etc. 
-
-Connect with Emily on Twitter <a href='https://x.com/emilyfhjiang'>@emilyfhjiang</a> or <a href='https://www.linkedin.com/in/emilyfhjiang'>LinkedIn</a>."
-  thumbnailUrl: "https://2025.geecon.org/speakers/emilyj.jpg"
--
   id: "loïmag"
   name: "Loïc"
   surname: "Magnette"
@@ -495,3 +470,41 @@ Otávio loves history, economy, traveling, programming, and real-world languages
   surname: "Zajączkowski"
   bio: "Experienced software architect dedicated to delivering high-quality solutions. Passionate advocate for Software Craftsmanship, Clean Code, and Test-Driven Development, frequently sharing insights as a conference speaker and trainer. Specialist in deployment automation and Continuous Delivery within a well-structured SDLC. Known for a deliberative approach to problem-solving and troubleshooting. Enthusiast of concurrency, performance optimization, and software fine-tuning. Open source author, contributor, and occasional blogger - https://blog.solidsoft.pl/ ."
   thumbnailUrl: "https://2025.geecon.org/speakers/marcinz.jpg"
+-
+  id: "leoigo"
+  name: "Leonid"
+  surname: "Igolnik"
+  bio: "Leonid Igolnik is a long-time engineering leader and operator who’s spent his career building and scaling enterprise software systems. He’s currently Executive Vice President of Engineering at Clari, where he leads the teams behind the company’s revenue platform. Before Clari, he ran engineering at companies like SignalFx, Oracle’s Taleo, and CA Technologies — all at massive scale and with teams distributed across the globe.
+
+Leonid is also a General Partner at IA Seed Ventures (IASV), where he backs early-stage founders building the next generation of B2B software. He’s especially passionate about developer-first products, observability, and the gritty, behind-the-scenes work of building infrastructure that lasts. Whether he’s talking about org design, on-call culture, or the traps of over-abstracting too early, Leonid brings a no-nonsense, engineer-first perspective grounded in years of real-world experience."
+  thumbnailUrl: "https://2025.geecon.org/speakers/leonidi.jpeg"
+-
+  id: "andgrz"
+  name: "Andrzej"
+  surname: "Grzesik"
+  bio: "ags likes distributed systems in all shapes and form. Coding since the age of 8, loves simplicity and continuous delivery. While he has written in many languages, he favours the JVM. Since 'most software problems are people problems”, he stirs communities, organizes and speaks at conferences. And he is a Java Champion!"
+  thumbnailUrl: "https://2025.geecon.org/speakers/andrzejg.jpg"
+-
+  id: "tomreh"
+  name: "Tomas"
+  surname: "Rehak"
+  bio: "As the CTO at AGRP.DEV, I spearhead the development of CODEXIS, our flagship legal tech platform. My professional journey has been deeply rooted in Java, emphasizing clean, simple code and efficient, replicable local environments.
+
+My motto, 'clean code = simple code,' underlines my focus on code clarity and maintainability. I advocate for development environments that anyone can set up and run locally, streamlining the coding process.
+
+My background includes impactful roles at Avast, 4Finance, and ING Insurance, where Java's versatility played a crucial role in delivering innovative solutions.
+
+At GeeCON 2025, I look forward to sharing practical insights on continuous delivery drawn from my experiences in the tech industry."
+  thumbnailUrl: "https://2025.geecon.org/speakers/tomasr.jpg"
+-
+  id: "krzdeb"
+  name: "Krzysztof"
+  surname: "Dębski"
+  bio: "He tackles everything from frontend to backend, architecture to infrastructure. With real-world experience building and scaling systems—whether it’s a million-user eCommerce platform or a fresh startup—he’s all about practical solutions that actually work."
+  thumbnailUrl: "https://2025.geecon.org/speakers/krzysztofd.png"
+-
+  id: "marchr"
+  name: "Marcin"
+  surname: "Chrost"
+  bio: "Java Developer and Technical Leader with over 15 years of experience and IT trainer at Bottega IT Minds and JSystems. I have participated in many international projects and now regularly support younger colleagues in their professional development. I like novelties in the IT world, although approach them with common sense and reserve resulting from experience. What I appreciate the most, are well-coordinated and self-organizing teams that can motivate themselves. I also believe that soft skills in the IT world are as important as technical ones and are often underestimated."
+  thumbnailUrl: "https://2025.geecon.org/speakers/marcinch.jpg"

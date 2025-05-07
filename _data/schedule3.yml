@@ -43,7 +43,7 @@
     - {
       startTime: "13:10",
       endTime: "14:00",
-      sessionIds: [ 1059, 1060, 1044 ]
+      sessionIds: [ 1051, 1060, 1067 ]
     }
     - {
       startTime: "14:00",
@@ -68,5 +68,5 @@
     - {
       startTime: "15:50",
       endTime: "16:50",
-      sessionIds: [ 507 ]
+      sessionIds: [ 1066 ]
     }

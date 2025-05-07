@@ -88,8 +88,8 @@
 -
   id: 550
   tag: ""
-  title: "Party"
-  description: "Party time!"
+  title: "Party!"
+  description: "MashRoom, Plac Wolnica 10"
   service: "true"
   language: ""
 -
@@ -244,25 +244,8 @@ This talk is perfect for developers looking to deepen their understanding of Str
   language: ""
   speakers: [mihghe]
 -
-  id: 998
-  tag: ""
-  title: "Data platforms synchronisation journey at Carrefour"
-  description: "The most large companies, composed of several countries and/or subsidiaries, have several local data platforms. At Carrefour, we have a federated model where each country has its own data platform. 
-
-
-While the data platforms are used locally, there is no problem. However, when the headquarters wants to consolidate and aggregate the data from the different data platforms for creating global applications, analytics dashboards or centralized operations, many issues are to solve. Above the data governance and documentation, the data synchronisation is a real challenge.
-
-
-When do you have to get the data from each data platform to join them?
-
-
-Many solutions are possible: using a scheduler, using an orchestrator, using event-driven architecture,...
-Interactively, we will find and review those solutions, their pros and cons and a demo will present the tool that will be used."
-  language: ""
-  speakers: [guibla]
--
   id: 999
-  tag: "architecture"
+  tag: ""
   title: "The Hidden Art of Thread-Safe Programming: Exploring java.util.concurrent"
   description: "Writing correct, thread-safe code is notoriously challenging. Unlike single-threaded code, concurrency bugs often remain hidden, waiting for the perfect storm of conditions to emerge. Even the standard Vector class, long trusted for its thread safety, harbored a race condition for 5 years, only to introduce a potential deadlock that persisted for the next 9 years.
 
@@ -759,15 +742,6 @@ During this talk, you will learn about:
   language: ""
   speakers: [tomman]
 -
-  id: 1044
-  tag: ""
-  title: "Application Modernization made easy with OpenRewrite and AI"
-  description: "Many companies are currently grappling with the task of modernizing their existing applications to take advantage of new Java features and Cloud. This process comes with significant challenges, including limited knowledge of current applications, the time required to comprehend them, and the verification of modernization efforts. Fortunately, OpenRewrite offers a valuable solution to address some of the concerns with migration rules.
-AI technology can play a pivotal role in this scenario by automating tasks such as test generation and application explanation.
-Join me for a talk where I will present a real-life use case focusing on the modernization of an old monolith Java 8 application, transitioning from Java 8 to a modern runtime on Java 21 using OpenRewrite and GenAI."
-  language: ""
-  speakers: [emijia]
--
   id: 1045
   tag: ""
   title: "Bridging the Gap: Full-Stack Development Without the Headaches"
@@ -796,7 +770,7 @@ My satisfying adventure of working on both. I had to become a board game designe
 -
   id: 1047
   tag: ""
-  title: "If Streams Are So Great, Let's Use Them Everywhere.. Right??"
+  title: "If Streams Are So Great, Let's Use Them Everywhere. Right?"
   description: "
 Using streams everywhere: is that really a good idea? Certainly, stream 
 code is often much clearer and more concise than iteration over a 
@@ -834,7 +808,7 @@ To see these concepts in action, we’ll implement three lock-free data structur
 Finally, we’ll discuss performance characteristics, comparing the benefits and limitations of lock-free programming versus traditional locking. You’ll learn when to use lock-free methods for better scalability and when sticking with locks might be more appropriate.
 Join us to elevate your concurrent programming skills and confidently start experimenting with lock-free programming in your Java projects!"
   language: ""
-  speakers: [jarpal]
+  speakers: [jarpal, andgrz]
 -
   id: 1052
   tag: "ai"
@@ -950,3 +924,48 @@ Before diving in I'll define what pure functions are and why we like them so muc
 In this short presentation, I’ll reveal why regular and automated dependency upgrades are essential for Developers, DevOps engineers, and Security teams alike. We’ll explore five compelling reasons, grounded in real-world benefits from an (interesting) case study, that demonstrate how automation can improve security, productivity, and system reliability."
   language: ""
   speakers: [marzaj]
+-
+  id: 1066
+  tag: ""
+  title: "Can We Trust AI-Generated Code? Maybe We’ve Been Asking the Wrong Question"
+  description: "No one trusts AI-generated code. It looks right, it sounds confident, but does it actually do what we expect? 
+
+Having AI test its own work doesn’t help. If we can’t trust it to write code, why trust it to write tests after the fact? That’s not verification—that’s an echo chamber. 
+
+That leaves us manually checking everything. The safest bet is to assume it’s wrong and review every line yourself—which doesn’t exactly scream “productivity boost.” 
+
+So what’s the alternative? 
+
+Maybe we’ve been going about this the wrong way. Maybe AI can be trusted—but only if we rethink how we guide it. What if there were a way to make sure AI understands intent before it ever writes a line of code? A way to catch mistakes before they happen instead of cleaning up after them? 
+
+An excited AI developer advocate and a cynical senior engineering manager take the stage to debate whether AI-driven development is finally ready for prime time—or just a fancier way to get things wrong."
+  language: ""
+  speakers: [barsad, leoigo]
+-
+  id: 1067
+  tag: ""
+  title: "Reasoning Models over Agents: Lessons from O3 & O4-mini"
+  description: "Agent frameworks like LangGraph promise autonomy, but they too often collapse under real-world complexity: brittle flows, opaque debugging, limited generalization. 
+In this session I’ll show why reasoning-centric LLMs—specifically OpenAI’s O3 and the lightweight O4-mini—deliver cleaner code and more reliable outcomes by deciding when and how to invoke tools on the fly. 
+Expect practical patterns you can drop into production today—no convoluted agent graph required.
+"
+  language: ""
+  speakers: [tomreh]
+-
+  id: 1068
+  tag: ""
+  title: "Collaborate with Agents: Build Your First Multi-Agent System"
+  description: "<The concept of multi-agent systems isn’t new—it has been explored for decades. 
+However, recent advances in technology and increased computational power have made the paradigm more accessible and relevant today. 
+In this talk, we'll walk you through the process of building your first multi-agent system. 
+We'll look at how autonomous agents can work together, collaborate, and be supervised to achieve complex goals.
+We’ll discuss the practical aspects of building MAS, demonstrate how agents interact with one another, and explore how supervision can enhance performance."
+  language: ""
+  speakers: [krzdeb]
+-
+  id: 1069
+  tag: ""
+  title: "Stream Gatherers - let's get to know each other better!"
+  description: "The concept of Stream Gatherers introduced as a permanent feature in JDK 24 naturally complements what was missing in the Java Stream API and is the biggest revolution in this area since JDK 8. It is therefore worth familiarizing yourself with the possibilities offered by this solution (and there are quite a few of them!) to be able to increase the flexibility and readability of the code related to stream processing of data structures. During the session, we will try to solve several business problems, both using already built-in gatherers, as well as creating our own."
+  language: ""
+  speakers: [marchr]
