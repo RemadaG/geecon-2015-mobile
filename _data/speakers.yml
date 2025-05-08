@@ -508,3 +508,11 @@ At GeeCON 2025, I look forward to sharing practical insights on continuous deliv
   surname: "Chrost"
   bio: "Java Developer and Technical Leader with over 15 years of experience and IT trainer at Bottega IT Minds and JSystems. I have participated in many international projects and now regularly support younger colleagues in their professional development. I like novelties in the IT world, although approach them with common sense and reserve resulting from experience. What I appreciate the most, are well-coordinated and self-organizing teams that can motivate themselves. I also believe that soft skills in the IT world are as important as technical ones and are often underestimated."
   thumbnailUrl: "https://2025.geecon.org/speakers/marcinch.jpg"
+-
+  id: "nicpal"
+  name: "Nick"
+  surname: "Palmer"
+  bio: "Nick is a Lead Developer with a background in financial services.
+A Java developer for over 15 years now, he has worked with other languages such as Python and Rust, but there's nothing like Java.
+Previously working at LMAX for 7 years, one of the fastest FX exchanges around, and then one of the leading banks to improve their FX pricing platform performance, he's picked up a few things to do with performance, and JVM performance."
+  thumbnailUrl: "https://2025.geecon.org/speakers/nickp.jpg"

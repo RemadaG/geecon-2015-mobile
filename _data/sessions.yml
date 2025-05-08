@@ -927,18 +927,23 @@ In this short presentation, I’ll reveal why regular and automated dependency u
 -
   id: 1066
   tag: ""
-  title: "Can We Trust AI-Generated Code? Maybe We’ve Been Asking the Wrong Question"
-  description: "No one trusts AI-generated code. It looks right, it sounds confident, but does it actually do what we expect? 
+  title: "Back to the Future of Software: How to Survive the AI Apocalypse with Tests, Prompts, and Specs"
+  description: "Great Scott! The robots are coming for your job—and this time, they brought unit tests. Join Doc and Marty from the Software Future (Baruch and Leonid) as they race back in time to help you fight the machines using only your domain expertise, a well-structured prompt, and a pinch of Gherkin.
 
-Having AI test its own work doesn’t help. If we can’t trust it to write code, why trust it to write tests after the fact? That’s not verification—that’s an echo chamber. 
+This keynote is your survival guide for the AI age: how to close the intent-to-prompt chasm before it swallows your roadmap, how to weaponize the Intent Integrity Chain to steer AI output safely, and why the Art of the Possible is your most powerful resistance tool.
 
-That leaves us manually checking everything. The safest bet is to assume it’s wrong and review every line yourself—which doesn’t exactly scream “productivity boost.” 
+Expect:
+<br><br>
+Bad puns
+<br><br>
+Good tests
+<br><br>
+Wild demos
 
-So what’s the alternative? 
+And a new way to look at AI—not as your overlord, but your intern (on a short leash)
 
-Maybe we’ve been going about this the wrong way. Maybe AI can be trusted—but only if we rethink how we guide it. What if there were a way to make sure AI understands intent before it ever writes a line of code? A way to catch mistakes before they happen instead of cleaning up after them? 
-
-An excited AI developer advocate and a cynical senior engineering manager take the stage to debate whether AI-driven development is finally ready for prime time—or just a fancier way to get things wrong."
+The machines may be fast. But with structure, constraint, and a little time travel, you’ll still be the one writing the future.
+"
   language: ""
   speakers: [barsad, leoigo]
 -
@@ -969,3 +974,25 @@ We’ll discuss the practical aspects of building MAS, demonstrate how agents in
   description: "The concept of Stream Gatherers introduced as a permanent feature in JDK 24 naturally complements what was missing in the Java Stream API and is the biggest revolution in this area since JDK 8. It is therefore worth familiarizing yourself with the possibilities offered by this solution (and there are quite a few of them!) to be able to increase the flexibility and readability of the code related to stream processing of data structures. During the session, we will try to solve several business problems, both using already built-in gatherers, as well as creating our own."
   language: ""
   speakers: [marchr]
+-
+  id: 1070
+  tag: ""
+  title: "The Art of Benchmarking: Separating Fact from Fiction"
+  description: "In a world driven by data, benchmarks are the key to making decisions - choosing the fastest language, the most efficient framework, or the best-performing library.
+
+But can we always trust the numbers?
+
+In this talk, we’ll learn what benchmarking means, how it can be done effectively, and the subtle ways results can mislead even the savviest developers.
+Along the way, I’ll share practical tips to help you dig deeper than the blog posts and tweets.
+Inspiring you to create your own, hopefully reliable, benchmarks and separate fact from fiction in the benchmarks you see.
+
+Whether you're a performance enthusiast or just tired of the benchmark wars, this talk will give you the tools to navigate the truth behind the numbers."
+  language: ""
+  speakers: [nicpal]
+-
+  id: 1071
+  tag: ""
+  title: "Breaking Java Stereotypes: It’s Not Your Dad’s Language Anymore"
+  description: "TBD"
+  language: ""
+  speakers: [bazrah]
