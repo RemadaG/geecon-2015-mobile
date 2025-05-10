@@ -366,7 +366,7 @@ Additionally, we’ll explore the advantages of switching from standard JVM-base
   speakers: [olggup]
 -
   id: 1010
-  tag: ""
+  tag: "architecture"
   title: "Faster or better designed? Choose any two!"
   description: "Designing for low latency is hard. We need principles to help us navigate the performance landscape. I'll present here a ranked set of guidelines to lead you through the maze of trade-offs that you will meet in designing a low latency application:
 
@@ -523,7 +523,7 @@ Whether you're familiar with AI or just getting started, this session will give 
   speakers: [bazrah, syesha]
 -
   id: 1028
-  tag: ""
+  tag: "architecture"
   title: "Java 25: Unleashing the Power of Streams"
   description: "Java 8 introduced Streams in 2014, revolutionizing data processing. While incremental improvements have followed, Java 24 marks a significant leap forward.
 
@@ -769,8 +769,8 @@ My satisfying adventure of working on both. I had to become a board game designe
   speakers: [pawsto]
 -
   id: 1047
-  tag: ""
-  title: "If Streams Are So Great, Let's Use Them Everywhere. Right?"
+  tag: "architecture"
+  title: "If Streams Are So Great, Let's Use Them Everywhere... Right?"
   description: "
 Using streams everywhere: is that really a good idea? Certainly, stream 
 code is often much clearer and more concise than iteration over a 
@@ -926,7 +926,7 @@ In this short presentation, I’ll reveal why regular and automated dependency u
   speakers: [marzaj]
 -
   id: 1066
-  tag: ""
+  tag: "ai"
   title: "Back to the Future of Software: How to Survive the AI Apocalypse with Tests, Prompts, and Specs"
   description: "Great Scott! The robots are coming for your job—and this time, they brought unit tests. Join Doc and Marty from the Software Future (Baruch and Leonid) as they race back in time to help you fight the machines using only your domain expertise, a well-structured prompt, and a pinch of Gherkin.
 
@@ -948,7 +948,7 @@ The machines may be fast. But with structure, constraint, and a little time trav
   speakers: [barsad, leoigo]
 -
   id: 1067
-  tag: ""
+  tag: "ai"
   title: "Reasoning Models over Agents: Lessons from O3 & O4-mini"
   description: "Agent frameworks like LangGraph promise autonomy, but they too often collapse under real-world complexity: brittle flows, opaque debugging, limited generalization. 
 In this session I’ll show why reasoning-centric LLMs—specifically OpenAI’s O3 and the lightweight O4-mini—deliver cleaner code and more reliable outcomes by deciding when and how to invoke tools on the fly. 
