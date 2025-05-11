@@ -350,7 +350,7 @@ During my talk I am ready to shine a light on this functional world and reveal a
 -
   id: 1008
   tag: "cloud"
-  title: "Optimising Java for Cloud: The Enterprise, The Serverless, and The Native."
+  title: "Optimising Java for Cloud: The Enterprise, The Serverless, and The Native"
   description: "Do you want to know your options for running Java on Google Cloud? We will explore various options for running workloads written using the latest Java and Jakarta EE versions on serverless offerings like CloudRun and Knative. Furthermore, we will look at optimizing your runtime performance using various frameworks and Native Image compilation."
   language: ""
   speakers: [rusmeh]
@@ -386,7 +386,7 @@ Applying these principles to the design of any application – low latency or ot
 -
   id: 1011
   tag: "lt"
-  title: "Evolution of private banking product in 10 minutes."
+  title: "Evolution of private banking product in 10 minutes"
   description: "This is an AI free talk. I wanted to tell you a story (hope you will find it quite funny) of a banking project which I was developing for several years. From idea, early prototype through rise of the first implementation, pains of maintenance (spring and hibernate included!), general rewrite (no-code? almost no code?) ending with long and prosper life on a modern tech stack (any ideas of a modern tech stack for manager? :-D). This lightning talk contains several general conclusions about product/tech which everyone should keep in their hearts during everyday work."
   language: ""
   speakers: [adadud]
