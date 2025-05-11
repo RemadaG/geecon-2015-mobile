@@ -88,7 +88,7 @@
 -
   id: 550
   tag: ""
-  title: "Party!"
+  title: "Party sponsored by Clari"
   description: "MashRoom, Plac Wolnica 10"
   service: "true"
   language: ""
@@ -392,7 +392,7 @@ Applying these principles to the design of any application – low latency or ot
   speakers: [adadud]
 -
   id: 1012
-  tag: "architecture"
+  tag: "lt"
   title: "What's the best number of threads?"
   description: "Now you're presumably thinking, 'What a stupid question?'. Surely, there's no one answer to this. It depends on several factors; what you're doing, where the code is running, and how many you need. However, I had never really thought about it in-depth before until someone asked me: 'What is your favourite number of threads?'.
 
@@ -754,7 +754,7 @@ Using a Java backend powered by Quarkus and a JavaScript front end, we will lear
   speakers: [loïmag]
 -
   id: 1046
-  tag: ""
+  tag: "lt"
   title: "How designing a board game could help you become a better software engineer"
   description: "They do abstract thinking, systemic thinking, and modelling. Their work is their passion, so they often do it after hours too. And they drink coffee. A lot of coffee.
 Is this a board game designer or a software engineer?
@@ -917,7 +917,7 @@ Before diving in I'll define what pure functions are and why we like them so muc
   speakers: [stefro]
 -
   id: 1065
-  tag: ""
+  tag: "lt"
   title: "5 reasons why you should invest in automatic dependency upgrades"
   description: "Nobody enjoys dependency upgrades - tedious, risky, and often dismissed as unnecessary. But what if automating them could turn a dreaded task into a strategic advantage?
 
@@ -991,7 +991,7 @@ Whether you're a performance enthusiast or just tired of the benchmark wars, thi
   speakers: [nicpal]
 -
   id: 1071
-  tag: ""
+  tag: "lt"
   title: "Breaking Java Stereotypes: It’s Not Your Dad’s Language Anymore"
   description: "TBD"
   language: ""
