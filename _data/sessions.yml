@@ -276,7 +276,7 @@ Join us to explore our journey in tackling resource usage and infrastructure com
 -
   id: 1002
   tag: "architecture"
-  title: "Simplify your architecture"
+  title: "Simplify your architecture (Room 1)"
   description: "We tend to overcomplicate things especially when we learn them.
 
 Your friend comes back from a conference with shiny new ideas and the next day you wake up with event driven architecture for communication, event sourcing for persistence, domain driven concepts scattered randomly on your sources and a distributed monolith in a monorepo. And none of this helps, quite the contrary. 
