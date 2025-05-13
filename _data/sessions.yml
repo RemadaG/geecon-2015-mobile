@@ -960,7 +960,7 @@ Expect practical patterns you can drop into production today—no convoluted age
   id: 1068
   tag: ""
   title: "Collaborate with Agents: Build Your First Multi-Agent System"
-  description: "<The concept of multi-agent systems isn’t new—it has been explored for decades. 
+  description: "The concept of multi-agent systems isn’t new—it has been explored for decades. 
 However, recent advances in technology and increased computational power have made the paradigm more accessible and relevant today. 
 In this talk, we'll walk you through the process of building your first multi-agent system. 
 We'll look at how autonomous agents can work together, collaborate, and be supervised to achieve complex goals.
