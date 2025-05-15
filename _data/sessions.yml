@@ -116,43 +116,43 @@
 -
   id: 581
   tag: ""
-  title: "Lunch - room 7"
-  description: "L2_1"
+  title: "Lunch - room 5"
+  description: "Roasted turkey in cherries + rice + salad"
   service: "true"
   language: ""
 -
   id: 582
   tag: ""
-  title: "Lunch - room 5"
-  description: "L2_2"
+  title: "Lunch - room 3"
+  description: "Roasted pork in gravy + Silesian dumplings"
   service: "true"
   language: ""
 -
   id: 583
   tag: ""
-  title: "Lunch - room 3"
-  description: "L2_3"
+  title: "Lunch - room 2 (VEGE)"
+  description: "Delicate vegetable curry with tofu on jasmine rice"
   service: "true"
   language: ""
 -
   id: 591
   tag: ""
-  title: "Lunch - room 7"
-  description: "L3_1"
+  title: "Lunch - room 5"
+  description: "Chicken in paprica salsa + rice + salad"
   service: "true"
   language: ""
 -
   id: 592
   tag: ""
-  title: "Lunch - room 5"
-  description: "L3_2"
+  title: "Lunch - room 3"
+  description: "Cod in lemon sauce & boiled potatoes + salad"
   service: "true"
   language: ""
 -
   id: 593
   tag: ""
-  title: "Lunch - room 3"
-  description: "L3_3"
+  title: "Lunch - room 2 (VEGE)"
+  description: "Russian dumplings and spinach + salad"
   service: "true"
   language: ""
 -
