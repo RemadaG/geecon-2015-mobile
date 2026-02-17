@@ -137,7 +137,7 @@ time {
     height: 40px;
     overflow: hidden;
     border-radius: 20px;
-    animation: base 3s steps(1) 0s infinite;
+    animation: loader-base 3s linear 0s infinite;
     &::before, &::after {
         content: ' ';
         display: block;
@@ -154,13 +154,13 @@ time {
     &::before {
         z-index: 2;
         transform-style: preserve-3d;
-        animation: flip 3s linear 0s infinite;
+        animation: loader-flip 3s linear 0s infinite;
     }
     &::after {
-        animation: reveal 3s steps(1) 0s infinite;
+        animation: loader-reveal 3s linear 0s infinite;
     }
 }
-@keyframes base {
+@keyframes loader-base {
     0% {
         transform: rotate(0deg);
         background-color: #fbb531;
@@ -182,7 +182,7 @@ time {
         background-color: #fbb531;
     }
 }
-@keyframes reveal {
+@keyframes loader-reveal {
     0% {
         background-color: #fbb531;
         transform: rotate(0deg);
@@ -204,7 +204,7 @@ time {
         transform: rotate(0deg);
     }
 }
-@keyframes flip {
+@keyframes loader-flip {
     0% {
         background-color: #fbb531;
         transform: rotateY(0deg);
