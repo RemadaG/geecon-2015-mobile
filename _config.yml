@@ -12,7 +12,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: GeeCON Krakow 2026
 email: ""
-description: "Let's move the Java world!"
+description: "Code. Connect. Inspire"
 baseurl: "/geecon-schedule"
 url: "http://geecon.org"
 permalink: "/blog/:title"
