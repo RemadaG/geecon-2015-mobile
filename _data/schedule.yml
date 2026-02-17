@@ -1,4 +1,4 @@
-- date: "2025-05-14"
+- date: "2026-05-14"
   dateReadable: "14th of May - Conference Day 1"
   tracks:
     - { title: "Room 1", color: "#fbb531" }
@@ -18,7 +18,7 @@
     - {
       startTime: "10:10",
       endTime: "11:00",
-      sessionIds: [ 1002 ]
+      sessionIds: [ 510 ]
     }
     - {
       startTime: "11:00",
@@ -28,7 +28,7 @@
     - {
       startTime: "11:20",
       endTime: "12:10",
-      sessionIds: [ 1028, 1024, 1042 ]
+      sessionIds: [ 510, 510, 510 ]
     }
     - {
       startTime: "12:10",
@@ -38,7 +38,7 @@
     - {
       startTime: "13:10",
       endTime: "14:00",
-      sessionIds: [ 1047, 1043, 1004 ]
+      sessionIds: [ 510, 510, 510 ]
     }
     - {
       startTime: "14:00",
@@ -48,7 +48,7 @@
     - {
       startTime: "14:20",
       endTime: "15:10",
-      sessionIds: [ 1001, 1057, 996 ]
+      sessionIds: [ 510, 510, 510 ]
     }
     - {
       startTime: "15:10",
@@ -58,7 +58,7 @@
     - {
       startTime: "15:30",
       endTime: "16:20",
-      sessionIds: [ 995, 1008, 993 ]
+      sessionIds: [ 510, 510, 510 ]
     }
     - {
       startTime: "16:20",
@@ -68,7 +68,7 @@
     - {
       startTime: "16:40",
       endTime: "17:00",
-      sessionIds: [ 1063, 1037, 1011 ]
+      sessionIds: [ 510, 510, 510 ]
     }
     - {
       startTime: "17:00",
@@ -78,5 +78,5 @@
     - {
       startTime: "17:10",
       endTime: "18:00",
-      sessionIds: [ 1041, 1068, 1021 ]
+      sessionIds: [ 510, 510, 510 ]
     }
