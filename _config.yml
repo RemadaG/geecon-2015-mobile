@@ -10,10 +10,10 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: GeeCON Krakow 2025
+title: GeeCON Krakow 2026
 email: ""
 description: "Let's move the Java world!"
-baseurl: "/geecon-2015-mobile"
+baseurl: "/geecon-schedule"
 url: "http://geecon.org"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
