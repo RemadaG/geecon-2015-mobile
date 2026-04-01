@@ -1,4 +1,4 @@
--
+﻿-
   id: 501
   tag: ""
   title: "Registration & breakfast"
@@ -86,6 +86,34 @@
   service: "true"
   language: ""
 -
+  id: 514
+  tag: "panel"
+  title: "Discussion panel 1"
+  description: ""
+  service: "true"
+  language: ""
+-
+  id: 515
+  tag: "panel"
+  title: "Discussion panel 2"
+  description: ""
+  service: "true"
+  language: ""
+-
+  id: 516
+  tag: "panel"
+  title: "Discussion panel 3"
+  description: ""
+  service: "true"
+  language: ""
+-
+  id: 517
+  tag: "panel"
+  title: "Discussion panel 4"
+  description: ""
+  service: "true"
+  language: ""
+-
   id: 550
   tag: ""
   title: "Party"
@@ -157,7 +185,7 @@
   language: ""
 -
   id: 1072
-  tag: ""
+  tag: "ai"
   title: "Dehumanizing Agents: Why Explainability is Crucial in the LLM Era"
   description: "Human beings are biased and often wrong. Artificial intelligence learns from human-created data. Therefore, artificial intelligence is biased and often wrong.
 
@@ -170,7 +198,7 @@ In this talk, we will delve into the topic of explainable AI, and its importance
   speakers: [luccon]
 -
   id: 1073
-  tag: ""
+  tag: "ai"
   title: "AI vs. Karen: Building Real-Time Sentiment Analysis Pipelines at Scale"
   description: "We’ve all heard that “the customer is always right'. But let’s be honest, some customers are just impossible to please.
 What if we could detect them before they turn into ALL-CAPS review bombers, in real-time?
@@ -184,7 +212,7 @@ Whether you’re experienced in streaming systems or just curious about applying
   speakers: [josgol]
 -
   id: 1074
-  tag: ""
+  tag: "ai"
   title: "Agents With Seatbelts: Practical Ways to Keep AI Code Gen Under Control"
   description: "In this session I will share **best practices** for using MCP setups and AI **Agents** in real development workflows 🤖. The goal is to improve both **quality** and **security**, since even with all the excitement around these tools, it’s still very easy to create confusing interactions, accidental data exposure, or Agents that trigger actions we never intended.
 
@@ -197,7 +225,7 @@ The talk focuses on practical habits that developers can apply right away: tight
   speakers: [jonvil]
 -
   id: 1075
-  tag: ""
+  tag: "security"
   title: "The Enemy Within: How AI is Weaponizing Your Code"
   description: "Here are no black cats, broken mirrors or sudden storms to announce the news. Still, AI-generated code has become a double-edged sword, offering unparalleled productivity while quietly introducing vulnerabilities and weaknesses. Whether through poisoned models, maliciously crafted to inject flaws or poor-quality training data, your trusted AI companion could be a Trojan horse.
 
@@ -215,7 +243,7 @@ In the battle for secure software, your tools could be your greatest weakness or
   speakers: [stepoo]
 -
   id: 1076
-  tag: ""
+  tag: "performance"
   title: "Concurrency testing on the JVM"
   description: "When testing a concurrent program, you never know if it really works or if you got lucky. As the famous Dijkstra quote says: 'Program testing can be used to show the presence of bugs, but never to show their absence!'.
 
@@ -230,7 +258,7 @@ In the talk, I'd like to present two such tools: Lincheck and Fray, compare thei
   speakers: [adawar]
 -
   id: 1079
-  tag: ""
+  tag: "architecture"
   title: "An Opinionated Guide to Bulletproof APIs with Java"
   description: "Writing a 'Hello World' endpoint is easy. But building an API that is secure, observable, and capable of evolving without breaking every client? That’s where the real engineering happens. We often pollute our business logic with validation, security checks, and boilerplate, creating a maintenance nightmare.
 
@@ -239,7 +267,7 @@ It’s time to clean up our act. In this session, we’ll move beyond basic CRUD
   speakers: [rusmeh]
 -
   id: 1080
-  tag: ""
+  tag: "performance"
   title: "Scotty, I need Warp Speed - Ways to improve the JVM startup/warmup"
   description: "When running Java at scale, the JVM startup time can become a limitation. Especially when you look at spinning up new instances of an app as response to changes in load, the warmup time can be a problem. A couple of years ago you only had CDS that could help you with the startup but meanwhile there are a couple of solutions that can help you to let you JVM start super fast. These days we have CRaC, Native Image, Leyden, InstantOn, Ready Now, JIT as a Service and Cloud Native Compiler, which are all solutions that help to reduce the startup time of a JVM. Each of those is not a Silver Bullet, so you have to choose the right solution for your problem. 
 This session will give you a short overview of the different solutions to increase your JVM startup performance and will try to give you some hints on how to choose the right solution for your application."
@@ -247,7 +275,7 @@ This session will give you a short overview of the different solutions to increa
   speakers: [gergru]
 -
   id: 1081
-  tag: ""
+  tag: "devops"
   title: "Business won't wait, the platform won't either. How the infra team becomes a partner in delivering business value and what should change for that to be possible"
   description: "Business does not wait for infrastructure, and platforms that cannot keep up quickly become bottlenecks. Many teams adopt microservices expecting speed, only to end up with more complexity, duplication, and frustrated engineers.
 
@@ -258,7 +286,7 @@ If you already have microservices but delivery still feels slow and risky, this 
   speakers: [margrz]
 -
   id: 1082
-  tag: ""
+  tag: "ai"
   title: "What is multimodal RAG, and can we build a village with it?"
   description: "Multimodal Retrieval-Augmented Generation (RAG) is the art of using your own textual, visual and audio data to enhance prompts before they’re processed by a generative AI. Imagine users asking a question, the system querying your own data pool for answers, and then using generative AI to craft a coherent, relevant response… which is perfect for non-player characters (NPCs)! These are characters in video games that are not controlled by the player. Typically, NPCs have static and hardcoded responses, but with this approach we could make them more lifelike and fun to interact with!
 
@@ -270,7 +298,7 @@ Alexander’s goal is to offer an engaging and fun look at RAG, inspiring you to
   speakers: [alecha]
 -
   id: 1083
-  tag: ""
+  tag: "ai"
   title: "Building Self-Correcting AI Agents: Iterative Refinement Patterns with Spring AI"
   description: "At their core, AI agents are context orchestrators - continuously gathering information, querying models, evaluating outputs, and adapting their approach.
 This presentation examines how Spring AI's Advisor architecture enables sophisticated self-improving agent behaviors. Advisors act as middleware (an AI harness) in the AI interaction pipeline, allowing developers to inject capabilities like Memory and RAG as composable building blocks. However, real-world agent workflows require more than linear, prescriptive processing: they need iterative tool invocation, validation with automatic retry logic, and quality assessment through continuous evaluation.
@@ -280,7 +308,7 @@ Attendees will discover how to construct agents that progressively refine their 
   speakers: [chrtzo]
 -
   id: 1084
-  tag: ""
+  tag: "news"
   title: "Learning modern Java the playful way"
   description: "Staying up to date with Modern Java can feel overwhelming. If you don’t have any experience with recent Java versions (or at all), features like Structured Concurrency or Stream Gatherers might sound exciting, but also scary: “How do I even get started with that?”
 
@@ -290,17 +318,17 @@ Fear not! In this session Marit and Piotr will explain to you the new exciting t
   speakers: [marvan, pioprz]
 -
   id: 1085
-  tag: ""
+  tag: "ai"
   title: "Teaching an Old Pet Clinic New Tricks: Introducing Agents into Existing Applications"
   description: "While most talks about AI agents focus on greenfield projects, most Spring developers work on existing applications, with established domain models, services, and architectural constraints.
 In this session, we will show how the Embabel Agent Framework is designed specifically for that reality. Starting from the classic Spring Petclinic, we will gradually introduce agent functionality without rewriting the application. We will extend Petclinic with agents that can plan veterinary visits, reason about pet health data, and provide contextual recommendations to pet owners. These agents integrate directly with existing Spring services, repositories, and domain objects, demonstrating how agentic behavior can complement, rather than replace, traditional Spring architecture.
 The talk focuses on incremental adoption: where agents fit into a mature codebase, how they interact with deterministic business logic, and how to keep agent behavior in check.
-This session is aimed at Spring developers who want to introduce agentic systems pragmatically, using familiar tools and patterns"
+This session is aimed at Spring developers who want to introduce agentic systems pragmatically, using familiar tools and patterns."
   language: ""
   speakers: [arjpou]
 -
   id: 1087
-  tag: ""
+  tag: "ai"
   title: "The 50x Developer: Java's Unfair Advantage in the Age of AI Agents"
   description: "AI coding agents generate code faster than any developer can type. But speed without structure produces disposable code. Java's public    
   specifications and the Java Community Process give LLMs something most ecosystems lack: normative APIs, consistent patterns, and 25 years 
@@ -316,14 +344,14 @@ This session is aimed at Spring developers who want to introduce agentic systems
   speakers: [adabie]
 -
   id: 1088
-  tag: ""
+  tag: "architecture"
   title: "Of Microservices and Monoliths, and Everything in Between"
   description: "Deciding between microservices, monoliths, or a hybrid architecture? We’ll explore the characteristics of each and how different architectural styles support various technical, organizational, and operational goals. Most organizations don’t choose just one path—architectures evolve, and combinations often coexist. The Spring portfolio offers powerful support across this spectrum. We’ll go through an example of the evolution of an application, showing how the Spring portfolio supports structure within a modular monolith and enables a smooth transition to microservices. Whether you’re scaling a small team or managing a complex system, this session will equip you to make thoughtful, needs-driven architectural decisions."
   language: ""
   speakers: [spegib]
 -
   id: 1089
-  tag: ""
+  tag: "architecture"
   title: "Modules: design around processes, not data"
   description: "Most devs have a data-centric perspective on modularity: they design a system around nouns and data. That is due to 3rd and 5th normal form in relational databases which they still teach you at a University. But here’s the kicker - it’s wrong. We use a higher level language because we implement complex business processes. If we wanted to focus on data, we would be using SQL.
 In this talk I’ll give you a set of rules for a module that helps me design enterprise software that is easy to work with, test, change and performs really well. I’ll also show you when it’s safe to break those rules.
@@ -332,7 +360,7 @@ The goal is to make your apps “infinitely scalable”, or rather: for the syst
   speakers: [jaknab]
 -
   id: 1090
-  tag: ""
+  tag: "ai"
   title: "Troubleshooting Production with AI: Automating Tribal Knowledge @ Scale"
   description: "Production environments have always been noisy and stressful, flooding engineers with alerts, logs, and dashboards. On-call engineers are expected to connect the dots under pressure, relying on undocumented tribal knowledge and hard-won experience. 
 And with AI accelerating coding, we’re now pushing more code into production faster than ever, making these environments even noisier and more demanding. 
@@ -346,7 +374,7 @@ You’ll hear practical lessons learned, what worked, what didn’t, and how you
   speakers: [avipei, yasdun]
 -
   id: 1091
-  tag: ""
+  tag: "architecture"
   title: "10 Billion Records vs. The Regulator: An Architectural Post-Mortem"
   description: "What happens when your architecture doesn't just fail a performance test, but triggers a national regulatory investigation? In this session, we go inside a critical system failure at a major bank that led to a formal report to BaFin and a complete rethink of our data strategy.
 
@@ -363,7 +391,7 @@ Key takeaways include:
   speakers: [marlad]
 -
   id: 1092
-  tag: ""
+  tag: "news"
   title: "The Past, Present, and Future of Enterprise Java"
   description: "Over the last 30 years, Java has been the preferred technology for developing enterprise applications. Frameworks and approaches such as J2EE, Spring Framework, Java EE, Spring Boot, and Jakarta EE all contribute to this success story.
 
@@ -374,7 +402,7 @@ This session will give you a history lesson of Enterprise Java as well as an ove
   speakers: [ivagri]
 -
   id: 1093
-  tag: ""
+  tag: "news"
   title: "What’s All the Fuss About Quantum Computing?"
   description: "Quantum computing has been moving from academic papers to mainstream headlines—but what is it really, and why should we care?
 
@@ -396,7 +424,7 @@ Whether you’re a developer, architect, security professional, or simply curiou
   speakers: [artkes]
 -
   id: 1095
-  tag: ""
+  tag: "news"
   title: "Unlocking Java’s Code Maze: Live Puzzles for the Curious Developer"
   description: "Step into Java’s Code Maze - a live, puzzle-driven session where real Java snippets turn into challenges waiting to be cracked.
 
@@ -409,7 +437,7 @@ Walk away not only with sharper instincts, but with a deeper understanding of ho
   speakers: [mihghe]
 -
   id: 1096
-  tag: ""
+  tag: "teamculture"
   title: "Before the To-Do List: The One Conversation Every Team Needs"
   description: "It starts innocently enough. A new project kicks off, the team is eager, and the goals are clear. Tasks are assigned, deadlines set, and we dive straight into delivery mode. But somewhere along the way, communication frays, assumptions pile up, and collaboration starts to feel more like coordination. Sounds familiar?
 
@@ -420,7 +448,7 @@ I’ll delve into the core components of a well-designed team contract. You'll w
   speakers: [agakab]
 -
   id: 1097
-  tag: ""
+  tag: "performance"
   title: "Thread Pool Queue Wait Time: The Bottleneck even AI couldn't find"
   description: "Many different systems behave surprisingly similarly: they rely on threads or thread pools, make HTTP requests in blocking or non‑blocking mode, and parse JSON while executing business logic. But sooner or later they begin to slow down - like driving through a city during rush hour, when every street hides another traffic jam.  
 
@@ -429,7 +457,7 @@ In this talk, we’ll explore where queue wait time actually appears in our syst
   speakers: [matnal]
 -
   id: 1099
-  tag: ""
+  tag: "security"
   title: "Supply Chain Compromise: The Anatomy of the Attack and the Blueprint for Defense"
   description: "The modern software supply chain is under assault, with the developer environment and CI/CD pipeline forming the critical, most privileged target. The Shai Hulud 2.0 NPM worm demonstrated this perfectly: by backdooring over 700 popular packages and exploiting developer and CI/CD systems across platforms like GitHub, GitLab, and Jenkins, this highly automated worm exfiltrated over 33,000 unique secrets and created over 25,000 public repositories to dump stolen credentials.
 
@@ -440,14 +468,14 @@ After this talk, you will recognize the bad practices that enable these compromi
   speakers: [niepal]
 -
   id: 1100
-  tag: ""
+  tag: "news"
   title: "How To Be a Rockstar Developer"
   description: "One evening in 2018, Dylan Beattie sat down in a bar, opened a laptop, and wrote a joke: a parody specification for Rockstar, a programming language based on the lyrics to 1980s power ballads. The joke was supposed to end there: a single Markdown file that folks would read, maybe laugh a bit, and then get on with their lives… well, that’s not quite how it worked out.  The internet’s a big place, and a little corner of it took Rockstar to their hearts: they found it, they loved it - and then they implemented it. Six years on, Rockstar has shown up in the most unlikely places, from Classic Rock magazine, to Advent of Code, to Carnegie Mellon University and MIT - and each time, it attracts a new wave of aspiring Rockstar developers, with questions about how it works, and suggestions about how to make it better. And so, one evening in 2024, Dylan sat down in another bar, opened another laptop, and wrote another joke: “Rockstar 2.0: The Difficult Second Album”.  On one level, Rockstar in 2026 is a stupid joke language based on Bon Jovi songs. On another level, it’s packed with things that would have been impossible even just a few years ago: a project that combines .NET, C#, JavaScript, browser APIs, and web assembly, building on decades of research in parser engineering and asynchronous application development. And yes, it’s still based on Bon Jovi songs.  This is the story of Rockstar 2.0. You’ll learn about the history of esoteric programming languages, from INTERCAL, to Piet, to the researcher who taught Perl to speak Latin. You’ll learn what’s involved in creating an entirely new programming language. You’ll see a lot of cool tech, you’ll marvel at just how much engineering can go into one joke, and who knows - you might even qualify as a Certified Rockstar 2.0 Developer. "
   language: ""
   speakers: [dylbea]
 -
   id: 1101
-  tag: ""
+  tag: "ai"
   title: "Agent Protocols: MCP, A2A, and ADK in Action"
   description: "Model Context Protocol (MCP) standardizes how models and agents access external tools and resources. Agent2Agent (A2A) Protocol defines how agents running on diverse frameworks and platforms communicate. Together, MCP and A2A enable collaborative agent ecosystems with seamless interoperability.
 
@@ -456,14 +484,14 @@ In this session, we’ll unpack both protocols, show how they complement each ot
   speakers: [metata]
 -
   id: 1102
-  tag: ""
+  tag: "teamculture"
   title: "Reviewing the Reviewer: Better PR Feedback"
   description: "Imagine a world where opening a PR feels like a standing ovation rather than a walk to the guillotine. In this session, we’ll explore how replacing passive-aggressive 'nits' with incremental, constructive feedback transforms team velocity. High-performing teams don't just write better code; they communicate with precision and less ego to keep the delivery moving."
   language: ""
   speakers: [szysad]
 -
   id: 1103
-  tag: ""
+  tag: "ai"
   title: "An ultimate tool for your agents - desktop applications reinvented"
   description: "I'd like to give lightning talk with some code previews on how we:
 <ul><li> run agents in customer specific long-living virtual machine environments
@@ -477,7 +505,7 @@ In this talk I am going to reveal some of the details of our implementations of 
   speakers: [tomreh]
 -
   id: 1104
-  tag: ""
+  tag: "ai"
   title: "Unifying AI integration with Model Context Protocol"
   description: "Modern AI applications require more than simple API calls - they need to interact meaningfully with real-world systems.
 The Model Context Protocol (MCP) standardizes how AI models interact with external tools and resources through a structured client-server architecture, facilitating robust AI application development.
@@ -493,7 +521,7 @@ Whether you're developing new AI-driven solutions or enhancing existing systems,
   speakers: [darjed]
 -
   id: 1105
-  tag: ""
+  tag: "architecture"
   title: "Mob Rules, or: how I learned to Stop Worrying and Love Technical Debt"
   description: "Love it or hate it (usually the latter), technical debt is inherent in any long-term engineering effort. Not just software: if you think the Boeing 787 doesn't contain decades-old legacy components, you may be an incurable optimist. Good on you! For the rest of us, though, technical debt is a fact of life, and while we all agree 'technical debt is bad' we often end up in a perennial, soul-sucking arguments that seldom lead to actual progress. Why is that?
 
@@ -502,7 +530,7 @@ In this whirlwind tour of past mistakes and existential post-mortems we will dec
   speakers: [tomgab]
 -
   id: 1106
-  tag: ""
+  tag: "performance"
   title: "JDK 25's new CPU-Time Profiler"
   description: "When your Java application is slow, you need to use a Java profiler. Before JDK 25, the built-in Java profiler only allowed you to profile based on execution time, not CPU-time, and those aren’t the same. A method blocked on I/O and a method doing tight computation can look identical… unless you have CPU-time profiling, which lets you focus on what’s truly burning your CPU.
 
@@ -513,14 +541,14 @@ Whether you care about performance or just want to understand your app’s throu
   speakers: [johbec]
 -
   id: 1107
-  tag: ""
+  tag: "performance"
   title: "Project Liliput - first free lunch"
   description: "Compact Object Headers are one of the most impactful recent improvements to the JVM. This talk explores why object header size matters for modern Java applications, how Project Lilliput reduces that overhead, and what changes under the hood. It then shows how to enable the feature with a single JVM flag and demonstrates the immediate memory, GC, and performance benefits—without requiring any changes to application code."
   language: ""
   speakers: [konsza]
 -
   id: 1108
-  tag: ""
+  tag: "teamculture"
   title: "4xx: The Curious Case of a Disappearing Manager"
   description: "The engineering world is changing - sometimes deliberately, sometimes by accident.
 We see flatter structures, fewer explicit roles, and new ways of getting work done. Often this isn’t the result of a bold organisational redesign, but simple pressure: faster product cycles, shifting market expectations, and the rapid adoption of AI-powered tools that reshape how work is coordinated and decisions are made.
@@ -534,7 +562,7 @@ This session is for engineers, tech leads, and managers alike. If you’ve felt 
   speakers: [agnlas]
 -
   id: 1110
-  tag: ""
+  tag: "ai"
   title: "GenAI and Java: A One-Year Retrospective"
   description: "One year ago at GeeCON, I presented “Say ‘Hi!’ to Spring AI and LangChain4j”, introducing these tools as the new frontier for Java developers. But 12 months in the AI space feels like an eternity. Since then, the landscape has exploded with the Model Context Protocol (MCP), Agentic Systems, and a wave of new tools.
 
@@ -554,7 +582,7 @@ All of this will be backed by real-world stories, examples, and lessons learne
   speakers: [piolas]
 -
   id: 1111
-  tag: ""
+  tag: "teamculture"
   title: "Why Bad Code Quality Is Not (Only) Your Fault"
   description: "Code quality is often seen as the developer's responsibility, but the reality is that many roles influence the quality of code—starting with business decisions. In this talk, I will share a real-world example where simplifying redundant business rules, identified by a business analyst, led to cleaner, more maintainable code. We will dive into how collaboration between developers, business analysts, product managers, and other stakeholders can shape code quality from the ground up.
 
@@ -565,7 +593,7 @@ If you have ever thought code quality is solely a developer's problem, this talk
   speakers: [annegg]
 -
   id: 1112
-  tag: ""
+  tag: "architecture"
   title: "Live Coding The Hive: building a microservices-ready modular monolith"
   description: "After a decade, the industry has realized that poorly designed microservices can easily turn into a distributed monolith, even more problematic than the spaghetti monolith they aimed to address. To tackle this issue, the concept of a modular monolith is emerging as an alternative approach.
 
@@ -578,7 +606,7 @@ During this live coding session, we will begin with a legacy spaghetti monolith 
   speakers: [thopie, jultop]
 -
   id: 1113
-  tag: ""
+  tag: "ai"
   title: "Pairing with Claude: My Experience Using AI for Test-First Development"
   description: "AI pair programming is generating plenty of hype, but does it actually work? This talk shares my real-world experience using Claude as a pair programming partner while practicing Test-Driven Development and Behavior-Driven Development.
 
@@ -589,7 +617,7 @@ The honest news: I'm not certain my delivery speed has increased. While Claude a
   speakers: [thosun]
 -
   id: 1115
-  tag: ""
+  tag: "news"
   title: "Write safe native code for JVM with Rust"
   description: "In this talk we will talk about how to glue JVM with one of my favorite languages as of late, Rust.
 
@@ -608,7 +636,7 @@ All with running code examples and unit tests."
   speakers: [matrze]
 -
   id: 1116
-  tag: ""
+  tag: "ai"
   title: "You’re Absolutely Right (and Other Lies My AI Told Me): Engineering Context for Agentic AI"
   description: "My AI coding agent agrees with me a lot. It agrees when I’m right. It agrees when I’m wrong. It agrees while deciding on its own to remove validation logic, rewrite business rules, and confidently explain why this is an improvement.
 
