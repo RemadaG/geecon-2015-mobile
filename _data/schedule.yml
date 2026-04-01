@@ -28,7 +28,7 @@
     - {
       startTime: "11:20",
       endTime: "12:00",
-      sessionIds: [ 1091, 1088, 1073 ]
+      sessionIds: [ 1079, 1088, 1073 ]
     }
     - {
       startTime: "12:00",
@@ -38,7 +38,7 @@
     - {
       startTime: "12:50",
       endTime: "13:40",
-      sessionIds: [ 1079, 1087, 1074 ]
+      sessionIds: [ 1091, 1087, 1074 ]
     }
     - {
       startTime: "13:40",
@@ -78,7 +78,7 @@
     - {
       startTime: "17:20",
       endTime: "17:40",
-      sessionIds: [ 1096, 1103, 1097 ]
+      sessionIds: [ 514, 515, 1097 ]
     }
     - {
       startTime: "17:40",
@@ -88,5 +88,5 @@
     - {
       startTime: "17:50",
       endTime: "18:10",
-      sessionIds: [ 511, 511, 511 ]
+      sessionIds: [ 514, 515, 1103 ]
     }
