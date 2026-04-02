@@ -224,7 +224,24 @@ $small-label-width: 80px;
 }
 
 .slot-color-panel {
-    background: #fde68a;
+    background: #fff;
+
+    &.slot-content {
+        padding-top: 48px;
+    }
+
+    .slot-language {
+        top: 5px;
+        left: 0;
+        right: 0;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        background: #fde68a;
+        border-radius: 0 0 12px 12px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+        letter-spacing: 1px;
+    }
 }
 
 .slot-language {
