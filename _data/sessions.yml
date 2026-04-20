@@ -102,7 +102,6 @@
   tag: "panel"
   title: "Discussion panel - AI"
   description: ""
-  service: "true"
   language: ""
 -
   id: 517
