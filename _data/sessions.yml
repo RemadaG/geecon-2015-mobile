@@ -1,4 +1,4 @@
-﻿-
+-
   id: 501
   tag: ""
   title: "Registration & breakfast"
@@ -88,19 +88,19 @@
 -
   id: 514
   tag: "panel"
-  title: "Discussion panel 1"
+  title: "Discussion Panel - enterprise Java"
   description: ""
   language: ""
 -
   id: 515
   tag: "panel"
-  title: "Discussion panel 2"
+  title: "Discussion Panel - What Excites You the Most in Java in 2026"
   description: ""
   language: ""
 -
   id: 516
   tag: "panel"
-  title: "Discussion panel 3"
+  title: "Discussion panel - AI"
   description: ""
   service: "true"
   language: ""
@@ -254,6 +254,17 @@ These tools work by instrumenting the bytecode and executing a series of thread 
 In the talk, I'd like to present two such tools: Lincheck and Fray, compare their functionalities, demonstrate how they work, identify the kinds of problems they might detect, discuss their applications, and highlight the issues they have already helped uncover."
   language: ""
   speakers: [adawar]
+-
+  id: 1077
+  tag: ""
+  title: "`Gemini Plays Final Fantasy`: Teaching LLMs to play jRPG from scratch"
+  description: "It’s 2025, and AI demos still look exactly the same: a TODO app, a chatbot with RAG, “watch me vibe code.” I’m bored of it - and I’m guessing you are too.
+
+So instead, we take an (my own!) NES emulator written in Kotlin, boot up Final Fantasy I, and see whether an LLM can defeat even a single goblin. Along the way, we’ll unpack what “AI beat a game” actually means, why an emulator is such an interesting playground for agents, how a model “sees” the world through memory dumps and symbols, and where everything starts to break down: latency, hallucinations, context limits.
+
+Will we win? It doesn’t matter - even failure will teach us more about AI systems than the hundredth slide about prompt engineering 😊"
+  language: ""
+  speakers: [artsko]
 -
   id: 1079
   tag: "architecture"
@@ -474,10 +485,11 @@ After this talk, you will recognize the bad practices that enable these compromi
 -
   id: 1101
   tag: "ai"
-  title: "Agent Protocols: MCP, A2A, and ADK in Action"
-  description: "Model Context Protocol (MCP) standardizes how models and agents access external tools and resources. Agent2Agent (A2A) Protocol defines how agents running on diverse frameworks and platforms communicate. Together, MCP and A2A enable collaborative agent ecosystems with seamless interoperability.
+  title: "Tour of Agent Protocols: MCP, A2A, AG-UI, A2UI"
+  description: "There are many emerging protocols around agents. Model Context Protocol (MCP) standardizes how models and agents access external tools and resources. Agent2Agent Protocol (A2A) defines how agents running on diverse frameworks and platforms communicate. Agent to User Interface Protocol (A2UI) defines how agents generate UI and Agent-User Interaction Protocol (AG-UI) defines how agents communicate with frontends.
+In this session, we’ll deep-dive into each protocol and show how they complement each other. As a bonus, we’ll also see demos on how to use these protocols in agent frameworks such as Agent Development Kit (ADK) to give you practical knowledge to start building your own interoperable agents.
 
-In this session, we’ll unpack both protocols, show how they complement each other. We’ll then see demos on how to implement these protocols in agent frameworks such as Agent Development Kit (ADK) and deploy them to the cloud to give you practical knowledge to start building your own interoperable agents."
+"
   language: ""
   speakers: [metata]
 -
@@ -614,6 +626,26 @@ The honest news: I'm not certain my delivery speed has increased. While Claude a
   language: ""
   speakers: [thosun]
 -
+  id: 1114
+  tag: ""
+  title: "Lightning fast services with Server Side Swift"
+  description: "Swift is widely known as the elegant, safe programming language powering Apple’s ecosystem. 
+But what if the same language could let you build high-performance services that feel —modern, concise, and expressive—while delivering the raw speed of C and it's secret power - seamless C libraries integration?
+
+In this talk, I reveal Swift’s best-kept secret: its rapidly growing role on the server. 
+
+You’ll discover why teams are choosing Swift for backend services, when it makes sense to reach for it, and how it can cut your cloud bills in half without sacrificing performance.
+Through real-world examples and benchmarks, we’ll explore:
+
+<ul><li> The unique combination of developer productivity and near-C performance
+</li><li> Predictable memory usage and latency in production microservices
+</li><li> Seamless integration with modern cloud infrastructure
+</li><li> Practical migration stories and gotchas (https://www.somiflow.com biotech lab software, written in Server Side Swift)</li></ul>
+
+Whether you’re battling rising infrastructure costs or looking for a fresh alternative to Go, Java, or Rust, this session will give you a clear playbook for evaluating Swift on the server—and might just convince you it’s the best tool for specific set of microservices, and  you’re not yet using it!"
+  language: ""
+  speakers: [markli]
+-
   id: 1115
   tag: "news"
   title: "Write safe native code for JVM with Rust"
@@ -647,3 +679,49 @@ On top of that foundation, we’ll cover when deterministic scripts are the bett
 If your AI keeps agreeing with you even when it’s doing the wrong thing, you’re absolutely right: this talk is for you."
   language: ""
   speakers: [barsad]
+-
+  id: 1117
+  tag: ""
+  title: "The AI-driven future of test environments"
+  description: "Pre-production environments are often a bottleneck in enterprise software orgs - they're over-contended, slow, unreliable and don't always have the right data available. 
+
+And this was before AI coding agents arrived - now the environments we use to verify new code can't keep up at all, so we need to radically adjust the way we build, maintain and use environments if we're to get the full benefit of agentic AI.
+
+This talk will show what this future could look like, explain the critical role of simulation in enabling it and dive into some specific techniques for using AI to do the heavy lifting of creating and validating simulated environments."
+  language: ""
+  speakers: [tomake]
+-
+  id: 1118
+  tag: ""
+  title: "Consistency and Coordination Patterns in Event-Driven Architecture"
+  description: "AI can help, but we’re still the ones accountable for architectural decisions that can lead to lost messages, duplicates, and other data inconsistencies.
+
+In this session, we’ll tackle the dual-write problem, explore the Saga pattern, and compare orchestration vs. choreography strategies for managing distributed workflows.
+
+We’ll also dive into the Transactional Outbox and Inbox patterns, showing how we can achieve at-least-once delivery and build idempotent consumers that make our event-driven microservices more resilient, consistent, and reliable.
+
+
+Target Audience
+<ul><li> Backend engineers building event-driven microservices with Spring and dealing with data consistency, messaging, and distributed workflows
+</li><li> Junior and mid-level developers who want to understand the challenges of keeping distributed systems in sync
+</li><li> Architects and tech leads responsible for designing reliable distributed systems
+</li></ul>
+
+Key Takeaways
+<ul><li> How can we handle common challenges such as dual writes, lost, out-of-order, and duplicate messages
+</li><li> How to choose between orchestration, choreography, both, or neither
+</li><li> When and how to apply Sagas, Transactional Outbox, and Inbox patterns, including their trade-offs
+</li></ul>"
+  language: ""
+  speakers: [ematra]
+-
+  id: 1119
+  tag: ""
+  title: "82 Bugs I Collected in a Year You Won't Believe Made It to Production Talk"
+  description: "This past year, I made it my mission to collect every bug I encountered while using everyday apps and websites. From minor glitches to major problems, I ended up with a list of 82 bugs that somehow made it to production. These real-world examples are more than just interesting - they're also embarrassing mistakes that teach important lessons for making software more reliable and improving how we test it.
+
+In this talk, I will show the different types of bugs I found and what they reveal about common mistakes in software development. I will also highlight areas that are often overlooked but are crucial to the quality of your product.
+
+By looking at these bugs together, I'll show you how to avoid them, so these issues don't reach your users. Whether you want to make your code more reliable or reduce the time from ticket creation to fix, I'll share actionable advice you can apply the next day. Join me to learn from the embarrassing mistakes that even popular apps couldn't avoid - and take-home strategies to prevent them in your software!"
+  language: ""
+  speakers: [framar]

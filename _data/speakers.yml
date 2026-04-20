@@ -42,6 +42,14 @@ I am very interested in simulated reality, psychology, philosophy, and Java."
 In addition to writing closed- and open-source software, I spend my free time exploring various (functional) programming-related subjects. Any ideas or insights I gain usually end up with a blog (<a href='https://warski.org/articles'>https://warski.org/articles</a>)."
   thumbnailUrl: "https://2026.geecon.org/speakers/adamw.jpg"
 -
+  id: "artsko"
+  name: "Artur"
+  surname: "Skowronski"
+  bio: "Head of Application Development at VirtusLab. Along the way, he’s worn many hats: Software Engineer, Tech Lead, Architect, and Technical Product Manager. Despite everything, he still tries to write code every single day.
+
+Runs JVM Weekly Newsletter for 150+ editions straight. Co-author of 'Vibe Engineering: Best Practices, Mistakes and Tradeoffs' for Manning Publications. Still wakes up at 6 AM to read RSS feeds so other people don't have to - not every hero wears a cape 🦸"
+  thumbnailUrl: "https://2026.geecon.org/speakers/arturs.jpeg"
+-
   id: "margrz"
   name: "Marcin"
   surname: "Grzejszczak"
@@ -160,7 +168,7 @@ Ivar is also involved in various other open-source projects and communities. He 
 -
   id: "artkes"
   name: "Artur"
-  surname: "Keska"
+  surname: "Kęska"
   bio: "Artur has been navigating the IT industry for decades, spending more than 10 years mastering the Java ecosystem. He began his career in the fast-paced world of game development and now focuses on payment solutions, designing and implementing systems that form the backbone of modern transactions.
 
 A firm believer in systems over wishful thinking, Artur thrives on structure, logic, and solutions grounded in reality. This mindset fuels his passion for information processing, especially when powered by the JVM.
@@ -219,7 +227,7 @@ He started DevRel at JFrog when it was ten people and grew it into a successful 
 -
   id: "dylbea"
   name: "Dylan"
-  surname: "Beattie"
+  surname: "Beattie 🎸"
   bio: "Dylan Beattie is a consultant, software developer and international keynote speaker. Dylan has been building data-driven web applications since the 1990s; he’s managed development teams, designed large-scale distributed systems, taught workshops on Microsoft .NET and HTTP API development, and presented keynote talks at software conferences on four continents. Before founding Ursatile, Dylan was CTO at Skills Matter in London until they closed down in 2019. Prior to that he was webmaster, IT Manager, and eventually systems architect at <a href='https://www.spotlight.com'>Spotlight</a>, where his first-hand experience of watching an organisation and its codebase evolve over more than a decade provided him with a unique insight into how everything from web standards and API design to Conway’s Law and recruitment ends up influencing a company’s code and culture. Dylan grew up in southern Africa, moving to the UK with his family when he was nine. He’s a <a href='https://mvp.microsoft.com/en-us/PublicProfile/5002699'>Microsoft MVP</a> and holds a degree in Computer Science from the University of Southampton. He’s the creator of <a href='https://codewithrockstar.com'>Rockstar</a>, a programming language designed for creating computer programs that are also songs, and he’s performed his software-themed parodies of classic rock songs all over the world with <a href='https://dylanbeattie.net/music'>The Linebreakers</a>. He’s into skiing, scuba diving, Lego, cats, travel and photography. You’ll find him online at <a href='https://dylanbeattie.net/'>dylanbeattie.net</a> and on Twitter as <a href='https://twitter.com/dylanbeattie/'>@dylanbeattie</a>, and offline at meetups and rock bars all over the world, wearing a big black hat."
   thumbnailUrl: "https://2026.geecon.org/speakers/dylanb.jpg"
 -
@@ -306,8 +314,50 @@ In my private time, I love being out in nature and taking long walks with my bor
 For the past decade, Thomas has served as lead developer at LogEze, where he has applied disciplined test-driven practices and continuous deployment to sustain rapid product evolution. As a consultant, trainer, and developer, he works with teams across Europe to achieve higher quality and velocity through rigorous engineering practices. A conference speaker for the past fifteen years, he regularly presents at European conferences on software craftsmanship, clean code, test automation, and continuous deployment—sharing insights earned through decades of building and shipping real software."
   thumbnailUrl: "https://2026.geecon.org/speakers/thomass.png"
 -
+  id: "markli"
+  name: "Marcin"
+  surname: "Kliks"
+  bio: "Experienced Software Engineer and hands-on Manager with 20 years of experience in e-commerce, banking, and logistics. 
+
+Creator of various popular Open Source Software - Ralph DCIM Open Source software <a href='https://github.com/allegro/ralph'>https://github.com/allegro/ralph</a>, <a href='https://github.com/allegro/tipboard'>https://github.com/allegro/tipboard</a> and development oriented tooling. 
+
+Founder and creator of 'Somiflow' startup - biotech AI software used across Europe regenerative agriculture labs, built with the innovative Server Side Swift stack.
+
+At Allegro, leading an AI-agentic coding development transformation."
+  thumbnailUrl: "https://2026.geecon.org/speakers/marcink.jpg"
+-
   id: "matrze"
   name: "Mateusz"
   surname: "Rzeszutek"
   bio: "I am an experienced software engineer with a strong Java & JVM background. I am passionate about open source software, and have previously worked as a maintainer of the OpenTelemetry Instrumentation for Java project, and an approver of several other OpenTelemetry SIGs. Currently working at Revolut as a senior platform engineer."
   thumbnailUrl: "https://2026.geecon.org/speakers/mateuszr.jpeg"
+-
+  id: "tomake"
+  name: "Tom"
+  surname: "Akehurst"
+  bio: "I'm a career software engineer of 20+ years building enterprise systems, primarily as a backend Java/JVM developer but venturing into infrastructure/DevOps, web development and performance engineering.
+
+I've spent far more time than I care to admit thinking about how to develop and test networked services more productively, and this led to me creating the WireMock open source API mocking tool, and then later co-founding a company to build WireMock Cloud."
+  thumbnailUrl: "https://2026.geecon.org/speakers/toma.jpg"
+-
+  id: "ematra"
+  name: "Emanuel"
+  surname: "Trandafir"
+  bio: "Hey there, I'm Emanuel - a Software Craftsman from Romania.
+
+I value simplicity and intentionality over blindly applying patterns and abstractions.
+
+I care deeply about the design and testability of the software I create.
+
+I also value communication and collaboration and enjoy sharing my knowledge through open-source contributions and technical articles."
+  thumbnailUrl: "https://2026.geecon.org/speakers/emanuelt.png"
+-
+  id: "framar"
+  name: "François"
+  surname: "Martin"
+  bio: "François Martin is a senior full-stack software engineer at Karakun AG in Switzerland, passionate about building high-quality applications. He co-authored the open-source JavaFX frameworks WorkbenchFX and PreferencesFX, and organizes Basel's Hackergarten to help developers get involved with open-source projects.
+
+François is an Oracle ACE Associate and an active member of the Swiss Testing Board and ISTQB's Advanced and Expert Working Group, co-authoring the ISTQB Test Analyst v4.0 and the upcoming Security Test Analyst syllabus. He is also part of the content committees for the BaselOne and DevBcn conferences.
+
+François regularly speaks at international conferences, sharing insights to inspire developers and improve software quality."
+  thumbnailUrl: "https://2026.geecon.org/speakers/francoism.jpg"
