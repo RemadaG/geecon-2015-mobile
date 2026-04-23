@@ -1,4 +1,4 @@
--
+﻿-
   id: 501
   tag: ""
   title: "Registration & breakfast"
@@ -240,7 +240,7 @@ In the battle for secure software, your tools could be your greatest weakness or
   speakers: [stepoo]
 -
   id: 1076
-  tag: "performance"
+  tag: "testing"
   title: "Concurrency testing on the JVM"
   description: "When testing a concurrent program, you never know if it really works or if you got lucky. As the famous Dijkstra quote says: 'Program testing can be used to show the presence of bugs, but never to show their absence!'.
 
@@ -255,7 +255,7 @@ In the talk, I'd like to present two such tools: Lincheck and Fray, compare thei
   speakers: [adawar]
 -
   id: 1077
-  tag: ""
+  tag: "ai"
   title: "`Gemini Plays Final Fantasy`: Teaching LLMs to play jRPG from scratch"
   description: "It’s 2025, and AI demos still look exactly the same: a TODO app, a chatbot with RAG, “watch me vibe code.” I’m bored of it - and I’m guessing you are too.
 
@@ -530,7 +530,7 @@ Whether you're developing new AI-driven solutions or enhancing existing systems,
   speakers: [darjed]
 -
   id: 1105
-  tag: "architecture"
+  tag: "teamculture"
   title: "Mob Rules, or: how I learned to Stop Worrying and Love Technical Debt"
   description: "Love it or hate it (usually the latter), technical debt is inherent in any long-term engineering effort. Not just software: if you think the Boeing 787 doesn't contain decades-old legacy components, you may be an incurable optimist. Good on you! For the rest of us, though, technical debt is a fact of life, and while we all agree 'technical debt is bad' we often end up in a perennial, soul-sucking arguments that seldom lead to actual progress. Why is that?
 
@@ -626,7 +626,7 @@ The honest news: I'm not certain my delivery speed has increased. While Claude a
   speakers: [thosun]
 -
   id: 1114
-  tag: ""
+  tag: "performance"
   title: "Lightning fast services with Server Side Swift"
   description: "Swift is widely known as the elegant, safe programming language powering Apple’s ecosystem. 
 But what if the same language could let you build high-performance services that feel —modern, concise, and expressive—while delivering the raw speed of C and it's secret power - seamless C libraries integration?
@@ -680,7 +680,7 @@ If your AI keeps agreeing with you even when it’s doing the wrong thing, you�
   speakers: [barsad]
 -
   id: 1117
-  tag: ""
+  tag: "ai"
   title: "The AI-driven future of test environments"
   description: "Pre-production environments are often a bottleneck in enterprise software orgs - they're over-contended, slow, unreliable and don't always have the right data available. 
 
@@ -691,7 +691,7 @@ This talk will show what this future could look like, explain the critical role 
   speakers: [tomake]
 -
   id: 1118
-  tag: ""
+  tag: "architecture"
   title: "Consistency and Coordination Patterns in Event-Driven Architecture"
   description: "AI can help, but we’re still the ones accountable for architectural decisions that can lead to lost messages, duplicates, and other data inconsistencies.
 
@@ -715,7 +715,7 @@ Key Takeaways
   speakers: [ematra]
 -
   id: 1119
-  tag: ""
+  tag: "testing"
   title: "82 Bugs I Collected in a Year You Won't Believe Made It to Production Talk"
   description: "This past year, I made it my mission to collect every bug I encountered while using everyday apps and websites. From minor glitches to major problems, I ended up with a list of 82 bugs that somehow made it to production. These real-world examples are more than just interesting - they're also embarrassing mistakes that teach important lessons for making software more reliable and improving how we test it.
 
