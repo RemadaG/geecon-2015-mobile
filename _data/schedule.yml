@@ -75,8 +75,10 @@
       endTime: "17:20",
       sessionIds: [ 504 ]
     }
-    - {
-      startTime: "17:20",
-      endTime: "18:10",
-      sessionIds: [ 515, 1085, 1097 ]
-    }
+    - startTime: "17:20"
+      endTime: "18:10"
+      sessionIds:
+        - 515
+        - 1085
+        - - 1097
+          - 1096

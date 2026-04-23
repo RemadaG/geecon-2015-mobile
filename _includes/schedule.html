@@ -35,6 +35,37 @@
                         {% assign slotColWidth = 12 | divided_by: forloop.length %}
                         {% assign slotIndex = forloop.index0 %}
                         {% if slot != 404 %}
+                            {% assign slotStack = slot %}
+                            {% if slotStack.first %}
+                            <div class="stacked-slots col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height" style="display:flex;flex-direction:column;padding:0;">
+                                {% for stackedId in slotStack %}
+                                    {% for session in site.data.sessions %}
+                                        {% if stackedId == session.id and session.service == null %}
+                                        <div id="session-{{ session.id }}" class="slot col-md-12 col-xs-12 slot-color-{{ session.tag }}" style="flex:1;margin:0;" data-slot-detail="{{ day.tracks[slotIndex].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
+                                            <div class="color-line" style="background: {{ day.tracks[slotIndex].color }}"></div>
+                                            <div class="slot-content slot-color-{{ session.tag }}" style="border-right-color: {{ day.tracks[slotIndex].color }}">
+                                                <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
+                                                <span class="slot-language">{{session.tag | upcase}}</span>
+                                                <ul class="slot-speakers">
+                                                    {% for speaker in site.data.speakers %}
+                                                        {% for session_speaker in session.speakers %}
+                                                            {% if session_speaker == speaker.id %}
+                                                            <li itemprop="performer"><div class="speaker-img flow-img img-circle" style="background-image: url({{speaker.thumbnailUrl}})"></div>
+                                                            <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
+                                                                <span class="speaker-position">{{ speaker.company }}</span>
+                                                            </p>
+                                                            </li>
+                                                            {% endif %}
+                                                        {% endfor %}    
+                                                    {% endfor %}
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endfor %}
+                            </div>
+                            {% else %}
                             {% for session in site.data.sessions %}
                                 {% if slot == session.id and session.service == null %}
                                 <div id="session-{{ session.id }}" class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height slot-color-{{ session.tag }}" data-slot-detail="{{ day.tracks[slotIndex].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
@@ -69,6 +100,7 @@
                                 </div>
                                 {% endif %}
                             {% endfor %}
+                            {% endif %}
                         {% else %}
                         <div class="slot col-md-{{ slotColWidth }} hidden-xs blank-col flexbox-item-height"></div>
                         {% endif %}
