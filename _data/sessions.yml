@@ -1,4 +1,4 @@
-﻿-
+-
   id: 501
   tag: ""
   title: "Registration & breakfast"
@@ -88,9 +88,10 @@
 -
   id: 514
   tag: "panel"
-  title: "Discussion Panel - Enterprise Java"
-  description: ""
+  title: "Enterprise Java"
+  description: "Discussion Panel"
   language: ""
+  moderator: [margrz]
 -
   id: 515
   tag: "panel"
@@ -102,9 +103,10 @@
 -
   id: 516
   tag: "panel"
-  title: "Discussion Panel - AI-Assisted Coding Beyond the Vibe: Craft, Economics, and the Human at the Controls"
-  description: ""
+  title: "AI-Assisted Coding Beyond the Vibe: Craft, Economics, and the Human at the Controls"
+  description: "Discussion Panel"
   language: ""
+  moderator: [adadud]
 -
   id: 517
   tag: "panel"
@@ -726,3 +728,11 @@ In this talk, I will show the different types of bugs I found and what they reve
 By looking at these bugs together, I'll show you how to avoid them, so these issues don't reach your users. Whether you want to make your code more reliable or reduce the time from ticket creation to fix, I'll share actionable advice you can apply the next day. Join me to learn from the embarrassing mistakes that even popular apps couldn't avoid - and take-home strategies to prevent them in your software!"
   language: ""
   speakers: [framar]
+-
+  id: 1120
+  tag: "ai"
+  title: "AI-Powered Product Data Quality: Automated Scoring at Scale Using LLM Vision"
+  description: "Poor product data costs retailers millions in returns, customer frustration, and lost sales – but manual quality checks don't scale to millions of SKUs. This talk presents our Product Data Quality platform that automatically scores product attributes for completeness and accuracy using LLM-powered image analysis. The system compares stored attribute values against what's actually visible on product packaging images, flagging discrepancies like incorrect weights, missing allergens, or wrong descriptions. We cover the scoring methodology (completeness via applicability rules, accuracy via GPT-4 Vision), the event-driven architecture that processes products in real-time, and how we're building feedback loops to continuously improve data quality across the product catalogue.
+This presentation delivers the most value to daily practitioners and advanced users who are familiar with real-world data challenges and production-grade systems."
+  language: ""
+  speakers: [ahmhas]

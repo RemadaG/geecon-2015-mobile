@@ -361,3 +361,25 @@ François is an Oracle ACE Associate and an active member of the Swiss Testing B
 
 François regularly speaks at international conferences, sharing insights to inspire developers and improve software quality."
   thumbnailUrl: "https://2026.geecon.org/speakers/francoism.jpg"
+-
+  id: "ahmhas"
+  name: "Ahmed"
+  surname: "Hassanien"
+  bio: "Ahmed Hassanien is an Engineering Manager at Tesco Technology in Poland, leading cutting-edge AI and machine learning initiatives that transform retail operations at scale. His team develops GenAI and LLM-powered solutions - including RAG pipelines, prompt orchestration services, and multi-agent architectures that drive customer personalization, supply chain optimization, and predictive analytics, processing millions of products daily.
+
+With over 18 years of experience spanning software architecture, engineering leadership, and AI/ML implementation, Ahmed specializes in translating complex business challenges into actionable, AI-driven strategies. Previously at EPAM Systems and Oracle, he has led digital transformation projects across cloud migration, MLOps frameworks, and end-to-end SDLC optimization, delivering measurable impact on revenue growth and operational efficiency.
+
+Ahmed is an experienced Systems Architect and an active contributor to the engineering community: he runs monthly tech meetups in Poland, speaks at conferences including InfoShare, and hosts the YouTube channel Garage Education (15k+ subscribers). His recent InfoShare talk explored how his team enriched millions of products using multi-agent systems at Tesco."
+  thumbnailUrl: "https://2026.geecon.org/speakers/ahmedh.jpg"
+-
+  id: "marlap"
+  name: "Marcin"
+  surname: "Łapaj"
+  bio: "An adult programmer and enthusiast of the craft approach to coding. For over 18 years, he’s been writing code of varying quality. He has journeyed from developer to manager and back again. Personally, he’s passionate about cycling and travel."
+  thumbnailUrl: "https://2026.geecon.org/speakers/marcinl.jpg"
+-
+  id: "adadud"
+  name: "Adam"
+  surname: "Dudczak"
+  bio: "Engineer and builder at heart, always eager to make his hands dirty to solve real users problems and help the community. Experienced people and product leader with several years of experience in developing AI/ML-based solutions. I am professinaly involved with Java and related technologies since 2004. Interested in endurance sports, science fiction and local history. Top speaker at Geecon and Allegro Tech meeting."
+  thumbnailUrl: "https://2026.geecon.org/speakers/adamd.png"
