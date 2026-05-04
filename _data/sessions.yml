@@ -94,9 +94,11 @@
 -
   id: 515
   tag: "panel"
-  title: "Discussion Panel - What Excites You the Most in Java in 2026"
-  description: ""
+  title: "Java 27 and Beyond: What Excites You, and Which Myths Need to Die"
+  description: "Discussion Panel"
   language: ""
+  moderator: [marvan]
+  speakers: [johbec, mihghe, stepoo, pioprz, gergru]
 -
   id: 516
   tag: "panel"
