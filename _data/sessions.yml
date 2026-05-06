@@ -649,25 +649,6 @@ Whether you’re battling rising infrastructure costs or looking for a fresh alt
   language: ""
   speakers: [markli]
 -
-  id: 1115
-  tag: "news"
-  title: "Write safe native code for JVM with Rust"
-  description: "In this talk we will talk about how to glue JVM with one of my favorite languages as of late, Rust.
-
-
-We will:
-<ul>
-<li>Compare JNI (Java Native Interface) and the newly added FFM (Foreign Function and Memory) API;
-</li><li>Introduce the FFM API;
-</li><li> Run native code examples for both;
-</li><li> Show what to pay attention to when using Rust as the implementation language of the native part.</li>
-</ul>
-
-
-All with running code examples and unit tests."
-  language: ""
-  speakers: [matrze]
--
   id: 1116
   tag: "ai"
   title: "You’re Absolutely Right (and Other Lies My AI Told Me): Engineering Context for Agentic AI"
@@ -736,3 +717,47 @@ By looking at these bugs together, I'll show you how to avoid them, so these iss
 This presentation delivers the most value to daily practitioners and advanced users who are familiar with real-world data challenges and production-grade systems."
   language: ""
   speakers: [ahmhas]
+-
+  id: 1121
+  tag: ""
+  title: "Authorization & Dependencies: the two ways apps betray us"
+  description: "Most breaches don’t start with elite hackers. They start with us shipping software that lies. Telling users you’re not allowed, while the backend quietly says sure. Pipeline tells teams this build is ours, while it runs whatever code showed up today.
+OWASP Top 10:2025 keeps Broken Access Control at the top for a reason: authorization mistakes scale brutally. In this talk we’ll dissect high‑impact 2025 failures where everyday patterns IDORs, missing object-level checks, confused roles, weak tenant boundaries turned normal endpoints into data extraction APIs. Then we’ll pivot to the second betrayal dependencies and supply chain. Including incidents where trusted libraries and CI/CD components were compromised and secrets spilled not because the app was vulnerable, but because the build was.
+The through-line is simple: modern systems run on implicit trust. Attackers don’t break crypto they exploit assumptions.
+We’ll finish with defenses that don’t require slowing down: make authorization a testable invariant, and regain supply-chain control with SBOMs, provenance-aware builds, and continuous dependency monitoring. The goal is not compliance. The goal is to make betrayal expensive and detectable."
+  language: ""
+  speakers: [marlap]
+-
+  id: 1122
+  tag: ""
+  title: "AI-Assisted Coding Beyond the Vibe: Craft, Economics, and the Human at the Controls"
+  description: "Discussion Panel"
+  language: ""
+  speakers: [adadud]
+-
+  id: 1123
+  tag: ""
+  title: "Short-Term & Long-Term Memory in an AI Agent with Spring AI"
+  description: "In this session, we will explore how to build an AI agent with Spring AI. I will show you how to interact with LLMs using the Chat Client API, how to use short-term memory (STM) using chat history, and how to implement long-term memory (LTM) using embedding models and MongoDB. We will also cover how to build a chat-based web UI for the agent, and how to create MCP servers and MCP tools for agents to use.
+
+Key takeaways:
+<ul><li>
+Building AI Agents using Spring AI</li><li>
+Spring AI Chat Client API</li><li>
+Short-term memory (STM)</li><li>
+Long-term memory (LTM)</li><li>
+MCP Servers</li><li>
+MCP Tools</li>
+</ul>
+"
+  language: ""
+  speakers: [domceb]
+-
+  id: 1124
+  tag: ""
+  title: "Discussion panel - Java 27 and Beyond: What Excites You, and Which Myths Need to Die"
+  description: "A new version of Java arrives every six months, and yet some of the platform's most anticipated changes (like Project Valhalla) have been in development for years. As Java 27 approaches, this panel asks experienced practitioners an honest question: how exciting are these releases really, and do they solve the problems developers actually face?
+While the release cadence is fixed, the impact of each release is not. Some releases land features that genuinely change how developers work. Others lay important groundwork that is harder to feel day to day. And with many teams still on older LTS versions, even meaningful progress can take time to arrive where it matters.
+This panel will explore what has genuinely excited practitioners about the direction Java is heading — and what has not. Which long-standing myths have recent releases finally put to rest, and which challenges remain unsolved for now? This is a conversation about where Java is going, and what it still needs to get there."
+  language: ""
+  speakers: [stepoo, gergru, marvan, pioprz, mihghe, johbec]

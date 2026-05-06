@@ -326,12 +326,6 @@ Founder and creator of 'Somiflow' startup - biotech AI software used across Euro
 At Allegro, leading an AI-agentic coding development transformation."
   thumbnailUrl: "https://2026.geecon.org/speakers/marcink.jpg"
 -
-  id: "matrze"
-  name: "Mateusz"
-  surname: "Rzeszutek"
-  bio: "I am an experienced software engineer with a strong Java & JVM background. I am passionate about open source software, and have previously worked as a maintainer of the OpenTelemetry Instrumentation for Java project, and an approver of several other OpenTelemetry SIGs. Currently working at Revolut as a senior platform engineer."
-  thumbnailUrl: "https://2026.geecon.org/speakers/mateuszr.jpeg"
--
   id: "tomake"
   name: "Tom"
   surname: "Akehurst"
@@ -383,3 +377,9 @@ Ahmed is an experienced Systems Architect and an active contributor to the engin
   surname: "Dudczak"
   bio: "Engineer and builder at heart, always eager to make his hands dirty to solve real users problems and help the community. Experienced people and product leader with several years of experience in developing AI/ML-based solutions. I am professinaly involved with Java and related technologies since 2004. Interested in endurance sports, science fiction and local history. Top speaker at Geecon and Allegro Tech meeting."
   thumbnailUrl: "https://2026.geecon.org/speakers/adamd.png"
+-
+  id: "domceb"
+  name: "Dominik"
+  surname: "Cebula"
+  bio: "Cloud Software Principal Engineer, Udemy instructor, book author. Over 17 years of experience building and scaling cloud-native business applications. Currently at HSBC as a Principal Engineer. Focuses on building clean, maintainable, resilient, scalable, high-performance systems. Specializes in Java, Spring, Microservices, Modularized monoliths, and modern cloud platforms including AWS and Kubernetes. Expertise spans code and system architectures, system design, scalability, and service resilience, with a strong emphasis on observability and reliability. Actively operates in the SRE/DevOps space driving CI/CD practices, production readiness, and operational excellence across complex systems. Udemy instructor and book author, sharing practical knowledge and real-world insights with engineers looking to deepen their understanding of cloud-native development and modern software architecture."
+  thumbnailUrl: "https://2026.geecon.org/speakers/dominikc.jpg"
