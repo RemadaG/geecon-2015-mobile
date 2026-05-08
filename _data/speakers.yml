@@ -383,3 +383,9 @@ Ahmed is an experienced Systems Architect and an active contributor to the engin
   surname: "Cebula"
   bio: "Cloud Software Principal Engineer, Udemy instructor, book author. Over 17 years of experience building and scaling cloud-native business applications. Currently at HSBC as a Principal Engineer. Focuses on building clean, maintainable, resilient, scalable, high-performance systems. Specializes in Java, Spring, Microservices, Modularized monoliths, and modern cloud platforms including AWS and Kubernetes. Expertise spans code and system architectures, system design, scalability, and service resilience, with a strong emphasis on observability and reliability. Actively operates in the SRE/DevOps space driving CI/CD practices, production readiness, and operational excellence across complex systems. Udemy instructor and book author, sharing practical knowledge and real-world insights with engineers looking to deepen their understanding of cloud-native development and modern software architecture."
   thumbnailUrl: "https://2026.geecon.org/speakers/dominikc.jpg"
+-
+  id: "krzdeb"
+  name: "Krzysztof"
+  surname: "Debski"
+  bio: "He tackles everything from frontend to backend, architecture to infrastructure. With real-world experience building and scaling systems—whether it’s a million-user eCommerce platform or a fresh startup—he’s all about practical solutions that actually work."
+  thumbnailUrl: "https://2026.geecon.org/speakers/krzysztofd.jpeg"

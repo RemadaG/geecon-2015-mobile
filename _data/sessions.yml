@@ -761,3 +761,22 @@ While the release cadence is fixed, the impact of each release is not. Some rele
 This panel will explore what has genuinely excited practitioners about the direction Java is heading — and what has not. Which long-standing myths have recent releases finally put to rest, and which challenges remain unsolved for now? This is a conversation about where Java is going, and what it still needs to get there."
   language: ""
   speakers: [stepoo, gergru, marvan, pioprz, mihghe, johbec]
+-
+  id: 1125
+  tag: "ai"
+  title: "“It’ll Take an Hour”: A Half-Year Agent System"
+  description: "We wanted an answer to a simple question. The kind you expect to get done before lunch:
+take yesterday’s customer tickets and check if anything interesting happened.
+
+That worked. So the next request was obvious:
+“Cool. Can we get the same report for the last month?”
+
+That’s where it went wrong.
+
+One day of data ended up taking over 30 minutes to process, with recursive batching and thousands of LLM calls burning millions of tokens just to produce a single report.
+
+This talk is a postmortem of how a straightforward script turned into a slow, fragile, complex system.
+
+We’ll look at when agents actually help, when they’re just expensive indirection, and how to notice you should stop adding “one more improvement,” rip half of it out, and ship something boring that actually works."
+  language: ""
+  speakers: [krzdeb]
