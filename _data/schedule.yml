@@ -22,11 +22,11 @@
     }
     - {
       startTime: "10:50",
-      endTime: "11:20",
+      endTime: "11:10",
       sessionIds: [ 505 ]
     }
     - {
-      startTime: "11:20",
+      startTime: "11:10",
       endTime: "12:00",
       sessionIds: [ 1079, 1088, 1073 ]
     }
@@ -68,7 +68,7 @@
     - {
       startTime: "16:20",
       endTime: "17:10",
-      sessionIds: [ 514, 1116, 1080 ]
+      sessionIds: [ 1127, 1116, 1080 ]
     }
     - {
       startTime: "17:10",
@@ -78,7 +78,7 @@
     - startTime: "17:20"
       endTime: "18:10"
       sessionIds:
-        - 515
+        - 1124
         - 1085
         - - 1097
           - 1096

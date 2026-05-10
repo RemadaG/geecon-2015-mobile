@@ -389,3 +389,11 @@ Ahmed is an experienced Systems Architect and an active contributor to the engin
   surname: "Debski"
   bio: "He tackles everything from frontend to backend, architecture to infrastructure. With real-world experience building and scaling systems—whether it’s a million-user eCommerce platform or a fresh startup—he’s all about practical solutions that actually work."
   thumbnailUrl: "https://2026.geecon.org/speakers/krzysztofd.jpeg"
+-
+  id: "matdyk"
+  name: "Mateusz"
+  surname: "Dykszak"
+  bio: "Mateusz is a quality-driven software engineer with 20 years of professional experience, spanning hands-on development, technical leadership, and people management. He has worked across the full software lifecycle, from designing and implementing systems to mentoring teams and supporting long-term maintainability.
+
+His expertise includes object-oriented design, TDD, refactoring, design patterns, and practical microservices architectures. In recent years, he has also explored real-world use of large language models and agentic systems in projects, focusing on applying AI responsibly in non-trivial software systems."
+  thumbnailUrl: "https://2026.geecon.org/speakers/mateuszd.png"

@@ -86,28 +86,6 @@
   service: "true"
   language: ""
 -
-  id: 514
-  tag: "panel"
-  title: "Enterprise Java"
-  description: "Discussion Panel"
-  language: ""
-  moderator: [margrz]
--
-  id: 515
-  tag: "panel"
-  title: "Java 27 and Beyond: What Excites You, and Which Myths Need to Die"
-  description: "Discussion Panel"
-  language: ""
-  moderator: [marvan]
-  speakers: [johbec, mihghe, stepoo, pioprz, gergru]
--
-  id: 516
-  tag: "panel"
-  title: "AI-Assisted Coding Beyond the Vibe: Craft, Economics, and the Human at the Controls"
-  description: "Discussion Panel"
-  language: ""
-  moderator: [adadud]
--
   id: 517
   tag: "panel"
   title: "Discussion panel 4"
@@ -729,11 +707,12 @@ We’ll finish with defenses that don’t require slowing down: make authorizati
   speakers: [marlap]
 -
   id: 1122
-  tag: ""
+  tag: "panel"
   title: "AI-Assisted Coding Beyond the Vibe: Craft, Economics, and the Human at the Controls"
   description: "Discussion Panel"
   language: ""
-  speakers: [adadud]
+  moderator: [adadud]
+  speakers: [dylbea, artsko, chrtzo]
 -
   id: 1123
   tag: ""
@@ -754,13 +733,14 @@ MCP Tools</li>
   speakers: [domceb]
 -
   id: 1124
-  tag: ""
-  title: "Discussion panel - Java 27 and Beyond: What Excites You, and Which Myths Need to Die"
+  tag: "panel"
+  title: "Java 27 and Beyond: What Excites You, and Which Myths Need to Die"
   description: "A new version of Java arrives every six months, and yet some of the platform's most anticipated changes (like Project Valhalla) have been in development for years. As Java 27 approaches, this panel asks experienced practitioners an honest question: how exciting are these releases really, and do they solve the problems developers actually face?
 While the release cadence is fixed, the impact of each release is not. Some releases land features that genuinely change how developers work. Others lay important groundwork that is harder to feel day to day. And with many teams still on older LTS versions, even meaningful progress can take time to arrive where it matters.
 This panel will explore what has genuinely excited practitioners about the direction Java is heading — and what has not. Which long-standing myths have recent releases finally put to rest, and which challenges remain unsolved for now? This is a conversation about where Java is going, and what it still needs to get there."
   language: ""
-  speakers: [stepoo, gergru, marvan, pioprz, mihghe, johbec]
+  moderator: [marvan]
+  speakers: [johbec, mihghe, stepoo, pioprz, gergru]
 -
   id: 1125
   tag: "ai"
@@ -780,3 +760,27 @@ This talk is a postmortem of how a straightforward script turned into a slow, fr
 We’ll look at when agents actually help, when they’re just expensive indirection, and how to notice you should stop adding “one more improvement,” rip half of it out, and ship something boring that actually works."
   language: ""
   speakers: [krzdeb]
+-
+  id: 1126
+  tag: ""
+  title: "Can LLMs Play Games?"
+  description: "Large Language Models are increasingly used to write production code, and agentic approaches promise systems that can plan, generate, execute, and refine code autonomously. But how far can we really go? Can LLM-generated code handle real-time constraints, continuously changing state, and imperfect APIs? And more importantly: do software engineering fundamentals such as SOLID principles, design patterns, and clean architecture still matter when AI writes the code?
+
+
+This talk explores these questions using battlejar.it — a Java-based real-time playground where autonomous “commanders” interact with a live game loop. The project serves as an experimental environment for observing how LLM-generated code behaves under pressure, including tight timing constraints, partial observability, and continuously evolving game state.
+
+
+The session presents multiple implementations of game-playing clients generated with the help of LLMs. These examples are used to analyze how such code behaves in practice, where it succeeds, and where it breaks down when exposed to real-world conditions rather than isolated tasks or static problems.
+
+
+As a supplementary experiment, the talk briefly touches on agentic approaches, where an LLM is allowed to iteratively reason, run code, observe outcomes, and adjust its behavior.
+
+
+This session targets Java beginners and daily Java users, especially those at the beginning of their journey with AI-assisted development. Prior AI experience is not required — curiosity is enough."
+  language: ""
+  speakers: [matdyk]
+-
+  id: 1127
+  tag: "panel"
+  title: "Enterprise Java in the Age of AI: Ready, Rethinking, or Reinventing?"
+  moderator: [margrz]
