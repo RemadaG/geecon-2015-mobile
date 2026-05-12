@@ -176,6 +176,7 @@ In this talk, we will delve into the topic of explainable AI, and its importance
   language: ""
   speakers: [luccon]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/ea05a679-cd3f-45f1-b5f4-2d116130ff76"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/a9b9e26a-6451-4c03-807d-54ee2d519f64"
 -
   id: 1073
   tag: "ai"
@@ -191,6 +192,7 @@ Whether you’re experienced in streaming systems or just curious about applying
   language: ""
   speakers: [josgol]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/6bb62791-46de-4acb-878c-c78c4d0bd885"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/8624d2ed-21df-49b2-a2e1-7eadab0cdd3a"
 -
   id: 1074
   tag: "ai"
@@ -205,6 +207,7 @@ The talk focuses on practical habits that developers can apply right away: tight
   language: ""
   speakers: [jonvil]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/bfbbea0e-8063-44cb-ba9e-c86271ab8aa7"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/6a48c5c3-6402-436c-8d44-9150858bff8a"
 -
   id: 1075
   tag: "security"
@@ -239,6 +242,7 @@ In the talk, I'd like to present two such tools: Lincheck and Fray, compare thei
   language: ""
   speakers: [adawar]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/2b6c9598-5877-463a-be35-6bce6002667c"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/70ac43bc-5bda-465a-b7b4-fde4383118ad"
 -
   id: 1077
   tag: "ai"
@@ -260,6 +264,7 @@ It’s time to clean up our act. In this session, we’ll move beyond basic CRUD
   language: ""
   speakers: [rusmeh]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/cc7dc86b-4edf-4c89-9708-b0f404c7cbaa"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/23d2d103-799e-495e-9fe2-26d18f0cdb2b"
 -
   id: 1080
   tag: "performance"
@@ -269,6 +274,7 @@ This session will give you a short overview of the different solutions to increa
   language: ""
   speakers: [gergru]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/4e26c47c-e8d7-4086-a807-9401c2ae61b2"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/dbcf4115-a5f1-4e3b-ae54-bb81ce7887f5"
 -
   id: 1081
   tag: "devops"
@@ -281,6 +287,7 @@ If you already have microservices but delivery still feels slow and risky, this 
   language: ""
   speakers: [margrz]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/3ca256c7-4b23-45d8-8e3f-b24a4d439834"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/af32e568-4ff9-4f5b-b159-37208000aa6b"
 -
   id: 1082
   tag: "ai"
@@ -304,6 +311,7 @@ Attendees will discover how to construct agents that progressively refine their 
   language: ""
   speakers: [chrtzo]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/60fcac4a-598b-4167-8293-e619de5bf36d"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/55059d2f-69aa-4acf-8423-34df0045feea"
 -
   id: 1084
   tag: "news"
@@ -325,6 +333,7 @@ This session is aimed at Spring developers who want to introduce agentic systems
   language: ""
   speakers: [arjpou]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/a6d4707c-1fcc-4840-835a-36b8a0dc0b42"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/11727f10-a3b6-4d83-9c99-c6d088c25b78"
 -
   id: 1087
   tag: "ai"
@@ -342,6 +351,7 @@ This session is aimed at Spring developers who want to introduce agentic systems
   language: ""
   speakers: [adabie]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/db593e81-0904-4dc9-a0f7-3f410fb97b98"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/4b0179ad-0a9a-49da-8b7b-440e10b831cf"
 -
   id: 1088
   tag: "architecture"
@@ -350,6 +360,7 @@ This session is aimed at Spring developers who want to introduce agentic systems
   language: ""
   speakers: [spegib]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/1f6a59cd-1f44-4a25-b284-8ec80f3945b1"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/83bbde10-1f5f-461f-bdab-59560b0bf2b3"
 -
   id: 1089
   tag: "architecture"
@@ -374,6 +385,7 @@ You’ll hear practical lessons learned, what worked, what didn’t, and how you
   language: ""
   speakers: [avipei, yasdun]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/12645a5e-c55c-4b92-907e-2510c23e8400"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/4ad77f4b-3dd2-4236-8948-a2f9b50a61ae"
 -
   id: 1091
   tag: "architecture"
@@ -392,6 +404,7 @@ Key takeaways include:
   language: ""
   speakers: [marlad]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/b194e3f5-b699-40e5-b8a6-ddd915810ba1"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/d4c4dca3-cc3b-48c0-8280-b1cd844acdd8"
 -
   id: 1092
   tag: "news"
@@ -450,6 +463,7 @@ I’ll delve into the core components of a well-designed team contract. You'll w
   language: ""
   speakers: [agakab]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/b2005d7a-c09c-4cc0-a5bb-d10f05113be9"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/f364787d-8830-46d2-b09b-3d3d6f5fc3e5"
 -
   id: 1097
   tag: "performance"
@@ -460,6 +474,7 @@ In this talk, we’ll explore where queue wait time actually appears in our syst
   language: ""
   speakers: [matnal]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/40b4eb69-fa63-4c17-9a5c-854cdd41135f"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/f3ef7233-95fd-464f-a521-c5ebd2d53069"
 -
   id: 1099
   tag: "security"
@@ -472,6 +487,7 @@ After this talk, you will recognize the bad practices that enable these compromi
   language: ""
   speakers: [niepal]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/cea3ff89-3abe-418f-98cb-38660d2b9ab6"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/b2f6c88c-2e04-4d51-85b4-dff70fd59552"
 -
   id: 1100
   tag: "news"
@@ -480,6 +496,7 @@ After this talk, you will recognize the bad practices that enable these compromi
   language: ""
   speakers: [dylbea]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/cf912c65-4ef8-4187-821b-d32a75ed77fa"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/39d0f7f8-c130-4468-8097-6793305f7ffd"
 -
   id: 1101
   tag: "ai"
@@ -659,6 +676,7 @@ If your AI keeps agreeing with you even when it’s doing the wrong thing, you�
   language: ""
   speakers: [barsad]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/36ff4a65-912b-4e97-849e-153e35aaa0be"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/1bbcb06e-ad15-439f-b77e-13071bcdc7a2"
 -
   id: 1117
   tag: "ai"
@@ -760,6 +778,7 @@ This panel will explore what has genuinely excited practitioners about the direc
   moderator: [marvan]
   speakers: [johbec, mihghe, stepoo, pioprz, gergru]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/64dc1dc7-b3fc-4093-ad2a-289e24c5493c"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/ad94a949-c11b-42fd-a750-2668d8dc5fad"
 -
   id: 1125
   tag: "ai"
@@ -805,3 +824,4 @@ This session targets Java beginners and daily Java users, especially those at th
   moderator: [margrz]
   speakers: [spegib, arjpou, adabie, jaknab]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/68350f58-2359-48a3-af1e-15c33b41b585"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/60e33181-f1d8-4fbb-a7e1-575291d50b4f"
