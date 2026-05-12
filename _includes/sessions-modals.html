@@ -22,6 +22,32 @@
 						<!--{% if session.presentation %}-->
 						<!--<a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>-->
 						<!--{% endif %}-->
+						{% if session.rating or session.feedback %}
+						<div class="session-slido">
+							<p class="slido-heading">Enjoyed this session?</p>
+							<p class="slido-subtext">Your feedback helps speakers.</p>
+							<div class="slido-actions">
+								{% if session.rating %}
+								<a class="slido-btn slido-btn-rating"
+								   href="{{ session.rating }}"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<span class="slido-btn-stars">★★★★★</span>
+									<span class="slido-btn-label">Rate this session</span>
+								</a>
+								{% endif %}
+								{% if session.feedback %}
+								<a class="slido-btn slido-btn-feedback"
+								   href="{{ session.feedback }}"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<span class="slido-btn-icon">&#9998;</span>
+									<span class="slido-btn-label">Leave feedback</span>
+								</a>
+								{% endif %}
+							</div>
+						</div>
+						{% endif %}
 						<hr>
 						<div class="people-details">
 							{% for mod_id in session.moderator %}
