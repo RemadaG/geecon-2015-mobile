@@ -175,6 +175,7 @@ Then, LLMs entered the chat. They answer our questions confidently and with a be
 In this talk, we will delve into the topic of explainable AI, and its importance in the current context of LLMs and agents. Starting from traditional machine learning to then focus on generative AI, we will cover the different methods that can be implemented, from well-known ones to novel proposals stemming from our internal research. We will go through the main risks and challenges we have encountered when implementing explainability, and how we have solved them. Finally, we will share some tips and tricks to integrate explanations into LLM-based workflows (also when using existing third-party services that are not natively explainable)."
   language: ""
   speakers: [luccon]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/ea05a679-cd3f-45f1-b5f4-2d116130ff76"
 -
   id: 1073
   tag: "ai"
@@ -189,6 +190,7 @@ Finally, we’ll demo a live end-to-end example, from data ingestion to AI scori
 Whether you’re experienced in streaming systems or just curious about applying AI to real-world problems, this session will leave you with the needed practical foundation, insights, inspiration, and hopefully a few laughs along the way."
   language: ""
   speakers: [josgol]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/6bb62791-46de-4acb-878c-c78c4d0bd885"
 -
   id: 1074
   tag: "ai"
@@ -202,6 +204,7 @@ I will also present **reports comparing how different LLM models generate code**
 The talk focuses on practical habits that developers can apply right away: tightening tool access, simplifying and focusing context, adding lightweight validation steps, and using safety patterns that prevent the common failures. My goal is to help teams build **more reliable, productive, and secure AI workflows**, making AI code generation a real benefit rather than a risky experiment 😅."
   language: ""
   speakers: [jonvil]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/bfbbea0e-8063-44cb-ba9e-c86271ab8aa7"
 -
   id: 1075
   tag: "security"
@@ -235,6 +238,7 @@ These tools work by instrumenting the bytecode and executing a series of thread 
 In the talk, I'd like to present two such tools: Lincheck and Fray, compare their functionalities, demonstrate how they work, identify the kinds of problems they might detect, discuss their applications, and highlight the issues they have already helped uncover."
   language: ""
   speakers: [adawar]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/2b6c9598-5877-463a-be35-6bce6002667c"
 -
   id: 1077
   tag: "ai"
@@ -255,6 +259,7 @@ Will we win? It doesn’t matter - even failure will teach us more about AI syst
 It’s time to clean up our act. In this session, we’ll move beyond basic CRUD to explore 5 essential patterns for building production-grade APIs. We will combine standard Jakarta EE/MicroProfile features with powerful custom implementations to tackle the cross-cutting concerns that matter most."
   language: ""
   speakers: [rusmeh]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/cc7dc86b-4edf-4c89-9708-b0f404c7cbaa"
 -
   id: 1080
   tag: "performance"
@@ -263,6 +268,7 @@ It’s time to clean up our act. In this session, we’ll move beyond basic CRUD
 This session will give you a short overview of the different solutions to increase your JVM startup performance and will try to give you some hints on how to choose the right solution for your application."
   language: ""
   speakers: [gergru]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/4e26c47c-e8d7-4086-a807-9401c2ae61b2"
 -
   id: 1081
   tag: "devops"
@@ -274,6 +280,7 @@ Using a real-world case study from Expedia, this talk shows why IT is often seen
 If you already have microservices but delivery still feels slow and risky, this talk explains why a platform is essential to scale, align technology with business goals, and deliver value faster and more reliably."
   language: ""
   speakers: [margrz]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/3ca256c7-4b23-45d8-8e3f-b24a4d439834"
 -
   id: 1082
   tag: "ai"
@@ -296,6 +303,7 @@ This talk introduces Recursive Advisors as a mechanism for controlled iteration 
 Attendees will discover how to construct agents that progressively refine their execution strategies—leveraging self-assessment and feedback loops to achieve higher quality outcomes through autonomous improvement."
   language: ""
   speakers: [chrtzo]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/60fcac4a-598b-4167-8293-e619de5bf36d"
 -
   id: 1084
   tag: "news"
@@ -316,6 +324,7 @@ The talk focuses on incremental adoption: where agents fit into a mature codebas
 This session is aimed at Spring developers who want to introduce agentic systems pragmatically, using familiar tools and patterns."
   language: ""
   speakers: [arjpou]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/a6d4707c-1fcc-4840-835a-36b8a0dc0b42"
 -
   id: 1087
   tag: "ai"
@@ -332,6 +341,7 @@ This session is aimed at Spring developers who want to introduce agentic systems
   the code goes next."
   language: ""
   speakers: [adabie]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/db593e81-0904-4dc9-a0f7-3f410fb97b98"
 -
   id: 1088
   tag: "architecture"
@@ -339,6 +349,7 @@ This session is aimed at Spring developers who want to introduce agentic systems
   description: "Deciding between microservices, monoliths, or a hybrid architecture? We’ll explore the characteristics of each and how different architectural styles support various technical, organizational, and operational goals. Most organizations don’t choose just one path—architectures evolve, and combinations often coexist. The Spring portfolio offers powerful support across this spectrum. We’ll go through an example of the evolution of an application, showing how the Spring portfolio supports structure within a modular monolith and enables a smooth transition to microservices. Whether you’re scaling a small team or managing a complex system, this session will equip you to make thoughtful, needs-driven architectural decisions."
   language: ""
   speakers: [spegib]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/1f6a59cd-1f44-4a25-b284-8ec80f3945b1"
 -
   id: 1089
   tag: "architecture"
@@ -362,6 +373,7 @@ In this talk, we’ll share our Wix–Wildmoose journey: how we started by mappi
 You’ll hear practical lessons learned, what worked, what didn’t, and how you can strike the right balance between AI automation and human judgment."
   language: ""
   speakers: [avipei, yasdun]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/12645a5e-c55c-4b92-907e-2510c23e8400"
 -
   id: 1091
   tag: "architecture"
@@ -379,6 +391,7 @@ Key takeaways include:
 "
   language: ""
   speakers: [marlad]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/b194e3f5-b699-40e5-b8a6-ddd915810ba1"
 -
   id: 1092
   tag: "news"
@@ -436,6 +449,7 @@ In this talk, I’ll take a step back to explore what often gets overlooked in t
 I’ll delve into the core components of a well-designed team contract. You'll walk away with practical tools and deeper insight into how investing time in a collaborative, flexible team contract can lead to stronger cohesion, higher productivity, and greater shared success."
   language: ""
   speakers: [agakab]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/b2005d7a-c09c-4cc0-a5bb-d10f05113be9"
 -
   id: 1097
   tag: "performance"
@@ -445,6 +459,7 @@ I’ll delve into the core components of a well-designed team contract. You'll w
 In this talk, we’ll explore where queue wait time actually appears in our systems and how to spot it. All insights come straight from real production data. Sometimes adding more threads does make things faster."
   language: ""
   speakers: [matnal]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/40b4eb69-fa63-4c17-9a5c-854cdd41135f"
 -
   id: 1099
   tag: "security"
@@ -456,6 +471,7 @@ This talk dissects the anatomy of the breach to reveal the universal attack patt
 After this talk, you will recognize the bad practices that enable these compromises, understand how to prevent your pipeline from getting hacked, and extend your security toolbox with automated checks to enforce these universal principles."
   language: ""
   speakers: [niepal]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/cea3ff89-3abe-418f-98cb-38660d2b9ab6"
 -
   id: 1100
   tag: "news"
@@ -463,6 +479,7 @@ After this talk, you will recognize the bad practices that enable these compromi
   description: "One evening in 2018, Dylan Beattie sat down in a bar, opened a laptop, and wrote a joke: a parody specification for Rockstar, a programming language based on the lyrics to 1980s power ballads. The joke was supposed to end there: a single Markdown file that folks would read, maybe laugh a bit, and then get on with their lives… well, that’s not quite how it worked out.  The internet’s a big place, and a little corner of it took Rockstar to their hearts: they found it, they loved it - and then they implemented it. Six years on, Rockstar has shown up in the most unlikely places, from Classic Rock magazine, to Advent of Code, to Carnegie Mellon University and MIT - and each time, it attracts a new wave of aspiring Rockstar developers, with questions about how it works, and suggestions about how to make it better. And so, one evening in 2024, Dylan sat down in another bar, opened another laptop, and wrote another joke: “Rockstar 2.0: The Difficult Second Album”.  On one level, Rockstar in 2026 is a stupid joke language based on Bon Jovi songs. On another level, it’s packed with things that would have been impossible even just a few years ago: a project that combines .NET, C#, JavaScript, browser APIs, and web assembly, building on decades of research in parser engineering and asynchronous application development. And yes, it’s still based on Bon Jovi songs.  This is the story of Rockstar 2.0. You’ll learn about the history of esoteric programming languages, from INTERCAL, to Piet, to the researcher who taught Perl to speak Latin. You’ll learn what’s involved in creating an entirely new programming language. You’ll see a lot of cool tech, you’ll marvel at just how much engineering can go into one joke, and who knows - you might even qualify as a Certified Rockstar 2.0 Developer. "
   language: ""
   speakers: [dylbea]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/cf912c65-4ef8-4187-821b-d32a75ed77fa"
 -
   id: 1101
   tag: "ai"
@@ -641,6 +658,7 @@ On top of that foundation, we’ll cover when deterministic scripts are the bett
 If your AI keeps agreeing with you even when it’s doing the wrong thing, you’re absolutely right: this talk is for you."
   language: ""
   speakers: [barsad]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/36ff4a65-912b-4e97-849e-153e35aaa0be"
 -
   id: 1117
   tag: "ai"
@@ -741,6 +759,7 @@ This panel will explore what has genuinely excited practitioners about the direc
   language: ""
   moderator: [marvan]
   speakers: [johbec, mihghe, stepoo, pioprz, gergru]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/64dc1dc7-b3fc-4093-ad2a-289e24c5493c"
 -
   id: 1125
   tag: "ai"
@@ -785,3 +804,4 @@ This session targets Java beginners and daily Java users, especially those at th
   title: "Enterprise Java in the Age of AI: Ready, Rethinking, or Reinventing?"
   moderator: [margrz]
   speakers: [spegib, arjpou, adabie, jaknab]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/68350f58-2359-48a3-af1e-15c33b41b585"
