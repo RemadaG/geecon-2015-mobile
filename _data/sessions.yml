@@ -254,6 +254,8 @@ So instead, we take an (my own!) NES emulator written in Kotlin, boot up Final F
 Will we win? It doesn’t matter - even failure will teach us more about AI systems than the hundredth slide about prompt engineering 😊"
   language: ""
   speakers: [artsko]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/2d8571c1-ead3-485d-9863-7c422f083491"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/22692a89-5728-4014-85ea-177a634d1799"
 -
   id: 1079
   tag: "architecture"
@@ -300,6 +302,8 @@ Whether you’re a seasoned backend engineer or an adventurous developer seeking
 Alexander’s goal is to offer an engaging and fun look at RAG, inspiring you to dive in and explore its potential yourself. Get ready for a session that mixes education and absurd fun to discover the inner workings of multimodal RAG!"
   language: ""
   speakers: [alecha]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/b3dd14a9-2a09-4214-b8cd-5f3d8d9aa54c"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/22bd4dea-d478-493f-b395-6a4045dfb9f3"
 -
   id: 1083
   tag: "ai"
@@ -322,6 +326,8 @@ Attendees will discover how to construct agents that progressively refine their 
 Fear not! In this session Marit and Piotr will explain to you the new exciting things and also show you how to use them in your IDE, so that the next day you can start having fun and profit with modern Java in your favorite tools on your own."
   language: ""
   speakers: [marvan, pioprz]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/510abf61-18c4-4db9-9f35-9f16ab5cc28b"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/8d24821d-e380-4873-82ac-732604f935e7"
 -
   id: 1085
   tag: "ai"
@@ -416,6 +422,8 @@ The Jakarta EE 11, with features for increasing performance and developer produc
 This session will give you a history lesson of Enterprise Java as well as an overview of everything brought to you by Jakarta EE 11 with lots of code demos. We will also look forward and check out what's in the pipeline for Jakarta EE 12 and how enterprises can cope with the ever increasing presence of AI."
   language: ""
   speakers: [ivagri]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/9f148c32-a2cb-4ef5-98ff-07703b93370e"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/d5948fbe-65fa-49d3-95d2-b91e616fc60c"
 -
   id: 1093
   tag: "news"
@@ -438,6 +446,8 @@ Finally, I will separate expectations from reality, cutting through the hype to 
 Whether you’re a developer, architect, security professional, or simply curious about emerging technologies, this session will help you understand why quantum computing is worth listening to—now and in the years ahead."
   language: ""
   speakers: [artkes]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/8ebe0a0c-e2df-423a-a8cd-273591e0125b"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/967ceb14-1785-444c-a886-6938224495ea"
 -
   id: 1095
   tag: "news"
@@ -451,6 +461,8 @@ Expect a dynamic quiz format, audience participation, and plenty of 'oh, that’
 Walk away not only with sharper instincts, but with a deeper understanding of how to write cleaner, faster, and more expressive Java code."
   language: ""
   speakers: [mihghe]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/1fa171f1-009a-4e1d-a54e-5f72b6f066c6"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/621cf840-f396-4fba-8579-93e62ceb3a71"
 -
   id: 1096
   tag: "teamculture"
@@ -528,6 +540,8 @@ In this talk I am going to reveal some of the details of our implementations of 
 "
   language: ""
   speakers: [tomreh]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/4fd864f2-66b6-4dec-97af-7373a20f4b3e"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/9c11c2bf-5bbc-40f5-9ae5-ac640cdff6e0"
 -
   id: 1104
   tag: "ai"
@@ -553,6 +567,8 @@ Whether you're developing new AI-driven solutions or enhancing existing systems,
 In this whirlwind tour of past mistakes and existential post-mortems we will deconstruct technical debt, break down its negative consequences and analyze why it's so hard to tackle both technically and organizationally. A well-defined problem is one we can actually move the needle on, and with clarity we can arrive at better strategies. Technical debt may not be a curable disease, but it doesn't have to be a terminal one!"
   language: ""
   speakers: [tomgab]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/7c8e0242-4eea-4b88-882e-709155be1a60"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/1c7d1a61-b338-4689-b8c4-d5bf7f950efe"
 -
   id: 1106
   tag: "performance"
@@ -564,6 +580,8 @@ In this talk, I’ll introduce you to the new CPU-time profiler in JDK 25 (JEP 5
 Whether you care about performance or just want to understand your app’s throughput bottlenecks, this talk by one of the minds behind the profiler will give the foundations of profiling and show you why it’s easier than ever with JDK 25."
   language: ""
   speakers: [johbec]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/397b83ba-3ba4-4baf-be18-8ea2de423635"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/e68fad88-59fe-4280-9d1a-ae392ab55ea6"
 -
   id: 1107
   tag: "performance"
@@ -571,6 +589,8 @@ Whether you care about performance or just want to understand your app’s throu
   description: "Compact Object Headers are one of the most impactful recent improvements to the JVM. This talk explores why object header size matters for modern Java applications, how Project Lilliput reduces that overhead, and what changes under the hood. It then shows how to enable the feature with a single JVM flag and demonstrates the immediate memory, GC, and performance benefits—without requiring any changes to application code."
   language: ""
   speakers: [konsza]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/dcd24591-bc56-4887-bc7f-e5514064722b"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/665609ab-648b-4a34-8750-72aabdc720ec"
 -
   id: 1108
   tag: "teamculture"
@@ -629,6 +649,8 @@ The Hive pattern helps you build  a microservices-ready modular monolith, by le
 During this live coding session, we will begin with a legacy spaghetti monolith and migrate it step-by-step to a Hived modular monolith, wrapping up with a demonstration of extracting a module and transforming it into a separate micro-service."
   language: ""
   speakers: [thopie, jultop]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/1bf4a903-4538-43f7-a366-302dd4288bda"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/085837a1-bbf9-4d98-8900-4d21dc5816a1"
 -
   id: 1113
   tag: "ai"
@@ -640,6 +662,8 @@ I'll walk through concrete examples of how Claude assists with test-first workfl
 The honest news: I'm not certain my delivery speed has increased. While Claude accelerates certain tasks, the overall impact on velocity remains unclear. This session offers a candid assessment of where AI pairing shines, where it stumbles, and what realistic expectations Java developers should have when incorporating AI into their test-first practices."
   language: ""
   speakers: [thosun]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/12b4e753-feb6-4125-8c66-8449dbc182e9"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/061f2664-f9b0-4ee9-89cd-bede1e60b422"
 -
   id: 1114
   tag: "performance"
@@ -731,6 +755,8 @@ By looking at these bugs together, I'll show you how to avoid them, so these iss
 This presentation delivers the most value to daily practitioners and advanced users who are familiar with real-world data challenges and production-grade systems."
   language: ""
   speakers: [ahmhas]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/5880947c-0ff7-49ab-9604-58cb5a0337a2"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/f77eb487-946b-4c13-83cc-27b412fc8111"
 -
   id: 1121
   tag: ""
@@ -749,6 +775,8 @@ We’ll finish with defenses that don’t require slowing down: make authorizati
   language: ""
   moderator: [adadud]
   speakers: [dylbea, artsko, chrtzo]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/61114b4d-d030-46bb-ba51-0bd2ace21f88"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/7cc340da-519c-4a8b-b0ed-25b62af28a92"
 -
   id: 1123
   tag: ""
@@ -767,6 +795,8 @@ MCP Tools</li>
 "
   language: ""
   speakers: [domceb]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/b177e42e-6d2e-484f-80b4-0489cc0f5eb7"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/003868f6-c8b7-4965-85bc-d964a56d1f17"
 -
   id: 1124
   tag: "panel"
