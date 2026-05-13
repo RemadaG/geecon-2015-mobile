@@ -226,6 +226,8 @@ With real-world examples, We'll dissect how these attacks happen and offer strat
 In the battle for secure software, your tools could be your greatest weakness or your first line of defence. Prepare to confront the chilling truth about AI and your code."
   language: ""
   speakers: [stepoo]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/9acfd0bb-b963-4b89-ad44-56a177309039"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/db571f8b-7ef5-4ea7-97d9-b74d3d26bbfd"
 -
   id: 1076
   tag: "testing"
@@ -376,6 +378,8 @@ In this talk I’ll give you a set of rules for a module that helps me design en
 The goal is to make your apps “infinitely scalable”, or rather: for the system to never slow you down as it grows."
   language: ""
   speakers: [jaknab]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/b9527dd3-6b33-4fa7-b38c-41b0aa97eca2"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/e88397da-a3b4-4e7e-acde-40cf02bae8f1"
 -
   id: 1090
   tag: "ai"
@@ -519,6 +523,8 @@ In this session, we’ll deep-dive into each protocol and show how they compleme
 "
   language: ""
   speakers: [metata]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/cfe2d0a6-c6c7-4349-a229-27711c30afad"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/9d8cf3d6-94d2-4c5b-85e7-0f9e5c391a0f"
 -
   id: 1102
   tag: "teamculture"
@@ -526,6 +532,8 @@ In this session, we’ll deep-dive into each protocol and show how they compleme
   description: "Imagine a world where opening a PR feels like a standing ovation rather than a walk to the guillotine. In this session, we’ll explore how replacing passive-aggressive 'nits' with incremental, constructive feedback transforms team velocity. High-performing teams don't just write better code; they communicate with precision and less ego to keep the delivery moving."
   language: ""
   speakers: [szysad]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/0fb35de1-4267-4274-b325-6e6149e5a397"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/6502e176-efcb-40ab-895d-b80db0770338"
 -
   id: 1103
   tag: "ai"
@@ -558,6 +566,8 @@ By attending this session, you will gain a practical understanding of MCP's stan
 Whether you're developing new AI-driven solutions or enhancing existing systems, this talk will equip you with the tools and strategies needed to leverage MCP effectively."
   language: ""
   speakers: [darjed]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/c2bc5bc9-f88d-4730-9e32-c9756bfbc32d"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/d82c8586-8975-4441-8473-7f13bcbe2b1a"
 -
   id: 1105
   tag: "teamculture"
@@ -605,6 +615,8 @@ The stories and insights are grounded in real-world observations, conversations 
 This session is for engineers, tech leads, and managers alike. If you’ve felt that something in how engineering organisations work is changing - and you can sense it even before you can fully explain it - come listen. We’ll talk about what to do when the world shifts, and you feel it in the water."
   language: ""
   speakers: [agnlas]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/88029046-2a38-4fc0-90be-e96f722c3279"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/2f83e377-c7d1-4708-8c7d-a6b192a1f6b2"
 -
   id: 1110
   tag: "ai"
@@ -625,6 +637,8 @@ Join me as we seek answers to critical questions:
 All of this will be backed by real-world stories, examples, and lessons learned from the trenches."
   language: ""
   speakers: [piolas]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/246c7ccc-c10e-4c92-9bb8-8bf6a80f850c"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/4d0f7431-5a4b-4303-b274-d742a42fb346"
 -
   id: 1111
   tag: "teamculture"
@@ -636,6 +650,8 @@ By understanding how business logic, requirements, and communication impact the 
 If you have ever thought code quality is solely a developer's problem, this talk will show you how it truly is a shared responsibility."
   language: ""
   speakers: [annegg]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/078f3c3d-1b05-4839-8048-cbe5de39c8fc"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/51b0f446-fe4c-4261-abe8-ce896212fb68"
 -
   id: 1112
   tag: "architecture"
@@ -684,6 +700,8 @@ Through real-world examples and benchmarks, we’ll explore:
 Whether you’re battling rising infrastructure costs or looking for a fresh alternative to Go, Java, or Rust, this session will give you a clear playbook for evaluating Swift on the server—and might just convince you it’s the best tool for specific set of microservices, and  you’re not yet using it!"
   language: ""
   speakers: [markli]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/e6bc26c1-e98e-47ec-a14a-898f707132c9"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/10cad757-a1c6-47c2-ade7-98d34b1281aa"
 -
   id: 1116
   tag: "ai"
@@ -712,6 +730,8 @@ And this was before AI coding agents arrived - now the environments we use to ve
 This talk will show what this future could look like, explain the critical role of simulation in enabling it and dive into some specific techniques for using AI to do the heavy lifting of creating and validating simulated environments."
   language: ""
   speakers: [tomake]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/7e85623f-7752-41fa-bfda-32f58835529b"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/eeae0785-7eb5-4d44-8265-1d38be36a5b8"
 -
   id: 1118
   tag: "architecture"
@@ -736,6 +756,8 @@ Key Takeaways
 </li></ul>"
   language: ""
   speakers: [ematra]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/c7c17fd1-9d1a-4611-8ca5-d18d10e7be57"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/0da9d4ab-3860-4e01-9dec-23b7e6bfbb5e"
 -
   id: 1119
   tag: "testing"
@@ -747,6 +769,8 @@ In this talk, I will show the different types of bugs I found and what they reve
 By looking at these bugs together, I'll show you how to avoid them, so these issues don't reach your users. Whether you want to make your code more reliable or reduce the time from ticket creation to fix, I'll share actionable advice you can apply the next day. Join me to learn from the embarrassing mistakes that even popular apps couldn't avoid - and take-home strategies to prevent them in your software!"
   language: ""
   speakers: [framar]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/a58b7542-66af-4ff1-8f0c-83aea1fd7fa2"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/31cf184a-aec2-4674-b21c-338e07df3bcb"
 -
   id: 1120
   tag: "ai"
@@ -767,6 +791,8 @@ The through-line is simple: modern systems run on implicit trust. Attackers don�
 We’ll finish with defenses that don’t require slowing down: make authorization a testable invariant, and regain supply-chain control with SBOMs, provenance-aware builds, and continuous dependency monitoring. The goal is not compliance. The goal is to make betrayal expensive and detectable."
   language: ""
   speakers: [marlap]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/d320db5c-e3c3-4bb5-85da-f745928ac0f7"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/4df5ee6e-a20e-4941-8c46-c7326bae0e94"
 -
   id: 1122
   tag: "panel"
@@ -828,6 +854,8 @@ This talk is a postmortem of how a straightforward script turned into a slow, fr
 We’ll look at when agents actually help, when they’re just expensive indirection, and how to notice you should stop adding “one more improvement,” rip half of it out, and ship something boring that actually works."
   language: ""
   speakers: [krzdeb]
+  rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/2ca3c99f-6aae-4212-ab2d-7dbec67e7bc8"
+  feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/022ef039-9eb1-4842-ae40-f8a8d6a9c604"
 -
   id: 1126
   tag: ""
