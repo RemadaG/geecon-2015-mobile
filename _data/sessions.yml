@@ -102,43 +102,43 @@
 -
   id: 571
   tag: ""
-  title: "Lunch - room 7"
-  description: "L1_1"
+  title: "Lunch - room 5"
+  description: "Grilled chicken in paprika salsa + rice with veggies + salad"
   service: "true"
   language: ""
 -
   id: 572
   tag: ""
-  title: "Lunch - room 5"
-  description: "L1_2"
+  title: "Lunch - room 3"
+  description: "Tender pork loin in green pepper sauce + boiled potatoes + salad"
   service: "true"
   language: ""
 -
   id: 573
   tag: ""
-  title: "Lunch - room 3"
-  description: "L1_3"
+  title: "Lunch - room 2"
+  description: "Primavera pasta + salad (VEGE)"
   service: "true"
   language: ""
 -
   id: 581
   tag: ""
-  title: "Lunch - room 7"
-  description: "L2_1"
+  title: "Lunch - room 5"
+  description: "Turkey in creamy-thyme sauce + rice + salad"
   service: "true"
   language: ""
 -
   id: 582
   tag: ""
-  title: "Lunch - room 5"
-  description: "L2_2"
+  title: "Lunch - room 3"
+  description: "Fish with roasted potatoes + salad"
   service: "true"
   language: ""
 -
   id: 583
   tag: ""
-  title: "Lunch - room 3"
-  description: "L2_3"
+  title: "Lunch - room 2"
+  description: "Russian dumplings and spinach + salad (VEGE)"
   service: "true"
   language: ""
 -
@@ -800,7 +800,7 @@ We’ll finish with defenses that don’t require slowing down: make authorizati
   description: "Discussion Panel"
   language: ""
   moderator: [adadud]
-  speakers: [dylbea, artsko, chrtzo]
+  speakers: [dylbea, artsko, chrtzo, yasdun]
   rating: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/61114b4d-d030-46bb-ba51-0bd2ace21f88"
   feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/7cc340da-519c-4a8b-b0ed-25b62af28a92"
 -
