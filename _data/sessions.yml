@@ -812,7 +812,7 @@ We’ll finish with defenses that don’t require slowing down: make authorizati
   feedback: "https://app.sli.do/event/i6zkj3JuXQSV1LyRiQkSXx/embed/polls/7cc340da-519c-4a8b-b0ed-25b62af28a92"
 -
   id: 1123
-  tag: ""
+  tag: "ai"
   title: "Short-Term & Long-Term Memory in an AI Agent with Spring AI"
   description: "In this session, we will explore how to build an AI agent with Spring AI. I will show you how to interact with LLMs using the Chat Client API, how to use short-term memory (STM) using chat history, and how to implement long-term memory (LTM) using embedding models and MongoDB. We will also cover how to build a chat-based web UI for the agent, and how to create MCP servers and MCP tools for agents to use.
 
